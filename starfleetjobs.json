@@ -1346,20 +1346,20 @@
         "temporary_reason":[
             "#leave_cover_temporary#",
             "#ritual_temporary#",
-            "Short-Term Medical Leave due to #allergy_type# Allergies",
-            "Short-Term Medical Leave due to #infection_type# Infection",
-            "Short-Term Medical Leave due to #degree_mild# #burn_type# burns"
+            "Short-term medical leave due to #allergy_type# Allergies",
+            "Short-term medical leave due to #infection_type# Infection",
+            "Short-term medical leave due to #degree_mild# #burn_type# burns"
         ],
 
             "leave_cover_temporary":[
-                "Parental Leave Cover",
-                "Gestational Leave Cover",
-                "Sabbatical Cover",
-                "Sabbatical (Archaeological) Cover",
-                "Bereavement Leave Cover",
-                "Mating Ritual Leave Cover",
-                "Vahar'ai Leave Cover",
-                "Right of Vengeance Cover"
+                "Parental Leave cover",
+                "Gestational Leave cover",
+                "Sabbatical cover",
+                "Sabbatical (Archaeological) cover",
+                "Bereavement Leave cover",
+                "Mating Ritual Leave cover",
+                "Vahar'ai Leave cover",
+                "Right of Vengeance cover"
             ],
 
 
@@ -1415,8 +1415,8 @@
                 "Fal-tor-voh Cover",
                 "Rite of Emergence Cover",
                 "Rite of Separation Cover",
-                "Rite of Tal'oth",
-                "Ritual Ascension",
+                "Rite of Tal'oth Cover",
+                "Ritual Ascension Cover",
                 "Naming Day Cover",
                 "T'Kal-in-ket Cover",
                 "T'Kal-in-ket (unsuccessful) Cover",

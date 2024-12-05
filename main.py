@@ -64,8 +64,7 @@ def main():
     # add tags? 
     for tag in hashtags:
         # Add each hashtag as a tag facet
-        tag_text = tag + " "
-        text_builder.tag(tag_text, tag)
+        text_builder.tag(tag + " ", tag.split('#')[1])
 
     client.post(text_builder)
 

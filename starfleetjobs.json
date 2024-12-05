@@ -1,0 +1,2395 @@
+{
+    "origin":["#headline#"],
+
+    "old_wanted":[
+        "#wanted_type#: #engineering_role#. #engineering_recruitment_required#. #recruitment_contact_hashtags#\n\n",
+        "#wanted_type#: #arts_jobs#. #arts_recruitment_required#. #recruitment_contact_hashtags#\n\n"
+    ],
+
+    "posting_temporal":[
+        "Now Hiring: 21st century Earth #engineering_seniority# #temporal_roles.s#\\ for Starfleet Engineering (Legacy Systems). Successful candidates will be trained in #engineering_product# systems at #shipyards#. Benefits include lifetime Federation-standard spatio-temporal post-scarcity counselling services, healthcare, housing and fulfilment of basic needs.\n\nIndividuals must consent to irrevocable temporal displacement. #hashtag#"
+    ],
+
+   "posting_sent_a_poet_story":[
+        "#species# #poet.capitalize# urgently needed to replace previous #poet# (unavailable due to #vacancy_reason#), for #ints# Federation Standard month tour to #document# #ships#'s #interesting_objects# #survey_type# in #sectors#. #event_type.capitalize# planning and #counselor_specialty# experience desirable. #hashtag# \\#TheyShouldHaveSentAPoet"
+    ],
+
+
+
+    "posting_sent_a_poet":[
+        "#[poet:#arts_jobs#]posting_sent_a_poet_story#"
+    ],
+
+
+    "document":[
+        "document",
+        "chronicle",
+        "log",
+        "interpret",
+        "interpret",
+        "officially document",
+        "officially record"
+    ],
+
+    "survey_type":[
+        "Cartographic Survey",
+        "Charting Expedition",
+        "Mapping Mission",
+        "Stellar Cartography Mission"
+    ],
+
+    "interesting_objects":[
+        "Dyson Sphere",
+        "Dyson Ring",
+        "Anomaly",
+        "Accretion disc",
+        "Binary Star System",
+        "Trinary Star System",
+        "Binary Planet",
+        "Trinary Planet",
+        "Black Hole",
+        "Blue Giant",
+        "Brown Dwarf",
+        "Brown Hole",
+        "#class# Nebula",
+        "Class J Gas Giant",
+        "Class T Gas Giant",
+        "Class Y (Demon) Planet",
+        "#class# Black Hole",
+        "Dark Matter Anomaly",
+        "Dark Matter Proto-Comet",
+        "Debris Field",
+        "Dichromic Nebula",
+        "Gaseous Anomly",
+        "Hypergiant",
+        "Interstellar Dust CLoud",
+        "Kuiper Belt",
+        "Neutron Star",
+        "Particle Fountain",
+        "Plasma Field",
+        "Protostar",
+        "Proto-nebula",
+        "Rogue Planet",
+        "Rogue Dyson Planet",
+        "Septenary Star System",
+        "Naked Singularity",
+        "Cosmic String Fragment",
+        "Tachyon Storm"
+    ],
+
+        "class":[
+            "Class #ints#"
+        ],
+
+        "sectors":[
+            "the #sector_with_the#",
+            "#sector_no_the#"
+        ],
+
+        "sector_with_the":[
+            "Actium sector",
+            "Algira sector",
+            "Almatha sector",
+            "Andorian sector",
+            "Antares sector",
+            "Archanis sector",
+            "Argelius sector",
+            "Argosian sector",
+            "Argus sector",
+            "Bajor sector",
+            "Beloti sector",
+            "Beta sector",
+            "Bolian sector",
+            "Cabral sector",
+            "Cardassian sector",
+            "Carraya sector",
+            "Cygnus Sector",
+            "Dalmine sector",
+            "Delta sector",
+            "Delta Triangle",
+            "Delta Triangle",
+            "Delta Vega sector",
+            "Dorvan sector",
+            "El-Adrel sector",
+            "Epsilon IX sector",
+            "Ficus sector",
+            "Galloway sector",
+            "Gamma 7 sector",
+            "Gamma Hydra sector",
+            "Gamma Trianguli sector",
+            "Gand sector",
+            "Gariman sector",
+            "Genesis sector",
+            "Genesis sector",
+            "Glessene sector",
+            "Glintara sector",
+            "Glintara sector",
+            "Grewler sector",
+            "Hekaras sector",
+            "Hyralan sector",
+            "Igo sector",
+            "Jaradan sector",
+            "K'Rebeca sector",
+            "Kalandra sector",
+            "Kaleb sector",
+            "Kandari sector",
+            "Kandari sector",
+            "Kavis Alpha sector",
+            "Kavis Alpha sector",
+            "Kepla sector",
+            "Lagana sector",
+            "Lan'Tuana sector",
+            "Lantaru sector",
+            "Marrab sector",
+            "Maxia sector",
+            "Mekorda sector",
+            "Melona sector",
+            "Mempa sector",
+            "Moab sector",
+            "Muratas sector",
+            "Mutara sector",
+            "Omega sector",
+            "Omicron sector",
+            "Ondau sector",
+            "Oneamisu sector",
+            "Onias sector",
+            "Orion sector",
+            "Podaris sector",
+            "Qiris sector",
+            "Rakhari sector",
+            "Rhomboid Dronegar Sector 006",
+            "Rukani sector",
+            "Rutharian sector",
+            "Selcundi Drema sector",
+            "Shepard sector",
+            "Shepard sector",
+            "Sierra sector",
+            "Sigma Antares sector",
+            "Sigma Antares sector",
+            "Silarian sector",
+            "Solaria sector",
+            "Takara sector",
+            "Tandar sector",
+            "Tango sector",
+            "Tellarite sector",
+            "Tholian sector",
+            "Typhon sector",
+            "Umani sector",
+            "Vaskan sector",
+            "Vayt sector",
+            "Vega-Omicron sector",
+            "Venari sector",
+            "Vulcan sector",
+            "Woden sector",
+            "Zaphod sector",
+            "Zed Lapis sector"
+        ],
+
+        "sector_no_the":[
+            "Sector 001",
+            "Sector 002",
+            "Sector 004",
+            "Sector 004",
+            "Sector 006",
+            "Sector 007",
+            "Sector 010",
+            "Sector 010",
+            "Sector 028",
+            "Sector 032",
+            "Sector 034",
+            "Sector 04-70",
+            "Sector 054",
+            "Sector 091",
+            "Sector 0912",
+            "Sector 1045",
+            "Sector 108",
+            "Sector 1156",
+            "Sector 1156",
+            "Sector 130",
+            "Sector 134",
+            "Sector 1385",
+            "Sector 142",
+            "Sector 1540",
+            "Sector 1607",
+            "Sector 184",
+            "Sector 185",
+            "Sector 19658",
+            "Sector 21166",
+            "Sector 21166",
+            "Sector 213",
+            "Sector 21305",
+            "Sector 21396",
+            "Sector 21459",
+            "Sector 21502",
+            "Sector 21503",
+            "Sector 21505",
+            "Sector 21527",
+            "Sector 21527",
+            "Sector 21528",
+            "Sector 21538",
+            "Sector 2158",
+            "Sector 21602",
+            "Sector 21834",
+            "Sector 21947",
+            "Sector 22036",
+            "Sector 22055",
+            "Sector 22079",
+            "Sector 22079",
+            "Sector 22358",
+            "Sector 22757",
+            "Sector 22757",
+            "Sector 22846",
+            "Sector 22853",
+            "Sector 22855",
+            "Sector 22858",
+            "Sector 23",
+            "Sector 23079",
+            "Sector 23891",
+            "Sector 2520",
+            "Sector 25434",
+            "Sector 25712",
+            "Sector 30",
+            "Sector 31",
+            "Sector 32834",
+            "Sector 3556",
+            "Sector 3641",
+            "Sector 3658",
+            "Sector 36764",
+            "Sector 37628",
+            "Sector 38",
+            "Sector 39542",
+            "Sector 396",
+            "Sector 39J",
+            "Sector 401",
+            "Sector 41751",
+            "Sector 41751",
+            "Sector 41752",
+            "Sector 41752",
+            "Sector 41753",
+            "Sector 41753",
+            "Sector 441",
+            "Sector 441",
+            "Sector 45",
+            "Sector 45",
+            "Sector 450",
+            "Sector 450",
+            "Sector 492",
+            "Sector 5",
+            "Sector 500",
+            "Sector 500",
+            "Sector 507",
+            "Sector 52",
+            "Sector 52",
+            "Sector 52043",
+            "Sector 5501",
+            "Sector 56",
+            "Sector 63",
+            "Sector 64238",
+            "Sector 6701",
+            "Sector 70",
+            "Sector 70",
+            "Sector 80912",
+            "Sector 864",
+            "Sector 89",
+            "Sector 89102",
+            "Sector 8912",
+            "Sector 9",
+            "Sector 949",
+            "Sector 9569",
+            "Sector 97",
+            "Sector Ipai",
+            "Sector Z-6",
+            "Subsector 3383",
+            "Subsector 3383",
+            "Subsector 4418",
+            "Subsector 4418",
+            "Subsector 4432",
+            "Subsector 4432",
+            "Subsector 4534",
+            "Subsector 4534"
+        ],
+
+    
+    "sports_wanted_story":[       
+        "#sport# #instructor_role# with #number_experience_years# experience wanted for the #this_ship#'s #sport# #team#. The successful applicant will help #sport# #team# members #sports_preparation# #entry_in# #sectors#'s annual Holodeck #sport# #tournament_type.capitalize#. Cross-training experience with #sports# desirable. The previous #sport# #instructor_role# is unavailable due to #vacancy_reason#. #hashtag# \\#StarfleetWorkHardPlayHard"
+    ],
+
+    "team_type":[
+        "Team",
+        "Club",
+        "Squad",
+        "Crew"
+    ],
+
+    "sports_preparation":[
+        "train for",
+        "prepare for",
+        "practice for"
+    ],
+
+    "entry_in":[
+        "entry in",
+        "the quarter finals of",
+        "the semifinals of",
+        "qualifying for",
+        "the regionals of",
+        "the subsectors of",
+        "the playoffs in"
+    ],
+
+    "sports_wanted":[
+        "#[sport:#sports#][instructor_role:#instructor#][team:#team_type#][this_ship:#ships#]sports_wanted_story#"
+    ],
+
+    "tournament_type":[
+        "competition",
+        "tournament",
+        "contest",
+        "championship",
+        "event",
+        "fixture"
+    ],
+
+    "sports":[
+        "Anbo-jyutsu",
+        "B'aht Qul",
+        "Baccarat",
+        "Barokie",
+        "Baseball",
+        "Basketball",
+        "Bat'leth",
+        "Bear-baiting",
+        "Billiards",
+        "Bingo",
+        "Blackjack",
+        "Boxing",
+        "Caber Toss",
+        "Calisthenics",
+        "Cardassian Pinochle",
+        "Chess",
+        "Dabo",
+        "Darts",
+        "Dom-jot",
+        "Double-jack",
+        "Durotta",
+        "Fencing",
+        "Football (Earth American)",
+        "Football (Earth Soccer)",
+        "Gin Rummy",
+        "Go",
+        "Golf",
+        "Gymnastics",
+        "Hide and Seek",
+        "Hockey",
+        "Hopscotch",
+        "Horseback Riding",
+        "Hoverball",
+        "Hydrosailing",
+        "Ion Surfing",
+        "Jokarian Chess",
+        "Juro Counterpunch",
+        "Kadis-kot",
+        "Kal-toh",
+        "Kalevian Montar",
+        "Karo-net",
+        "Kayaking",
+        "Kotra",
+        "Ktarian Game",
+        "Laser Duel",
+        "Light Cube Table",
+        "Orbital Skydiving",
+        "Parrises Squares",
+        "Poker",
+        "Pool",
+        "Prayko",
+        "Qa'vak",
+        "Racquetball",
+        "Skydiving",
+        "Springball",
+        "Tennis",
+        "Terrace",
+        "Three-Dimensional Chess",
+        "Tongo",
+        "Velocity",
+        "Vulcan Chess",
+        "Water Polo",
+        "Yoga"      
+    ],
+
+    "instructor":[
+        "#instructor_type#"
+    ],
+
+    "instructor_type":[
+        "Coach",
+        "Instructor",
+        "Captain"
+    ],
+
+    "instructor_seniority":[
+        "Junior",
+        "Assistant",
+        "Senior",
+        "Chief"
+    ],
+
+    "multiple_postings":[
+        "#[this_location:#ship_or_shipyard#]multiple_postings_story#"
+    ],
+
+        "multiple_postings_story":[
+            "Multiple #immediate_type# open positions (#multiple_postings_specifically#) at #this_location# #as_a_result# #major_incident_type#. #wanted_to_apply#",
+            "Multiple temporary open positions at #this_location# #as_a_result# #major_incident_temporary#. #wanted_to_apply#",
+            "#major_incident_type.capitalize# at #this_location# #has_led_to# multiple #immediate_type# open positions, #multiple_postings_specifically#. #wanted_to_apply#"
+        ],
+
+        "as_a_result":[
+            "caused by",
+            "as a result of",
+            "due to"
+        ],
+
+        "has_led_to":[
+            "has led to",
+            "has caused",
+            "has resulted in"
+        ],
+
+        "multiple_postings_specifically":[
+            "with urgent need for #engineering_jobs.a#",
+            "with urgent need for #engineering_jobs.s#",
+            "with urgent need for Counselors",
+            "with urgent need for a Counselor (#rank#)",
+            "with urgent need for #arts_jobs.a#",
+            "with urgent need for #arts_jobs.s#"
+        ],
+
+        "major_incident_type":[
+            "#infection_type.a# epidemic",
+            "#vacancy_reason_multiple.capitalize#",
+            "#counselor_mass#"
+        ],
+
+        "major_incident_temporary":[
+            "#mass_type# #leave_cover_temporary#",
+            "#mass_type# #leave_cover_temporary#",
+            "#mass_type# #ritual_temporary#",
+            "#mass_type# #allergy_type# allergies",
+            "#mass_type# #degree_mild# #burn_type# burns"
+        ],
+
+        "counselor_mass":[
+            "Synthehol #abuse_type# Syndrome",
+            "Holodeck #abuse_type# Syndrome",
+            "Ketracel White #abuse_type# Syndrome",
+            "Ktarian Game #abuse_type#",
+            "Hypospray #abuse_type#",
+            "Generalized Anxiety Disorder",
+            "Artifact-Induced Psychotic Disorder (Delusional)",
+            "Artifact-Induced Psychotic Disorder (Hallucinatory)",
+            "Temporal Displacement Induced Psychotic Disorder",
+            "Alternate Universe Displacement Induced Psychotic Disorder",
+            "#phobia#",
+            "#counselor_specialty_transporter#",
+            "Ascension"
+        ],
+
+        "mass_type":[
+            "Mass",
+            "Large-Scale",
+            "Epidemic-Scale",
+            "Pandemic-Scale",
+            "Catastrophic"
+        ],
+
+    "mobile_device":[
+        "PADD #mobile_device_system#",
+        "Tricorder #mobile_device_system#"
+    ],
+
+    "headline":[
+        "#posting_wanted#",
+        "#multiple_postings#",
+        "#vacancy_regular#",
+        "#vacancy_regular#",
+        "#vacancy_regular#",
+        "#vacancy_regular#",
+        "#posting_temporal#",
+        "#posting_sent_a_poet#",
+        "#sports_wanted#"
+    ],
+
+        "vacancy_regular":[
+            "#vacancy_engineering#",
+            "#vacancy_type# #posting_user_research#",
+            "#vacancy_type# #posting_counselor#",
+            "#vacancy_type# #posting_arts#"    
+        ],
+
+        "vacancy_engineering":[
+            "#vacancy_type# #posting_engineering#",
+            "#posting_spotlight_engineering_mobile#"
+        ],
+
+    "contact_wanted":[
+        "#contact_type# #contact_person#"
+    ],
+
+    "nl":[
+        "\n\n"
+    ],
+
+    "posting_wanted":[
+        "#[this_location:#ship_or_shipyard#]posting_wanted_location#"
+    ],
+
+        "posting_wanted_location":[
+            "INCOMING PRIORITY TRANSMISSION.#nl##wanted_type#, #this_location#: #engineering_product# #engineering_role#.#nl#Mandatory requirements: #engineering_recruitment_required#.#nl##wanted_to_apply#",
+
+            "INCOMING PRIORITY TRANSMISSION.#nl##wanted_type#, #this_location#: #arts_jobs#.#nl#Mandatory requirements: #arts_recruitment_required#.#nl##wanted_to_apply#",
+
+            "INCOMING PRIORITY TRANSMISSION.#nl##wanted_type#, #this_location#: Counselor (#rank#).#nl#Mandatory requirements: #counselor_recruitment_required#.#nl##wanted_to_apply_arts#"
+
+        ],
+
+        "wanted_type":[
+            "Wanted for #immediate_type.capitalize# Deployment due to #vacancy_reason#",
+            "#immediate_type.capitalize# Deployment due to #vacancy_reason#"
+        ],
+
+            "immediate_type":[
+                "immediate",
+                "urgent",
+                "critical",
+                "emergency",
+                "rush",
+                "Priority #greek#"
+            ],
+            
+        "contact_type":[
+            "contact the",
+            "send a secure LCARS message to the",
+            "send an LCARS message to the",
+            "send a Priority #greek# LCARS message to the",
+            "open a subspace channel to the",
+            "open a secure subspace channel to the",
+            "open a Priority #greek# subspace channel to the"  
+        ],
+    
+        "contact_person":[
+            "Staffing Administrator",
+            "Personnel Manager",
+            "Operations Manager",
+            "Deputy Operations Manager"
+        ],
+
+            "wanted_to_apply":[
+                "#contact_type.capitalize# #contact_person# at #this_location# with code #code_pattern# for further details.\n\n#hashtag#"
+            ],
+
+            "wanted_to_apply_arts":[
+                "#contact_type.capitalize# #arts_group# Group #contact_person# at #this_location# with code #code_pattern# for further details.\n\n#hashtag#"
+            ],
+
+            "engineering_recruitment_required":[
+                "#engineering_product# experience (#number_experience_years#)",
+                "#engineering_product# experience (#number_experience_years#) and #clearance_levels# clearance"
+            ],
+
+            "counselor_recruitment_required":[
+                "#counselor_experience_specialty_years#",
+                "#counselor_experience_specialty_years# and #experience_lifeform_years#",
+                "#counselor_experience_specialty_years# and #clearance_levels# clearance"
+            ],
+
+                "counselor_experience_specialty_years":[
+                    "#counselor_specialty# (#number_experience_years#)"
+                ],
+
+                "experience_species_years":[
+                    "#species# experience (#number_experience_years#)"
+                ],
+
+                "experience_lifeform_years":[
+                    "#lifeform_types# lifeforms (#number_experience_years#)"
+                ],
+
+
+            "arts_recruitment_required":[
+                "#species# species experience (#number_experience_years#), and #clearance_levels# clearance",
+                "#event_type# experience (#number_experience_years#), and #clearance_levels# clearance"
+            ],
+
+
+
+            "clearance_levels":[
+                "Alpha 1",
+                "Alpha 2",
+                "Level 1",
+                "Level 3",
+                "Level 4",
+                "Level 4 Alpha",
+                "Level 6",
+                "Level 7",
+                "Level 9",
+                "Level 10",
+                "Level Red",
+                "Priority 3",
+                "Sigma 9"
+            ],
+
+
+    "QUERY_RESPONSES":[],
+
+        "counselor_response":[
+            "#query_response# Starfleet Counselor postings. #wait_boilerplate# #posting_counselor#"
+        ],
+        "arts_response":[
+            "#query_response# Starfleet Arts postings. #wait_boilerplate# #posting_arts#"
+        ],
+        "engineering_response":[
+            "#query_response# Starfleet Engineering postings. #wait_boilerplate# #posting_engineering#"
+        ],
+        "trombone_response":[
+            "#query_response# Starfleet Arts (Trombonist) postings. #wait_boilerplate# #posting_arts_trombone#"
+        ],
+        "research_response":[
+            "#query_response# Starfleet User Rearch postings. #wait_boilerplate# #posting_user_research#"
+        ],
+
+        "query_response":[
+            "Query #accept_type#: ",
+            "Query #accept_type# for"
+        ],
+
+        "accept_type":[
+            "accepted",
+            "received",
+            "recognized",
+            "confirmed",
+            "acknowledged",
+            "approved"
+        ],
+
+        "wait_boilerplate":[
+            "\n\n⏳ Working... \n\n⌛️ Working...\n\n📋 Returning one open post:"
+        ],
+
+
+    "engineering_product":[
+        "#thing# (#subthing#)"
+    ],
+
+    "posting_user_research":[
+        "#engineering_seniority# #user_research_roles# (#species#), #engineering_product# in #user_research_employer_location_hashtag#",
+        "#engineering_seniority# #user_research_roles#, #engineering_product# in #user_research_employer_location_hashtag#"
+    ],
+
+    "user_research_employer_location_hashtag":[
+        "#starfleet_group#, #job_location_shipyard#. #hashtag# \\#StarfleetUserResearch \\#IDIC"
+    ],
+
+    "starfleet_group":[
+        "#group_kind# (#group#)",
+        "#group_kind#"
+    ],
+
+    "location_adverb":[
+        "stationed at",
+        "posted at",
+        "located at",
+        "deployed to",
+        "based at"
+    ],
+
+    "user_research_roles":[
+        "User Researcher",
+        "Forward User Researcher",
+        "Qualitative User Researcher",
+        "Quantitative User Researcher",
+        "Temporal User Researcher",
+        "Ethical User Researcher"
+    ],
+
+    "engineering_seniority":[
+        "Lead",
+        "Junior",
+        "Senior",
+        "Chief",
+        "Individual Contributor"
+    ],
+
+    "engineering_role":[
+        "#engineering_jobs#",
+        "#engineering_seniority# #engineering_jobs#"
+     ],
+
+    "engineering_jobs":[
+        "#species#-#species# Integration Engineer",
+        "Agile Coach",
+        "Alternate Universe Integration Specialist",
+        "Architect",
+        "Automated Testing Engineer",
+        "Content Design and Translation (#species#)",
+        "Content Designer",
+        "Content Ethicist",
+        "Data Model Specialist",
+        "Database Administrator",
+        "Design Engineer",
+        "Designer",
+        "Dilithium Crystal Servo Subsystem",
+        "DevSecOps Engineer",
+        "Diagnostic Engineer",
+        "Emoji Designer (#species#)",
+        "Engineer",
+        "EPS Control Specialist",
+        "ETL Engineer",
+        "Holoprogrammer",
+        "InfoSec Specialist",
+        "Integration Engineer (#legacy_video#)",
+        "Integration Engineer",
+        "Interaction Prototyper",
+        "Intern",
+        "IV&V (Independent Verification and Validation) Specialist",
+        "Legacy 21st Century Integration Specialist",
+        "Legacy Collaboration Technologies (Earth, Microsoft) Specialist",
+        "Legacy Languages And Protocols (Earth) Specialist",
+        "Manual Testing Engineer",
+        "Microinteraction Designer",
+        "Operations Engineer",
+        "Oracle Database Integration Specialist",
+        "Product Manager",
+        "Prototype Designer",
+        "Quality Assurance Engineer",
+        "SAFe Coach",
+        "Scrum Master",
+        "Service Designer",
+        "Forms Designers",
+        "Data Ethicist",
+        "Technical Ethicist",
+        "Technical Writer",
+        "Technician",
+        "Tester",
+        "Unicode (Federation Standard) Specialist",
+        "Workflow Process Analyst"
+    ],
+
+
+        "temporal_roles":[
+            "Designer",
+            "Content Designer",
+            "Service Designer",
+            "Emoji Designer",
+            "UX Designer",
+            "UI Designer",
+            "User Researcher",
+            "Developer",
+            "Prototype Designer",
+            "Microinteraction Designer",
+            "Forms Designers",
+            "SAFe Coach",
+            "Scrum Master",
+            "Oracle Database Integration Specialist",
+            "Product Manager",
+            "Data Model Specialist",
+            "Database Administrator",
+            "Quality Assurance Engineer",
+            "Architect",
+            "Operations Engineer",
+            "ETL Engineer",
+            "Frontend Designer",
+            "Frontend Designer (Contemporary Frameworks)"
+        ],
+
+        "role_design":[
+            "Designer",
+            "Content Designer",
+            "Service Designer",
+            "Emoji Designer (#species#)",
+            "Prototype Designer",
+            "Microinteraction Designer"
+          ],
+
+
+    "system_order":[
+        "Primary",
+        "Secondary",
+        "Auxiliary"
+    ],
+
+    "thing":[
+        "#product#"
+    ],
+
+    "product":[
+        "#bridge#",
+        "#combadge#",
+        "#hazard#",
+        "#holodeck#",
+        "#PADD#",
+        "#transporter#",
+        "#turbolift#",
+        "#universal_translator#",
+        "#warp#",
+        "#video#",
+        "Backup Power Systems",
+        "Bioneural Gel Pack",
+        "Bulkhead Management",
+        "Cetacean Operations",
+        "Coolant Manifold",
+        "Coolant",
+        "Crew 360 Review",
+        "Crew Accomodation Preferences",
+        "Crew Catering Relationship Management",
+        "Crew Cosmetic Services Resource Management",
+        "Crew Evaluation",
+        "Crew Roster",
+        "Deflector Dish",
+        "Electronic Health Record",
+        "Holosuite Booking System",
+        "Emergency Lighting",
+        "Emergency Transporter",
+        "Emergency Command Hologram",
+        "Emergency Medical Hologram",
+        "Emergency Counselor Hologram",
+        "Enterprise Nacelle Lifecycle Management",
+        "Heisenberg Compensator",
+        "Holographic Emitter",
+        "Hypospray",
+        "Impulse Engine",
+        "Industrial Replicator",
+        "Inertial Damping",
+        "Surgical Suite",
+        "Isolinear Chip",
+        "Isolinear Core",
+        "Isolinear Rod",
+        "Jeffries Tube",
+        "LCARS/Borg Integration",
+        "LCARS Software Update Server",
+        "LCARS Content Cache",
+        "Main Computer Core",
+        "Main Computer Core (Virtual Machine Compatibility)",
+        "Matter/Antimatter Reaction Chamber",
+        "Medical #tricorder#",
+        "Optical Data Network",
+        "Pattern Buffer",
+        "Pattern Enhancer",
+        "Personal Replicator (Beverages)",
+        "Personnel Assignments",
+        "Phase Discriminator",
+        "Phaser",
+        "Prefix Code",
+        "Photon Torpedo",
+        "Plasma Coolant",
+        "Prototype Combadge",
+        "Quantum Torpedo",
+        "Replicator",
+        "Security",
+        "Self-Destruct",
+        "#sensors#",
+        "Saucer Separation",
+        "#shields#",
+        "Shuttle Logistics",
+        "Shuttle Replicator",
+        "Structural Integrity Field",
+        "Subspace Communications",
+        "Subspace Relay (Legacy TCP/IP)",
+        "Subspace Relay (DNS)",
+        "Subspace Relay (NTP)",
+        "Subspace Relay (UDP)",
+        "Tractor Beam Harmonics",
+        "Tractor Beam",
+        "#tricorder#",
+        "Lifeboat",
+        "Antimatter Pod Hatch",
+        "Tractor Beam Emitter",
+        "Nacelle Plasma Injection System",
+        "Nacelle Control Room #system_order# Panel",
+        "Impulse Engine Antimatter Storage Pod",
+        "Impulse Engine EPS Distribution Node",
+        "Impulse Engine Systems Program",
+        "RCS Thruster (#system_order#)",
+        "Micron Junction Link",
+        "Genetronic replicator",
+        "Isotropic Restraint",
+        "Medical Kit Inventory Management System",
+        "Biocomputer",
+        "Biofunction Monitor",
+        "DNA Code Analyzer",
+        "Electron Resonance Scanner",
+        "Medical Scanner",
+        "Molecular Scanner",
+        "Neurocortical Monitor",
+        "Neuro-nalyzer",
+        "Phoretic Analyzer",
+        "Psycho-Tricorder",
+        "Autosuture",
+        "Bio-temporal chamber",
+        "Cellular Regeneration Chamber",
+        "Cortical Inhibitor",
+        "Delta-wave Inducer",
+        "Neural Transducer",
+        "Pumonary Scanner",
+        "Neural Stimulator",
+        "Tactical Array",
+        "Hull Polarization System",
+        "Landing Strut",
+        "Gravimetric Protostar Containment System",
+        "Protostar Engine",
+        "Third Nacelle Deployment System"    
+    ],
+
+        "sensors":[
+            "#sensor_phrase#",
+            "#sensor_phrase# #sensor_affix#"
+        ],
+
+        "sensor_phrase":[
+            "#sensor_energy# #sensor_resolution# #sensor_range# #sensor_active# #type_or_particle# Sensor",
+            "#type_or_particle# Sensor",
+            "#sensor_energy# #type_or_particle# Sensor",
+            "#sensor_resolution# #type_or_particle# Sensor",
+            "#sensor_energy# #sensor_resolution# #type_or_particle# Sensor",
+            "#sensor_active# #type_or_particle# Sensor",
+            "#sensor_range# #sensor_active# #type_or_particle# Sensor"
+        ],
+
+        "sensor_affix":[
+            "Array",
+            "Net",
+            "Platform",
+            "Grid",
+            "Emitter",
+            "Relay"
+        ],
+
+        "sensor_range":[
+            "Short-Range",
+            "Medium-Range",
+            "Long-Range"
+        ],
+
+        "sensor_resolution":[
+            "High-Resolution",
+            "Low-Resolution"
+        ],
+
+        "sensor_active":[
+            "Passive",
+            "Active"
+        ],
+
+        "sensor_energy":[
+            "Low-Energy",
+            "High-Energy"
+        ],
+
+        "type_or_particle":[
+            "#sensor_type#",
+            "#particle_type#"
+        ],
+
+        "sensor_type":[
+            "Acquisiton",
+            "Atmospheric",
+            "Auditory",
+            "Broadband",
+            "Dermal",
+            "DNA Acquisition",
+            "Exographic Targeting",
+            "Field geometry",
+            "Flux Spectrometer",
+            "Frequency",
+            "Gamma Ray",
+            "Geological",
+            "Gravimetric",
+            "Gravitic",
+            "Imaging",
+            "Infrared",
+            "Internal",
+            "Interphasic",
+            "Lateral",
+            "Molecular Imaging",
+            "Multiphasic",
+            "Myographic",
+            "Navigational Realtime Relative Timespace Monitor",
+            "Navigational",
+            "Neutron Densitometer",
+            "Parametric",
+            "Positron Emission",
+            "Protowarp",
+            "Proximity",
+            "Security",
+            "Space-time",
+            "Spectrgraphic",
+            "Sub-micron",
+            "Subnucleonic",
+            "Subspace",
+            "Targeting",
+            "Thermal Imaging",
+            "Thermal Interferometry",
+            "Tomographic Imaging",
+            "Translinear",
+            "Transpectral",
+            "Transwarp",
+            "Visual",
+            "Warp Flare",
+            "Warp Shadow",
+            "Weather"
+            ],
+
+        "particle_type":[
+            "Baryon",
+            "Hadron",
+            "Chroniton",
+            "Graviton",
+            "Positron",
+            "Proton",
+            "Neutron",
+            "Electron",
+            "Tachyon",
+            "Antiproton",
+            "Magneton"
+        ],
+
+        "tricorder":[
+            "Tricorder",
+            "Tricoder #mobile_device_system#"
+        ],
+
+        "PADD":[
+            "PADD",
+            "PADD #mobile_device_system#"
+        ],
+
+            "mobile_device_system":[
+                "App Store",
+                "Apps",
+                "App Review",
+                "Accessiblity",
+                "Legacy Networking (Ethernet)",
+                "Legacy Networking (Wi-Fi)",
+                "Legacy Networking (Bluetooth)",
+                "Legacy Networking (Modulator/DemodulatorV.34/V.34fast",
+                "Legacy Networking (Modulator/Demodulator V.90)",
+                "Display Preferences",
+                "Display (Pan-Species High Dynamic Range)",
+                "Customization",
+                "Secure Boot",
+                "Trusted Platform Module (Legacy)",
+                "Trusted Platform Module",
+                "EFI (Legacy)",
+                "BIOS (Legacy)",
+                "Dongle Configurator (Thunderbolt)",
+                "I/O Ports (Legacy USB)",
+                "Mobile Device Configurator"          
+            ],
+
+        "video":[
+            "Audio/Video Conferencing Protocol",
+            "Audio/Video Conferencing Protocol (Legacy #legacy_video# Compatibility)",
+            "Conference Room Display Systems",
+            "Inter-Ship Communications",
+            "Inter-Ship Communications (Legacy #legacy_video# Compatibility)",
+            "Intra-Ship Communications",
+            "Secure Video Conferencing",
+            "Secure Video Conferencing (Legacy #legacy_video# Compatibility)"
+        ],
+
+            "legacy_video":[
+                "Microsoft Teams (Earth)",
+                "Zoom (Earth)",
+                "ICQ (Earth)",
+                "FaceTime (Earth)",
+                "ActivityPub (Earth)",
+                "Matrix (Earth)",
+                "Slack (Earth)"
+            ],
+
+        "shields":[
+            "Deflector Shield Frequency Harmonics",
+            "Deflector Shield Frequency Modulation",
+            "Deflector Shields",
+            "Deflector Shields (#shield_type#)"
+        ],
+            "shield_type":[
+                "Auto-regenerative",
+                "Covariant",
+                "Metaphasic",
+                "Multi-spatial",
+                "Multiphasic",
+                "Regenerative",
+                "Temporal",
+                "Structural Integrity"
+            ],
+
+        "transporter":[
+            "Transporter Lock",
+            "Transporter Systems",
+            "Transporter Targeting"
+        ],
+
+        "turbolift":[
+            "Turbolift Experience",
+            "Turbolift Routing",
+            "Turbolift"
+        ],
+
+        "universal_translator":[
+            "Universal Translator (Semiotics)",
+            "Universal Translator (Temporal Compensator)",
+            "Universal Translator Profanity Filter",
+            "Universal Translator"
+
+        ],
+
+        "combadge":[
+            "Combadge Activity Sensor",
+            "Combadge Biosign Sensing",
+            "Combadge Dermal Sensor",
+            "Combadge Haptics",
+            "Combadge Microphone Array",
+            "Combadge Personalization",
+            "Combadge Secure Boot",
+            "Combadge Touch Controls",
+            "Combadge Virtual Machine",
+            "Combadge"
+        ],
+
+
+
+        "bridge":[
+            "Main Bridge #bridge_system#",
+            "Battle Bridge #bridge_system#"
+        ],
+
+            "bridge_system":[
+                "Conn",
+                "Operations Console",
+                "Bridge Security Console",
+                "Environmental Systems Console",
+                "Main Viewer",
+                "Command Staff Consoles",
+                "Sensor Console",
+                "Captain's Command Station (Left Side)",
+                "Captain's Command Station (Right Side)",
+                "First Officer's Console (Left Side)",
+                "First Officer's Console (Right Side)",
+                "Security and Tactical Console",
+                "Planetary Sciences Console",
+                "Engineering Station",
+                "Seating Controls Panel"
+            ],
+
+        "holodeck":[
+            "Holodeck",
+            "Holodeck Arch",
+            "Holodeck Environmental Systems",
+            "Holodeck Safety Systems",
+            "Holodeck Programming",
+            "Holoprogram Natural Language Interface",
+            "Holoprogram Natural Language Interface (#species#)"
+        ],
+
+        "warp":[
+            "Warp Core",
+            "Warp Core Chamber",
+            "Warp Core Chamber Intermix",
+            "Warp Field Geometry",
+            "Warp Core M/AM Ratio",
+            "Warp Core Ejection System",
+            "Warp Core Manifold",
+            "Matter Reactant Injector",
+            "Proto-Warp Core",
+            "Proto-Warp Core Chamber"
+            
+        ],
+
+        "hazard":[
+            "Hazard (#hazard_type#) #mitigation_type#"
+        ],
+
+            "hazard_type":[
+                "Fire",
+                "EPS Grid Malfunction",
+                "Explosive Decompression",
+                "Holodeck Sentience Violation",
+                "Environmental Systems Failure",
+                "Atmospheric Systems",
+                "Flooding"
+            ],
+
+            "mitigation_type":[
+                "Suppression",
+                "Mitigation",
+                "Control",
+                "Remediation"
+            ],
+
+    "subthing":[
+        "Access Controls",
+        "Access Panels",
+        "Auditory Interfaces",
+        "Authentication Controls",
+        "Bypass",
+        "Cache Invalidation",
+        "Command Bypass Controls",
+        "Context-Sensitive Help",
+        "Control Panels",
+        "Cryptography Controls",
+        "Display Brightness",
+        "Experimental Holographic Interfaces",
+        "Identity and Access Management",
+        "LCARS Interface",
+        "Manual Overrides",
+        "New Feature Discovery",
+        "Notifications",
+        "NUX",
+        "#species# Onboarding Experience",
+        "Onboarding Experience",
+        "Onboarding",
+        "Pan-Species Accessibility",
+        "PCAP Interface",
+        "Preferences",
+        "Push Notifications",
+        "Safety Protocols",
+        "Settings Panel",
+        "Tactile Interfaces"
+    ],
+
+    "group":[
+        "#systems# Systems Group",
+        "#systems# Division"
+    ],
+
+        "systems":[
+            "Defensive",
+            "Navigation",
+            "Starship Bridge",
+            "EPS Power Distribution",
+            "Environmental",
+            "Astrometrics",
+            "Survey",
+            "Science",
+            "Temporal Engineering",
+            "Legacy Product Support",
+            "Temporal Mechanics",
+            "Catering",
+            "Staffing Resources",
+            "Shuttlecraft",
+            "Runabout",
+            "Probe",
+            "Subspace Relay",
+            "Main Computer Core",
+            "Planetary Geosciences"
+        ],
+
+    "group_kind":[
+        "Starfleet Engineering",
+        "Starfleet Advanced Technologies",
+        "Advanced Technologies",
+        "Starfleet Research",
+        "Section 31",
+        "First Contact Protocols",
+        "Second Contact Protocols",
+        "Starfleet Medical",
+        "Internal Affairs",
+        "Starfleet Intelligence",
+        "Tactical Analysis",
+        "Stellar Imaging",
+        "Exploratory Division",
+        "Training Division",
+        "Federation Department of Cartography (Secondment)",
+        "Federation Department of Temporal Investigations (Secondment)",
+        "Federation Temporal Integrity Commission (Secondment)"
+    ],
+
+    "ship_or_shipyard":[
+      "#shipyards#",
+      "#ships#"  
+    ],
+
+    "shipyards":[
+        "Utopia Planitia Fleet Yards",
+        "40 Eridani A Starfleet Construction Yards",
+        "Antares Ship Yards",
+        "Baikonur Cosmodrome",
+        "Beta Antares Ship Yards",
+        "Copernicus Ship Yards",
+        "Deep Space 5",
+        "Earth Station McKinley",
+        "Iadara colony",
+        "Luna Shipyards",
+        "Marin County Starfleet Yards",
+        "Oakland Shipyard",
+        "Proxima Maintenance Yards",
+        "Riverside Shipyard",
+        "San Francisco Fleet Yards",
+        "Starbase 47",
+        "Starbase 234",
+        "Tranquility Base",
+        "University of Copernicus"
+    ],
+
+    "vacancy_type":[
+        "#vacancy_subtype_permanent#:",
+        "#vacancy_subtype_permanent# due to #vacancy_reason#:",
+        "Temporary position:",
+        "Temporary position (#temporary_reason#):"
+    ],
+
+        "vacancy_subtype_permanent":[
+            "New job posting",
+            "Immediate vacancy",
+            "Now hiring"
+        ],
+        "temporary_reason":[
+            "#leave_cover_temporary#",
+            "#ritual_temporary#",
+            "Short-Term Medical Leave due to #allergy_type# Allergies",
+            "Short-Term Medical Leave due to #infection_type# Infection",
+            "Short-Term Medical Leave due to #degree_mild# #burn_type# burns"
+        ],
+
+            "leave_cover_temporary":[
+                "Parental Leave Cover",
+                "Gestational Leave Cover",
+                "Sabbatical Cover",
+                "Sabbatical (Archaeological) Cover",
+                "Bereavement Leave Cover",
+                "Mating Ritual Leave Cover",
+                "Vahar'ai Leave Cover",
+                "Right of Vengeance Cover"
+            ],
+
+
+
+            "allergy_type":[
+                "Oak Pollen",
+                "Dust Mites",
+                "Tropical Grasses",
+                "Bromelain",
+                "Grass (#species#-native)"
+            ],
+
+            "infection_type":[
+                "Bacterial",
+                "Chamberlin Virus",
+                "Comtaxan Parasite",
+                "Cyrillian Microbe",
+                "Dinobulan Flesh-Eating Bacteria",
+                "Endoplasmic Virus",
+                "Fostossa Virus",
+                "Fungal",
+                "Mycelial",
+                "Genesis Microbe",
+                "Genetic Virus",
+                "Interspatial Parasite",
+                "Interphasic Parasite",
+                "Temporal Parasite",
+                "Klingon Augment Virus",
+                "#species# Augment Virus",
+                "Light Virus",
+                "Macrovirus",
+                "Microscopic Civilization (Non-Warp Capable)",
+                "Microscopic Civilization (Warp Capable)",
+                "Mutagenic Virus",
+                "Morphogenic Virus",
+                "Nanoprobe",
+                "Nanovirus",
+                "Omega IV Virus",
+                "#species# Amoeba",
+                "Paramecium",
+                "Quasi-#lifeform_types# microbe",
+                "Retrovirus",
+                "Rhinovirus",
+                "Subatomic Bacteria",
+                "Synthetic Pathogen",
+                "Terothka Virus",
+                "Xindi Neural Parasite",
+                "#species# Neural Parasite"
+            ],
+
+            "ritual_temporary":[
+                "Ih'tanu Cover",
+                "Fal-tor-voh Cover",
+                "Rite of Emergence Cover",
+                "Rite of Separation Cover",
+                "Rite of Tal'oth",
+                "Ritual Ascension",
+                "Naming Day Cover",
+                "T'Kal-in-ket Cover",
+                "T'Kal-in-ket (unsuccessful) Cover",
+                "Tokmar Cover",
+                "Vision Quest Cover",
+                "Vision Quest (unsuccessful) Cover",
+                "Kal-if-fee Cover",
+                "Koon-ut-kal-if-fee Cover"
+            ],
+
+        "vacancy_reason":[
+            "#vacancy_reason_individual#",
+            "#vacancy_reason_multiple#"
+        ],
+
+            "vacancy_reason_individual":[
+                "#injury#",
+                "retirement",
+                "bereavement leave",
+                "disappearance",
+                "illness",
+                "emergency field promotion"
+            ],
+
+            "vacancy_reason_multiple":[
+                "temporal displacement",
+                "spatial displacement",
+                "dimensional displacement",
+                "phase displacement",
+                "#ritual_permanent#",
+                "Holodeck accident",
+                "Holodeck injury",
+                "Holodeck incident",
+                "Holodeck #sports# accident",
+                "Holodeck #sports# injury",
+                "Holodeck #sports# incident",
+                "Transporter malfunction",
+                "Transporter accident",
+                "environmental systems malfunction",
+                "life support systems malfunction",
+                "inertial damper malfunction",
+                "suffocation",
+                "poisoning (#poison_type#)",
+                "infection (#infection_type#)",
+                "radiation leak",
+                "biochemical contamination",
+                "#plague_type# outbreak",
+                "Ascension"
+            ],
+
+            "plague_type":[
+                "Boranis III Plague",
+                "Botanical Plague",
+                "Bubonic Plague",
+                "Cartalian Fever",
+                "Dramia II Plague",
+                "Klingon Augment Virus",
+                "Ornaran Plague",
+                "Phyrox Plague",
+                "Plasma Plague",
+                "Rigelian Fever",
+                "Rudellian Plague",
+                "Tarellian Plague",
+                "Telurian Plague",
+                "Teplan Blight",
+                "Terrellian Plague",
+                "Tribble"
+            ],
+
+            "injury":[
+                "injury",
+                "injury (#injury_type#)",
+                "#injury_severity.capitalize# Holodeck #sports# injury"
+            ],
+
+                "injury_severity":[
+                    "minor",
+                    "major",
+                    "severe"
+                ],
+
+                "injury_type":[
+                    "abrasion",
+                    "fracture",
+                    "neural damage",
+                    "#degree_severe# #burn_type# burns",
+                    "#degree_severe# burns due to #bridge# damage"
+                ],
+
+                    "burn_type":[
+                        "Dilithium",
+                        "Phaser",
+                        "Plasma",
+                        "Powder",
+                        "Pulse",
+                        "Radiation",
+                        "Sunburn",
+                        "Symbalene Blood",
+                        "Transporter"
+                    ],
+
+            "degree_mild":[
+                "First-degree",
+                "Second-degree"
+            ],
+
+            "degree_severe":[
+                "Third-degree"
+            ],
+
+            "poison_type":[
+                "radiation",
+                "muagto venom",
+                "borgia plant alkaloid",
+                "Felodesine chip",
+                "Veridium Six",
+                "fruit",
+                "fruit, unknown",
+                "intestinal",
+                "voraxna",
+                "food",
+                "coffee",
+                "Talaxian wormroot",
+                "Nitrogen tetroxide",
+                "Nogatch hemlock",
+                "Warp plasma toxic run-off"
+            ],
+
+            "ritual_permanent":[
+                "Ritual Suicide",
+                "Ritual Disintegration",
+                "Ritual Euthanasia",
+                "Right of Vengeance (unsucessful)",
+                "Right of Vengeance (successful)",
+                "Rite of Tal'oth (unsuccessful)",
+                "Ritual Ascension (successful)",
+                "Ritual Ascension (accidental)",
+                "Ritual Ushaan (successful)",
+                "Ritual Ushaan (unsuccessful)",
+                "Ritual Kal-if-fee (unsuccessful)"
+
+            ],
+
+    "posting_engineering":[
+        "#engineering_product# #engineering_role# in #starfleet_group#, #job_location_shipyard#. #hashtag# #engineering_hashtags#"
+    ],
+
+        "posting_spotlight_engineering_mobile":[
+            "Spotlight on \\#StarfleetAdvancedMobileTechnology: #mobile_device# #engineering_jobs# with #number_experience_years# experience wanted, for new #sensors# initiative in #starfleet_group#. Contact #shipyards# with reference #code_pattern# for more information.#nl##hashtag# #engineering_hashtags#",
+            "Spotlight on \\#StarfleetAdvancedMobileTechnology: #starfleet_group# is looking for a #mobile_device# #engineering_jobs# with #number_experience_years# experience, for their new #sensors# initiative. Contact #shipyards# with reference #code_pattern# for more information.#nl##hashtag# #engineering_hashtags#"
+        ],
+
+        "engineering_hashtags":[
+            "\\#StarfleetEngineeringGetsItDone",
+            "\\#StarfleetMiracleWorkers"
+        ],
+
+    "posting_counselor":[
+        "Counselor (#rank#), specializing in #counselor_specialty# with #focus_on# #lifeform_types# lifeforms, #job_location_ship#. #hashtag# #counselor_hashtags#"
+    ],
+
+        "focus_on":[
+            "a focus on",
+            "experience of",
+            "specialist experience in"
+        ],
+
+        "counselor_hashtags":[
+            "\\#LiveLongAndProsper",
+            "\\#StarfleetDoNoHarm",
+            "\\#AdAstraPerAspera",
+            "\\#StarfleetCounselorsNotEngineers"
+        ],
+
+
+    "counselor_specialty":[
+        "Psychology",
+        "Psychiatry",
+        "Space Psychology",
+        "Posttraumatic Stress Disorder",
+        "Borg Rehabilitation",
+        "Borg Assimilation",
+        "Synthehol #abuse_type# Syndrome",
+        "Holodeck #abuse_type# Syndrome",
+        "Ketracel White #abuse_type# Syndrome",
+        "Ktarian Game #abuse_type#",
+        "Hypospray #abuse_type#",
+        "Generalized Anxiety Disorder",
+        "Artifact-Induced Psychotic Disorder (Delusional)",
+        "Artifact-Induced Psychotic Disorder (Hallucinatory)",
+        "Temporal Displacement Induced Psychotic Disorder",
+        "Alternate Universe Displacement Induced Psychotic Disorder",
+        "Temporal War Rehabilitation",
+        "Dominion War Rehabilitation",
+        "Sentient Machine Therapy",
+        "#phobia#",
+        "#counselor_specialty_transporter#",
+        "Ascension",
+        "#plague_type# Survivor Rehabilitation"
+    ],
+        "counselor_specialty_transporter":[
+            "Transporter-Induced Psychotic Disorder (Delusional)",
+            "Transporter-Induced Psychotic Disorder (Hallucinatory)",
+            "Transporter Anxiety (Clone)",
+            "Transporter Anxiety (Original)"
+        ],
+
+        "abuse_type":[
+            "Abuse",
+            "Dependency",
+            "Addiction",
+            "Induced Anxiety",
+            "Induced Psychosis"
+        ],
+
+        "phobia":[
+            "Phobia (#lifeform_types# lifeforms)",
+            "Fludic space phobia",
+            "Space phobia",
+            "Phobia (#species#)",
+            "Phobia (Transporter)",
+            "Phobia (Wormhole)",
+            "Phobia (Borg)",
+            "Phobia (Interdimensional Travel)",
+            "Phobia (Parasitic lifeforms)"
+        ],
+    
+    "job_location_ship":[
+        "#location_adverb# #ships#"
+    ],
+
+    "job_location_shipyard":[
+        "#location_adverb# #shipyards#"
+    ],
+
+    "arts_employer":[
+        "#arts_group# Group",
+        "#arts_group# Group (#arts_group_modifier# Division)"
+    ],
+
+    "experience_species":[
+        "#species# experience #required_type#"
+    ],
+
+    "experience_event":[
+        "#event_type# experience #required_type#"
+    ],
+
+    "experience_engineering_product":[
+        "#engineering_product# experience #required_type#"
+    ],
+
+    "required_type":[
+        "required",
+        "necessary",
+        "mandatory",
+        "needed",
+        "essential"
+    ],
+
+    "arts_experience":[
+        "#experience_species#",
+        "#experience_event#"
+    ],
+
+    "posting_arts":[
+        "#arts_job_all#"
+        ],
+
+        "arts_job_all":[
+            "#arts_jobs#, #arts_employer_experience_location_hashtag#"
+        ],
+
+            "arts_job_archivist":[
+                "#arts_jobs_archivist#, #arts_employer_experience_location_hashtag#"
+            ],
+        
+            "arts_job_trombone":[
+                "#arts_jobs_trombone#, #arts_employer_experience_location_hashtag#"
+            ],
+    
+        "arts_employer_experience_location_hashtag":[
+            "#arts_employer#, #job_location_ship#. #hashtag#",
+            "#arts_employer# (#arts_experience#), #job_location_ship#. #hashtag#",
+            "with #arts_experience#, #arts_employer#, #job_location_ship#. #hashtag#"
+        ],
+
+    "hashtag":[
+        "\\#StarTrek #hashtags_1# #hashtags_2#"
+    ],
+
+    "hashtags_1":[
+        "\\#StarfleetCareers",
+        "\\#JoinStarfleet"
+    ],
+
+    "hashtags_2":[
+        "\\#AskUsAboutStarfleet",
+        "\\#Starfleet",
+        "\\#StarfleetRecruitment"
+    ],
+
+    "hashtags_3":[
+        "\\#AskWhatYouCanDoForStarfleet",
+        "\\#LongLivedProsperousCareers",
+        "\\#AskUsAboutOurShoreLeavePolicy"    
+    ],
+    
+    "example":[
+        "Immediate Vacancy: (Interspecies Relations) Borg Survivor Support Worker in Astrophysics Department, stationed at Starbase 6372 and on expeditionary vessels as needed.",
+        "Temporary vacancy due to reproductive leave: (Medical) Physical Therapist, Vulcan, Human and Betazoid physiological expertise essential, Andorian an advantage. Stationed at Utopia Planitia.",
+        "Now hiring: Composer in Residence (They Should Have Sent A Poet) instrumentalist or vocalist in  Interpretation And Outreach Group, at Theta VII colony. #StarTrek #Starfleet"
+    ],
+
+ 
+    "arts_jobs":[
+        "#arts_job_event_planner#",
+        "#arts_jobs_archivist#",
+        "#arts_jobs_chef#",
+        "#arts_jobs_music#",
+        "#arts_jobs_choreographer#",
+        "Ceramics Artist (Holo and Physical)",
+        "Conference #symposium_role#",
+        "Dancer (#species#)",
+        "Dramaturg (Holodeck)",
+        "Holonovel Writer in Residence",
+        "Holophotographer",
+        "Librarian",
+        "Linguist",
+        "Painter",
+        "Playwright (Holo)",
+        "Playwright (Non-Holo) in Residence",
+        "Poet",
+        "Production Designer (Theater), Physical and Holo",
+        "Sociologist",
+        "Symposium #symposium_role#",
+        "Theatre Director in Residence",
+        "Xenolinguist",
+        "Xenosociologist",
+        "Translator (#species#)",
+        "Ballerina",
+        "Dance Instructor",
+        "Food (Replicated) Critic",
+        "Food Critic",
+        "Maestro"
+    ],
+
+        "symposium_role":[
+            "Director",
+            "Coordinator",
+            "Programmer",
+            "Administrator",
+            "Administrative Assistant"
+        ],
+
+        "arts_jobs_music":[
+            "Composer in Residence",
+            "Opera (Klingon) Composer in Residence",
+            "Opera (Klingon) Lyricist in Residence",
+            "Opera (#species#) Composer/Lyricist in Residence",
+            "#arts_job_music_instrument#",
+            "Vocalist",
+            "Instrumentalist (#species# #music_genres#)",
+            "Vocalist (#species# #music_genres#)"
+        ],
+    
+            "arts_job_music_instrument":[
+                "Trombonist (Jazz)",
+                "Trombonist (Classical)",
+                "#arts_job_trombone#",
+                "Flautist",
+                "Instrumentalist (#species# #music_genres#)",
+                "Instrumentalist"
+            ],
+
+            "arts_jobs_trombone":[
+                "Trombonist (Jazz)",
+                "Trombonist (#music_genres#)"
+                ],
+        
+                    "music_genres":[
+                        "Popular Music",
+                        "Opera",
+                        "Jazz",
+                        "Electronic",
+                        "Electronic (Theremin)",
+                        "Classical",
+                        "Heavy Metal",
+                        "Folk",
+                        "Hip-Hop",
+                        "Dance",
+                        "Dubstep",
+                        "Progressive Rock",
+                        "Rock",
+                        "Emo"
+                    ],    
+
+        "arts_job_event_planner":[
+            "Event Planner (#event_type#)",
+            "#event_type# Event Planner"
+        ],
+
+        "arts_jobs_chef":[
+            "Food Replicator Templates (#officer_group.s#) Test Kitchen #chef_role# (#kitchen_station# or #species#-equivalent)"
+        ],
+
+            "officer_group":[
+                "Junior Officer",
+                "Senior Officer",
+                "NCO"
+            ],
+
+            "chef_role":[
+                "Executive Chef",
+                "Sous Chef",
+                "Senior Chef"
+            ],
+
+            "kitchen_station":[
+                "Saucier",
+                "Poissonnier",
+                "Rotisseur",
+                "Grillardin",
+                "Friturier",
+                "Entremetier",
+                "Potager",
+                "Legumier",
+                "Tournant",
+                "Garde Manger",
+                "Boucher",
+                "Pattisier"
+            ],
+
+        "arts_jobs_archivist":[
+            "Archivist (#earth_legacy_media#)",
+            "Archivist (#species# #media_type#)"
+        ],
+
+            "earth_legacy_media":[
+                "#earth_decade# Earth Television",
+                "#earth_decade# Earth Cinema",
+                "#earth_decade# Earth Literature",
+                "Pre-First Contact Earth Interactive Media"
+            ],
+
+                "earth_decade":[
+                    "1930s",
+                    "1940s",
+                    "1950s",
+                    "1960s",
+                    "1970s",
+                    "1980s",
+                    "1990s",
+                    "2000s",
+                    "2020s"
+                ],
+
+            "media_type":[
+                "Literature",
+                "Music",
+                "Poetry",
+                "2D Moving Image",
+                "Graphic Novels"
+            ],
+
+        "arts_jobs_choreographer":[
+            "Choreographer",
+            "Choreographer (#choreography_type#)"
+        ],
+
+            "choreography_type":[
+                "Ferengi Mating Dance",
+                "Chu Chu",
+                "Latinum Dance",
+                "Orion",
+                "#species#",
+                "Day of Honor"
+            ],
+
+
+    "arts_group":[
+        "Interpretation and Outreach",
+        "Inter-species Reconciliation",
+        "Dominion War Rehabilitation",
+        "Borg War Rehabilitation",
+        "Temporal Displacement Rehabilitation",
+        "Cultural Exchange",
+        "Romulan Refugee Services",
+        "Heritage Preservation",
+        "#species# Cultural Center",
+        "Decolonization Mediation",
+        "Truth and Reconciliation",
+        "#event_type# Planning, Starfleet HR (Events)"
+    ],
+
+        "event_type":[
+            "Day of Honor",
+            "Captain Picard Day",
+            "Admiral (nee Captain) Picard Day",
+            "First Contact Day",
+            "Federation Day",
+            "Halloween",
+            "Kot'baval Festival",
+            "Kal Rekk",
+            "Rumarie",
+            "Tal-Shanar",
+            "Bajoran Time of Cleansing",
+            "Bajoran Peldor Festival",
+            "First Meal",
+            "Ktarian Music Festival",
+            "Lohlunat",
+            "Mother's Day",
+            "Naming Day",
+            "Wedding (#wedding_type#)"
+        ],
+
+
+        "SPECIAL_event_type_captain_picard":[
+            "Captain Picard Day",
+            "Admiral (nee Captain) Picard Day"
+        ],
+
+
+        "wedding_type":[
+            "Starfleet standard non-denominational",
+            "Andorian",
+            "Amerind",
+            "Betazoid",
+            "Ferengi",
+            "Klingon",
+            "Human",
+            "Bajoran",
+            "Tavnian",
+            "Vulcan",
+            "Risian",
+            "Tellarite"
+        ],
+
+    "arts_group_modifier":[
+        "Second Contact",
+        "Second Contact Support Services",
+        "Civilian Liaison"
+    ],
+
+
+    "rank":[
+        "Ensign",
+        "Lieutenant Junior Grade",
+        "Lieutenant",
+        "Lieutenant Commander",
+        "Commander"
+    ],
+
+
+    "lifeform_types":[
+        "bioplasmic",
+        "carbon-based",
+        "silicon-based",
+        "cybernetic",
+        "electromagnetic",
+        "embodied energy",
+        "interphasic",
+        "multidimensional",
+        "fluidic space",
+        "telepathic",
+        "empathic",
+        "photonic",
+        "non-corporeal"
+    ],
+
+    "species":[
+        "Andorian",
+        "Human",
+        "Tellarite",
+        "Vulcan",
+        "Arcadian",
+        "Ariolo",
+        "Bzzit Khaht",
+        "Caitian",
+        "Deltan",
+        "Grazerite",
+        "Kasheeta",
+        "Xelatian",
+        "Algolian",
+        "Arbazan",
+        "Ardanan",
+        "Barzan",
+        "Benzite",
+        "Betazoid",
+        "Bolian",
+        "Cordianite",
+        "Efrosian",
+        "Gelrakian",
+        "Haliian",
+        "Hekaran",
+        "Kelpien",
+        "Pelian",
+        "Rigellian",
+        "Risian",
+        "Trill",
+        "Evora",    
+        "Angosian",
+        "Antedian",
+        "Antican",
+        "Bajoran",
+        "Cairn",
+        "Catullan",
+        "Gideon",
+        "Kesprytt",
+        "Selay"
+    ],
+
+    "ships":[
+        "USS Adelphi NCC-26849",
+        "USS Agamemnon NCC-11638",
+        "USS Ahwahnee NCC-73620",
+        "USS Ajax NCC-11574",
+        "USS Akagi NCC-62158",
+        "USS Akira NCC-62497",
+        "USS Al-Batani NCC-42995",
+        "USS Almagest NCC-91870 ",
+        "USS Ambassador NCC-10521",
+        "USS Antares NCC-9844",
+        "USS Appalacia NCC-52136",
+        "USS Archer NCC-76725",
+        "USS Arcos NCC-6237",
+        "USS Aries NCC-45167",
+        "USS Armstrong NCC-57537",
+        "USS Arsinoe NCC-75307",
+        "USS Avalon NCC-63887",
+        "USS Bellerophon NCC-62048",
+        "USS Bellerophon NCC-74705",
+        "USS Berlin NCC-14232",
+        "USS Biko NCC-50331",
+        "USS Bonchune NCC-70915",
+        "USS Bonestell NCC-31600",
+        "USS Bozeman NCC-1941",
+        "USS Bradbury NX-72307",
+        "USS Brattain NCC-21166",
+        "USS Budapest NCC-64923",
+        "USS Buran NCC-57580",
+        "USS Cairo NCC-42136",
+        "USS Canopus NCC-64834",
+        "USS Cavor NCC-52133",
+        "USS Centaur NCC-42043",
+        "USS Challenger NCC-71099",
+        "USS Charleston NCC-42285",
+        "USS Chekov NCC-57302",
+        "USS Christopher NCC-97936",
+        "USS Clark NCC-90206",
+        "USS Clement NCC-12537",
+        "USS Cochrane NCC-59318",
+        "USS Concorde NCC-68711",
+        "USS Constantinople NCC-43622",
+        "USS Constellation NCC-1974",
+        "USS Copernicus NCC-640",
+        "USS Crazy Horse NCC-50446",
+        "USS Crockett NCC-38955",
+        "USS Curry NCC-42254",
+        "USS Defiant NX-74205",
+        "USS Drake NCC-70956",
+        "USS Endeavour NCC-71805",
+        "USS Enkidu NCC-90205",
+        "USS Enterprise NCC-1701-B (refit)",
+        "USS Enterprise NCC-1701-C",
+        "USS Enterprise NCC-1701-D",
+        "USS Enterprise NCC-1701-E",
+        "USS Equinox NCC-72381",
+        "USS Eureka NCC-42023",
+        "USS Europa NCC-80104",
+        "USS Excalibur NCC-26517",
+        "USS Excelsior NCC-42037",
+        "USS Excelsior NX-2000/NCC-2000",
+        "USS Exeter NCC-26531",
+        "USS Farragut NCC-60597",
+        "USS Fearless NCC-14598",
+        "USS Firebrand NCC-68723",
+        "USS Firesword NCC-64280",
+        "USS Frederickson NCC-42111",
+        "USS Gagarin NCC-97930",
+        "USS Gage NCC-11672",
+        "USS Galaxy NCC-70637",
+        "USS Gandhi NCC-26632",
+        "USS Gettysburg NCC-3890",
+        "USS Gihlan NCC-9761",
+        "USS Gilgamesh NCC-74669",
+        "USS Goddard NCC-59621",
+        "USS Gorkon NCC-40521",
+        "USS Grissom NCC-42857",
+        "USS Grissom NCC-638",
+        "USS Hathaway NCC-2593",
+        "USS Havana NCC-34043",
+        "USS Helios NCC-63284",
+        "USS Hera NCC-62006",
+        "USS Hermes NCC-10376",
+        "USS Hiroshima",
+        "USS Hokkaido",
+        "USS Honshu NCC-60205",
+        "USS Hood NCC-42296",
+        "USS Horatio NCC-10532",
+        "USS Hornet NCC-45231",
+        "USS Hrothgar NCC-74975",
+        "USS Hutchinson NCC-74957",
+        "USS Huygens NCC-91814",
+        "USS ibn Al-Haytham NCC-91965",
+        "USS ibn Al-Haytham NCC-91965",
+        "USS ibn Majid NCC-75710",
+        "USS Intrepid NCC-38907",
+        "USS Intrepid NCC-74600",
+        "USS Kearsarge NCC-57566",
+        "USS Kyushu NCC-65491",
+        "USS Lakota NCC-42768 (refit)",
+        "USS Lalo NCC-43837",
+        "USS Lantree NCC-1837 (Miranda II)",
+        "USS LaSalle NCC-6203",
+        "USS Leeds NCC-70352",
+        "USS Lexington NCC-30405",
+        "USS Lexington NCC-61832",
+        "USS Livingston NCC-34099",
+        "USS Luna NCC-80101",
+        "USS Magellan NCC-3069",
+        "USS Magellan NCC-86509",
+        "USS Magellan",
+        "USS Majestic NCC-31060",
+        "USS Malinche NCC-38997",
+        "USS Maryland NCC-45109",
+        "USS Maui NCC-96761",
+        "USS Melbourne (Prototype II, reg. unclear)",
+        "USS Melbourne NCC-62043",
+        "USS Menehune NCC-52142",
+        "USS Merrimack NCC-61827",
+        "USS Monitor NCC-61826",
+        "USS Nathan Hale NCC-86501",
+        "USS Nautilus NCC-31910",
+        "USS Nightingale",
+        "USS Nobel NCC-55012",
+        "USS Oberon NCC-80103",
+        "USS Oberth NCC-602",
+        "USS Odyssey NCC-71832",
+        "USS Okinawa NCC-13958",
+        "USS Okuda NCC-74107",
+        "USS Pachacuti NCC-74181",
+        "USS Pasteur NCC-58925",
+        "USS Pearson NCC-61956",
+        "USS Pegasus NCC-53847",
+        "USS Phoenix NCC-65420 (Phoenix variant)",
+        "USS Portland NCC-57418",
+        "USS Potemkin NCC-18253",
+        "USS Princeton NCC-59804",
+        "USS Prokofiev NCC-68814",
+        "USS Prometheus NCC-71201",
+        "USS Prometheus NX-59650",
+        "USS Proxima NCC-61952",
+        "USS Rabin NCC-63293",
+        "USS Raman NCC-29487",
+        "USS Reliant NCC-1864",
+        "USS Reliant NCC-90200",
+        "USS Renegade NCC-63102",
+        "USS Repulse NCC-2544",
+        "USS Rhode Island NCC-72701 (variant)",
+        "USS Roosevelt NCC-2573",
+        "USS Ross NCC-76710",
+        "USS Rustazh NCC-86503",
+        "USS Rutledge NCC-57295",
+        "USS São Paulo NCC-75633",
+        "USS Sarajevo NCC-38529",
+        "USS Saratoga NCC-1887",
+        "USS Saratoga NCC-31911 (Miranda III)",
+        "USS Shackleton NCC-86517",
+        "USS ShirKahr NCC-31905",
+        "USS Sitak NCC-32591",
+        "USS Spector NCC-63898",
+        "USS Stargazer NCC-2893",
+        "USS Stargazer NCC-82893",
+        "USS Sutherland NCC-72015",
+        "USS Sutherland NCC-91800",
+        "USS T'Kumbra",
+        "USS Tannu Tuva NCC-64924",
+        "USS Tecumseh NCC-14934",
+        "USS Thomas Paine NCC-65530",
+        "USS Thunderchild NCC-63549",
+        "USS Tian An Men NCC-21382",
+        "USS Tiro NCC-90216",
+        "USS Titan NCC-80102",
+        "USS Tolstoy NCC-62095",
+        "USS Toussaint NCC-87111",
+        "USS Trial NCC-1948",
+        "USS Trieste NCC-37124",
+        "USS Tsiolkovsky NCC-53911",
+        "USS Uhura NCC-90214",
+        "USS Ulysses NCC-66808",
+        "USS Valdemar NCC-26198",
+        "USS Valiant NCC-74210",
+        "USS Valkyrie NCC-2590",
+        "USS Valkyrie NCC-74877",
+        "USS Valley Forge NCC-43305",
+        "USS Vanguard NCC-75148",
+        "USS Varian Fry NCC-87883",
+        "USS Venture NCC-71854",
+        "USS Venture NCC-75306",
+        "USS Victory NCC-9754",
+        "USS Voyager NCC-74656",
+        "USS Wellington NCC-33821",
+        "USS Wyoming NCC-43730",
+        "USS Yamaguchi NCC-26510",
+        "USS Yamato NCC-71807",
+        "USS Yeager NCC-61947",
+        "USS Yeager NCC-65674",
+        "USS Yellowstone NCC-70073",
+        "USS Yi Sun-Sin NCC-76545",
+        "USS Yorktown NCC-61137",
+        "USS Yosemite NCC-19002",
+        "USS Zheng He NCC-86505",
+        "USS Zhukov NCC-26136"
+    ],
+
+
+    "code_pattern":[
+        "#number#-#number#-#number#-#number#",
+        "#greek#-#number#-#greek#",
+        "#nato#-#number#",
+        "#greek#-#number#",
+        "#greek#-#number#",
+        "#greek#-#number#-#number#",
+        "#greek#-#number#-#number#-#greek#",
+        "#greek#-#number#-#number#-#number#",
+        "#greek#-#number#-#number#-#number#-#greek#-#greek#",
+        "#greek#-#number#-#number#-#number#-#number#",
+        "#greek#-#greek#-#number#-#number#-#number#-#color#",
+        "#greek#-#greek#-#greek#-#color#-#word#-#number#-#number#",
+        "#greek#-#greek#-#greek#-#word#-#number#-#number#-#number#",
+        "#number#-#number#-#greek#-#greek#-#number#",
+        "#number#-#number#-#greek#",
+        "#number#-#number#-#greek#-#greek#",
+        "#number#-#number#-#greek#-#nato#",
+        "#number#-#number#-#nato#-#greek#",
+        "#number#-#number#-#nato#-#nato#",
+        "#number#-#number#-#number#-#greek#",
+        "#number#-#number#-#number#-#color#",
+        "#number#-#number#-#number#-#number#"
+    ],
+
+    "letters":[
+        "#letter#",
+        "#greek#",
+        "#nato#"
+    ],
+
+    "word":[
+        "Daystar",
+        "Mark",
+        "Dash"
+    ],
+
+    "color":[
+        "Yellow",
+        "Green",
+        "Blue"
+    ],
+
+    "nato":[
+        "Alfa",
+        "Bravo",
+        "Charlie",
+        "Delta",
+        "Echo",
+        "Foxtrot",
+        "Golf",
+        "Hotel",
+        "India",
+        "Juliett",
+        "Kilo",
+        "Lima",
+        "Mike",
+        "November",
+        "Oscar",
+        "Papa",
+        "Quebec",
+        "Romeo",
+        "Sierra",
+        "Tango",
+        "Uniform",
+        "Victor",
+        "Whiskey",
+        "X-ray",
+        "Yankee",
+        "Zulu"
+    ],
+
+    "greek":[
+        "Alpha",
+        "Beta",
+        "Gamma",
+        "Delta",
+        "Epsilon",
+        "Zeta",
+        "Eta",
+        "Theta Iota",
+        "Kappa",
+        "Lambda",
+        "Mu",
+        "Nu",
+        "Xi",
+        "Omicron",
+        "Pi",
+        "Rho",
+        "Sigma",
+        "Tau",
+        "Upsilon",
+        "Phi",
+        "Chi",
+        "Psi",
+        "Omega"
+    ],
+
+    "number":[
+        "Zero",
+        "One",
+        "Two",
+        "Three",
+        "Four",
+        "Five",
+        "Six",
+        "Seven",
+        "Eight",
+        "Nine"
+    ],
+
+    "ints":[
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"  
+    ],
+
+    "number_experience_years":[
+        "1 Federation Standard year's",
+        "2 Federation Standard years",
+        "3 Federation Standard years",
+        "4 Federation Standard years",
+        "5 Federation Standard years",
+        "6 Federation Standard years",
+        "7 Federation Standard years",
+        "8 Federation Standard years",
+        "9 Federation Standard years",
+        "10 Federation Standard years",
+        "11 Federation Standard years",
+        "12 Federation Standard years",
+        "13 Federation Standard years",
+        "14 Federation Standard years",
+        "15 Federation Standard years",
+        "17 Federation Standard years"
+    ]
+
+
+
+}
+
+
+

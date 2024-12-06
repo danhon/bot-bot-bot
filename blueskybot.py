@@ -17,17 +17,17 @@ BLUESKY_PASSWORD = os.getenv("BLUESKY_PASSWORD")
 # Create a Bluesky client
 client = Client("https://bsky.social")
 
+# set grammars directory and file
+GRAMMARS_DIRECTORY = os.getenv("GRAMMARS_DIRECTORY")
+GRAMMAR_JSON = "starfleetjobs.json"
 
+# load the tracery grammar
+file_path = os.path.join(GRAMMARS_DIRECTORY, GRAMMAR_JSON)
 
-# Load bot json
-json_rules = "starfleetjobs.json"
-sub_dir = "dev/bot-bot-bot/grammars/"
-
-file_path = os.path.expanduser(f"~/{sub_dir}/{json_rules}")
-
-pprint.pprint(file_path)
+# pprint.pprint(file_path)
 with open(file_path) as rules_file:
     rules = json.load(rules_file)
+    # now we're ready to go
 
 grammar = tracery.Grammar(rules)
 grammar.add_modifiers(base_english)

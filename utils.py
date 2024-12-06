@@ -63,7 +63,7 @@ def bluesky_instance():
     client = Client("https://bsky.social")
 
     client.login(BLUESKY_USERNAME, BLUESKY_PASSWORD)
-    print("generated a client")
+    # print("generated a client")
     return client
 
 def bluesky_faceted_post(post):
@@ -82,9 +82,6 @@ def bluesky_faceted_post(post):
         text_builder.tag(tag + " ", tag.split('#')[1])
 
     return text_builder
-
-
-
 
 def envs():
     load_dotenv()

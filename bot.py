@@ -4,7 +4,6 @@ import json
 from dotenv import load_dotenv
 from utils import generate_posts, get_rules, mastodon_client, bluesky_instance, bluesky_faceted_post
 
-
 # Load and set environment variables
 load_dotenv()
 
@@ -12,10 +11,12 @@ load_dotenv()
 GRAMMARS_DIRECTORY = os.getenv("GRAMMARS_DIRECTORY")
 GRAMMAR_JSON = "starfleetjobs.json"
 
+# make a mastodon client and then post
 def post_to_mastodon(post):
     mastodon_instance = mastodon_client()
     mastodon_instance.status_post(post["long"])
 
+# make a bluesky client 
 def post_to_bluesky(post):
     bluesky_client = bluesky_instance()
     bluesky_post = bluesky_faceted_post(post["short"])
@@ -27,5 +28,6 @@ rules = get_rules(GRAMMARS_DIRECTORY, GRAMMAR_JSON)
 # generate our posts dict containing a short post and a long post
 post = generate_posts(rules)
 
+# send that post to um a posting thing
 post_to_mastodon(post)
 post_to_bluesky(post)

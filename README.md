@@ -1,6 +1,6 @@
 # Tracery Bluesky and Mastodon Bot
 
-Hi, here's a way to post a simple tracery bot to bluesky and mastodon.
+Hi, here's a way to post a simple tracery bot to bluesky and mastodon. It is terrible and stupid.
 
 This repo is forked from [Bluesky Python Bot](https://github.com/skygaze-ai/bot-python) and uses the [Mastodon Python API wrapper](https://github.com/halcy/Mastodon.py?tab=readme-ov-file).
 
@@ -40,3 +40,7 @@ then we hackily set up an array of those hashtags and then use textbuilder to, u
 ---
 
 this is all super embarassing, sorry.
+
+--- 
+
+I've kept the examples from the original atproto Python Bot starter thing in /examples/bluesky-python-bot in case you want to look, but honestly I should just delete them?

@@ -2077,6 +2077,7 @@
         "USS Crockett NCC-38955",
         "USS Curry NCC-42254",
         "USS Defiant NX-74205",
+        "USS Dauntless NCC-80816",
         "USS Drake NCC-70956",
         "USS Endeavour NCC-71805",
         "USS Enkidu NCC-90205",
@@ -2139,7 +2140,7 @@
         "USS Luna NCC-80101",
         "USS Magellan NCC-3069",
         "USS Magellan NCC-86509",
-        "USS Magellan",
+        "USS Trinculo NCC-71867",
         "USS Majestic NCC-31060",
         "USS Malinche NCC-38997",
         "USS Maryland NCC-45109",
@@ -2219,6 +2220,7 @@
         "USS Venture NCC-75306",
         "USS Victory NCC-9754",
         "USS Voyager NCC-74656",
+        "USS Voyager NCC-74656-J",
         "USS Wellington NCC-33821",
         "USS Wyoming NCC-43730",
         "USS Yamaguchi NCC-26510",
@@ -2230,7 +2232,9 @@
         "USS Yorktown NCC-61137",
         "USS Yosemite NCC-19002",
         "USS Zheng He NCC-86505",
-        "USS Zhukov NCC-26136"
+        "USS Zhukov NCC-26136",
+        "USS LeGuin NCC-325059",
+        "USS Prodigy NCC-81084"
     ],
 
 

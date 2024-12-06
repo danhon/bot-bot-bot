@@ -24,7 +24,7 @@ mastodon = Mastodon(
 
 # Load bot json
 json_rules = "starfleetjobs.json"
-sub_dir = "dev/bot-bot-bot/grammars"
+sub_dir = "dev/bot-bot-bot/grammars/"
 
 file_path = os.path.expanduser(f"~/{sub_dir}/{json_rules}")
 

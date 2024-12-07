@@ -19,6 +19,18 @@ def mastodon_client():
 
     return mastodon_instance
 
+
+def mastodon_client_multiple(token, base_url):
+    MASTODON_TOKEN = token
+    MASTODON_BASE_URL = base_url
+
+    mastodon_instance = Mastodon(
+        access_token=MASTODON_TOKEN,
+        api_base_url=MASTODON_BASE_URL
+    )
+
+    return mastodon_instance
+
 def envs():
     load_dotenv()
     return os.environ

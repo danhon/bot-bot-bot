@@ -18,6 +18,15 @@ def bluesky_instance():
     # print("generated a client")
     return client
 
+
+def bluesky_instance_multiple(username, password, client_url):
+    """Returns a Bluesky client based on provided username, password, and url"""
+    client = Client(client_url)
+
+    client.login(username, password)
+    # print("generated a client")
+    return client
+
 def bluesky_faceted_post(post):
     """Returns a textbuilder object with tags"""
     post_without_tags = post.split('#')[0]

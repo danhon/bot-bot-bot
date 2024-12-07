@@ -2,7 +2,9 @@ import os
 import pprint
 import json
 from dotenv import load_dotenv
-from utils import generate_posts, get_rules, mastodon_client, bluesky_instance, bluesky_faceted_post
+from utils.tracery import get_rules, generate_posts
+from utils.mastodon import mastodon_client 
+from utils.bluesky import bluesky_instance, bluesky_faceted_post
 
 # Load and set environment variables
 load_dotenv()

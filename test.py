@@ -3,17 +3,8 @@ import pprint
 import json
 from dotenv import load_dotenv
 from utils.tracery import get_rules, generate_posts
-from utils.mastodon_client import mastodon_client 
+from utils.mastodon import mastodon_client 
 from utils.bluesky import bluesky_instance, bluesky_faceted_post
-
-load_dotenv()
-
-# set grammars directory and file
-GRAMMARS_DIRECTORY = os.getenv("GRAMMARS_DIRECTORY")
-GRAMMAR_JSON = "starfleetjobs.json"
-
-rules = get_rules(GRAMMARS_DIRECTORY, GRAMMAR_JSON)
-
 
 # Load and set environment variables
 load_dotenv()

@@ -9,11 +9,13 @@ This repo is forked from [Bluesky Python Bot](https://github.com/skygaze-ai/bot-
 Completely at your own risk. You'll need uv, and then all you need to do is:
 uv run bot.py
 
+if you want there's also a shell script, post.sh that you can use with your crontab if you want? 
+
 ### setup
 Copy .env.example into .env and 
 
 * stick in what's needed to access your bluesky and mastodon account.
-* supply a directory if you want to put your tracery json grammars somewhere.
+* supply a directory if you want to put your tracery json grammars somewhere other than grammars/.
 
 in bot.py you'll need to set your grammars file if you don't want to inadvertently end up with posting star trek job listings.
 

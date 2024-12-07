@@ -1,0 +1,4672 @@
+{
+	"origin":[
+		"#headline#"
+	],
+
+	"nascio":[
+		"#breaking_intro# At NASCIO22, #criticizer# questions claim of #technology_1_2# delivering #system_type.capitalize# system #money#. Could #technology_plural# be the answer? #breaking_tagline_more.capitalize#",
+		"Only @BREAKINGGOVTECH has the latest news from NASCIO. The word on the #buzzplace#? #technology_plural# are here to make government #government_improvement_type#. #summit_kicker.capitalize#",
+		"\\#StoriesyouWontHear at NASCIO22: #person_government# #tells_truth_type# about #technology# in #system_type.s#. #summit_kicker.capitalize#",
+		"Follow our Live Blogs from #us_county# #person_government# tracking the hottest NASCIO22 news. Tip for the day: It's \\##technology#. #breaking_tagline_more.capitalize#",
+		"#breaking_intro# Signs of #controversy_type# at NASCIO22 with CIOs debating whether #technology_singular_solo# is the #answer_type# -- or a #red_herring_type#. #summit_kicker.capitalize#",
+		"We #survey_type# #role_government_numbered_group# at NASCIO22 and they all agreed: #technology_is_are_no_a# out. What's in? It might be #technology#. #summit_kicker.capitalize#",
+		"At NASCIO22, #role_government_numbered_group# #agreement_plural#: #technology_is_are_no_a# #next_type#. #breaking_tagline.capitalize#"
+	],
+
+	"red_herring_type":[
+		"red herring",
+		"distraction",
+		"diversion",
+		"waste of time",
+		"waste of money",
+		"irresponsible choice",
+		"choice worse than blockchain"
+	],
+
+	"controversy_type":[
+		"controversy",
+		"getting heated",
+		"real talk",
+		"getting candid",
+		"heavy disagreement"
+	],
+
+	"buzzplace":[
+		"virtual street",
+		"cyberstreet",
+		"real-world Slack",
+		"real-life Teams channel",
+		"in-person WebEx"
+	],
+
+
+	"execorder":[
+		"The Executive Order on Transforming Federal Customer Experience and Service Delivery to Rebuild Trust in Government is a big deal. Is #technology# the answer?"
+	],
+
+
+
+	"risk_plural_type":[
+		"risks",
+		"uncertainty",
+		"unpredictability",
+		"failure"
+	],
+
+	"success_single_type":[
+		"success",
+		"a win",
+		"value",
+		"transformation"
+	],
+
+	"hope_type":[
+		"hope",
+		"wishes",
+		"a dream",
+		"optimism",
+		"thought leaders",
+		"trust",
+		"mature oversight"
+	],
+
+	"training_program_type":[
+		"career development program",
+		"technical training program",
+		"workforce development program",
+		"workforce retraining program"
+	],
+
+	"could":[
+		"could",
+		"are likely to",
+		"will probably",
+		"will certainly",
+		"shall"
+	],
+
+	"key_type":[
+		"key",
+		"critical",
+		"crucial",
+		"central",
+		"pivotal",
+		"decisive",
+		"competitive",
+		"major"
+	],
+
+	"workforce_department":[
+		"Workforce Development",
+		"Labor Department",
+		"Labor and Workforce Development Agency"
+	],
+
+	"person_type":[
+		"official",
+		"leader",
+		"executive",
+		"representative",
+		"administrator"
+	],
+
+	"NFT_and_web3":[
+		"\\#BreakingGovTechWeb3Guides: If your #finance_agency# is asking how NFTs can be used to raise revenue for your general fund, then you need our guide to NFTs from #affiliation_corporate# \\#Sponsored \\#Content. #breaking_tagline_more.capitalize#",
+		"\\#BreakingGovTechWeb3Guides: If your #finance_agency# is asking how web3 can be used to raise revenue for your general fund, then you need our guide to web3, sponsored by #affiliation_corporate#. #breaking_tagline_more.capitalize#",
+		"Are NFTs the way out from the cost-recovery technology funding hole? Our guide from #affiliation_corporate# has all the answers \\#Sponsored \\#Content. #breaking_tagline_more.capitalize#",
+		"Is Web3 the way out from the cost-recovery technology funding hole? Our guide from #affiliation_corporate# has all the answers \\#Sponsored \\#Content. #breaking_tagline_more.capitalize#",
+		"What do NFTs have to do with #government_program# Systems? The answer lies with these #group_phrase#. #breaking_tagline_more.capitalize#",
+		"#group_phrase.capitalize# solved a #megaproject_cost# funding problem for #us_state# state government's #government_program# System in #time_phrase_claim#. How? With NFTs and Web3. #breaking_tagline_more.capitalize#",
+		"Is it time for you to replace your #government_program.capitalize# #government_entity_type.capitalize# with a DAO (Distributed Autonomous Organization)? The answer from these #group_phrase# might #surprise_reaction#. #breaking_tagline_more.capitalize#",
+		"The rumors are true: NFTs raised over #megaproject_cost# to fund a modernized #government_program# System in #us_state.capitalize#. Is your project next? #breaking_tagline_more.capitalize#"
+	],
+	"finance_agency":[
+		"Department of Finance",
+		"Finance Department",
+		"funding agency",
+		"funding control agency",
+		"finance control agency",
+		"budget director"
+	],
+
+	"dana":[
+		"We asked a respected Federal Government Expert how \\#GovernmentGetsDone -- and the result might surprise you: it's \\#Excel spreadsheets, \\#Sharepoint and \\#Centralized \\#Inboxes. That's the \\#BreakingGovTech you need to Know."
+	],
+
+	"WIP_Transformation":[
+		"Join #affiliation_corporate#'s #full_name# commentary on this year's Code for America Summit, as they explain how unifying #technology_methodology# with #technology_product_enterprise# puts you on the \\#Fast \\#track to \\#DigitalTransformation. #breaking_tagline_more.capitalize#."
+	],
+
+	"PIT_type":[
+		"Public Interest Technology",
+		"Civic Technology",
+		"Citizen-Centered Technology",
+		"User-Centered Technology"
+	],
+
+	"WIP_summit":[
+		"BREAKING from \\#TheCFASummit: #group_phrase.capitalize# #making_past# #claim.a# #replacement_type# for #service# #time_or_money# with #technology#, but this #criticizer# is skeptical. #breaking_tagline_more.capitalize#",
+		"BREAKING from \\#TheCFASummit: #criticizer.capitalize# questions claim of #technology_1_2# delivering #system_type.capitalize# system #money#. Could #technology_plural# be the answer? #breaking_tagline_more.capitalize#",
+		"Only @BREAKINGGOVTECH has the latest news from today's Code for America Summit. The word on the virtual street? #technology_plural# are here to make government #government_improvement_type# \\#TheCFASummit. #breaking_tagline_more.capitalize#",
+		"#tracking_type.capitalize# #summit_track# sessions at the Code for America Summit today? Don't miss #affiliation_corporate#'s guide to Blockchain for #government_improvement_type# #system_type.s#. \\#TheCFASummit \\#Sponsored \\#Content. #breaking_tagline_more.capitalize#",
+		"\\#StoriesyouWontHear at the Code for America Summit: #person_government# #tells_truth_type# about #technology# in #system_type.s#. \\#TheCFASummit #breaking_tagline_more.capitalize#",
+		"Follow our live blog from #us_county# #person_government# as they track the hottest #summit_track# sessions from the Code for America Summit today. Their hot tip? It's #technology# \\#TheCFASummit. #breaking_tagline_more.capitalize#"
+	],
+
+	"tracking_type":[
+		"tracking",
+		"following",
+		"watching",
+		"Keeping tabs on"
+	],
+
+	"summit_kicker":[
+		"Get the \\#whole \\#Truth with @BREAKINGGOVTECH.",
+		"Read the full story at @BREAKINGGOVTECH.",
+		"That's \\#RealInnovation at @BREAKINGGOVTECH.",
+		"That's \\#GovTechFacts at @BREAKINGGOVTECH."
+	],
+
+	"NOT_USED":[
+	],
+
+	"censored_type":[
+		"CENSORED",
+		"DENIED",
+		"SILENCED",
+		"MUZZLED"
+	],
+
+	"summit_track":[
+		"Servjce Design + Delivery",
+		"Policy + Administration",
+		"Operations + Management",
+		"People Power + Community"
+	],
+
+	"tells_truth_type":[
+		"tells the truth",
+		"tells all",
+		"reveals the secrets",
+		"opens up",
+		"speaks candidly"
+	],
+
+	"WIP_certification_not_yet":[
+		"Get your #certification_tier# #technology_singular_solo_no_a# #certification_subject_description# #certification_role# Certification. #breaking_tagline_more.capitalize#"
+	],
+
+	"requiring_type":[
+		"requiring",
+		"demanding",
+		"calling for"
+	],
+
+	"certification_prompt":[
+		"Invest in your future",
+		"Learn ahead to stay ahead",
+		"Get ahead of the curvey"
+	],
+
+	"result_intro_phrase":[
+		"The numbers are in",
+		"The results are in",
+		"It's undeniable",
+		"We've checked",
+		"Game over"
+	],
+
+	"left_behind_type":[
+		"fall behind",
+		"get left behind",
+		"be left out"
+	],
+	
+	"WIP_legislation":[
+		"#us_state# legislators ready to announce #sweeping_type# #technology_bill_type# Bill in effort to modernize government."
+	],
+
+	"technology_bill_type":[
+		"#technology_methodology#",
+		"#technology_language# in Government"
+	],
+	
+	"sweeping_type":[
+		"wide-ranging",
+		"sweeping",
+		"extensive",
+		"radical",
+		"far-reaching",
+		"thorough",
+		"broad"
+	],
+
+	"say_they_type":[
+		"say they're",
+		"are",
+		"report being",
+		"claim they're",
+		"shared they're",
+		"revealed they're"
+	],
+
+	"latest_type":[
+		"latest",
+		"most recent",
+		"brand new",
+		"just released",
+		"monthly",
+		"quarterly",
+		"annual"
+	],
+
+	"survey_noun_type":[
+		"survey",
+		"study",
+		"review",
+		"poll",
+		"research",
+		"opinion poll"
+	],
+
+	"under_pressure_type":[
+		"under pressure",
+		"being lobbied",
+		"being influenced",
+		"strongly encouraged",
+		"being asked"
+	],
+
+	"use_type":[
+		"use",
+		"leverage",
+		"require",
+		"incorporate"
+	],
+
+	"project_type":[
+		"project",
+		"initiative",
+		"solicitation",
+		"procurement"
+	],
+
+	"WIP__":[
+		"#us_state# launches new #technology_no_a# initiative, taps former .",
+		"#technology_prefixed_is_are_prefix.capitalize# the key to "
+	],
+
+
+
+
+	"WIP_":[
+		"It's time to sharpen up your skills at the Cyber #technology_no_a# Academy.",
+		"Get your skills sharp at the Cyber #technology_no_a# Academy",
+		"Get the lowdown on the top #number_small# points to assure excellence in our #technology_methodology# maturity model.",
+		"\\#WShareYourScore in our latest #technology_methodology# maturity model - now with added #technology_prefixed_plural#."
+	],
+
+	"WIP_rumors":[
+		"Can the rumors be trusted? We take a close look at #technology_prefixed# to see if the hype of scaling to #number_population# is true.",
+		"Will #technology_prefixed# really bring the promise of cheaper licensing fees? We spoke to #person_government# to find out."
+	],
+
+	"WIP_legacy_modernization":[
+		"#criticizer_numbered_group.capitalize# criticize #megaproject_cost# #us_state# #government_program# System modernization project, claiming that existing #technology_mundane# and #technology_language# use is reliable, jeopardized by vendor's use of #technology_prefixed_plural#."
+	],
+
+
+	"certification_subject_description":[
+		"Fundamentals",
+		"Essentials",
+		"Basics"
+	],
+
+	"certification_role":[
+		"Architect",
+		"Innovator",
+		"Administrator",
+		"Developer",
+		"Consultant",
+		"Coach",
+		"Integrator",
+		"Pathfinder",
+		"Trailblazer",
+		"Pioneer",
+		"Spearhead"
+	],
+
+
+	"certification_tier":[
+		"#certification_tier_beginner_type#",
+		"#certification_tier_intermediate_type#",
+		"#certification_tier_beginner_type#"
+	],
+
+	"certification_tier_beginner_type":[
+		"Beginner",
+		"Bronze"
+	],
+
+	"certification_tier_intermediate_type":[
+		"Intermediate",
+		"Silver"
+	],
+
+	"certification_tier_beginner_type":[
+		"Gold",
+		"Platinum",
+		"Advanced"
+	],
+
+	"WIP_modernization_technology":[
+		"#criticizer_numbered_group.capitalize# #criticized_type# the Prime Vendor's use of #technology_prefixed_plural# in report on troubled #megaproject_cost# #us_state# #government_program# System #megaproject_type.capitalize#. \"The underlying technology is solid,\" says #full_name#, \"but these projects can lose their way when people get distracted by the latest #technology_prefix#-Whatever buzzword.\"",
+		"In a report on #us_county#'s troubled #government_program# System #megaproject_type.capitalize#, #criticizer_numbered_group# #criticized_type# the Prime Vendor's use of #technology_prefixed_plural#. \"The underlying technology is solid,\" says #full_name#, \"but these projects can lose their way when people get distracted by the latest #technology_prefix#-Whatever buzzword.\"",
+		"New #us_state# #government_entity_type.capitalize# report blames use of #technology_prefixed# in troubled #government_program# System #megaproject_type.capitalize#."
+	],
+
+	"reporting_entity":[
+		"Control Agency",
+		"Audtitor's Office",
+		"Project Management Office",
+		"Systems Integration Office"
+	],
+
+	"technology_mundane":[
+		"CSV files",
+		"Excel files",
+		"spreadsheets",
+		"FTP servers",
+		"COBOL",
+		"ETL"
+	],
+
+	"needs":[
+		"cost-effectiveness",
+		"maintainability",
+		"accessiblity",
+		"performance"
+	],
+
+	"govtech_conference":[
+		"#govtech_conference_no_year#",
+		"#govtech_conference_no_year# #current_year#"
+	],
+
+	"govtech_conference_no_year":[
+		"#technology_language_methodology_in_government# #conference_type#",
+		"Coders for Good #conference_type#",
+		"Public Interest Technology #conference_type#"	
+	],
+
+	"technology_language_methodology_in_government":[
+		"#technology_language# in Government",
+		"#technology_methodology# in Government#"
+	],
+
+
+	"announces_type":[
+		"announces",
+		"launches",
+		"heralds",
+		"reveals",
+		"opens",
+		"activates"
+	],
+
+	"corporate_engagement":[
+		"an initial #megaproject_cost# engagement with #us_place_state_county_city#",
+		"initial engagements worth #megaproject_cost#"
+	],
+
+	"corporate_methodology_entity":[
+		"#technology_methodology# #lab_type#",
+		"#technology_methodology# #lab_type_prefix# #lab_type#",
+		"#location_type# #technology_methodology# #lab_type#"
+	],
+
+	"lab_type":[
+		"Lab",
+		"Center of Excellence",
+		"Implementation Center",
+		"Academy",
+		"Fusion Center",
+		"Institute",
+		"Action Center",
+		"Success #lab_type#",
+		"Training Center",
+		"Hub",
+		"Hub",
+		"Genius Hub",
+		"Campus",
+		"Innovation Office",
+		"Center for Innovation",
+		"Micro-Hub",
+		"Nano-Center"
+	],
+
+	"lab_type_prefix":[
+		"Virtual",
+		"Phygital",
+		"Digital",
+		"Zoom-based",
+		"Slack-based",
+		"WebEx-based",
+		"Microsoft Teams-based"
+	],
+
+	"location_type":[
+		"Worldwide",
+		"Regional",
+		"APAC",
+		"European",
+		"North American",
+		"West Coast",
+		"East Coast",
+		"Northern European",
+		"Estonian",
+		"Beijing"
+	],
+
+	"nightmare_type":[
+		"nightmare",
+		"ordeal",
+		"painful experience",
+		"unpleasant experience",
+		"trial"		
+	],
+
+	"possible_type":[
+		"possible",
+		"feasible",
+		"viable",
+		"practical"
+	],
+
+	"possible_modifier":[
+		"really",
+		"realistically"
+	],
+
+	"convert_type":[
+		"migrate",
+		"convert",
+		"translate",
+		"transform"
+	],
+
+	"converting_type":[
+		"migrating",
+		"converting",
+		"translating",
+		"transforming"
+	],
+
+	"affected_type":[
+		"affected",
+		"impacted",
+		"hit hard"
+	],
+
+	"backlog_type":[
+		"backlog",
+		"mountain",
+		"excess",
+		"pile"
+	],
+
+	"urgent_type":[
+		"urgent",
+		"pressing",
+		"desperate",
+		"extreme",
+		"critical",
+		"outstanding"
+	],
+
+	
+
+	"filetype":[
+		"CSV",
+		".xls",
+		".xlsx",
+		".doc",
+		".docx",
+		"PDF",
+		"JPEG",
+		"TIFF",
+		".txt",
+		"WAV",
+		".ppt",
+		".pptx",
+		"PowerPoint",
+		"Word",
+		".pst",
+		".acdb",
+		".mdb",
+		"Microsoft Excel",
+		"Microsoft Access",
+		"XML",
+		"HTML",
+		"HTM",
+		"XML",
+		"plain text",
+		".mp4"
+	],
+
+	"on_trial_phrase":[ 
+		"to the test",
+		"on trial",
+		"under the microscope"
+	],
+
+	"civic_tech_opinion_phrase":[
+		"we asked #criticizer_numbered_group# their #opinion_type#",
+		"#criticizer_numbered_group# gave us their #opinion_type#",
+		"#criticizer_numbered_group# shared their #opinion_type#"
+	],
+	"opinion_intro":[
+		"we asked #criticizer_numbered_group# their #opinion_type# #about_type#",
+		"#criticizer_numbered_group# gave us their #opinion_type# #about_type#",
+		"#criticizer_numbered_group# shared their #opinion_type# #about_type#"
+	],
+
+	"opinion_type":[
+		"thoughts",
+		"opinion",
+		"perspective",
+		"points of view"
+	],
+
+	"about_type":[
+		"about",
+		"concerning",
+		"regarding",
+		"with respect to"
+	],
+
+	"award_upset_type":[
+		"an upset for",
+		"a suprise for incumbent",
+		"disappointment for favorite",
+		"dismay for shoo-in"
+	],
+
+	"award_for_type":[
+		"#government_improvement_type.capitalize# Government",
+		"their #government_program# System",
+		"#technology_no_a# in Government",
+		"#technology_methodology#",
+		"their use of #technology_methodology#",
+		"their use of #technology_plural# and #technology_language#",
+		"use of #technology_methodology# in #government_area.capitalize#",
+		"their use of #technology_methodology# and #technology_singular_solo_product# in the #government_area.capitalize# category"
+	],
+
+	"congratulation_type":[
+		"congratulations to",
+		"kudos to",
+		"Let's hear it for",
+		"It's a win for"
+	],
+
+	"award_headline":[
+		"\\#GovTechAwardsTracker",
+		"\\#GovTechAwards News" 
+	],
+
+	"award":[
+		"this year's #technology_no_a# #award_suffix# in #us_city#",
+		"#award_suffix# #technology_no_a# #us_state#",
+		"#award_suffix# #technology_no_a# #conference_type#",
+		"#award_suffix# #technology_no_a# #current_year#",
+		"#technology_no_a# #award_suffix# #current_year#",
+		"#technology_no_a# #current_year#",
+		"#technology# #conference_type# #current_year#",
+		"SXSW #current_year#",
+		"HIMSS #current_year#",
+		"the #us_county# Digital #conference_type#",
+		"the #us_state# Digital #conference_type#",
+		"the #us_state# Digital Transformation #conference_type#"
+	],
+
+	"conference_type":[
+		"Conference",
+		"Summit",
+		"Convention",
+		"Forum",
+		"Solutions"
+	],
+
+	"award_type":[
+		"#award_material.capitalize# #award_trophy_type.capitalize#",
+		"#affiliation_corporate.capitalize# #award_material.capitalize# #award_trophy_type.capitalize#"
+	],
+
+	"award_material":[
+		"platinum",
+		"silver",
+		"gold",
+		"bronze",
+		"titanium",
+		"aluminum",
+		"iridium",
+		"cyber",
+		"diamond",
+		"connected",
+		"smart",
+		"electronic"
+	],
+
+	"award_trophy_type":[
+		"trophy",
+		"cup",
+		"platter",
+		"USB Stick",
+		"Trackpad",
+		"Mouse",
+		"Sharepoint Statue",
+		"Post-It",
+		"shield",
+		"sword",
+		"monitor",
+		"statuette",
+		"plaque",
+		"medal",
+		"medallion",
+		"rosette",
+		"crest",
+		"seal",
+		"COBOL Crest"
+	],
+
+	"award_suffix":[
+		"Live",
+		"International",
+		"Accelerate"
+	],
+
+	"WIP_migration":[
+		"Managing a migration from #technology# to #technology# doesn't need to be difficult, says #person_government#. What's key is making sure your team has mastered #technology_singular_solo_product#. #breaking_tagline_more.capitalize#"
+	],
+
+	"WIP_skills_master":[
+		"What's the leading skill to \\#master for \\#digitaltransformation? #role_government_numbered_group.capitalize# say it's #technology_singular_solo_product#."
+	],
+
+	"WIP_Suez":[
+		"\\#BreakingGovTechGuides: Taxes, Tarrifs and NFTs sponsored by #affiliation_corporate#. #breaking_tagline_more.capitalize#"
+	],
+
+	"trusted_partner_type":[
+		"trusted partner for",
+		"reliable expert on",
+		"experts in",
+		"trusted experts on",
+		"international partner on"
+	],
+
+	"job_qualifications":[
+		"#technology_language#, #technology_plural# and #technology_methodology#",
+		"#technology_singular_solo_product# and #technology_prefixed_plural#",
+		"#technology_data_plural# to deliver #government_improvement_type# government"
+	],
+
+	"WIP_hiring":[
+		"The \\#GrayWorkforce is a problem we all face, but where can you hire people with #number_small# years experience in #technology_language# and #technology_plural#?"
+	],
+
+	"blockchain_no_quote":[
+		"#criticizer# #criticizm_medium#",
+		"#person_government_state#"
+	],
+
+	"blockchain_should_you":[
+		"Should you consider a blockchain system?",
+		"Does your system need blockchain technology?",
+		"Is it the right time to choose blockchain?",
+		"Is blockchain really a much-needed lifeline?",
+		"Will using blockchain help build trust?",
+		"Will using the technology behind bitcoin build trust?",
+		"Can blockchain protect your data?",
+		"Will blockchain reduce costs?",
+		"Does blockchain mean you don't have to worry about cybersecurity?",
+		"Is blockchain our savior?",
+		"Is blockchain the answer to the efficiency question?",
+		"Should you listen to the blockchain boosters?",
+		"Can blockchain really solve the IdAM problem?",
+		"Does blockchain really lead to reduced labor costs?",
+		"Can blockchain integrate hyperconnected services?",
+		"Does blockchain mean the end of data pipelines?",
+		"Can blockchain solve the vaccine passport problem?",
+		"Is it the right time to choose blockchain for building permits?"
+	],
+
+	"web3_should_you":[
+		"Should you consider a web3 system for your procurement?",
+		"Is web3 all it's promised to be?",
+		"Will web3 be the route to building trust?",
+		"Can web3 protect your sensitive data?",
+		"Is web3 the solution to your cybersecurity problems?",
+		"Should you listen to the web3 boosters?",
+		"Can web3 authentication really solve your IdAM problems?",
+		"Is integrating hyperconnected services with web3 the answer?",
+		"Can web3 solve the covid testing problem?",
+		"Is it the right time to choose web3 for permitting?"
+	],
+
+	"no_phrase":[
+		"no",
+		"never",
+		"absolutely not",
+		"what kind of question is that?",
+		"why would you ask that?",
+		"not ever",
+		"not at all",
+		"certainly not",
+		"under no circumstances, no"
+	],
+
+	"never":[
+		"never the answer",
+		"always a mistake",
+		"a distraction",
+		"a boondoggle",
+		"always a bad choice",
+		"a waste of time",
+		"never a good idea",
+		"a great way to burn money",
+		"a shiny distraction",
+		"the answer... and I have a bridge to sell you"
+	],
+
+	"blockchain_intro_phrase_quote":[
+		"Blockchain? It's",
+		"Blockchain is",
+		"Are you serious? Blockchain is",
+		"If someone asks you, Blockchain is",
+		"I tell everyone Blockchain is",
+		"I'll say it on the record: Blockchain is",
+		"Do I have to say it again? Blockchain is",
+		"Of course Blockchain is"
+	],
+
+	"web3_intro_phrase_quote":[
+		"Web3? It's",
+		"Of course Web3 is",
+		"Just like Blockchain, Web3 is",
+		"Now we're talking about Web3? It's"
+	],
+
+
+
+	"with_lines_of_code":[
+		"With",
+		"At",
+		"Running at",
+		"Containing",
+		"A mess of"
+	],
+
+	"number_thousand_or_million":[
+		"#number_small# #number_qualifier#",
+		"#number_middle# #number_qualifier#"
+	],
+
+	"learn_how_type":[
+		"learn",
+		"discover",
+		"find out",
+		"get up to date on",
+		"get the inside knowledge on",
+		"get the real facts about"
+	],
+
+	"government_area":[
+		"law enforcement",
+		"public safety",
+		"justice",
+		"access to justice",
+		"transportation",
+		"housing",
+		"education",
+		"the environment",
+		"economic development",
+		"serving the public",
+		"how government engages with communities",
+		"government innovation",
+		"economic blight",
+		"neighborhood blight",
+		"policing",
+		"transparency",
+		"sustainability",
+		"fiscal responsibility",
+		"open data",
+		"public health"
+	],
+
+	"government_program":[
+		"Administrative Services",
+		"Adult Evaluation",
+		"Applications",
+		"Assisted Living",
+		"Child Maintenance",
+		"Childrens Services",
+		"Claims Processing",
+		"Compliance",
+		"Directed Payments",
+		"Disability Insurance",
+		"Eligiblity",
+		"Facilities Management",
+		"Field Operations",
+		"Field Support",
+		"Filing Compliance",
+		"Fraud and Abuse",
+		"Investigations",
+		"Juvenile Justice",
+		"Licensing",
+		"Policy",
+		"Permitting",
+		"Processing Services",
+		"Program Operations",
+		"Public Affairs"
+	],
+
+	"government_program_role":[
+		"#role_government_director_type.capitalize# of #government_program#"
+	],
+
+	"replacing_with_type":[
+		"replacing",
+		"switching",
+		"swapping"
+	],
+
+	"transport_to_success":[
+		"#transport_type# to #to_success_synonym#"
+	],
+
+	"transport_type":[
+		"train",
+		"bandwagon",
+		"convoy",
+		"zero-emission bus",
+		"high-speed rail track",
+		"e-bike lane",
+		"Segway",
+		"Tesla",
+		"rocket",
+		"zero-emission airship",
+		"low-carbon jet",
+		"carbon-neutral drag racer"
+	],
+
+	"to_success_synonym":[
+		"success",
+		"\\#Winning",
+		"magical government",
+		"the top",
+		"\\#TotalDigitalTransformation"
+	],
+
+	"government_buzzword":[
+		"Delivery-Driven Government",
+		"#POPT#"
+	],
+
+	"POPT":[
+		"Program, Operations, Policy and Technology (\\#POPT)"
+	],
+
+	"sponcon_type":[
+		"white paper",
+		"report",
+		"trends report",
+		"briefing",
+		"blog",
+		"video",
+		"TikTok",
+		"Zoom Workshop"
+	],
+
+	"positive_impact_kind":[
+		"positively impact",
+		"improve",
+		"transform",
+		"advance",
+		"bolster",
+		"supercharge",
+		"enable",
+		"energize"
+	],
+
+	"positive_impact_active_kind":[
+		"positively impacting",
+		"improving",
+		"transforming",
+		"advancing",
+		"bolstering"
+	],
+
+	"this_year_expectation_phrase":[
+		"Will #current_year# finally be the year of #technology_singular_solo_no_a.capitalize# in government?",
+		"Will #current_year# finally be the year of #technology_plural# in government?",
+		"Will this year finally be the year of #technology_plural.capitalize#?",
+		"Will this year finally be the year of #technology_singular_solo_no_a.capitalize#?",
+		"Will #technology_plural# break through in \\#GovTech this year?",
+		"Is #current_year# the year #technology_plural.capitalize# break through?",
+		"Is this the year of #technology_singular_solo_no_a.capitalize#?",
+		"#current_year#: The year #technology_plural# hit the mainstream?",
+		"#current_year#: The year #technology_singular_solo_no_prefix_no_a# hits the mainstream?",
+		"Will #current_year# be the year #technology_singular_solo_prefixed.s# break through?"
+
+	],
+
+	"WIP_stories_vendor_protest":[
+		"Vendor's successful protest of #system_type# procurement award, due to #us_place_state_county_city#'s failure to consider #technology_singular_solo# in submitted bids, attracts criticism #criticizm_medium# from #criticizer#. #breaking_tagline_more.capitalize#" 
+	],
+
+	"volunteer_type":[
+		"#role_singular#",
+		"#us_county# #role_singular#",
+		"civic-minded #us_county# resident"
+	],
+
+
+	"real_change_type":[
+		"real change",
+		"long-lasting change",
+		"true change",
+		"widespread change",
+		"more widespread transformation",
+		"the factors involved are"
+	],
+
+	"complicated_type":[
+		"complicated",
+		"complex",
+		"difficult",
+		"challenging",
+		"a long-term problem"
+	],
+
+	"fixer_quote":[
+		"It #claim_ease#",
+		"I just wanted to #help_kind#"
+	],
+
+	"help_kind":[
+		"help out",
+		"do something good",
+		"do my part",
+		"use my skills",
+		"give back",
+		"pitch in",
+		"be of service",
+		"prove what one person can do",
+		"prove what a motivated person can do"
+	],
+
+	"claim_ease":[
+		"just came to me",
+		"was pretty easy",
+		"was a piece of cake",
+		"wasn't any trouble",
+		"was trivial",
+		"wasn't so hard",
+		"took #time_phrase_claim#",
+		"wasn't difficult at all",
+		"just a simple hack",
+		"was a simple hack",
+		"could've been done by kids",
+		"was a spare time project",
+		"was just pulling some data",
+		"was just some coding",
+		"was easy after a coding bootcamp"
+	],
+
+	"government_should_be":[
+		"why isn't all government like this?",
+		"why can't all government be like this?",
+		"shouldn't all government be like this?",
+		"I was appalled.",
+		"I was stunned.",
+		"There has to be a better way.",
+		"This clearly wasn't a priority.",
+		"It shouldn't be this complicated.",
+		"It should have been faster.",
+		"It should have been easier.",
+		"It should have been faster and easier.",
+		"It was too cumbersome.",
+		"It's outrageous.",
+		"What are my taxes for?",
+		"This proves government shouldn't be making websites.",
+		"The private sector should be doing this."
+	],
+
+	"criticizm_target":[
+		"procurement",
+		"award",
+		"solicitation",
+		"RFO",
+		"RFP"
+	],
+
+	"critcizm_type":[
+		"criticizes",
+		"finds fault with",
+		"alleges inconsistencies in"
+	],
+
+	"criticized_type":[
+		"criticized",
+		"slammed",
+		"examined",
+		"commented on",
+		"attacked"
+	],
+
+	"unjustified_type":[
+		"unjustifiable",
+		"inexplicable",
+		"unreasonable",
+		"bizarre",
+		"unexplainable",
+		"strange",
+		"plain weird",
+		"crazy"
+	],
+
+	"criticizm_medium":[
+		"in op/ed",
+		"in 'Tweetstorm'",
+		"on Twitter",
+		"in newsletter",
+		"in interview",
+		"on podcast",
+		"in Medium article",
+		"in industry publication"
+	],
+
+
+	"criticizer_numbered_group":[
+		"#number_small# #criticizer_singular.s#"
+	],
+
+	"criticizer":[
+		"#criticizer_group#",
+		"#criticizer_singular#"
+	],
+
+
+	"criticizer_group":[
+		"non-profit Public Interest Technology team",
+		"digital services advocacy group"
+	],
+
+	"criticizer_singular":[
+		"advocate for Public Interest Technology",
+		"civic technology campaigner",
+		"Public Interest Technology researcher",
+		"Beeck Center fellow",
+		"leading civic technology thinker",
+		"leading government technology thinker",
+		"former 18F staffer",
+		"influential civic technology designer",
+		"former U.K. Government Digital Service staffer",
+		"noted civic technology researcher",
+		"Federal procurement expert",
+		"former U.S. Digital Service staffer"
+	],
+
+	"event_at":[
+		"at",
+		"during",
+		"in keynote at",
+		"in remarks at",
+		"in question and answer session at",
+		"keynoting",
+		"on main stage at",
+		"during panel at"
+	],
+
+
+	"event_descriptor":[
+		"packed",
+		"sold-out",
+		"well-attended",
+		"popular",
+		"annual",
+		"local",
+		"crowded",
+		"sympathetic"
+	],
+
+	"reaction_phrase_government_plural":[
+		"Is it true? The #role_government_plural# we #communication_type# #skeptical_phrase#.",
+		"#role_government_plural.capitalize# #skeptical_phrase#, favoring #technology_1_2#."
+	],
+
+	"skeptical_phrase":[
+		"are skeptical",
+		"remain skeptical",
+		"aren't convinced",
+		"are suspicious",
+		"are dubious",
+		"have doubts",
+		"still have doubts",
+		"remain to be convinced",
+		"are questioning",
+		"sound unconvinced"
+	],
+
+	"failure_type":[
+		"crash",
+		"failure",
+		"fiasco",
+		"blunder",
+		"mistake"
+	],
+
+	"failure_modifier":[
+		"catastrophic",
+		"tragic",
+		"disastrous",
+		"ongoing"
+	],
+
+	"resident_phrase":[
+		"#full_name#, #age#",
+		"#full_name#, #age#, of #us_county#",
+		"#full_name#, #age#, of #us_city#",
+		"#full_name# of #us_county#",
+		"#full_name# from #us_city#"
+	],
+
+	"WIP_rethink":[
+		"Rethink #service# by supercharging your #system_type# with #technology_solo.capitalize#"
+	],
+
+	"rumor_phrase":[
+		"REVOLVING DOOR RUMOR MILL:",
+		"RUMOR:",
+		"REVOLVING DOOR ROUNDS:",
+		"COMING AND GOING:"
+	],
+
+	"role_corporate_move_as":[
+		"as new",
+		"as first",
+		"as disruptive new",
+		"as groundbreaking",
+		"as"
+	],
+
+	"job_negotiation_phrase":[
+		"in talks to join #affiliation_corporate# #time_future_soon#",
+		"negotiating move to #affiliation_corporate# #time_future_soon#",
+		"discussing #affiliation_corporate# move #time_future_soon#"
+	],
+
+
+	"affiliation_corporate_job_move":[
+		"#affiliation_corporate#",
+		"secret startup",
+		"startup",
+		"major consultancy",
+		"undisclosed management consultancy"
+	],
+
+	"time_future_soon":[
+		"in the next few weeks",
+		"within days",
+		"within weeks",
+		"in the coming month",
+		"in the coming quarter",
+		"soon"
+	],
+
+	"have_you_heard_phrase":[
+		"have you heard?",
+		"everyone's talking about it:",
+		"the word on the street:",
+		"insiders know:",
+		"it's the talk of Cyberspace:",
+		"what's trending?"
+	],
+
+	"attention_action":[
+		"making waves",
+		"getting noticed",
+		"turning heads",
+		"taking names",
+		"crushing it",
+		"dominating it",
+		"making their name",
+		"firing on all cylinders"
+	],
+
+	"this_year":[
+		"#current_year#",
+		"this year"
+	],
+
+
+	"success_result":[
+		"#number_population# of users see #system_improvement#",
+		"#system_improvement#",
+		"objectives and key results exceeded",
+		"KPIs surpassed",
+		"18F QASP exceeded"
+	],
+
+	"adoption_type":[
+		"an early adopter",
+		"blazing a trail",
+		"setting the trend",
+		"at the forefront",
+		"the place to watch"		
+	],
+
+	"find_out_type":[
+		"find out",
+		"learn more",
+		"get the lowdown",
+		"get the details",
+		"understand the issues",
+		"know what to expect",
+		"get ahead of the game"
+	],
+
+	"person_government":[
+		"#role_government_singular.capitalize# #full_name#"
+	],
+
+	"person_government_county":[
+		"#us_county# #role_government_singular.capitalize# #full_name#"
+	],
+
+	"person_government_county_possessive":[
+		"#us_county#'s #role_government_singular.capitalize# #full_name#"
+	],
+
+	"person_government_state":[
+		"#us_state# #role_government_singular.capitalize# #full_name#"
+	],
+
+	"person_government_state_possessive":[
+		"the #us_state's# #role_government_singular.capitalize# #full_name#"
+	],
+
+
+	"success_cause":[
+		"critical factor",
+		"key factor",
+		"critical piece",
+		"necessary element",
+		"crucial element",
+		"silver bullet",
+		"secret sauce",
+		"secret ingredient",
+		"breakthrough",
+		"10x factor"
+	],
+
+	"attribution_positive_past":[
+		"lauded",
+		"cited",
+		"recognized",
+		"identified",
+		"called out"		
+	],
+
+	"breaking_intro":[
+		"SCOOP:",
+		"BREAKING:",
+		"FLASH:",
+		"ALERT:",
+		"TRENDING:"
+	],
+
+	"success_type":[
+		"improvement",
+		"turnaround",
+		"unprecedented turnaround",
+		"sorely needed success"
+	],
+
+	"system_improvement":[
+		"wait times decrease",
+		"processing times decrease",
+		"approvals speed up",
+		"backlogs disappear",
+		"applications approved",
+		"complaints evaporate",
+		"permits granted"
+	],
+
+	"scope_change_type":[
+		"expands",
+		"amends",
+		"alters",
+		"updates",
+		"increases",
+		"balloons",
+		"revises",
+		"modifies",
+		"changes",
+		"reworks",
+		"re-evaluates",
+		"re-appraises",
+		"rethinks"
+	],
+
+	"scope_type":[
+		"scope",
+		"statement of work",
+		"deliverables",
+		"statement of objectives",
+		"backlog"
+	],
+
+	"megaproject_type":[
+		"replacement",
+		"upgrade",
+		"modernization",
+		"improvement",
+		"update"
+		],
+
+	"procurement_type":[
+		"procurement",
+		"solicitation",
+		"RFO",
+		"RFP",
+		"RFQ"
+	],
+
+	"megaproject_trouble_in":[
+		"What's happening in #us_state.capitalize#?",
+		"Trouble in #us_state.capitalize# --",
+		"Significant developments in #us_state.capitalize# --"
+	],
+
+	"tagline_megaproject":[
+		"learn how to spot the signs with @BREAKINGGOVTECH.",
+		"Get the details at @BREAKINGGOVTECH.",
+		"Follow @BREAKINGGOVTECH for more \\#Breaking \\#GovTech news."
+	],
+
+	"trouble_type":[
+		"in jeopardy",
+		"in trouble",
+		"in scandal",
+		"in turmoil",
+		"subject to oversight",
+		"under review",
+		"under legislative review",
+		"under audit office review",
+		"in danger",
+		"in peril"
+	],
+
+	"megaproject_risk":[
+		"falls behind schedule",
+		"fails service assessment",
+		"crashes",
+		"fails",
+		"inundated",
+		"receives scathing auditor's report"
+	],
+
+	"number_population":[
+		"hundreds",
+		"thousands",
+		"tens of thousands",
+		"millions"
+	],
+
+
+	"megaproject_cost":[
+		"$75 million",
+		"$100-plus million",
+		"$225 million",
+		"$20 million",
+		"$9 million",
+		"$275,000",
+		"$500 million"
+	],
+
+	"government_entity_type":[
+		"Bureau",
+		"Commission",
+		"Agency",
+		"Department",
+		"Control Agency",
+		"PMO"
+	],
+
+	"system_type":[
+		"Business Intelligence System",
+		"Case Management System",
+		"Claims Processing System",
+		"Content Management System",
+		"Customer Relationship Management",
+		"Database",
+		"Data Management System",
+		"Document Management System",
+		"ERP System",
+		"Eligiblity System",
+		"Enrollment System",
+		"Financial Management System",
+		"GIS System",
+		"Human Resource System",
+		"Identity and Access Management System",
+		"Information Management System",
+		"Internet Portal",
+		"Intrusion Detection and Prevention System",
+		"Licensing System",
+		"Networking Monitoring System",
+		"Process Automation System",
+		"RPA System",
+		"Reporting and Analysis System",
+		"Records Management System",
+		"Reimbursement System",
+		"Reporting System",
+		"Robotic Process Automation System",
+		"SAP Module",
+		"SAP System",
+		"Self-Service Application Portal",
+		"Web Database",
+		"Telephony System",
+		"Parks and Rec Booking System",
+		"Student Information System",
+		"Vaccine Website",
+		"Vaccine Passport System"
+	],
+
+	"agreement_plural":[
+		"all agreed",
+		"were in agreement",
+		"were unanimous",
+		"agreed without a doubt",
+		"spoke with one voice",
+		"didn't see it any other way"
+	],
+
+	"communication_type":[
+		"talked to",
+		"spoke to",
+		"emailed",
+		"Skyped with",
+		"WebExed with",
+		"Zoomed with",
+		"Slacked with",
+		"had a Google Meet with",
+		"texted"
+	],
+
+	"survey_type":[
+		"#communication_type#",
+		"surveyed",
+		"held a roundtable with",
+		"held an event with",
+		"gathered",
+		"ran a workshop with",
+		"ran a WebEx with",
+		"ran a Zoom with"
+	],
+
+	"group_phrase":[
+		"#number_small# #role_plural#",
+		"#number_small# #group_attribute# #affiliation# #role_plural#",
+		"#number_small# #group_attribute# #role_plural#",
+		"#number_small# #affiliation# #role_plural#",
+		"#number_small# #role_plural# from #affiliation#",
+		"#number_small# #topic# #expert_type.s# from #affiliation#",
+		"#group_attribute# #role_plural# at #affiliation#"
+	],
+
+	"x_group_phrase":[
+				
+		"#group_qualifier# #group# #role_plural#"
+	],
+
+	"group_qualifier": [
+		"#number_small#",
+		"#number_small# #group_attribute#",
+		"#group_attribute#"
+	],
+
+	"person_quoted":[
+		"#group_attribute# #affiliation# #role_singular#",
+		"#role_singular#",
+		"#group_attribute# #role_singular#"
+	],
+
+	"group_attribute":[
+		"ambitious",
+		"talented",
+		"determined",
+		"pioneering",
+		"young",
+		"daring",
+		"disruptive",
+		"innovative",
+		"risk-taking",
+		"dedicated",
+		"civically minded"
+	],
+
+	"affiliation_corporate":[
+		"Accenture",
+		"Adobe",
+		"Amazon",
+		"Bain & Company",
+		"BCG",
+		"Booz Allen Hamilton",
+		"CGI",
+		"Cisco",
+		"CSC",
+		"Dell EMC",
+		"Deloitte",
+		"EY",
+		"Gartner",
+		"Google",
+		"Grant Thornton",
+		"IBM",
+		"IDEO",
+		"Infosys",
+		"KPMG",
+		"McKinsey",
+		"Microsoft",
+		"Pegasystems",
+		"PwC",
+		"Salesforce",
+		"SAIC",
+		"Sidewalk Labs",
+		"Standish Group",
+		"Stripe"
+	],
+
+	"affiliation_from":[
+		"Harvard Kennedy School",
+		"Ivy League colleges"
+	],
+
+	"affiliation":[
+		"#affiliation_corporate#",
+		"Harvard",
+		"MIT",
+		"Oxford University",
+		"Cambridge University",
+		"Harvard Kennedy School",
+		"Ivy League colleges",
+		"Stanford",
+		"Y Combinator"
+	],
+
+	"topic":[
+		"blockchain",
+		"security",
+		"startup"
+	],
+
+	"expert_type":[
+		"expert",
+		"wizard",
+		"ninja",
+		"rockstar"
+	],
+
+	"role_singular_a_an":[
+		"#role_singular.a#"
+	],
+
+	"role_singular":[
+		"consultant",
+		"designer",
+		"engineer",
+		"entrepreneur",
+		"executive",
+		"founder",
+		"influencer",
+		"thought leader",
+		"technologist",
+		"service designer",
+		"innovation consultant"		
+	],
+
+	"role_corporate_senior_phrase":[
+		"#role_corporate_title.capitalize# #role_corporate_function#"
+	],
+
+	"role_corporate_title":[
+		"Vice President of",
+		"Director of",
+		"Senior Director of",
+		"Regional Director of"
+	],
+
+	"role_corporate_function":[
+		"Government #technology_no_a.capitalize# Innovation",
+		"#technology_no_a.capitalize# Innovation in Government",
+		"#technology_no_a.capitalize# in Government",
+		"#technology# Labs",
+		"State #technology_no_a.capitalize# Implementations",
+		"Federal #technology_no_a.capitalize# Services"
+	],
+
+	"role_educational_singular":[
+		"MBA student",
+		"high schooler",
+		"design student"
+	],
+
+	"role_plural": [
+		"#role_singular.s#",
+		"#role_educational_singular.s#"
+	],
+	
+	"role_government_numbered_group":[
+		"#amount_modifier_positive# #number_middle# #role_government_plural#",
+		"#amount_modifier_positive# #number_middle# #role_government_plural# in #government_type_plural#",
+		"#number_middle# #role_government_plural#",
+		"#number_middle# #role_government_plural# in #government_type_plural#"
+	],
+	"role_government_plural":[
+		"#role_government_officer.s#",
+		"#role_government_directors.s#"
+	],
+
+	"role_government_singular":[
+		"#role_government_officer#",
+		"#role_government_directors#"
+		],
+
+	"role_government_officer":[
+		"Agency #role_government_directors#",
+		"Agency Information Officer",
+		"#role_title_officer#"
+	],
+
+	"role_title_officer":[
+		"Chief Information Officer",
+		"Chief Innovation Officer",
+		"Chief Data Officer",
+		"Chief Security Officer",
+		"Chief Information Security Officer"
+	],
+
+	"role_government_directors":[
+		"#role_government_type# Director",
+		"Deputy #role_government_type# Director",
+		"Assistant #role_government_type# Director"
+	],
+
+	"role_government_director_type":[
+		"Director",
+		"Deputy Director",
+		"Assistant Director",
+		"Chief Deputy Director",
+		"Chief Deputy"
+	],
+
+	"role_government_type":[
+		"Design",
+		"User Experience",
+		"Content",
+		"Product",
+		"Service",
+		"Digital Service",
+		"Research",
+		"User Research",
+		"Customer Experience",
+		"CX",
+		"UX"
+	],
+
+	"role_title_director_plural":[
+		"#role_title_director.s#"
+	],
+
+	"person_government":[
+		"#role_government_singular.capitalize# #full_name#"
+	],
+
+	"person_government_county":[
+		"#us_county# #role_government_singular.capitalize# #full_name#"
+	],
+
+	"person_government_county_possessive":[
+		"#us_county#'s #role_government_singular.capitalize# #full_name#"
+	],
+
+	"person_government_state":[
+		"#us_state# #role_government_singular.capitalize# #full_name#"
+	],
+
+	"person_government_state_possessive":[
+		"the #us_state's# #role_government_singular.capitalize# #full_name#"
+	],
+
+	"making_past": [
+		"built",
+		"prototyped",
+		"knocked up",
+		"designed",
+		"developed",
+		"introduced"
+	],
+	"making_active": [
+		"build",
+		"prototype",
+		"design",
+		"co-design",
+		"mock up",
+		"develop",
+		"operationalize"
+	],
+	"claim": [
+		"amazing",
+		"disruptive",
+		"groundbreaking",
+		"innovative",
+		"radical",
+		"revolutionary",
+		"trailblazing",
+		"unprecedented",
+		"magical"
+	],
+	"replacement_type": [
+		"improvement",
+		"quantum leap",
+		"replacement",
+		"upgrade"
+	],
+
+	"WIP_service_singular":[
+		"FOIA request"
+	],
+
+	"WIP_service_register_subject":[
+		"birth",
+		"death",
+		"business",
+		"pet"
+	],
+
+	"#WIP_service_test":[
+		"Test:"
+	],
+
+	"WIP_service_interaction_verb:":[
+		"applying for",
+		"checking",
+		"registering",
+		"reporting"
+	],
+
+	"service_paying":[
+		"paying taxes",
+		"paying parking tickets",
+		"paying court fees"
+	],
+
+	"service_registering":[
+		"registering births",
+		"registering businesses",
+		"registering deaths",
+		"registering as a government supplier",
+		"registering pets",
+		"reporting pot holes"
+	],
+
+	"service_getting_a":[
+		"getting a commercial drivers license",
+		"getting a fishing license"
+	],
+
+	"service_filing":[
+		"filing a complaint",
+		"filing a FOIA",
+		"filing tax returns"
+	],
+
+	"service_action":[
+		"#service_paying#",
+		"#service_registering#",
+		"#service_getting_a#",
+		"#service_filing#",
+		"applying for food stamps",
+		"changing your name",
+		"checking the refuse collection schedule",
+		"completing an SF 86",
+		"completing a tax return",
+		"checking court dates",
+		"signing documents",
+		"performing background checks",
+		"finding recycling locations",
+		"using 311",
+		"reporting graffiti",
+		"foster applications",
+		"professional licensing",
+		"validating public records",
+		"auditing returns"
+	],
+
+	"service": [
+		"#service_action#",
+		"#service_no_action#"
+	],
+
+	"service_no_action":[
+		"court filings",
+		"drivers licenses",
+		"earthquake warnings",
+		"emissions testing",
+		"child welfare",
+		"fire warnings",
+		"flood warnings",
+		"park permits",
+		"passport applications",
+		"school closures",
+		"unemployment insurance",
+		"vaccine appointments",
+		"vaccine availability",
+		"vaccine passports",
+		"public records"
+	],
+	
+	"time_or_money": [
+		"in #time_phrase_ridiculous#",
+		"in just a week",
+		"in a few days",
+		"in only 36 hours",
+		"overnight",
+		"in two weeks",
+		"in under a month",
+		"for only $20",
+		"for only $50",
+		"for just $58",
+		"for the price of a cup of coffee",
+		"for the price of 7 slices of pizza",
+		"for less than $75"
+	],
+
+	"money":[
+		"for only $20",
+		"for only $50",
+		"for just $58",
+		"for the price of a cup of coffee",
+		"for the price of 7 slices of pizza",
+		"for less than $75"
+	],
+
+	"time_phrase_ridiculous":[
+		"#specific_or_superlative# #number_small# #time_small#",
+		"#amount_modifier# #number_small# #time_small#"
+	],
+
+	"time_phrase_claim":[
+		"#specific# #number_small# #time_small#",
+		"#amount_modifier# #number_small# #time_small#"
+	],
+
+	"time_phrase_ridiculous_short":[
+		"#specific# #number_small# #time_small#",
+		"#amount_modifier# #number_small# #time_small#"
+	],
+
+
+	"time_small":[
+		"hours",
+		"days",
+		"weeks"
+	],
+
+	"specific":[
+		"only",
+		"just"
+	],
+
+	"specific_or_superlative":[
+		"#specific#",
+		"#superlative.a#"
+	],
+
+	"superlative":[
+		"incredible",
+		"amazing",
+		"unprecedented",
+		"unbelievable"
+	],
+
+	"amount_modifier":[
+		"under",
+		"just over",
+		"around"
+	],
+
+	"amount_modifier_positive":[
+		"around",
+		"just over",
+		"nearly"
+	],
+
+	"number_list_type":[
+		"three",
+		"five",
+		"seven",
+		"ten"
+	],
+	"number_small":[
+		"two",
+		"three",
+		"four",
+		"five",
+		"six",
+		"seven",
+		"eight",
+		"nine"
+	],
+
+	"number_in_10":[
+		"3",
+		"4",
+		"5",
+		"6",
+		"7",
+		"8"	
+	],
+
+	"number_middle":[
+		"twenty",
+		"sixty",
+		"fifty",
+		"forty five",
+		"seventy",
+		"eighty",
+		"ninety",
+		"one hundred and ten",
+		"one hundred and fifty"
+	],
+
+	"number_qualifier":[
+		"thousand",
+		"million"
+	],
+
+	"technology_prefix":[
+		"Mesh",
+		"On-Demand",
+		"Phygital",
+		"Virtualized",
+		"Cloud",
+		"Zero-Click",
+		"Zero-Trust",
+		"Edge",
+		"Distributed",
+		"Auto-Scaling",
+		"Intelligent",
+		"AI",
+		"Self-Healing",
+		"Autonomous",
+		"Fedramp-Certified",
+		"Cloud-Native",
+		"Hybrid",
+		"Resilient",
+		"Web-First"
+	],
+
+	"technology_prefixed_singular":[
+		"#technology_singular_solo_prefixed#"
+	],
+
+	"technology_prefixed_plural":[
+		"#technology_plural_prefixed#"
+	],
+
+	"technology_buzzword":[
+		"#technology_buzzwords_list#"
+	],
+
+	"technology_buzzwords_list":[
+		"Blockchain",
+		"AI",
+		"Deep Learning",
+		"Internet of Things",
+		"NFTs",
+		"Web3",
+		"DAOs",
+		"Metaverse technology"
+	],
+
+	"technology_prefixed":[
+		"#technology_prefixed_singular#",
+		"#technology_prefixed_plural#"
+	],
+
+	"technology_prefixed_all_plural":[
+		"#technology_prefixed_singular.s#",
+		"#technology_prefixed_plural#"
+	],
+
+	"technology_prefixed_is_are_prefix":[
+		"is #technology_prefixed_singular#",
+		"are #technology_prefixed_plural#"
+	],
+
+	"technology_prefixed_is_are_suffix":[
+		"#technology_prefixed_singular# is",
+		"#technology_prefixed_plural# are"
+	],
+	
+	"internet_of":[
+		"Forms",
+		"Behavior",
+		"Permits",
+		"Identification",
+		"Documents",
+		"Data"
+	],
+
+	"technology":[
+		"#technology_solo#",
+		"#technology_plural#"
+	],
+
+	"technology_is_are":[
+		"#technology_solo# is",
+		"#technology_plural# are"
+	],
+
+	"technology_is_are_no_a":[
+		"#technology_singular_solo_no_a# is",
+		"#technology_plural# are"
+	],
+
+	"irritating_used":[
+		"#technology_singular_solo_product#",
+		"#technology_methodology#",
+		"#technology_language#",
+		"#technology_data_singular.a#"		
+	],
+
+	"technology_government":[
+		"Login.gov",
+		"Cloud.gov",
+		"Federalist"
+	],
+
+	"technology_product_enterprise":[
+		"#technology_IBM#",
+		"#technology_opensource#",
+		"#technology_microsoft#",
+		"#technology_oracle#"
+	],
+
+	"technology_IBM":[
+		"IBM AIX 7",
+		"IBM BigFix Lifecycle OS",
+		"IBM InfoSphere Information Analyzer",
+		"IBM Lotus Designer",
+		"IBM Rational System Architect",
+		"IBM Websphere",
+		"IBM Blockchain Platform",
+		"IBM Watson",
+		"IBM DataStage",
+		"IBM WebSphere Enterprise Service Bus",
+		"IBM z15 multi-frame",
+		"IBM z/OS",
+		"IBM z/TPF",
+		"Linux on IBM Z"
+	],
+
+	"technology_opensource":[
+		"Apache Kafka",
+		"Apache Maven",
+		"Apache CouchDB",
+		"Apache Solr",
+		"Angular",
+		"Drupal",
+		"Git",
+		"OpenLDAP 2",
+		"OpenStreetmap",
+		"OpenVPN",
+		"Kubernetes",
+		"Node.js",
+		"PostgreSQL",
+		"MySQL",
+		"Django",
+		"Ruby on Rails",
+		"Jekyll",
+		"Hugo",
+		"jQuerry"
+	],
+
+	"technology_microsoft":[
+		"Microsoft Azure",
+		"Microsoft Bitocker",
+		"Microsoft Cortana",
+		"Microsoft Excel",
+		"Microsoft Frontpage",
+		"Microsoft Hololens",
+		"Microsoft Office",
+		"Microsoft Outlook",
+		"Microsoft PowerPoint",
+		"Microsoft Remote Desktop Connection",
+		"Microsoft Teams",
+		"Microsoft Windows Server",
+		"Microsoft Internet Information Services"
+	],
+
+	"technology_oracle":[
+		"Oracle Application Server 10g",
+		"Oracle Siebel CRM",
+		"Oracle Solaris 10",
+		"Oracle Database 19c",
+		"Oracle Databse 21c",
+		"PeopleSoft",
+		"Oracle E-Business Suite"
+	],
+
+	"technology_singular_solo_product":[
+		"#technology_opensource#",
+		"#technology_government#",
+		"#technology_IBM#",
+		"#technology_microsoft#",
+		"#technology_oracle#",
+		"Adobe Acrobat Pro",
+		"Adobe Acrobat",
+		"Adobe Connect",
+		"Adobe Creative Cloud",
+		"Amazon Web Services",
+		"Airtable",
+		"Allaire Coldfusion",
+		"Amazon Alexa",
+		"Apple Siri",
+		"ArcGIS",
+		"Cisco Jabber",
+		"Cisco Unity",
+		"Clearview AI",
+		"Dell EMC Unity XT",
+		"Dell PowerMax",
+		"Dropbox",
+		"Esri ArcGIS",
+		"Meta Portal",
+		"Figma",
+		"Filemaker Pro",
+		"Google Cloud",
+		"Google Maps",
+		"Google Sheets",
+		"Horizon Workrooms",
+		"HotJava",
+		"ID.me",
+		"JBoss EAP",
+		"Jira",
+		"Macromedia Dreamweaver",
+		"Macromedia Flash",
+		"Mozilla Firefox",
+		"Mozilla Thunderbird",
+		"Mulesoft Anypoint",
+		"NetApp",
+		"RealNetworks RealPlayer",
+		"Salesforce Apex Data Loader",
+		"Salesforce",
+		"Samba",
+		"Samsung Bixby",
+		"SAP Dashboard Designer",
+		"ServiceNow Kingston",
+		"Sharepoint",
+		"Sketch",
+		"Slack",
+		"Solarwinds SNMP Walker",
+		"Symantec pcAnywhere",
+		"Tableau Professional",
+		"Tableau",
+		"Trello",
+		"Twilio",
+		"VirtualBox",
+		"WebEx",
+		"WebObjects",
+		"Wordpress"
+	],
+
+	"technology_methodology_ops":[
+		"DevOps",
+		"DevSecOps",	
+		"ResearchOps",
+		"MLOps",
+		"PolicyOps",
+		"DesignDevOps"
+	],
+
+	"technology_methodology_design":[
+		"Design Thinking 2.0",
+		"Design Thinking 3.0",
+		"Design Thinking 3.0",
+		"Design Thinking",
+		"Human-Centered Design",
+		"User-Centered Design",
+		"Service Design 2.0",
+		"Service Design",
+		"Equity-Centered Design",
+		"Content Design",
+		"User Research"
+	],
+
+	"technology_methodology_development":[
+		"Scrum",
+		"Agilefall",
+		"Extreme Programming",
+		"Lean",
+		"Rapid Application Development",
+		"Test-Driven Development",
+		"Joint Application Development",
+		"No Code",
+		"Waterfall"
+	],
+
+	"technology_methodology_deployment":[
+		"Automated Testing",
+		"Continuous Integration",
+		"Continuous Deployment"
+	],
+
+	"technology_methodology":[
+		"#technology_methodology_ops#",
+		"#technology_methodology_design#",
+		"#technology_methodology_development#",
+		"#technology_methodology_deployment#"
+	],
+
+	"technology_language":[
+		"Adobe ColdFusion Enterprise",
+		"Assembler L",
+		"Assembler F",
+		"Assembly",
+		"C",
+		"C#",
+		"C++",
+		"CFML",
+		"COBOL",
+		"Drupal 7",
+		"Ember.js",
+		"Go",
+		"HLASM",
+		"HTML",
+		"HTML 2",
+		"IBM Fortran 2008",
+		"Java",
+		"JavaScript",
+		"JCL",
+		"JSON",
+		"LISP",
+		"Oracle Java SE",
+		"Perl",
+		"Python",
+		"React",
+		"React Router",
+		"Redux",
+		"Red Hat Java",
+		"REXX",
+		"RSS",
+		"Ruby",
+		"Rust",
+		"Scala",
+		"Swift",
+		"VBScript",
+		"VRML",
+		"XML",
+		"XSLT",
+		"YML"
+	],
+
+	"technology_singular_solo":[
+		"#technology_singular_solo_can_prefix.capitalize#",
+		"#technology_singular_solo_prefixed.a#",
+		"#technology_data_singular_prefixed.a#",
+		"#technology_singular_solo_needs_a_list.a#",
+		"#technology_singular_solo_prefixed_a_an#",
+		"#technology_singular_solo_list#",
+		"#technology_needs_a_do_not_prefix.a#",
+		"#technology_product_enterprise#",
+		"#technology_singular_solo_product#"
+	],
+
+	"technology_singular_solo_no_a":[
+		"#technology_singular_solo_can_prefix.capitalize#",
+		"#technology_singular_solo_list#",
+		"#technology_singular_solo_prefixed#"
+	],
+
+
+
+	"technology_singular_solo_backup":[
+		"#technology_singular_solo_can_prefix.capitalize#",
+		"#technology_singular_solo_prefixed#",
+		"#technology_data_singular_prefixed.a#",
+		"#technology_singular_solo_needs_a_list.a#",
+		"#technology_singular_solo_prefixed_a_an#"
+	],
+
+	"technology_singular_solo_no_prefix":[
+		"#technology_singular_solo_can_prefix#",
+		"#technology_data_singular.a#",
+		"#technology_singular_solo_a_an#",
+		"#technology_methodology#",
+		"#technology_language#",
+		"#technology_singular_solo_list#"
+	],
+
+	"technology_no_a":[
+		"#technology_singular_solo_can_prefix#",
+		"#technology_methodology#",
+		"#technology_language#",
+		"#technology_singular_solo_list#",
+		"#technology_plural#"		
+	],
+
+	"technology_singular_solo_no_prefix_no_a":[
+		"#technology_singular_solo_can_prefix#",
+		"#technology_methodology#",
+		"#technology_language#",
+		"#technology_singular_solo_list#"
+	],
+
+	"technology_singular_solo_prefixed":[
+		"#technology_prefix.capitalize# #technology_singular_solo_can_prefix.capitalize#",
+		"#technology_singular_solo_prefixed_a_an#"
+	],
+
+	"technology_singular_solo_can_prefix":[
+		"#technology_old_singular_solo#",
+		"#technology_singular_solo_product#",
+		"#technology_methodology#",
+		"#technology_language#",
+		"#technology_singular_solo_list#"
+	],
+
+	"technology_singular_solo_a_an":[
+		"#technology_singular_solo_needs_a_list.a#"
+	],
+
+	"technology_singular_solo_prefixed":[
+		"#technology_prefix.capitalize# #technology_singular_solo_needs_a_list#"
+	],
+
+	"technology_singular_solo_prefixed_a_an":[
+		"#technology_singular_solo_prefixed.a#"
+	],
+
+	"technology_singular_solo_needs_a_list":[
+		"Business Rules Engine",
+		"Chatbot",
+		"ETL System",
+		"Text Editor",
+		"Web Browser",
+		"Web Server",
+		"Smart City",
+		"Static Site",
+		"Server-Rendered App"
+	],
+
+	"technology_needs_a_do_not_prefix":[
+		"Android smartphone",
+		"#technology_needs_a_apple_do_not_prefix#",
+		"#technology_data_singular#"
+	],
+
+	"technology_needs_a_apple_do_not_prefix":[
+		"Apple iPhone",
+		"Apple iPad",
+		"Apple Newton",
+		"Apple Quadra 950"
+	],
+
+	"technology_singular_solo_list":[
+		"Augmented Reality",
+		"Blockchain technology",
+		"Blockchain",
+		"Business Intelligence",
+		"Deep Learning",
+		"Distributed Ledger",
+		"Docker",
+		"E-Signing",
+		"Ethereum",
+		"Gamification",
+		"Graph Query Language",
+		"Internet of Things",
+		"IoT Fleet Management",
+		"IoT",
+		"Plain language",
+		"Mixed Reality",
+		"Mobile Device deployment",
+		"Mobile Device Management",
+		"No Code",
+		"Permitting as a Service",
+		"Process Automation",
+		"Quantum Computing",
+		"Robotic Process Automation",
+		"satellite imagery",
+		"Storage Area Network",
+		"Security as a Service",
+		"Telework",
+		"Unreal Engine",
+		"VDI (Virtual Desktop Infrastructure)",
+		"Virtual Reality",
+		"Web3",
+		"Zero-trust security",
+		"Sidewalk Delivery Robots"
+	],
+
+	"technology_old_singular_solo":[
+		"FTP",
+		"IBM Domino",
+		"Lotus Notes",
+		"Hypercard",
+		"COBOL",
+		"Visual Basic",
+		"OS/2",
+		"Microsoft Access"
+	],
+
+	"technology_old_plural":[
+		"CSV files",
+		"mainframe databases"
+	],
+
+	"technology_plural_product":[
+		"Android smartphones",
+		"ARM Servers",
+		"DB2 databases",
+		"Domino databases",
+		"Excel macros",
+		"Twitter bots",
+		"Chromebooks"
+	],
+
+	"technology_data_singular":[
+		"Data Lake",
+		"Data Pipeline",
+		"Data Warehouse",
+		"Data Lakehouse",
+		"Data Dashboard",
+		"Data Well"
+	],
+
+	"technology_data_singular_prefixed":[
+		"#technology_prefix.capitalize# #technology_data_singular#"
+	],
+
+	"technology_data_plural":[
+		"#technology_data_singular.s#",
+		"Data Warehouse Analytics"
+	],
+
+	"STOP_USING_technology_noun_plural":[
+		"Grids",
+		"Parking Meters"
+	],
+
+	"STOP_USING_technology_noun_plural_prefixed":[
+		"#technology_prefix.capitalize# #technology_noun_plural.capitalize#"
+	],
+
+	"technology_plural":[
+		"#technology_plural_can_prefix#",
+		"#technology_prefix.capitalize# #technology_plural_can_prefix.capitalize#"
+	],
+
+	"technology_plural_prefixed":[
+		"#technology_prefix.capitalize# #technology_plural_can_prefix.capitalize#"
+	],
+
+	"technology_plural_no_prefix":[
+		"#technology_plural_can_prefix#"
+	],
+
+
+	"UNUSED_technology_plural_cannot_prefix":[
+		"Smart Cities"
+	],
+
+	"technology_plural_can_prefix":[
+		"#technology_data_plural#",
+		"#technology_old_plural#",
+		"#technology_plural_product#",
+		"AI business rules engines",
+		"apps",
+		"bots",
+		"Business Rules Engines",
+		"chatbots",
+		"Chromebooks",
+		"Design Systems",
+		"Drones",
+		"Search and Rescue Drones",
+		"E-Signatures",
+		"Forms",
+		"FTP Servers",
+		"GPUs",
+		"HTML5 Kiosks",
+		"In-memory Databases",
+		"Machine Learning Systems",
+		"mainframes",
+		"NFTs (non-fungible tokens)",
+		"Non-Fungible Certificates",
+		"Non-Fungible Forms",
+		"Non-Fungible Permits",
+		"Parking Meters",
+		"PDFs",
+		"Smart Cities",
+		"Resource Description Frameworks",
+		"Self-Service Helpdesks",
+		"Voice Assistants",
+		"Static Sites",
+		"Server Rendered Apps",
+		"tablets",
+		"Call Centers",
+		"Voice User Interface",
+		"Web Standards",
+		"Web Technologies",
+		"Web Forms",
+		"Webcams"
+	],
+
+	"technology_solo":[
+		"#technology_singular_solo#"
+	],
+
+	"cheaper_type":[
+		"tens of dollars per transaction",
+		"cents per transaction",
+		"over fifty thousand dollars",
+		"hundreds of thousands of dollars",
+		"millions of dollars",
+		"nearly two hundred million dollars",
+		"nearly a billion dollars",
+		"over half a billion dollars",
+		"nearly a hundred million dollars"
+	],
+	
+	"service_improvement_type":[
+		"cheaper",
+		"cost-effective",
+		"easier",
+		"more efficient",
+		"#government_improvement_type#"
+	],
+
+	"government_improvement_type":[
+		"21st century",
+		"faster",
+		"simpler",
+		"magical",
+		"better",
+		"mobile",
+		"incredible",
+		"great"
+	],
+
+	"impossible_type":[
+		"impossible",
+		"unthinkable",
+		"unimaginable"
+	],
+
+	"problem_modifier":[
+		"a pain",
+		"awkward",
+		"complicated",
+		"difficult",
+		"cumbersome",
+		"exasperating",
+		"frustrating",
+		"hard",
+		"miserable",
+		"traumatic",
+		"unpleasant"
+	],
+
+	"difficulty_type":[
+		"down",
+		"frustrated",
+		"stuck",
+		"nervous",
+		"lost",
+		"anxious",
+		"worried"
+	],
+
+	"BEGIN_stories":[
+	],
+
+	"stories_award":[
+		"#award_headline#: #congratulation_type.capitalize# #us_place_state_county_city#, for taking the #award_type# at #award# for #award_for_type#! #breaking_tagline_more.capitalize#",
+		"#award_headline#: #congratulation_type.capitalize# #us_place_state_county_city# and #affiliation_corporate# for winning the #award_type# for #award_for_type#, at #award#! #breaking_tagline_more.capitalize#",
+		"#award_headline#: They're \\#Winners: #us_state# and #affiliation_corporate# are #attention_action# for snatching the #award_type# for #award_for_type# at #award#. #breaking_tagline_more.capitalize#",
+		"#award_headline#: #us_city# took home the #award_type# for #award_for_type# at #award#. #breaking_tagline_more.capitalize#",
+		"#award_headline#: The #award_type# for #government_improvement_type.capitalize# Government goes to... #us_place_state_county_city# for #award_for_type#! #breaking_tagline_more.capitalize#",
+		"#award_headline#: Celebrations today, when #criticizer.capitalize# #full_name# presented #us_city# with the #award_type# at #award#. #breaking_tagline_more.capitalize#",
+		"#award_headline#: It was #award_upset_type# #us_city#, when rival #us_city# took home the #award_type# for #award_for_type# at #award#. #breaking_tagline_more.capitalize#",
+		"#award_headline#: #affiliation_corporate#'s #corporate_methodology_entity# wins the #award_type# for #award_for_type#, at #award#. #breaking_tagline_more.capitalize#" 
+	],
+	
+	"stories_blockchain":[
+		"#stories_blockchain_beat#",
+		"#stories_blockchain_better#",
+		"#stories_blockchain_hype#",
+		"#stories_blockchain_never#"
+	],
+
+		"stories_blockchain_better":[
+			"#breaking_intro# New #affiliation_corporate# report says Blockchain-based #system_type.s# are saving #cheaper_type# in #us_place_state_county#. #reaction_phrase_government_plural# #breaking_tagline_more.capitalize#"
+		],
+
+		"stories_blockchain_hype":[
+			"\\#BlockchainHype or \\#BlockchainBust? Learn what happened when #us_place_state_county_city.capitalize# deployed a Blockchain-based #system_type# for #service#. The result might #surprise_reaction#. #breaking_tagline_more.capitalize#"
+		],
+
+		"stories_blockchain_beat":[
+			"\\#TheBlockchainBeat: \"#blockchain_intro_phrase_quote# #never#,\" says #person_government_state#, #event_at# #event_descriptor# civic technology event. #breaking_tagline_more.capitalize#"
+		],
+
+		"stories_blockchain_never":[
+			"\\#BlockchainAdvice: #blockchain_should_you# \"#no_phrase.capitalize#,\" says #blockchain_no_quote#. \"#blockchain_intro_phrase_quote# #never#\". #breaking_tagline_more.capitalize#"
+		],
+
+		"stories_web3_never":[
+			"\\#Web3Roundup: #web3_should_you# \"#no_phrase.capitalize#,\" says #blockchain_no_quote#. \"#web3_intro_phrase_quote# #never#\". #breaking_tagline_more.capitalize#"
+		],
+	
+	"stories_certifications":[
+		"Don't #left_behind_type# - your #technology_singular_solo_no_a# #certification_role# Certification is waiting. \\#SPONSORED \\#CONTENT from #affiliation_corporate.capitalize#. #breaking_tagline_more.capitalize#",
+		"Get our new #technology_singular_solo_no_a# #certification_role# Certification and you'll instantly meet the MQs for over #number_small# solicitations across America. You'll be done in #time_phrase_ridiculous_short#. #breaking_tagline_more.capitalize#",
+		"#result_intro_phrase.capitalize#: more and more \\#GovTechSolicitations are #requiring_type# a #certification_tier# #technology_singular_solo_no_a# #certification_role# Certification or higher. #breaking_tagline_more.capitalize#",
+		"\\#GovTechLandscapeWatch: Over 50% of the #number_small# hundred solicitations we reviewed last year required #technology_singular_solo_no_a.a# Certification and #number_small# years of #technology_methodology# experience. #breaking_tagline_more.capitalize#"
+	],
+
+
+	"stories_civic_tech":[
+		"#civic_tech_story_partnership#",
+		"#civic_tech_story_replacement#",
+		"#civic_tech_story_replacement_time#",
+		"#civic_tech_story_criticizm#"
+
+	],
+
+		"civic_tech_story_partnership": [
+			"#partnership_phrase#: Learn how #civic_tech_at_place# worked with government to #making_active# #app_type.a# for #service# using #technology_1_2# #time_or_money#. #breaking_tagline.capitalize#"
+		],
+
+		"civic_tech_story_replacement": [
+			"#civic_tech_at_place_plural.capitalize# have replaced #legacy_type# #technology# with #technology# in #time_phrase_ridiculous# -- saving #cheaper_type#. #is_this_question.capitalize#? #breaking_tagline.capitalize#"
+		],
+
+		"civic_tech_story_replacement_time":[
+			"#time_phrase_ridiculous.capitalize#. That's how long it took #civic_tech_at_place_plural# to replace #legacy_type# #technology# with #technology#. #breaking_tagline.capitalize#"
+		],
+
+		"civic_tech_story_criticism":[
+			"#criticizer.capitalize# #critcizm_type# #us_state# #system_type# #criticizm_target# #criticizm_medium# due to '#unjustified_type#' out-of-context mention of #technology_singular_solo#. #breaking_tagline_more.capitalize#" 
+		],
+
+	"stories_does_problem":[
+		"Is #technology_1_2# the #answer_type# for #number_population# of residents in #us_state# still affected by #failure_modifier.a# #system_type# #failure_type#? This #role_government_singular# thinks so. #breaking_tagline_more.capitalize#",
+		"#stories_does_problem_answer#"
+	],
+
+		"stories_does_problem_answer":[
+			"Are you #difficulty_type# about #problem_area#? It doesn't have to be #problem_modifier# if you're using #technology# and #technology#. Learn how from these #group_phrase# with @BREAKINGGOVTECH.",
+			"Does #problem_area# get you #difficulty_type#? The #answer_type# -- using #technology_methodology# and #technology_plural# -- might #surprise_reaction#. #breaking_tagline.capitalize#",
+			"You don't have to feel #difficulty_type# about #problem_area#. #us_county# found the #answer_type# with #technology_1_2#. #breaking_tagline.capitalize#"
+		],
+
+	"stories_filetype":[
+		"Faced with #backlog_type.a# of #number_population# of #filetype# files in its #government_program# System, #us_county# turned to longtime partner #affiliation_corporate#, and an innovative #technology_singular_solo_product# #answer_type#. #breaking_tagline_more.capitalize#",
+		"#group_phrase.capitalize# had #claim.a# approach to dealing with #us_place_state_county_city#'s #backlog_type# of #number_population# of #filetype# files. That's right: #technology_1_2.capitalize#. #breaking_tagline_more.capitalize#",
+		"When #backlog_type.a# of #number_population# of #filetype# were affecting #us_county#'s #government_program# System. #breaking_tagline_more.capitalize#",
+		"With #number_population# of residents #affected_type#, #us_state.capitalize# had #urgent_type.a# need to #convert_type# #number_population# of #filetype# files to #filetype#. They did it in just #time_phrase_ridiculous#, with the help of #group_phrase# and #technology_1_2#. #breaking_tagline_more.capitalize#",
+		"What do you do when you're faced with #number_thousand_or_million# legacy #filetype# files? #affiliation_corporate.capitalize# details their #technology_methodology# and #technology_language#-based approach in a new case study. #breaking_tagline_more.capitalize#",
+		"Is dealing with #number_thousand_or_million# #filetype# files getting you #difficulty_type#? #learn_how_type.capitalize# how #us_city# used #technology_language# to get ahead. #breaking_tagline_more.capitalize#",
+		"#us_state.capitalize# needed to #convert_type# #number_population# of #filetype# files to #filetype.s# in only #time_phrase_ridiculous#. #group_phrase.capitalize# achieved the #impossible_type# by using #technology_language#. #breaking_tagline_more.capitalize#",
+		"The results are in: #government_phrase_is_are# saving #cheaper_type# by #converting_type# #number_thousand_or_million# #filetype# files to #filetype.s# for #service#. #breaking_tagline.capitalize#",
+		"#opinion_intro.capitalize# the use of #filetype# files for #service# - and the result might #surprise_reaction#. #breaking_tagline_more.capitalize#",
+		"Are #filetype# files the #answer_type# for delivering #claim# #system_type.s#? #civic_tech_opinion_phrase.capitalize#. #breaking_tagline_more.capitalize#",
+		"Is it #possible_modifier# #possible_type# to deliver #system_type.a# without using #filetype# files? #person_government# of #us_county# doesn't think so. #breaking_tagline_more.capitalize#",
+		"Using #filetype# files in a production #system_type# can be #nightmare_type.a#. These #group_phrase# #making_past# a #claim# approach using #technology_language# and #technology_methodology# in #time_phrase_ridiculous#. #breaking_tagline_more.capitalize#"
+	],
+
+	"stories_survey":[
+		"#stories_civic_tech_opinion#",
+		"#stories_government_agreement#",
+		"#stories_survey_this_year#",
+		"#stories_survey_results#",
+		"#stories_survey_pressure#"
+	],
+
+
+		"stories_civic_tech_opinion":[
+			"We put #technology_no_a# #on_trial_phrase# and #civic_tech_opinion_phrase#. #breaking_tagline_more.capitalize#",
+			"#opinion_intro.capitalize# #technology_no_a# in #government_area#, and the result might #surprise_reaction#. #breaking_tagline_more.capitalize#",
+			"#opinion_intro.capitalize# #technology_no_a#, and the result might #surprise_reaction#. #breaking_tagline_more.capitalize#",
+			"#opinion_intro.capitalize# #technology_no_a# in #government_program# systems and the result might #surprise_reaction#. #breaking_tagline_more.capitalize#"
+		],
+
+		"stories_government_agreement":[
+			"We #survey_type# #role_government_numbered_group# and they all agreed: #technology_is_are_no_a# on the way out. What's next? It might be #technology#. #breaking_tagline.capitalize#",
+			"#role_government_numbered_group.capitalize# #agreement_plural#: #technology_is_are_no_a# #next_type#. #breaking_tagline.capitalize#",
+			"#role_government_numbered_group.capitalize# #agreement_plural#: #technology_is_are_no_a# #overhype_type#. #breaking_tagline.capitalize#"
+		],
+
+		"stories_survey_this_year":[
+			"#this_year_expectation_phrase.capitalize# #us_place_state_county_city.capitalize# is #adoption_type#, so we #communication_type# #person_government# to #find_out_type#."
+		],
+
+		"stories_survey_results":[
+			"The results are in: #government_phrase_is_are# saving #cheaper_type# using #technology# for #service#. #breaking_tagline.capitalize#"
+		],
+
+		"stories_survey_pressure":[
+			"#breaking_intro# Our #latest_type# #survey_noun_type# found that #number_in_10# in 10 #role_government_plural# #say_they_type# #under_pressure_type# to #use_type# #technology_buzzword# in new #project_type.s#. #breaking_tagline_more.capitalize#"
+		],
+
+
+	"stories_guide_or_insight":[
+		"Ready for the next big thing in \\#GovTech? You might be #surprise_past#: it's #technology#, and it's already saving #cheaper_type# in #us_place_state_or_city#.",
+		"#pressure# to deliver #service_improvement_type#, #service_improvement_type# government? You need our latest guide to #technology_1_2#, with contributions from these #expert_group#. That's \\#CareerDevelopmentForYouFromBREAKINGGOVTECH.",
+		"Let's get real -- #technology# isn't living up to the \\#GovTech hype. Our experts say the next big thing is #technology#, so get on board with #number_list_type# key insights from the @BREAKINGGOVTECH team. \\#SmashingGovTechHype.",
+		"Are you still thinking #technology# will solve your #problem_area# problems? You might be wrong. Our guide explains why -- only on @BREAKINGGOVTECH.",
+		"#stories_integration#",
+		"#stories_learn_to#"
+	],
+
+		"stories_learn_to":[
+			"New #affiliation_corporate.capitalize# #sponcon_type# makes it crystal clear: #government_program# #role_government_director_type#s must learn coding with #technology_language# for #system_type# success. #breaking_tagline_more.capitalize#", 
+			"Should all #government_program# #role_government_director_type.s# learn to code with #technology_language#? And how much do they need to know about #technology#? This #criticizer# says the issue is complicated. #breaking_tagline_more.capitalize#",
+			"Settling in to your new #government_program# #role_government_director_type# role? Get a head start on the #transport_to_success# by learning #technology_language#, says this new #sponcon_type# from #affiliation_corporate#. #sponsored_tagline#"
+		],
+
+
+		"stories_integration":[
+			"#result_intro_phrase#: #number_in_10# in 10 projects fail within #number_in_10# years when integrating #technology_no_a# with #legacy_type# #technology_plural_can_prefix#. Learn how to avoid #risk_plural_type# and deliver #success_single_type#. #breaking_tagline_more.capitalize#",
+			"Does the \\#Success of your project depend on \\#Integrating #technology_no_a# with #technology_plural_can_prefix#? With studies showing more than #number_in_10# in 10 similar projects end in failure, you need to know the warning signs. #breaking_tagline_more.capitalize#",
+			"When delivering \\#Digital \\#Services relies on integrating #technology_no_a# with #technology_plural_can_prefix# you need more than #hope_type#. Get the \\#FactorsForSuccess with @BREAKINGGOVTECH and #affiliation_corporate# \\#SPONSORED \\#CONTENT. That's @BREAKINGGOVTECH"
+		],
+
+
+	"stories_group":[
+		"These #group_phrase# #making_past# #claim.a# #replacement_type# for #service# #time_or_money# with #technology# #breaking_tagline_hyphenated#",
+		"How did #group_phrase# make #service# #service_improvement_type#? They did it #time_or_money#, using #technology#. Learn more at @BREAKINGGOVTECH",
+		"#group_phrase.capitalize# did the #impossible_type# -- and made #service# #service_improvement_type#. How? With #technology#. Get the details at @BREAKINGGOVTECH",
+		"#stories_irritating_claim#",
+		"#stories_group_time_claim#",
+		"#stories_group_service#",
+		"#stories_resident#"
+
+	],
+
+		"stories_resident":[
+			"#resident_phrase#, was having trouble #service_action# -- until #group_phrase# used #technology_1_2# to #making_active# #replacement_type.a# in #time_phrase_ridiculous_short#. The #success_cause#? #technology_1_2.capitalize#. #breaking_tagline.capitalize#"
+		],
+
+		"stories_irritating_claim":[
+			"'#fixer_quote#', says #volunteer_type# who #making_past# a new #app_type# for #service_action# using #technology_singular_solo_no_prefix#. '#government_should_be.capitalize#' But #criticizer.a# says #real_change_type# is #complicated_type#. #breaking_tagline_more.capitalize#",
+			"#volunteer_type.capitalize# who #making_past# new #app_type# for #service_action# says '#government_should_be.capitalize# I used #irritating_used# and it took #time_phrase_claim#. I heard our government still uses #technology_old_singular_solo#.' #breaking_tagline_more.capitalize#"
+
+		],
+
+		"stories_group_time_claim":[
+			"#time_or_money.capitalize#, #group_phrase# #making_past# a #app_type# for #service#, saving #cheaper_type#. How? By using #technology#. That's \\#BREAKINGGOVTECH."
+		],
+
+		"stories_group_service":[
+			"#service.capitalize# can be #problem_modifier#, but not with #technology#. These #group_phrase# will tell you how they made it #service_improvement_type# #time_or_money#. #breaking_tagline.capitalize#"
+		],
+
+
+	"stories_legacy":[
+		"#stories_legacy_answer#",
+		"#stories_legacy_code#"
+	],
+
+		"stories_legacy_answer": [
+			"#legacy_tech_phrase# #legacy_problem#. These #group_phrase# just might have the #answer_type# we're waiting for, and it all hinges on #technology_1_2#. #breaking_tagline.capitalize#"
+		],
+
+		"stories_legacy_code":[
+			"#with_lines_of_code# #amount_modifier# #number_thousand_or_million# lines of #legacy_type# #technology_language# code, this #us_state# #system_type# was #legacy_problem#... Until #group_phrase# fixed it #time_or_money# with #technology#. #breaking_tagline_more.capitalize#"
+		],
+
+
+	"stories_methodology":[
+		"Pick two: \\#Faster, \\#Better or \\#Cheaper? Not if you're using #technology_methodology#, says #role_corporate_senior_phrase# #full_name# in new #sponcon_type# from #affiliation_corporate#.",
+		"Which will win in our bake-off between #technology_methodology# and #technology_methodology#? These #group_phrase# give their #opinion_type# in our exclusive #sponcon_type#. #breaking_tagline_more.capitalize#",
+		"\\#Faster, \\#Better AND \\#Cheaper: it's a \\#win with all three when you use #technology_methodology_design# with #technology_singular_solo_product#. That's \\#GovTechInnovation from #affiliation_corporate#. \\#Sponsored \\#Content. #breaking_tagline_more.capitalize#",
+		"Can #technology_methodology_development# #possible_modifier# save you from a #failure_modifier# #system_type# #failure_type#? \"Yes,\" says #full_name#, #role_corporate_senior_phrase# at #affiliation_corporate#. We #communication_type# with them to find out more. #breaking_tagline_more.capitalize#",
+		"#affiliation_corporate# #announces_type# new #corporate_methodology_entity#, headed by #role_corporate_senior_phrase# #full_name#, and #corporate_engagement#. #breaking_tagline_more.capitalize#",
+		"#affiliation_corporate#'s new #corporate_methodology_entity# #criticized_type# by #criticizer_singular# #criticizm_medium#. #breaking_tagline_more.capitalize#"
+	],
+
+
+	"stories_person":[
+		"#first_name# has been #role_government_singular# at #government_type_singular# for #number_small# years now and shared their #secret_type# to #service_improvement_type# government. You'll be surprised: it's #technology_solo#. Learn why and how at @BREAKINGGOVTECH.",
+		"#have_you_heard_phrase.capitalize# #role_government_singular.capitalize# #full_name# is #attention_action# with #superlative.a# #system_type# for #service#. The #success_cause#? They say it's #technology_1_2#. #breaking_tagline.capitalize#",
+		"#rumor_phrase# #us_place_state_county_city.capitalize# #person_government# #job_negotiation_phrase# #role_corporate_move_as# #role_corporate_senior_phrase#. #breaking_tagline_jobs.capitalize#",
+		"#stories_role#",
+		"#stories_quiz#",
+		"#stories_hiring#"
+	],
+		"stories_quiz":[
+			"Are you ready for the next level? Take our #number_small# minute quiz from #affiliation_corporate# to check if you know your #technology_singular_solo_no_a# from your #technology_singular_solo_no_a#. #breaking_tagline.capitalize# #sponsored_tagline#" 
+		],
+
+		"stories_role":[
+			"#congratulation.capitalize#, you're #role_government_singular.a# now! No time to rest - here's the top #number_list_type# things you need to know about #technology_solo# to stay on your game and deliver #service_improvement_type# government. That's \\#BREAKINGGOVTECH.",
+			"#stories_learn_to#"
+		],
+
+		"stories_hiring":[
+			"\\#DigitalServices \\#JobAlert! #us_place_state_county_city# is hiring #government_program.a# #role_government_singular# with #number_small# years experience in #job_qualifications#. Is this you? This listing sponsored by #affiliation_corporate#, your #trusted_partner_type# #technology_plural#."
+		],
+	
+
+		
+	"stories_place":[
+		"#us_place_state_or_city.capitalize# is leading the way with a #claim# #app_type# for #service#. #success_secret.capitalize#? They're using #technology_solo#. That's your #GovTech update, from @BREAKINGGOVTECH.",
+		"#us_place_state_or_city# has won over #number_small# awards for making government #service_improvement_type#. #success_secret.capitalize#? It's #technology_solo#. #first_name#, their #role_government_singular#, sat down to tell us everything. Follow @BREAKINGGOVTECH for the whole story."
+	],
+
+	"stories_breaking":[
+		"#stories_breaking_procurement#",
+		"#stories_breaking_megaproject#"
+	],
+
+		"stories_breaking_procurement":[
+			"#breaking_intro# #megaproject_cost# #procurement_type# for #system_type# #megaproject_type.capitalize# #trouble_type# in #us_state.capitalize# as #government_entity_type# #scope_change_type# #scope_type# to include #technology_1_2#. #breaking_tagline.capitalize#"
+		],
+
+		"stories_breaking_megaproject":[
+			"#breaking_intro# #megaproject_trouble_in# #technology_singular_solo.capitalize# implicated as #system_type# #megaproject_risk#, affecting #number_population#. Is #technology_solo# the fix? #tagline_megaproject.capitalize#"
+		],
+
+	"stories_program":[
+		"As a #government_program_role#, it's your job to help break down the silos between #POPT#. Get started by learning the top #number_small# things you need to know about #technology#. #breaking_tagline_more.capitalize#",
+		"What's the key to delivering #claim# government? By breaking down barriers between #POPT#. #us_place_state_county_city#'s #government_program_role# #full_name# got their start by learning about #technology_language# in government. #breaking_tagline_more.capitalize#",
+		"#replacing_with_type.capitalize# #technology# with #technology# at #us_county# #government_program# Program made government '#superlative#', says #role_government_director_type.capitalize# #full_name#. #breaking_tagline_more.capitalize#",
+		"#role_government_director_type.capitalize# of #government_program# #last_name# says learning about #technology# was crucial to \\#Winning at \\#DigitalTransformation in #us_state#. #breaking_tagline_more.capitalize#",
+		"#stories_program_silly_transport#"
+	],
+
+		"stories_program_silly_transport":[
+			"Get your #government_program# Program on the #government_buzzword# #transport_to_success#, with the Top #number_small.capitalize# Things You Need To Know About #technology#. #breaking_tagline_more.capitalize#"
+		],
+
+	"stories_sponcon":[
+		"#stories_special_report#",
+		"#stories_sponcon_data#",
+		"#stories_sponsored_IBM#",
+		"#stories_sponcon_skills#",
+		"#positive_impact_active_kind.capitalize# #government_area# is easy with #technology_language#. #learn_how_type.capitalize# how in #affiliation_corporate#'s new #sponcon_type#, only on @BREAKINGGOVTECH. #sponsored_tagline#",
+		"#learn_how_type.capitalize# how #technology_1_2# can #positive_impact_kind# #government_area#, from #affiliation_corporate#. #breaking_tagline_more.capitalize# #sponsored_tagline#",
+		"Do the #impossible_type#, and learn how #technology_1_2# can #positive_impact_kind# #government_area# with #affiliation_corporate#. That's #service_improvement_type# government. #breaking_tagline_more.capitalize# #sponsored_tagline#",
+		"#learn_how_type.capitalize# how using #technology_language# with #technology# was the #success_cause# for \\#DigitalTransformation in #us_place_state_county_city#, when we #communication_type# #person_government#. #breaking_tagline.capitalize#"
+	],
+
+
+		"stories_sponcon_skills":[
+			"#workforce_department# #person_type.s# in #us_place_state_or_city# say #technology_plural# #could# play a #key_type# role in #training_program_type.s# in coming years. #breaking_tagline_more.capitalize#",
+			"Has #us_place_state_or_city# unlocked the secret of economic success? A new #training_program_type# partnership with #affiliation_corporate# incorporating #technology_plural# may supply the #key_type# factor. \\#SPONSORED \\#CONTENT from @BREAKINGGOVTECH."
+		],
+
+		"stories_special_report":[
+			"#learn_how_type.capitalize# how #us_county# took the #transport_to_success# in our new publication -- The Future of #technology_prefixed_all_plural#: A Special Report by #affiliation_corporate#. \\#Sponsored \\#Content."
+		],
+
+		"stories_sponsored_IBM":[
+			"Make it Official and get \\#Married to \\#Digital with something old (#legacy_type# #technology_language#), something new (#technology_singular_solo_prefixed.a#), something borrowed (#technology_opensource#) and something \\#Blue: #technology_IBM# from \\#IBM. \\#Sponsored \\#Content \\#IBM."
+		],
+
+
+		"stories_sponcon_data":[
+			"Is your enterprise data strategy #problem_modifier#? #sponsored_guide_fragment#"
+		],
+		
+			"sponsored_guide_fragment":[
+				"Our guides make integrating #technology# with #system_type.s# easy as pie. #sponsored_tagline_affiliation#",
+				"Getting #technology# to talk to #technology# is a piece of cake with our white paper. #sponsored_tagline_affiliation#"
+			],
+		
+			"sponsored_tagline_affiliation":[
+				"\\#Sponsored \\#Content from #affiliation_corporate#."
+			],
+
+			"sponsored_tagline":[
+				"\\#Sponsored \\#Content."
+			],
+
+
+	"stories_sports_metaphor":[
+		"It's a bold move, #us_state#. We go behind the scenes and learned why they picked #technology# to deliver #government_improvement_type# government. #breaking_tagline_more.capitalize#",
+		"#us_county# is bringing out the full court press in selecting #technology_1_2# for #service_action# - we'll be Zooming with them this week to find out more. #breaking_tagline_more.capitalize#",
+		"#us_city# is down for the count, with its #government_program.capitalize# System suffering a #failure_modifier# #failure_type# affecting #number_population#, thanks to #failure_modifier# use of #technology#. #breaking_tagline_more.capitalize#",
+		"Will #technology# put you over the finish line? Is it #technology_plural# for the three pointer? Or will it be #technology_singular_solo_product# for the win? #breaking_tagline_more.capitalize#",
+		"Is #technology_singular_solo# the Hail Mary you need to see #system_improvement#? #breaking_tagline_more.capitalize#",
+		"If you're serious about delivering #government_improvement_type# government, then you need bench strength in #technology#. #breaking_tagline_more.capitalize#",
+		"Are #technology_plural# in your wheelhouse? Because if they are, you'll be firing on all cylinders all the way to town. #breaking_tagline_more.capitalize#",
+		"Is it game over in #us_county#? #affiliation_corporate# just dropped the ball with another botched implementation of #technology_1_2# #breaking_tagline_more.capitalize#"
+	],
+
+	"stories_system_improvement":[
+		"#technology_solo.capitalize# has been #attribution_positive_past# as #success_cause# in #system_type# #success_type#, as #success_result#. #breaking_tagline.capitalize#",
+		"#technology_solo.capitalize# has been #attribution_positive_past# by #affiliation# #role_plural# as #success_cause# #in_us_place# #system_type# #success_type#. #breaking_tagline.capitalize#"
+	],
+
+
+	"headline":[
+		"#stories_award#",
+		"#stories_blockchain#",
+		"#stories_breaking#",
+		"#stories_certifications#",
+		"#stories_civic_tech#",
+		"#stories_does_problem#",
+		"#stories_filetype#",
+		"#stories_guide_or_insight#",
+		"#stories_group#",
+		"#stories_legacy#",
+		"#stories_methodology#",
+		"#stories_person#",
+		"#stories_place#",
+		"#stories_survey#",
+		"#stories_sponcon#",
+		"#stories_sports_metaphor#",
+		"#stories_system_improvement#",
+		"#NFT_and_web3#"
+	],
+
+	"government_phrase_is_are":[
+		"#government_type_plural# are",
+		"#government_type_singular# is"
+	],
+
+
+	"government_type_plural":[
+		"city governments",
+		"county governments",
+		"city and county governments",
+		"state governments",
+		"national governments"
+	],
+
+	"us_government_state": [
+		"#us_state# state government"
+	],
+
+	"government_type_singular":[
+		"#us_city# city governmment",
+		"#us_state# state government",
+		"the Scottish government",
+		"the U.S. federal government",
+		"the Canadian government",
+		"the U.K. government",
+		"the French government",
+		"the German government",
+		"the government of Singapore",
+		"the government of Taiwan",
+		"the government of Sweden",
+		"the government of Germany"
+	],
+
+	"x-origin":[
+		"#headline#"
+	],
+
+	"problem_area_security":[
+		"application security",
+		"cybersecurity",
+		"insider risk activity",
+		"intrusion detection",
+		"password management",
+		"preventive defense",
+		"security posture management",
+		"SOAR",
+		"security orchestration",
+		"security automation",
+		"Zero Trust",
+		"Continuous Diagnostics and Mitigation",
+		"Dynamic service chaining",
+		"MFA",
+		"Teleworking",
+		"API exposure",
+		"PII",
+		"FIPS 140-2",
+		"FIPS 140-3",
+		"FIPS 202",
+		"the NIST Cybersecurity Framework",
+		"NIST compliance",
+		"reading CISA alerts"
+	],
+
+	"problem_action":[
+		"auditing open source",
+		"buying learning management systems",
+		"choosing the right technology stack",
+		"configuring firewalls",
+		"configuring blockchain",
+		"dealing with timesheets",
+		"deciding whether to use deliverables-based or time and materials-based contracts",
+		"managing megaprojects",
+		"managing vaccine data",
+		"cleaning vaccine data",
+		"managing vaccine availablity",
+		"managing vaccine distribution",
+		"managing critical technology infrastructure",
+		"modernizing mainframe web applications",
+		"hiring tech talent",
+		"dealing with change orders",
+		"fending off blockchain proposals",
+		"managing distributed ledgers",
+		"learning about digital services",
+		"writing RFPs",
+		"writing solicitations",
+		"writing the right mandatory qualifications",
+		"procuring eligibility systems",
+		"scaling legacy systems"
+	],
+
+	"problem_area":[
+		"#problem_action#",
+		"#problem_area_security#",
+		"a siloed back-office",
+		"agile",
+		"backhaul",
+		"big iron",
+		"cloud",
+		"collaboration software",
+		"collaboration",
+		"data cleanliness",
+		"data quality",
+		"data resilience",
+		"data strategy implementation",
+		"data warehouse management",
+		"data warehouse procurement",
+		"data",
+		"digital ID",
+		"blockchain",
+		"cloud resiliency",
+		"hybrid cloud resiliency",
+		"design thinking",
+		"digital transformation",
+		"disaster recovery",
+		"enterprise architecture",
+		"enterprise planning",
+		"enterprise timesheets",
+		"ERP",
+		"hybrid cloud",
+		"information protection",
+		"innovation",
+		"legacy modernization",
+		"distributed ledger configuration",
+		"low code",
+		"modular procurement",
+		"networking",
+		"no code",
+		"OCM",
+		"organizational change",
+		"oversight",
+		"PMO capability",
+		"policy configuration",
+		"procurement",
+		"professional development",
+		"project approval",
+		"project oversight",
+		"SAFe",
+		"scaling",
+		"securing funding",
+		"service design",
+		"service lifecycle management",
+		"vaccine website availablity",
+		"vaccine website uptime",
+		"service reliability",
+		"training",
+		"user research",
+		"virtual reality",
+		"mixed reality",
+		"waterfall",
+		"scrumfall",
+		"agilefall"
+	],
+
+	"breaking_tagline_hyphenated": [
+		" -- and it will change everything.",
+		" -- and it was because they were agile.",
+		" -- learn more on @BREAKINGGOVTECH.",
+		" -- learn how with @BREAKINGGOVTECH.",
+		" -- and you can, too.",
+		" -- and people are angry.",
+		" -- and incumbents are scared."
+	],
+
+	"breaking_tagline_howto":[
+		"learn how with @BREAKINGGOVTECH.",
+		"@BREAKINGGOVTECH -- sharing the skills you need to succeed."
+	],
+
+	"breaking_tagline_jobs":[
+		"get the hottest \\#GovTech jobs news with @BREAKINGGOVTECH.",
+		"#breaking_tagline_more#"
+	],
+
+	"breaking_tagline_more":[
+		"get the lowdown on @BREAKINGGOVTECH.",
+		"get the lowdown on this and more @BREAKINGGOVTECH.",
+		"find out more with @BREAKINGGOVTECH.",
+		"get ahead and stay ahead with @BREAKINGGOVTECH.",
+		"that's \\#GovTechInnovation with @BREAKINGGOVTECH.",
+		"get the full story and more by following @BREAKINGGOVTECH."
+	],
+
+	"breaking_tagline": [
+		"#breaking_tagline_howto#",
+		"#breaking_tagline_more#"
+	],
+	"surprise_reaction":[
+		"amaze you",
+		"astonish you",
+		"be a revelation",
+		"blow your mind",
+		"capture your attention",
+		"shock you",
+		"stun you",
+		"surprise you",
+		"be a shock",
+		"be a rude awakening"
+	],
+	"surprise_past":[
+		"amazed",
+		"astonished",
+		"shocked",
+		"stunned",
+		"surprised"
+	],
+	"app_type":[
+		"app",
+		"service",
+		"website",
+		"form"
+	],
+	"answer_type":[
+		"answer",
+		"fix",
+		"magic bullet",
+		"formula for success",
+		"way forward",
+		"solution",
+		"playbook"
+	],
+
+	"congratulation":[
+		"Congratulations",
+		"You've made it",
+		"You're a winner"
+	],
+
+	"us_place_state_or_city":[
+		"the State of #us_state#",
+		"#us_city#"
+	],
+
+	"us_place_state_county_city":[
+		"#us_state#",
+		"#us_county#",
+		"#us_city#"
+	],
+
+	"us_place_state_county":[
+		"#us_state#",
+		"#us_county#"
+	],
+
+	"secret_type":[
+		"secret",
+		"trick",
+		"strategy",
+		"formula",
+		"blueprint",
+		"key"
+	],
+
+	"success_secret":[
+		"the #secret_type# to their success",
+		"their #secret_type# to winning",
+		"their #secret_type#"
+	],
+
+	"pressure_type":[
+		"pressure",
+		"stress",
+		"strain",
+		"demand",
+		"push",
+		"pull",
+		"need"
+	],
+
+	"pressure":[
+		"Feeling the #pressure_type#",
+		"Are you under the #pressure_type#"
+	],
+
+	"technology_1_2":[
+		"#technology#",
+		"#technology# and #technology#"
+	],
+
+	"expert_group":[
+		"#role_plural# from #affiliation#"
+	],
+
+	"legacy_type":[
+		"legacy",
+		"decades-old",
+		"80s-style",
+		"90s-style",
+		"difficult to update",
+		"mainframe-era",
+		"neglected",
+		"unintuitive",
+		"slow",
+		"expensive to maintain",
+		"unsupported",
+		"fragile"
+	],
+
+	"legacy_problem":[
+		"a ticking time bomb",
+		"a disaster waiting to happen",
+		"a disaster in the making",
+		"a headache",
+		"easy to relate to"
+	],
+
+	"legacy_tech_phrase":[
+		"#legacy_tech_singular_is#",
+		"#legacy_tech_plural_are#"
+	],
+
+
+	"legacy_tech_singular":[
+		"#legacy_type.capitalize# #technology_singular_solo_product#",
+		"#legacy_type.capitalize# #technology_methodology#",
+		"#legacy_type.capitalize# #technology_language#",
+		"#legacy_type.capitalize# #technology_singular_solo_list#",
+		"#legacy_type.capitalize# #technology_old_singular_solo#"
+
+	],
+
+	"legacy_tech_plural":[
+		"#legacy_type.capitalize# #technology_singular_solo_needs_a_list.s#",
+		"#legacy_type.capitalize# #technology_needs_a_do_not_prefix.s#",
+		"#legacy_type.capitalize# #technology_plural_can_prefix.capitalize#"
+
+	],
+
+	"legacy_tech_singular_is":[
+		"#legacy_tech_singular# is"
+	],
+
+	"legacy_tech_plural_are":[
+		"#legacy_tech_plural# are"
+	],
+
+	"is_this_question":[
+		"is this #next_type#"
+	],
+
+	"next_type":[
+		"the future",
+		"the next big thing",
+		"what's ahead",
+		"what to look forward to"
+	],
+
+	"overhype_type":[
+		"overhyped",
+		"a bust",
+		"a failure",
+		"a dud",
+		"snake oil",
+		"a disaster"
+	],
+
+	"civic_tech_at_place":[
+		"#civic_tech_at_place_plural#"
+	],
+
+	"code_for_place":[
+		"Code for #us_place_state_or_city#"
+	],
+
+	"civic_tech_at_place_plural":[
+		"#civic_tech_group_plural# #in_us_place#"
+	],
+
+	"civic_tech_group_plural":[
+		"civic technologists",
+		"volunteers",
+		"civic-minded technologists",
+		"Coders for Good",
+		"Technologists for Civics",
+		"public interest technologists",
+		"volunteer developers",
+		"volunteer designers"
+	],
+
+	"in_us_place":[
+		"in #us_place_state_county_city#"
+	],
+
+
+	"partnership_phrase": [
+		"A #partnership_type# of winners",
+		"It was a #partnership_type# for success",
+		"They said it was an unprecedented #partnership_type#",
+		"The best kind of #partnership_type#",
+		"A #partnership_type# story to be inspired by",
+		"\"Our #partnership_type# just #just_succeed_past#\""
+	],
+
+	"partnership_type": [
+		"collaboration",
+		"partnership",
+		"co-partnership",
+		"relationship"
+	],
+
+	"just_succeed_past":[
+		"clicked",
+		"worked",
+		"really worked",
+		"paid off",
+		"was amazing"
+	],	
+
+    "current_year":[
+        "2022"
+    ],
+
+	"us_state":[
+		"Alaska",
+		"Alabama",
+		"Arkansas",
+		"American Samoa",
+		"Arizona",
+		"California",
+		"Colorado",
+		"Connecticut",
+		"the District of Columbia",
+		"Delaware",
+		"Florida",
+		"Georgia",
+		"Guam",
+		"Hawaii",
+		"Iowa",
+		"Idaho",
+		"Illinois",
+		"Indiana",
+		"Kansas",
+		"Kentucky",
+		"Louisiana",
+		"Massachusetts",
+		"Maryland",
+		"Maine",
+		"Michigan",
+		"Minnesota",
+		"Missouri",
+		"Mississippi",
+		"Montana",
+		"North Carolina",
+		"North Dakota",
+		"Nebraska",
+		"New Hampshire",
+		"New Jersey",
+		"New Mexico",
+		"Nevada",
+		"New York",
+		"Ohio",
+		"Oklahoma",
+		"Oregon",
+		"Pennsylvania",
+		"Puerto Rico",
+		"Rhode Island",
+		"South Carolina",
+		"South Dakota",
+		"Tennessee",
+		"Texas",
+		"Utah",
+		"Virginia",
+		"Virgin Islands",
+		"Vermont",
+		"Washington",
+		"Wisconsin",
+		"West Virginia",
+		"Wyoming"
+	],
+
+	"us_county":[
+		"Washington County",
+		"Jefferson County",
+		"Franklin County",
+		"Jackson County",
+		"Lincoln County",
+		"Madison County",
+		"Clay County",
+		"Montgomery County",
+		"Union County",
+		"Clark County",
+		"Marion County",
+		"Monroe County",
+		"Greene County",
+		"Wayne County",
+		"Grant County",
+		"Warren County",
+		"Carroll County",
+		"Adams County",
+		"Douglas County",
+		"Johnson County",
+		"Lake County",
+		"Lee County",
+		"Marshall County",
+		"Polk County",
+		"Calhoun County",
+		"Crawford County",
+		"Fayette County",
+		"Lawrence County",
+		"Morgan County",
+		"Scott County",
+		"Hamilton County",
+		"Hancock County",
+		"Henry County",
+		"Logan County",
+		"Perry County",
+		"Pike County",
+		"Benton County",
+		"Brown County",
+		"Cass County",
+		"Clinton County",
+		"Knox County",
+		"Putnam County",
+		"Shelby County",
+		"Boone County",
+		"Butler County",
+		"Cherokee County",
+		"Columbia County",
+		"Cumberland County",
+		"Fulton County",
+		"Harrison County",
+		"Jasper County",
+		"Mercer County",
+		"Orange County",
+		"Randolph County",
+		"Webster County",
+		"Howard County",
+		"Lewis County",
+		"Pulaski County",
+		"Richland County",
+		"Taylor County",
+		"Custer County",
+		"DeKalb County",
+		"Delaware County",
+		"Lafayette County",
+		"Floyd County",
+		"Garfield County",
+		"Hardin County",
+		"Jones County",
+		"Livingston County",
+		"Macon County",
+		"Martin County",
+		"Mason County",
+		"Newton County",
+		"Sullivan County",
+		"Allen County",
+		"Anderson County",
+		"Caldwell County",
+		"Campbell County",
+		"Carter County",
+		"Dallas County",
+		"Decatur County",
+		"Essex County",
+		"Henderson County",
+		"Houston County",
+		"Kent County",
+		"Lyon County",
+		"Mitchell County",
+		"Pierce County",
+		"Saline County",
+		"Sheridan County",
+		"White County",
+		"York County",
+		"Adair County",
+		"Alleghany County",
+		"Blaine County",
+		"Camden County",
+		"Carbon County",
+		"Dawson County",
+		"Dodge County",
+		"Fremont County",
+		"Grundy County",
+		"Iron County",
+		"Lamar County",
+		"Lancaster County",
+		"Liberty County",
+		"Linn County",
+		"Middlesex County",
+		"Mineral County",
+		"Ottawa County",
+		"Phillips County",
+		"Richmond County",
+		"Russell County",
+		"San Juan County",
+		"Sherman County",
+		"Smith County",
+		"Somerset County",
+		"St. Clair County",
+		"Sumter County",
+		"Van Buren County",
+		"Wheeler County",
+		"Wilson County",
+		"Wood County",
+		"Baker County",
+		"Beaver County",
+		"Bedford County",
+		"Buchanan County",
+		"Buffalo County",
+		"Burke County",
+		"Butte County",
+		"Cameron County",
+		"Cedar County",
+		"Chester County",
+		"Cheyenne County",
+		"Chippewa County",
+		"Choctaw County",
+		"Christian County",
+		"Claiborne County",
+		"Cleveland County",
+		"Coffee County",
+		"Comanche County",
+		"Cook County",
+		"Daviess County",
+		"Delta County",
+		"DeSoto County",
+		"Dickinson County",
+		"Edwards County",
+		"Ellis County",
+		"Erie County",
+		"Fairfield County"
+	],
+
+	"us_city":[
+		"Aberdeen",
+		"Abilene",
+		"Akron",
+		"Albany",
+		"Albuquerque",
+		"Alexandria",
+		"Allentown",
+		"Amarillo",
+		"Anaheim",
+		"Anchorage",
+		"Ann Arbor",
+		"Antioch",
+		"Apple Valley",
+		"Appleton",
+		"Arlington",
+		"Arvada",
+		"Asheville",
+		"Athens",
+		"Atlanta",
+		"Atlantic City",
+		"Augusta",
+		"Aurora",
+		"Austin",
+		"Bakersfield",
+		"Baltimore",
+		"Barnstable",
+		"Baton Rouge",
+		"Beaumont",
+		"Bel Air",
+		"Bellevue",
+		"Berkeley",
+		"Bethlehem",
+		"Billings",
+		"Birmingham",
+		"Bloomington",
+		"Boise",
+		"Boise City",
+		"Bonita Springs",
+		"Boston",
+		"Boulder",
+		"Bradenton",
+		"Bremerton",
+		"Bridgeport",
+		"Brighton",
+		"Brownsville",
+		"Bryan",
+		"Buffalo",
+		"Burbank",
+		"Burlington",
+		"Cambridge",
+		"Canton",
+		"Cape Coral",
+		"Carrollton",
+		"Cary",
+		"Cathedral City",
+		"Cedar Rapids",
+		"Champaign",
+		"Chandler",
+		"Charleston",
+		"Charlotte",
+		"Chattanooga",
+		"Chesapeake",
+		"Chicago",
+		"Chula Vista",
+		"Cincinnati",
+		"Clarke County",
+		"Clarksville",
+		"Clearwater",
+		"Cleveland",
+		"College Station",
+		"Colorado Springs",
+		"Columbia",
+		"Columbus",
+		"Concord",
+		"Coral Springs",
+		"Corona",
+		"Corpus Christi",
+		"Costa Mesa",
+		"Dallas",
+		"Daly City",
+		"Danbury",
+		"Davenport",
+		"Davidson County",
+		"Dayton",
+		"Daytona Beach",
+		"Deltona",
+		"Denton",
+		"Denver",
+		"Des Moines",
+		"Detroit",
+		"Downey",
+		"Duluth",
+		"Durham",
+		"El Monte",
+		"El Paso",
+		"Elizabeth",
+		"Elk Grove",
+		"Elkhart",
+		"Erie",
+		"Escondido",
+		"Eugene",
+		"Evansville",
+		"Fairfield",
+		"Fargo",
+		"Fayetteville",
+		"Fitchburg",
+		"Flint",
+		"Fontana",
+		"Fort Collins",
+		"Fort Lauderdale",
+		"Fort Smith",
+		"Fort Walton Beach",
+		"Fort Wayne",
+		"Fort Worth",
+		"Frederick",
+		"Fremont",
+		"Fresno",
+		"Fullerton",
+		"Gainesville",
+		"Garden Grove",
+		"Garland",
+		"Gastonia",
+		"Gilbert",
+		"Glendale",
+		"Grand Prairie",
+		"Grand Rapids",
+		"Grayslake",
+		"Green Bay",
+		"GreenBay",
+		"Greensboro",
+		"Greenville",
+		"Gulfport-Biloxi",
+		"Hagerstown",
+		"Hampton",
+		"Harlingen",
+		"Harrisburg",
+		"Hartford",
+		"Havre de Grace",
+		"Hayward",
+		"Hemet",
+		"Henderson",
+		"Hesperia",
+		"Hialeah",
+		"Hickory",
+		"High Point",
+		"Hollywood",
+		"Honolulu",
+		"Houma",
+		"Houston",
+		"Howell",
+		"Huntington",
+		"Huntington Beach",
+		"Huntsville",
+		"Independence",
+		"Indianapolis",
+		"Inglewood",
+		"Irvine",
+		"Irving",
+		"Jackson",
+		"Jacksonville",
+		"Jefferson",
+		"Jersey City",
+		"Johnson City",
+		"Joliet",
+		"Kailua",
+		"Kalamazoo",
+		"Kaneohe",
+		"Kansas City",
+		"Kennewick",
+		"Kenosha",
+		"Killeen",
+		"Kissimmee",
+		"Knoxville",
+		"Lacey",
+		"Lafayette",
+		"Lake Charles",
+		"Lakeland",
+		"Lakewood",
+		"Lancaster",
+		"Lansing",
+		"Laredo",
+		"Las Cruces",
+		"Las Vegas",
+		"Layton",
+		"Leominster",
+		"Lewisville",
+		"Lexington",
+		"Lincoln",
+		"Little Rock",
+		"Long Beach",
+		"Lorain",
+		"Los Angeles",
+		"Louisville",
+		"Lowell",
+		"Lubbock",
+		"Macon",
+		"Madison",
+		"Manchester",
+		"Marina",
+		"Marysville",
+		"McAllen",
+		"McHenry",
+		"Medford",
+		"Melbourne",
+		"Memphis",
+		"Merced",
+		"Mesa",
+		"Mesquite",
+		"Miami",
+		"Milwaukee",
+		"Minneapolis",
+		"Miramar",
+		"Mission Viejo",
+		"Mobile",
+		"Modesto",
+		"Monroe",
+		"Monterey",
+		"Montgomery",
+		"Moreno Valley",
+		"Murfreesboro",
+		"Murrieta",
+		"Muskegon",
+		"Myrtle Beach",
+		"Naperville",
+		"Naples",
+		"Nashua",
+		"Nashville",
+		"New Bedford",
+		"New Haven",
+		"New London",
+		"New Orleans",
+		"New York",
+		"New York City",
+		"Newark",
+		"Newburgh",
+		"Newport News",
+		"Norfolk",
+		"Normal",
+		"Norman",
+		"North Charleston",
+		"North Las Vegas",
+		"North Port",
+		"Norwalk",
+		"Norwich",
+		"Oakland",
+		"Ocala",
+		"Oceanside",
+		"Odessa",
+		"Ogden",
+		"Oklahoma City",
+		"Olathe",
+		"Olympia",
+		"Omaha",
+		"Ontario",
+		"Orange",
+		"Orem",
+		"Orlando",
+		"Overland Park",
+		"Oxnard",
+		"Palm Bay",
+		"Palm Springs",
+		"Palmdale",
+		"Panama City",
+		"Pasadena",
+		"Paterson",
+		"Pembroke Pines",
+		"Pensacola",
+		"Peoria",
+		"Philadelphia",
+		"Phoenix",
+		"Pittsburgh",
+		"Plano",
+		"Pomona",
+		"Pompano Beach",
+		"Port Arthur",
+		"Port Orange",
+		"Port Saint Lucie",
+		"Port St. Lucie",
+		"Portland",
+		"Portsmouth",
+		"Poughkeepsie",
+		"Providence",
+		"Provo",
+		"Pueblo",
+		"Punta Gorda",
+		"Racine",
+		"Raleigh",
+		"Rancho Cucamonga",
+		"Reading",
+		"Redding",
+		"Reno",
+		"Richland",
+		"Richmond",
+		"Richmond County",
+		"Riverside",
+		"Roanoke",
+		"Rochester",
+		"Rockford",
+		"Roseville",
+		"Round Lake Beach",
+		"Sacramento",
+		"Saginaw",
+		"Saint Louis",
+		"Saint Paul",
+		"Saint Petersburg",
+		"Salem",
+		"Salinas",
+		"Salt Lake City",
+		"San Antonio",
+		"San Bernardino",
+		"San Buenaventura",
+		"San Diego",
+		"San Francisco",
+		"San Jose",
+		"Santa Ana",
+		"Santa Barbara",
+		"Santa Clara",
+		"Santa Clarita",
+		"Santa Cruz",
+		"Santa Maria",
+		"Santa Rosa",
+		"Sarasota",
+		"Savannah",
+		"Scottsdale",
+		"Scranton",
+		"Seaside",
+		"Seattle",
+		"Sebastian",
+		"Shreveport",
+		"Simi Valley",
+		"Sioux City",
+		"Sioux Falls",
+		"South Bend",
+		"South Lyon",
+		"Spartanburg",
+		"Spokane",
+		"Springdale",
+		"Springfield",
+		"St. Louis",
+		"St. Paul",
+		"St. Petersburg",
+		"Stamford",
+		"Sterling Heights",
+		"Stockton",
+		"Sunnyvale",
+		"Syracuse",
+		"Tacoma",
+		"Tallahassee",
+		"Tampa",
+		"Temecula",
+		"Tempe",
+		"Thornton",
+		"Thousand Oaks",
+		"Toledo",
+		"Topeka",
+		"Torrance",
+		"Trenton",
+		"Tucson",
+		"Tulsa",
+		"Tuscaloosa",
+		"Tyler",
+		"Utica",
+		"Vallejo",
+		"Vancouver",
+		"Vero Beach",
+		"Victorville",
+		"Virginia Beach",
+		"Visalia",
+		"Waco",
+		"Warren",
+		"Washington",
+		"Waterbury",
+		"Waterloo",
+		"West Covina",
+		"West Valley City",
+		"Westminster",
+		"Wichita",
+		"Wilmington",
+		"Winston",
+		"Winter Haven",
+		"Worcester",
+		"Yakima",
+		"Yonkers",
+		"York",
+		"Youngstown"
+	],
+
+	"full_name":[
+		"#first_name# #last_name#",
+		"#first_name# #last_name#-#last_name#"
+	],
+
+	"first_name":[
+		"Cathleen",
+		"Claude",
+		"Ahmad",
+		"Tonia",
+		"Richelle",
+		"Kandace",
+		"Danyelle",
+		"Willis",
+		"Jerad",
+		"Helena",
+		"Danica",
+		"Cale",
+		"Rosemarie",
+		"Meggan",
+		"Janel",
+		"Chana",
+		"Brittny",
+		"Ashlea",
+		"Antwon",
+		"Yasmin",
+		"Nikolas",
+		"Mellissa",
+		"Charmaine",
+		"Alina",
+		"Rodrigo",
+		"Nikole",
+		"Mckenzie",
+		"Leonel",
+		"Kaley",
+		"Jessi",
+		"Delia",
+		"Melina",
+		"Hilda",
+		"Alysha",
+		"Pete",
+		"Niki",
+		"Davis",
+		"Cristian",
+		"Waylon",
+		"Wallace",
+		"Keely",
+		"Graciela",
+		"Demetria",
+		"Cecelia",
+		"Issac",
+		"Felecia",
+		"Ami",
+		"Tom",
+		"Shavon",
+		"Paola",
+		"Lane",
+		"June",
+		"Hans",
+		"Earnest",
+		"Cheyenne",
+		"Sondra",
+		"Sherita",
+		"Jasper",
+		"Coty",
+		"Candi",
+		"Santos",
+		"Ron",
+		"Jace",
+		"Darla",
+		"Dannielle",
+		"Carley",
+		"Brandan",
+		"Bill",
+		"Tory",
+		"Skylar",
+		"Marta",
+		"Cristin",
+		"Connor",
+		"Carter",
+		"Carey",
+		"Wendi",
+		"Shasta",
+		"Shaquita",
+		"Maira",
+		"Jazmine",
+		"Edmund",
+		"Adriane",
+		"Tana",
+		"Latoria",
+		"Kyra",
+		"Krysten",
+		"Jada",
+		"Derik",
+		"Darrel",
+		"Amir",
+		"Shanita",
+		"Rebeca",
+		"Monika",
+		"Mai",
+		"Luther",
+		"Jo",
+		"Georgina",
+		"Gena",
+		"Ezra",
+		"Quinn",
+		"Portia",
+		"Mickey",
+		"Magan",
+		"Lisette",
+		"Josef",
+		"Colton",
+		"Brittanie",
+		"Malissa",
+		"Krystin",
+		"Jefferson",
+		"Rashad",
+		"Kiley",
+		"Kerrie",
+		"Stephany",
+		"Lia",
+		"Katheryn",
+		"Juliet",
+		"Gregg",
+		"Brynn",
+		"Rosalyn",
+		"Marion",
+		"Katelin",
+		"Jeana",
+		"Cassondra",
+		"Agustin",
+		"Tyesha",
+		"Leland",
+		"Damion",
+		"Sharita",
+		"Pearl",
+		"Shara",
+		"Matt",
+		"Duncan",
+		"Mari",
+		"Latanya",
+		"Karly",
+		"Cathryn",
+		"Alena",
+		"Ada",
+		"Vance",
+		"Susie",
+		"Sunny",
+		"Nikita",
+		"Corrine",
+		"Brook",
+		"Bertha",
+		"Mitchel",
+		"Ira",
+		"Carlie",
+		"Brant",
+		"Bennett",
+		"Violeta",
+		"Tyrel",
+		"Rosalie",
+		"Markita",
+		"Akeem",
+		"Aja",
+		"Stefani",
+		"Jenni",
+		"Galen",
+		"Deena",
+		"Shavonne",
+		"Robby",
+		"Kirstin",
+		"Kasie",
+		"Eunice",
+		"Brigitte",
+		"Tisha",
+		"Shena",
+		"Shayne",
+		"Rudolph",
+		"Roosevelt",
+		"Mikel",
+		"Kacy",
+		"Breann",
+		"Salina",
+		"Rodrick",
+		"Mariel",
+		"Kelsie",
+		"Karrie",
+		"Jessika",
+		"Jarrell",
+		"Curt",
+		"Stella",
+		"Shira",
+		"Rhett",
+		"Marty",
+		"Iesha",
+		"Devan",
+		"Brain",
+		"Tammie",
+		"Shantell",
+		"Mohammad",
+		"Kiana",
+		"Jaqueline",
+		"Caryn",
+		"Samatha",
+		"Nia",
+		"Mona",
+		"Leilani",
+		"Lashanda",
+		"Javon",
+		"Ida",
+		"Francisca",
+		"Carlo",
+		"Amberly",
+		"Alexia",
+		"Nichelle",
+		"Janessa",
+		"Charissa",
+		"Bo",
+		"Annemarie",
+		"Therese",
+		"Porsha",
+		"Karyn",
+		"Julissa",
+		"Dejuan",
+		"Brandee",
+		"Abram",
+		"Tobias",
+		"Suzanna",
+		"Stephaine",
+		"Heriberto",
+		"Antionette",
+		"Tenisha",
+		"Teddy",
+		"Mellisa",
+		"Johnna",
+		"Eve",
+		"Elvia",
+		"Elana",
+		"Durrell",
+		"Lindy",
+		"Joana",
+		"Griffin",
+		"Ellis",
+		"Damaris"
+	],
+
+	"last_name":[
+		"Zuniga",
+		"Carey",
+		"Wilcox",
+		"Melendez",
+		"Poole",
+		"Roberson",
+		"Larsen",
+		"Conley",
+		"Davenport",
+		"Copeland",
+		"Massey",
+		"Lam",
+		"Huff",
+		"Rocha",
+		"Cameron",
+		"Jefferson",
+		"Hood",
+		"Monroe",
+		"Anthony",
+		"Pittman",
+		"Huynh",
+		"Randall",
+		"Singleton",
+		"Kirk",
+		"Combs",
+		"Mathis",
+		"Christian",
+		"Skinner",
+		"Bradford",
+		"Richard",
+		"Galvan",
+		"Wall",
+		"Boone",
+		"Kirby",
+		"Wilkinson",
+		"Bridges",
+		"Bruce",
+		"Atkinson",
+		"Velez",
+		"Meza",
+		"Roy",
+		"Vincent",
+		"York",
+		"Hodge",
+		"Villa",
+		"Abbott",
+		"Allison",
+		"Tapia",
+		"Gates",
+		"Chase",
+		"Sosa",
+		"Sweeney",
+		"Farrell",
+		"Wyatt",
+		"Dalton",
+		"Horn",
+		"Barron",
+		"Phelps",
+		"Yu",
+		"Dickerson",
+		"Heath",
+		"Foley",
+		"Atkins",
+		"Mathews",
+		"Bonilla",
+		"Acevedo",
+		"Benitez",
+		"Zavala",
+		"Hensley",
+		"Glenn",
+		"Cisneros",
+		"Harrell",
+		"Shields",
+		"Rubio",
+		"Huffman",
+		"Choi",
+		"Boyer",
+		"Garrison",
+		"Arroyo",
+		"Bond",
+		"Kane",
+		"Hancock",
+		"Callahan",
+		"Dillon",
+		"Cline",
+		"Wiggins",
+		"Grimes",
+		"Arellano",
+		"Melton",
+		"Oneill",
+		"Savage",
+		"Ho",
+		"Beltran",
+		"Pitts",
+		"Parrish",
+		"Ponce",
+		"Rich",
+		"Booth",
+		"Koch",
+		"Golden",
+		"Ware",
+		"Brennan",
+		"Mcdowell",
+		"Marks",
+		"Cantu",
+		"Humphrey",
+		"Baxter",
+		"Sawyer",
+		"Clay",
+		"Tanner",
+		"Hutchinson",
+		"Kaur",
+		"Berg",
+		"Wiley",
+		"Gilmore",
+		"Russo",
+		"Villegas",
+		"Hobbs",
+		"Keith",
+		"Wilkerson",
+		"Ahmed",
+		"Beard",
+		"Mcclain",
+		"Montes",
+		"Mata",
+		"Rosario",
+		"Vang",
+		"Walter",
+		"Henson",
+		"Oneal",
+		"Mosley",
+		"Mcclure",
+		"Beasley",
+		"Stephenson",
+		"Snow",
+		"Huerta",
+		"Preston",
+		"Vance",
+		"Barry",
+		"Johns",
+		"Eaton",
+		"Blackwell",
+		"Dyer",
+		"Prince",
+		"Macdonald",
+		"Solomon",
+		"Guevara",
+		"Stafford",
+		"English",
+		"Hurst",
+		"Woodard"
+	],
+
+	"nationality":[
+		"Afghan",
+		"Albanian",
+		"Algerian",
+		"American",
+		"Andorran",
+		"Angolan",
+		"Antiguans",
+		"Argentinean",
+		"Armenian",
+		"Australian",
+		"Austrian",
+		"Azerbaijani",
+		"Bahamian",
+		"Bahraini",
+		"Bangladeshi",
+		"Barbadian",
+		"Barbudans",
+		"Batswana",
+		"Belarusian",
+		"Belgian",
+		"Belizean",
+		"Beninese",
+		"Bhutanese",
+		"Bolivian",
+		"Bosnian",
+		"Brazilian",
+		"British",
+		"Bruneian",
+		"Bulgarian",
+		"Burkinabe",
+		"Burmese",
+		"Burundian",
+		"Cambodian",
+		"Cameroonian",
+		"Canadian",
+		"Cape Verdean",
+		"Central African",
+		"Chadian",
+		"Chilean",
+		"Chinese",
+		"Colombian",
+		"Comoran",
+		"Congolese",
+		"Costa Rican",
+		"Croatian",
+		"Cuban",
+		"Cypriot",
+		"Czech",
+		"Danish",
+		"Djibouti",
+		"Dominican",
+		"Dutch",
+		"East Timorese",
+		"Ecuadorean",
+		"Egyptian",
+		"Emirian",
+		"Equatorial Guinean",
+		"Eritrean",
+		"Estonian",
+		"Ethiopian",
+		"Fijian",
+		"Filipino",
+		"Finnish",
+		"French",
+		"Gabonese",
+		"Gambian",
+		"Georgian",
+		"German",
+		"Ghanaian",
+		"Greek",
+		"Grenadian",
+		"Guatemalan",
+		"Guinea-Bissauan",
+		"Guinean",
+		"Guyanese",
+		"Haitian",
+		"Herzegovinian",
+		"Honduran",
+		"Hungarian",
+		"I-Kiribati",
+		"Icelander",
+		"Indian",
+		"Indonesian",
+		"Iranian",
+		"Iraqi",
+		"Irish",
+		"Israeli",
+		"Italian",
+		"Ivorian",
+		"Jamaican",
+		"Japanese",
+		"Jordanian",
+		"Kazakhstani",
+		"Kenyan",
+		"Kittian and Nevisian",
+		"Kuwaiti",
+		"Kyrgyz",
+		"Laotian",
+		"Latvian",
+		"Lebanese",
+		"Liberian",
+		"Libyan",
+		"Liechtensteiner",
+		"Lithuanian",
+		"Luxembourger",
+		"Macedonian",
+		"Malagasy",
+		"Malawian",
+		"Malaysian",
+		"Maldivian",
+		"Malian",
+		"Maltese",
+		"Marshallese",
+		"Mauritanian",
+		"Mauritian",
+		"Mexican",
+		"Micronesian",
+		"Moldovan",
+		"Monacan",
+		"Mongolian",
+		"Moroccan",
+		"Mosotho",
+		"Motswana",
+		"Mozambican",
+		"Namibian",
+		"Nauruan",
+		"Nepalese",
+		"New Zealander",
+		"Ni-Vanuatu",
+		"Nicaraguan",
+		"Nigerian",
+		"Nigerien",
+		"North Korean",
+		"Northern Irish",
+		"Norwegian",
+		"Omani",
+		"Pakistani",
+		"Palauan",
+		"Panamanian",
+		"Papua New Guinean",
+		"Paraguayan",
+		"Peruvian",
+		"Polish",
+		"Portuguese",
+		"Qatari",
+		"Romanian",
+		"Russian",
+		"Rwandan",
+		"Saint Lucian",
+		"Salvadoran",
+		"Samoan",
+		"San Marinese",
+		"Sao Tomean",
+		"Saudi",
+		"Scottish",
+		"Senegalese",
+		"Serbian",
+		"Seychellois",
+		"Sierra Leonean",
+		"Singaporean",
+		"Slovakian",
+		"Slovenian",
+		"Solomon Islander",
+		"Somali",
+		"South African",
+		"South Korean",
+		"Spanish",
+		"Sri Lankan",
+		"Sudanese",
+		"Surinamer",
+		"Swazi",
+		"Swedish",
+		"Swiss",
+		"Syrian",
+		"Taiwanese",
+		"Tajik",
+		"Tanzanian",
+		"Thai",
+		"Togolese",
+		"Tongan",
+		"Trinidadian or Tobagonian",
+		"Tunisian",
+		"Turkish",
+		"Tuvaluan",
+		"Ugandan",
+		"Ukrainian",
+		"Uruguayan",
+		"Uzbekistani",
+		"Venezuelan",
+		"Vietnamese",
+		"Welsh",
+		"Yemenite",
+		"Zambian",
+		"Zimbabwean"
+	],
+
+"age":[
+		"18",
+		"19",
+		"20",
+		"21",
+		"22",
+		"23",
+		"24",
+		"25",
+		"26",
+		"27",
+		"28",
+		"29",
+		"30",
+		"31",
+		"32",
+		"33",
+		"34",
+		"35",
+		"36",
+		"37",
+		"38",
+		"39",
+		"40",
+		"41",
+		"42",
+		"43",
+		"44",
+		"45",
+		"46",
+		"47",
+		"48",
+		"49",
+		"50",
+		"51",
+		"52",
+		"53",
+		"54",
+		"55",
+		"56",
+		"57",
+		"58",
+		"59",
+		"60",
+		"61",
+		"62",
+		"63",
+		"64",
+		"65",
+		"66",
+		"67",
+		"68",
+		"69",
+		"70",
+		"71",
+		"72",
+		"73",
+		"74",
+		"75",
+		"76",
+		"77",
+		"78",
+		"79",
+		"80",
+		"81",
+		"82",
+		"83",
+		"84",
+		"85",
+		"86",
+		"87",
+		"88",
+		"89",
+		"90",
+		"91",
+		"92"
+]
+	
+}
+

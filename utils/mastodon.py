@@ -12,10 +12,14 @@ def mastodon_client():
     MASTODON_TOKEN = environment["MASTODON_TOKEN"]
     MASTODON_BASE_URL = environment["MASTODON_BASE_URL"]
 
+    print("using token " + MASTODON_TOKEN)
+    print("using base URL " + MASTODON_BASE_URL)
+
     mastodon_instance = Mastodon(
         access_token=MASTODON_TOKEN,
         api_base_url=MASTODON_BASE_URL
     )
+
 
     return mastodon_instance
 

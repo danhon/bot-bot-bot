@@ -9,6 +9,8 @@ from tracery.modifiers import base_english
 module_logger = logging.getLogger('bot-bot-bot.utils.tracery')
 
 def generate_posts(rules):
+    print("using rules: ")
+    print(rules)
     """Returns a dict containing two Tracery grammars with keys ["long"] and ["short"] when supplied a json Tracaery rules file."""
     post = {}
     

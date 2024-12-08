@@ -52,7 +52,7 @@ def main():
 
     logger.info('Started')
     logger.debug('Debug message')
-    logger.info('Finished')
+
 
     print(GRAMMARS_DIRECTORY)
     print(GRAMMAR_JSON)
@@ -63,8 +63,12 @@ def main():
     post = generate_posts(rules)
 
     # send that post to um a posting thing
+    # logger.info('Posting to Mastodon')
     # post_to_mastodon(post)
+    # logger.info('Posting to Bluesky')
     # post_to_bluesky(post)
+
+    logger.info('Finished')
 
 if __name__ == '__main__':
     main()

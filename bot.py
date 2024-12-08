@@ -51,10 +51,18 @@ def main():
     # logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s: %(message)s', datefmt='%Y-%m-%d %H:%M:%S', filename='bot-bot-bot.log', level=logging.DEBUG)
 
     logger.info('Started')
+
+    logger.info('Opening bots.json')
+    with open('bots.json') as bots_json:
+        bots = json.load(bots_json)
+
+    for bot in bots:
+        logger.info("Found %s bots", len(bots))
+        logger.debug(bot)
+
     logger.debug('Debug message')
 
-
-    print(GRAMMARS_DIRECTORY)
+    logger.info('Using grammars directory "%s"', GRAMMARS_DIRECTORY)
     print(GRAMMAR_JSON)
     # get our tracery rules
     rules = get_rules(GRAMMARS_DIRECTORY, GRAMMAR_JSON)

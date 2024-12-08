@@ -112,10 +112,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-<<<<<<< HEAD
-=======
-# send that post to um a posting thing
-post_to_mastodon(post)
-
-post_to_bluesky(post)
->>>>>>> e165a183ab31c384ac6c904dd031683a81ed6c98

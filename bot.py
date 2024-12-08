@@ -112,7 +112,6 @@ def main():
 
 if __name__ == '__main__':
     main()
-
 <<<<<<< HEAD
 =======
 # send that post to um a posting thing

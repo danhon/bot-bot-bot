@@ -5,6 +5,8 @@ import tracery
 from tracery.modifiers import base_english
 
 def generate_posts(rules):
+    print("using rules: ")
+    print(rules)
     """Returns a dict containing two Tracery grammars with keys ["long"] and ["short"] when supplied a json Tracaery rules file."""
     post = {}
     

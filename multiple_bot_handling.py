@@ -13,7 +13,7 @@ bots = []
 bot_starfleet_jobs = {
     'name' : 'Starfleet Jobs',
     'grammar_json' : 'starfleetjobs.json',
-    'bots' : [{
+    'services' : [{
             'type': 'mastodon',
             'access_token' : 'mP_PoDHqE0buKi6yND9xh0qBzPkN8v0AeJZQY9Rv9uY',
             'base_url' : 'https://botsin.space/',
@@ -30,7 +30,7 @@ bot_starfleet_jobs = {
 bot_breaking_govtech = {
     'name' : 'Breaking Govtech',
     'grammar_json' : 'breaking_govtech.json',
-    'bots' : [{
+    'services' : [{
             'type': 'mastodon',
             'access_token' : 'WpsYVKjlneM9dCtqX69QnIshXIHd_HqWUFamPWFMk4c',
             'base_url' : 'https://botsin.space/',
@@ -61,7 +61,7 @@ for bot in bots:
 
     # now figure out what services to post to, and how
     # how many services does this bot have?
-    for service in bot['bots']:
+    for service in bot['services']:
         pprint.pp(service)
 
         match service['type']:

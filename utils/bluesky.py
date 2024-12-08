@@ -12,6 +12,9 @@ def bluesky_instance():
     BLUESKY_USERNAME = environment["BLUESKY_USERNAME"]
     BLUESKY_PASSWORD = environment["BLUESKY_PASSWORD"]
 
+    print("using username: " + BLUESKY_USERNAME)
+    print("using password " + BLUESKY_PASSWORD)
+
     client = Client("https://bsky.social")
 
     client.login(BLUESKY_USERNAME, BLUESKY_PASSWORD)

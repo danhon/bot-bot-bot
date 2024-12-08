@@ -32,4 +32,5 @@ post = generate_posts(rules)
 
 # send that post to um a posting thing
 post_to_mastodon(post)
+
 post_to_bluesky(post)

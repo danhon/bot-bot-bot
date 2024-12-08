@@ -2,14 +2,14 @@
     {
         "name": "Starfleet Jobs",
         "grammar_json": "starfleetjobs.json",
-        "bots": [
+        "service": [
             {
-                "type": "mastodon",
+                "service_type": "mastodon",
                 "access_token": "mP_PoDHqE0buKi6yND9xh0qBzPkN8v0AeJZQY9Rv9uY",
                 "base_url": "https://botsin.space/"
             },
             {
-                "type": "bluesky",
+                "service_type": "bluesky",
                 "username": "starfleetjobs.bsky.social",
                 "password": "7ic4-lho6-inut-lwrs",
                 "client": "https://bsky.social"
@@ -19,8 +19,8 @@
     {
         "name" : "Breaking Govtech",
         "grammar_json" : "breaking_govtech.json",
-        "bots" : [{
-                "type": "mastodon",
+        "service" : [{
+                "service_type": "mastodon",
                 "access_token" : "WpsYVKjlneM9dCtqX69QnIshXIHd_HqWUFamPWFMk4c",
                 "base_url" : "https://botsin.space/",
                 "grammar_json" : "breaking_govtech.json"

@@ -42,8 +42,11 @@ def get_rules(GRAMMARS_DIRECTORY, GRAMMAR_JSON):
     """Returns a json rules object to be used with a Tracery grammar"""
     file_path = os.path.join(GRAMMARS_DIRECTORY, GRAMMAR_JSON)
  
-    module_logger.info('Opening rules file')
+    module_logger.info('Opening rules file %s.', GRAMMAR_JSON)
  
     with open(file_path) as rules_file:
         rules = json.load(rules_file)
+
+    module_logger.info('Done getting rules.')
+
     return rules

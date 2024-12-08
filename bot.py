@@ -21,7 +21,7 @@ fh = logging.FileHandler('bot-bot-bot.log')
 fh.setLevel(logging.INFO)
 
 # Set the formatter for root
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s: %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+formatter = logging.Formatter('%(asctime)s %(levelname)s [%(filename)s: %(funcName)s]: %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 ch.setFormatter(formatter)
 fh.setFormatter(formatter)
 
@@ -52,18 +52,50 @@ def main():
 
     logger.info('Started')
 
+    # Set the grammars directory from os environment
+    GRAMMARS_DIRECTORY = os.getenv("GRAMMARS_DIRECTORY")
+    logger.info('Using grammars directory "%s"', GRAMMARS_DIRECTORY)
+
+    
+    # get the bots 
     logger.info('Opening bots.json')
+    
     with open('bots.json') as bots_json:
         bots = json.load(bots_json)
+    
+    logger.info("Found %s bots", len(bots))
 
-    for bot in bots:
-        logger.info("Found %s bots", len(bots))
-        logger.debug(bot)
 
-    logger.debug('Debug message')
+    for idx, bot in enumerate(bots):
+        logger.info('Starting bot %s of %s: %s', idx+1, len(bots), bot['name'])
 
-    logger.info('Using grammars directory "%s"', GRAMMARS_DIRECTORY)
-    print(GRAMMAR_JSON)
+
+        # Get the grammars
+        GRAMMAR_JSON = bot['grammar_json']
+        logger.debug("Bot '%s' using grammar %s", bot['name'], bot['grammar_json'])
+
+        logger.info('Getting rules for %s...', bot['name'])
+        rules = get_rules(GRAMMARS_DIRECTORY, GRAMMAR_JSON)
+
+        # Generate a post
+        logger.info('Starting post generation for %s...', bot['name'])
+        post = generate_posts(rules)
+        logger.info('Finished post generation for %s.', bot['name'])
+
+        # Getting services
+        logger.info('Getting services for %s.', bot['name'])
+        for idx, service in enumerate(bot['service']):
+
+            logger.debug("Service %s of %s for %s: %s", idx+1, len(bot['service']), bot['name'], service['service_type'])
+        logger.info('Done getting services for %s.', bot['name'])                                                           
+
+        
+                                                    
+        # for found_services in bot['bots]']:
+        #     logger.debug("Found service %s: ", found_services)
+        # logger.debug(bot)
+
+
     # get our tracery rules
     rules = get_rules(GRAMMARS_DIRECTORY, GRAMMAR_JSON)
 

@@ -1,14 +1,21 @@
 import os
+import logging
 import json
 
 import tracery
 from tracery.modifiers import base_english
 
+# create logger
+module_logger = logging.getLogger('bot-bot-bot.utils.tracery')
+
 def generate_posts(rules):
     """Returns a dict containing two Tracery grammars with keys ["long"] and ["short"] when supplied a json Tracaery rules file."""
     post = {}
     
-    post["long"] = generate_post(rules)
+    module_logger.info('Generating a post')
+    generate_post(rules)
+    module_logger.info('Done generating a post')
+    
     post["short"] = generate_post_short(rules)
     
     # pprint.pp(len(post["short"]))
@@ -34,7 +41,9 @@ def generate_post_short(rules):
 def get_rules(GRAMMARS_DIRECTORY, GRAMMAR_JSON):
     """Returns a json rules object to be used with a Tracery grammar"""
     file_path = os.path.join(GRAMMARS_DIRECTORY, GRAMMAR_JSON)
-
+ 
+    module_logger.info('Opening rules file')
+ 
     with open(file_path) as rules_file:
         rules = json.load(rules_file)
     return rules

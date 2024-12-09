@@ -13,11 +13,12 @@ def generate_posts(rules):
     post = {}
     
     module_logger.info('Generating a post')
-    generate_post(rules)
-    module_logger.info('Done generating a post')
-    
+ 
+    post['long'] = generate_post(rules)
     post["short"] = generate_post_short(rules)
-    
+
+    module_logger.info('Done generating a post')
+
     # pprint.pp(len(post["short"]))
     # pprint.pp(len(post["long"]))
     

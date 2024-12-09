@@ -5,7 +5,7 @@ import json
 from dotenv import load_dotenv
 
 from utils.tracery import get_rules, generate_posts
-from utils.mastodon import mastodon_client 
+from utils.mastodon import mastodon_client, mastodon_client_multiple
 from utils.bluesky import bluesky_instance, bluesky_faceted_post
 
 # set up the logger
@@ -79,7 +79,7 @@ def main():
 
         # Generate a post
         logger.info('Starting post generation for %s...', bot['name'])
-        post = generate_posts(rules)
+        posts = generate_posts(rules)
         logger.info('Finished post generation for %s.', bot['name'])
 
         # Getting services
@@ -87,6 +87,34 @@ def main():
         for idx, service in enumerate(bot['service']):
 
             logger.debug("Service %s of %s for %s: %s", idx+1, len(bot['service']), bot['name'], service['service_type'])
+        
+            match service['service_type']:
+                
+                case 'mastodon':
+                    logger.info("Found a mastodon service")
+                    MASTODON_ACCESS_TOKEN = service['access_token']
+                    MASTODON_BASE_URL = service['base_url']
+                    logger.debug("Mastodon token %s, base URL %s", MASTODON_ACCESS_TOKEN, MASTODON_BASE_URL)
+                    logger.info("Set up mastodon service")
+
+                    post = posts['long']
+
+                    mastodon_instance = mastodon_client_multiple(MASTODON_ACCESS_TOKEN, MASTODON_BASE_URL)
+                    
+                    # mastodon_instance.status_post(post)
+                    logger.info('Posted to Mastodon: %s', post)
+
+
+                case 'bluesky':
+                    logger.info("Found a bluesky service")
+                    BLUESKY_USERNAME = service['username']
+                    BLUESKY_PASSWORD = service['password']
+                    BLUESKY_CLIENT = service['client']
+                    logger.debug("Bluesky username %s, password %s, client %s", BLUESKY_USERNAME, BLUESKY_PASSWORD, BLUESKY_CLIENT)
+                    logger.info("Set up bluesky service")
+
+                    post = posts['short']
+
         logger.info('Done getting services for %s.', bot['name'])                                                           
 
         

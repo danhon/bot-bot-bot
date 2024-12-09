@@ -55,7 +55,7 @@ def main():
     logger.info('***** Started')
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('filename')
+    parser.add_argument('filename', nargs='?', default='bots.json')
     parser.add_argument('-b', '--botfile')
     parser.add_argument('-o', '--off')
     args = parser.parse_args()

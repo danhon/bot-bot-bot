@@ -1,6 +1,7 @@
 {
     "origin":["#headline#"],
 
+    // You can have comments in here now!
     "old_wanted":[
         "#wanted_type#: #engineering_role#. #engineering_recruitment_required#. #recruitment_contact_hashtags#\n\n",
         "#wanted_type#: #arts_jobs#. #arts_recruitment_required#. #recruitment_contact_hashtags#\n\n"
@@ -13,8 +14,6 @@
    "posting_sent_a_poet_story":[
         "#species# #poet.capitalize# urgently needed to replace previous #poet# (unavailable due to #vacancy_reason#), for #ints# Federation Standard month tour to #document# #ships#'s #interesting_objects# #survey_type# in #sectors#. #event_type.capitalize# planning and #counselor_specialty# experience desirable. #hashtag# \\#TheyShouldHaveSentAPoet"
     ],
-
-
 
     "posting_sent_a_poet":[
         "#[poet:#arts_jobs#]posting_sent_a_poet_story#"
@@ -2390,10 +2389,4 @@
         "15 Federation Standard years",
         "17 Federation Standard years"
     ]
-
-
-
 }
-
-
-

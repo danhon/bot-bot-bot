@@ -3,7 +3,9 @@ import logging
 import json
 import pyjson5
 from dotenv import load_dotenv
+import argparse
 
+# Bot utilities
 from utils.tracery import get_rules, generate_posts
 from utils.mastodon import get_mastodon_client
 from utils.bluesky import get_bluesky_instance, bluesky_faceted_post
@@ -43,18 +45,59 @@ def post_to_bluesky(post):
     bluesky_post = bluesky_faceted_post(post["short"])
     bluesky_client.post(bluesky_post)
 
+
+
+CONST_BOTFILE_DEFAULT = 'bots.json'
+
+
 def main():
 
-    logger.info('Started')
+    logger.info('***** Started')
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('filename')
+    parser.add_argument('-b', '--botfile')
+    parser.add_argument('-o', '--off')
+    args = parser.parse_args()
+
+    argument_botfile = args.botfile
+
+    # parser.add_argument("-o", "--only", choices=['bluesky','mastodon'])
+    # if args.only:
+    #     logger.info("Found an only argument, %s", args.only)
+
+    # else:
+    #     logger.info("No only argument")
+
+    # Set a botfile if one was provided
+    BOTFILE = ''
+
+    if args.filename or args.botfile:
+        if args.filename:
+            logger.info('Found a filename argument, %s', args.filename)
+            BOTFILE = args.filename
+
+        if args.botfile:
+            logger.info('Found a botfile argument, %s', args.botfile)
+            BOTFILE = args.botfile 
+        
+    else:
+        BOTFILE = CONST_BOTFILE_DEFAULT
+
+
+    NO_POST = False
+
+    if args.off:
+        NO_POST = True
 
     # Set the grammars directory from os environment
     GRAMMARS_DIRECTORY = os.getenv("GRAMMARS_DIRECTORY")
     logger.info('Using grammars directory "%s"', GRAMMARS_DIRECTORY)
     
     # get the bots
-    logger.info('Opening bots.json')
+    logger.info('Opening this json file %s', BOTFILE)
     
-    with open('bots.json') as bots_json:
+    with open(BOTFILE) as bots_json:
         bots = pyjson5.decode_io(bots_json)
     
     logger.info("Found %s bots", len(bots))
@@ -92,10 +135,10 @@ def main():
                     post = posts['long']
 
                     mastodon_instance = get_mastodon_client(MASTODON_ACCESS_TOKEN, MASTODON_BASE_URL)
- 
-                    # do the post
-                    # mastodon_instance.status_post(post)
-                    # logger.info('Posted to Mastodon: %s', post)
+
+                    if not NO_POST:
+                        mastodon_instance.status_post(post)
+                        logger.info('Posted to Mastodon: %s', post)
 
 
                 case 'bluesky':
@@ -111,30 +154,13 @@ def main():
                     bluesky_client = get_bluesky_instance(BLUESKY_USERNAME, BLUESKY_PASSWORD, BLUESKY_CLIENT)
                     bluesky_post = bluesky_faceted_post(post)
                     
-                    # do the post
-                    # bluesky_client.post(bluesky_post)
-                    # logger.info('Posted to Bluesky: %s', post)
+                    if not NO_POST:
+                        # do the post
+                        bluesky_client.post(bluesky_post)
+                        logger.info('Posted to Bluesky: %s', post)
 
         logger.info('Done getting services for %s.', bot['name'])                                                           
 
-        
-                                                    
-        # for found_services in bot['bots]']:
-        #     logger.debug("Found service %s: ", found_services)
-        # logger.debug(bot)
-
-
-    # get our tracery rules
-    # rules = get_rules(GRAMMARS_DIRECTORY, GRAMMAR_JSON)
-
-    # # generate our posts dict containing a short post and a long post
-    # post = generate_posts(rules)
-
-    # send that post to um a posting thing
-    # logger.info('Posting to Mastodon')
-    # post_to_mastodon(post)
-    # logger.info('Posting to Bluesky')
-    # post_to_bluesky(post)
 
     logger.info('Finished')
 

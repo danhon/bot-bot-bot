@@ -1,5 +1,6 @@
 import re
 import logging
+import json
 
 from atproto import Client, client_utils
 
@@ -30,6 +31,10 @@ def bluesky_faceted_post(post):
     for tag in hashtags:
         # Add each hashtag as a tag facet
         text_builder.tag(tag + " ", tag.split('#')[1])
+
+    # let's inspect what was built
+    # post_json_data = json.dumps(text_builder.__dict__, indent=4)
+    # moduler_logger.debug(post_json_data)
 
     return text_builder
 

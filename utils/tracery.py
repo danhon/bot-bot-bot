@@ -1,6 +1,7 @@
 import os
 import logging
 import pyjson5
+import sys
 
 import tracery
 from tracery.modifiers import base_english
@@ -45,9 +46,14 @@ def get_rules(GRAMMARS_DIRECTORY, GRAMMAR_JSON):
  
     module_logger.info('Opening rules file %s.', GRAMMAR_JSON)
  
-    with open(file_path) as rules_file:
-        rules = pyjson5.decode_io(rules_file)
+    try: 
+        with open(file_path) as rules_file:
+            rules = pyjson5.decode_io(rules_file)
 
-    module_logger.info('Done getting rules.')
+        module_logger.info('Done getting rules.')
+
+    except OSError:
+        print("Couldn't open: ", file_path)
+        sys.exit()
 
     return rules

@@ -1,0 +1,18 @@
+// json5 formatted, so you can write comments etc.
+
+[
+    {
+        // The name of your bot
+        "name": "Test account: me-im-asking",
+        // Name of the Tracery grammar file
+        "grammar_json": "test-bluesky.json",
+        "service": [
+            {
+                "service_type": "bluesky",
+                "username": "me-im-asking.bsky.social",
+                "password": "imeg-xpep-ikc4-nqno",
+                "client": "https://bsky.social"
+            }
+            ]
+    },
+]

@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 from utils.tracery import get_rules, generate_posts
 from utils.mastodon import mastodon_client, mastodon_client_multiple
-from utils.bluesky import bluesky_instance, bluesky_faceted_post
+from utils.bluesky import bluesky_instance, bluesky_instance_multiple, bluesky_faceted_post
 
 # set up the logger
 logger = logging.getLogger('bot-bot-bot')
@@ -69,7 +69,6 @@ def main():
     for idx, bot in enumerate(bots):
         logger.info('Starting bot %s of %s: %s', idx+1, len(bots), bot['name'])
 
-
         # Get the grammars
         GRAMMAR_JSON = bot['grammar_json']
         logger.debug("Bot '%s' using grammar %s", bot['name'], bot['grammar_json'])
@@ -101,7 +100,7 @@ def main():
 
                     mastodon_instance = mastodon_client_multiple(MASTODON_ACCESS_TOKEN, MASTODON_BASE_URL)
                     
-                    # mastodon_instance.status_post(post)
+                    mastodon_instance.status_post(post)
                     logger.info('Posted to Mastodon: %s', post)
 
 
@@ -115,6 +114,11 @@ def main():
 
                     post = posts['short']
 
+                    bluesky_client = bluesky_instance_multiple(BLUESKY_USERNAME, BLUESKY_PASSWORD, BLUESKY_CLIENT)
+                    bluesky_post = bluesky_faceted_post(post)
+                    bluesky_client.post(bluesky_post)
+                    logger.info('Posted to Bluesky: %s', post)
+
         logger.info('Done getting services for %s.', bot['name'])                                                           
 
         
@@ -125,10 +129,10 @@ def main():
 
 
     # get our tracery rules
-    rules = get_rules(GRAMMARS_DIRECTORY, GRAMMAR_JSON)
+    # rules = get_rules(GRAMMARS_DIRECTORY, GRAMMAR_JSON)
 
-    # generate our posts dict containing a short post and a long post
-    post = generate_posts(rules)
+    # # generate our posts dict containing a short post and a long post
+    # post = generate_posts(rules)
 
     # send that post to um a posting thing
     # logger.info('Posting to Mastodon')

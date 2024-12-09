@@ -1,9 +1,15 @@
+// json5 formatted, so you can write comments etc.
+
 [
     {
+        // The name of your bot
         "name": "Starfleet Jobs",
+        // Name of the Tracery grammar file
         "grammar_json": "starfleetjobs.json",
         "service": [
             {
+                // Should specify "mastodon" or "bluesky"\
+                // Mastodon service types must include an access_token and base_url
                 "service_type": "mastodon",
                 "access_token": "mP_PoDHqE0buKi6yND9xh0qBzPkN8v0AeJZQY9Rv9uY",
                 "base_url": "https://botsin.space/"

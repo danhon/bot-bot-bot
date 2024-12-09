@@ -1,7 +1,3 @@
-import os
-from dotenv import load_dotenv
-import pprint
-import json
 import re
 import logging
 
@@ -37,6 +33,3 @@ def bluesky_faceted_post(post):
 
     return text_builder
 
-def envs():
-    load_dotenv()
-    return os.environ

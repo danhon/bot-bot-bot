@@ -1,7 +1,7 @@
 import os
 import logging
-import pprint
 import json
+import pyjson5
 from dotenv import load_dotenv
 
 from utils.tracery import get_rules, generate_posts
@@ -32,10 +32,6 @@ logger.addHandler(fh)
 # Load and set environment variables
 load_dotenv()
 
-# set grammars directory and file
-GRAMMARS_DIRECTORY = os.getenv("GRAMMARS_DIRECTORY")
-GRAMMAR_JSON = "starfleetjobs.json"
-
 # make a mastodon client and then post
 def post_to_mastodon(post):
     mastodon_instance = mastodon_client()
@@ -48,23 +44,20 @@ def post_to_bluesky(post):
     bluesky_client.post(bluesky_post)
 
 def main():
-    # logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s: %(message)s', datefmt='%Y-%m-%d %H:%M:%S', filename='bot-bot-bot.log', level=logging.DEBUG)
 
     logger.info('Started')
 
     # Set the grammars directory from os environment
     GRAMMARS_DIRECTORY = os.getenv("GRAMMARS_DIRECTORY")
     logger.info('Using grammars directory "%s"', GRAMMARS_DIRECTORY)
-
     
-    # get the bots 
+    # get the bots
     logger.info('Opening bots.json')
     
     with open('bots.json') as bots_json:
-        bots = json.load(bots_json)
+        bots = pyjson5.decode_io(bots_json)
     
     logger.info("Found %s bots", len(bots))
-
 
     for idx, bot in enumerate(bots):
         logger.info('Starting bot %s of %s: %s', idx+1, len(bots), bot['name'])

@@ -27,17 +27,11 @@ when you call generate_posts() you'll get a dict back with a ["long"] post and a
 
 ### hashtags in bluesky
 
-omg these were annoying and they're done in a super hacky way.
+this is done better now.
 
-so on bluesky, hashtags are super smart and consist of marked-up text called a facet. facets are delimited by their start and ending bytes, and those bytes are annotated with a facet, in this case, a "tag". The facet itself has two attributes that we really care about: the presentation text of the facet (i.e. what you'd see, like #winning) and the underlying hashtag (i.e. winning), which sets up bluesky searches, etc.
+### mentions
 
-the important thing to note here is that the presentation text of the facet can be different from the actual underlying hashtag. 
-
-for this thing, *hashtags are presumed to be at the end of a generated post* because a) that's the structure of the tracery posts (i.e. text, followed by a number of hashtags) and b) I couldn't be bothered figuring out generalizing inline hashtags because the bluesky documentation for the textbuilder helper class kind of implies that you build the post text in sequence?
-
-anyway, so we split the generated tracery post at the first hashtag (#) and assume everything after that is a hashtag. I told you this was stupid.
-
-then we hackily set up an array of those hashtags and then use textbuilder to, um, add the tag facets to them. ta-da.
+these are TODO, I think I need to figure out resolving DIDs from handles. Mainily need to do this because Breaking Govtech mentions itself.
 
 ---
 

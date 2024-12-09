@@ -27,7 +27,7 @@ def mastodon_client():
     return mastodon_instance
 
 
-def mastodon_client_multiple(token, base_url):
+def get_mastodon_client(token, base_url):
     MASTODON_TOKEN = token
     MASTODON_BASE_URL = base_url
 

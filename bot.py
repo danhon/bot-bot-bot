@@ -5,8 +5,8 @@ import json
 from dotenv import load_dotenv
 
 from utils.tracery import get_rules, generate_posts
-from utils.mastodon import mastodon_client, mastodon_client_multiple
-from utils.bluesky import bluesky_instance, bluesky_instance_multiple, bluesky_faceted_post
+from utils.mastodon import get_mastodon_client
+from utils.bluesky import get_bluesky_instance, bluesky_faceted_post
 
 # set up the logger
 logger = logging.getLogger('bot-bot-bot')
@@ -98,10 +98,11 @@ def main():
 
                     post = posts['long']
 
-                    mastodon_instance = mastodon_client_multiple(MASTODON_ACCESS_TOKEN, MASTODON_BASE_URL)
-                    
-                    mastodon_instance.status_post(post)
-                    logger.info('Posted to Mastodon: %s', post)
+                    mastodon_instance = get_mastodon_client(MASTODON_ACCESS_TOKEN, MASTODON_BASE_URL)
+ 
+                    # do the post
+                    # mastodon_instance.status_post(post)
+                    # logger.info('Posted to Mastodon: %s', post)
 
 
                 case 'bluesky':
@@ -114,10 +115,12 @@ def main():
 
                     post = posts['short']
 
-                    bluesky_client = bluesky_instance_multiple(BLUESKY_USERNAME, BLUESKY_PASSWORD, BLUESKY_CLIENT)
+                    bluesky_client = get_bluesky_instance(BLUESKY_USERNAME, BLUESKY_PASSWORD, BLUESKY_CLIENT)
                     bluesky_post = bluesky_faceted_post(post)
-                    bluesky_client.post(bluesky_post)
-                    logger.info('Posted to Bluesky: %s', post)
+                    
+                    # do the post
+                    # bluesky_client.post(bluesky_post)
+                    # logger.info('Posted to Bluesky: %s', post)
 
         logger.info('Done getting services for %s.', bot['name'])                                                           
 

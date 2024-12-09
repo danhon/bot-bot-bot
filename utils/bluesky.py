@@ -3,31 +3,20 @@ from dotenv import load_dotenv
 import pprint
 import json
 import re
+import logging
 
 from atproto import Client, client_utils
 
-def bluesky_instance():
-    """Returns a Bluesky client based on the environment variables BLUESKY_USERNAME and BLUESKY_PASSWORD. Assumes that your client/pds is at bsky.social"""
-    environment = envs()
-    BLUESKY_USERNAME = environment["BLUESKY_USERNAME"]
-    BLUESKY_PASSWORD = environment["BLUESKY_PASSWORD"]
+# create logger
+module_logger = logging.getLogger('bot-bot-bot.utils.bluesky')
 
-    print("using username: " + BLUESKY_USERNAME)
-    print("using password " + BLUESKY_PASSWORD)
-
-    client = Client("https://bsky.social")
-
-    client.login(BLUESKY_USERNAME, BLUESKY_PASSWORD)
-    # print("generated a client")
-    return client
-
-
-def bluesky_instance_multiple(username, password, client_url):
+def get_bluesky_instance(username, password, client_url):
     """Returns a Bluesky client based on provided username, password, and url"""
+    
+    module_logger.debug('Using %s, %s, %s for username, password, client', username, password, client_url)
     client = Client(client_url)
-
     client.login(username, password)
-    # print("generated a client")
+    
     return client
 
 def bluesky_faceted_post(post):

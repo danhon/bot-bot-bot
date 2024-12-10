@@ -9,6 +9,7 @@ import argparse
 from utils.tracery import get_rules, generate_posts
 from utils.mastodon import get_mastodon_client
 from utils.bluesky import get_bluesky_instance, bluesky_faceted_post
+from utils.bluesky import bluesky_reply
 
 # set up the logger
 logger = logging.getLogger('bot-bot-bot')
@@ -92,7 +93,7 @@ def main():
 
     # Set the grammars directory from os environment
     GRAMMARS_DIRECTORY = os.getenv("GRAMMARS_DIRECTORY")
-    logger.info('Using grammars directory "%s"', GRAMMARS_DIRECTORY)
+    logger.info('Using grammars directory from env: %s"', GRAMMARS_DIRECTORY)
     
     # get the bots
     logger.info('Opening this json file %s', BOTFILE)
@@ -158,6 +159,15 @@ def main():
                         # do the post
                         bluesky_client.post(bluesky_post)
                         logger.info('Posted to Bluesky: %s', post)
+
+                        # returned_from_bluesky = bluesky_client.post(bluesky_post)
+
+                        # logger.debug(returned_from_bluesky)
+
+                        # another_reply = bluesky_reply(returned_from_bluesky, returned_from_bluesky, 'lol reply', bluesky_client)
+
+                        # logger.debug(another_reply)
+                        
 
         logger.info('Done getting services for %s.', bot['name'])                                                           
 

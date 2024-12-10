@@ -3,6 +3,7 @@ import logging
 import json
 
 from atproto import Client, client_utils
+from atproto import models
 
 # create logger
 module_logger = logging.getLogger('bot-bot-bot.utils.bluesky')
@@ -46,3 +47,15 @@ def bluesky_faceted_post(post):
     #     text_builder.tag(tag + " ", tag.split('#')[1])
 
     return text_builder
+
+
+def bluesky_reply(parent_post, root_post, post, client):
+
+    parent = models.create_strong_ref(parent_post)
+    root = models.create_strong_ref(root_post)
+
+    this_post = client.send_post(
+        text = post,
+        reply_to = models.AppBskyFeedPost.ReplyRef(parent = parent, root = root)
+    )   
+    return this_post

@@ -29,6 +29,9 @@ def generate_post(rules):
     grammar = tracery.Grammar(rules)
     grammar.add_modifiers(base_english)
     long_post = grammar.flatten("#origin#")
+
+    while len(long_post) > 500:
+        long_post = grammar.flatten("#origin#")
     return long_post
 
 def generate_post_short(rules):

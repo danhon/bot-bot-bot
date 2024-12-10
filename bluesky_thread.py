@@ -18,8 +18,11 @@ BLUESKY_CLIENT =  "https://bsky.social"
 client = get_bluesky_instance(BLUESKY_USERNAME, BLUESKY_PASSWORD, BLUESKY_CLIENT)
 
 # here's our list of posts
-# this only needs to store the root once?
-# post text, returned model
+# text of original post
+# the model of the returned post
+# the model of a parent post, if any
+# the model of a root post, if any
+
 post1 = { 
         'text': 'this is post 1',
         'post_root': None,

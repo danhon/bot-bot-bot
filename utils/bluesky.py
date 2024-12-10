@@ -59,3 +59,12 @@ def bluesky_reply(parent_post, root_post, post, client):
         reply_to = models.AppBskyFeedPost.ReplyRef(parent = parent, root = root)
     )   
     return this_post
+
+class BlueskyThreadPost:
+    text = None
+    post = None
+    post_root = None
+    post_parent = None
+
+
+    def __init__(self):

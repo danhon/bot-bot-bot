@@ -66,7 +66,7 @@ class Post_in_Thread:
     parent_post = None
     root_post = None
 
-    def __init__(self, text, post=None, parent_post=None, root_post=None)
+    def __init__(self, text, post=None, parent_post=None, root_post=None):
         self.text = text
         self.post = post
         self.parent_post = parent_post

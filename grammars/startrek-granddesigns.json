@@ -8,7 +8,7 @@
         "ST:GD s#season_ints#e#episode_ints#"
     ],
 
-    "variable_based_description":["#[person_1:#names#][person_2:#names#][person_3:#names#]description#"
+    "variable_based_description":["#[person_1:#names#][person_2:#names#][person_3:#names#][build_house_type:#house_type#]description#"
         
     ],
 
@@ -68,21 +68,172 @@
     ],
 
     "description":[
-        "Kevin McCloud follows former #rank# #person_1# and their partner #person_2#, who are #demolishing_phrase# an old #structure# and constructing a cutting-edge #house_type# in its place. (cont.)#break##inspiration_phrase.capitalize# a nearby #structure#, they have #design_phrase# a building of waves and curves fashioned from locally-sourced #materials# (cont.)#break##difficulties_start_phrase# when #problem_phrase#, #problem_phrase#, and #problem_phrase#. (cont.)#break#To make matters worse, the neighbours aren't #happy_phrase# about the presence of #integration_thing.a# in their community. As they begin to compromise, Kevin wonders if their #dreams# will ever #be_realized#.",
+        "Kevin McCloud follows former #rank# #person_1# and their partner #person_2#, who are #demolishing_phrase# an old #structure# and constructing a #cutting_edge_type# #house_type# in its place. (cont.)#break##inspiration_phrase.capitalize# a nearby #structure#, they have #design_phrase# a building of waves and curves fashioned from locally-sourced #materials# (cont.)#break##difficulties_start_phrase# when #problem_phrase#, #problem_phrase#, and #problem_phrase#. (cont.)#break#To make matters worse, the neighbours aren't #happy_phrase# about the presence of #integration_thing.a# in their community. As they begin to compromise, Kevin wonders if their #dreams# will ever #be_realized#.",
 
-        "On #planet#, former #rank# #names# set out to replace their standard Federation colony residential unit with an ambitious home -- #materials.a#-framed #stories# #house_type# using locally recycled #materials#, and imported #materials# from #planet#. (cont.)#break#...But #number_of_years# years in, #problem_phrase#, and the integration of #integration_thing.a# has cost far too much gold-pressed latinum. What will they do, and will #species# #materials# be the answer?",
+        "On #planet#, former #rank# #names# set out to replace their standard Federation colony residential unit with an ambitious #build_house_type# -- #materials.a#-framed #stories# #build_house_type# using locally recycled #materials#, and imported #materials# from #planet#. (cont.)#break#...But #number_of_years# in, #problem_phrase#, and the integration of #integration_thing.a# requires #currency_too_much#. What will they do, and will #species#-sourced #materials# be the #answer_type#?",
 
-        "On #planet#, the polycule of #person_1#, #person_2#, and #person_3# #demolish_phrase# an old #derelict_kind# #structure#. In its place, they plan to build a modern #materials#-based #structure# worthy of the memory of their late friend and commander, #names#. (cont.)#break#...But right from the start, an argument erupts over the relative merits of #materials# versus #materials# as an accent material for #person_3#'s #sports# annex. Will working with a new #species# architect be the solution to their problems?",
+        "While renting on #planet#, the polycule of #person_1#, #person_2#, and #person_3# #demolish_phrase# an old #derelict_kind# #structure#. In its place, they plan to #build_type# a #cutting_edge_type# #materials#-based #structure# worthy of the memory of their late friend and commander, #names#. (cont.)#break#...But right from the start, an argument erupts over the relative merits of #materials# versus #materials# as an accent material for #person_3#'s #sports# annex. Will working with a new #species# architect be the solution to their problems?",
 
-        "Kevin McCloud revisits a group of #species.s# living in a co-operative on #planet# who are building their own #house_type# and the homes of their neighbours.",
+        "Kevin McCloud revisits a group of #species.s# living in a co-operative on #planet# who are #buil_type_ing# their own #house_type# and the homes of their neighbours.",
 
-        "#derelict_kind.a.capitalize# #structure# in a #compass# #species# village on #planet# may not say '#architecture_genre#' to everyone. (cont.)#break#...But #person_1# and #person_2#, both former #rank.s# posted at #planet# saw it as the perfect opportunity to create a visionary home, powerfully evocative of #interesting_objects.a#.",
+        "#derelict_kind.a.capitalize# #structure# in a #compass# #species# village on #planet# may not say '#architecture_genre#' to everyone. (cont.)#break#...But #person_1# and #person_2#, both former #rank.s# posted at #planet#, saw it as the perfect opportunity to create a visionary home, powerfully evocative of #interesting_objects.a#.",
 
-        "#person_1# and #person_2# wanted to build a #house_type# that would be home to them, their holodeck #sports# arena and their #number# large #animals.s# adopted from #planet#. (cont.)#break#...So when a nearby #structure# came up for sale, they decided to buy it, #demolish_phrase# it, and build a dazzling #materials#-inspired modernist house in its place.",
+        "#person_1# and #person_2# wanted to #build_type# a #build_house_type# that would be home to them, their holodeck #sports# arena and their #number# large #animals.s# adopted from #planet#. (cont.)#break#...So when a nearby #structure# came up for sale, they decided to buy it, #demolish_phrase# it, and #build_type# a dazzling #materials#-inspired #species# #architecture_genre# #build_house_type# in its place.",
         
-        "Retired #rank.s# #person_1# and #person_2# have never #permanent_home_phrase#. For decades they've camped on #derelict_kind# land donated by #species.s# on #planet# with no replicator energy budget to build in an area where they live. (cont.)#break#...So #person_1# and #person_2# roll up their sleeves and decide to build a low-energy budget, zero-impact #structure#-inspired #materials#-based home -- if only they can figure out how to fix that #integration_thing#!",
+        "Retired #rank.s# #person_1# and #person_2# have never #permanent_home_phrase#. For decades they've camped on #derelict_kind# land donated by #species.s# on #planet# with no replicator energy budget to #build_type# in an area where they live. (cont.)#break#...So #person_1# and #person_2# roll up their sleeves and decide to #build_type# a low-energy budget, zero-impact #structure#-inspired #materials#-based home -- if only they can figure out how to fix that #integration_thing#!",
 
-        "#person_1#, #person_2#, and #person_3# hoped to bring a bit of #species# style to the #species# colony in northern #planet# when building their first family home. (cont.)#break#...a colourful, contemporary #stories# #house_type# with a striking #materials#-clad exterior. The throuple stumbled across the perfect plot overlooking a beautiful #structure#, claimed it, and began to plan their dream build."
+        "#person_1#, #person_2#, and #person_3# hoped to bring a bit of #species# style to the #species# colony in #compass# #planet# when #build_type_ing# their #ordinals_small# family home. (cont.)#break#...a colourful, contemporary #stories# #house_type# with a striking #materials#-clad exterior. The throuple stumbled across the perfect plot overlooking a beautiful #structure#, claimed it, and began to plan their dream build.",
+
+        "On stardate #stardate#, #person_1# and #person_2# set out to transform a #derelict_kind# #structure# into a #modern# home on #planet#. #number_of_years# on, how much has this #very_hard# project changed their lives?"
+    ],
+
+    "very_hard":[
+        "#ambitious_type#",
+        "#very_type# #ambitious_type#"
+    ],
+
+    "very_type":[
+        "extremely",
+        "wildly",
+        "excessively",
+        "immensely",
+        "vastly",
+        "significantly",
+        "singularly",
+        "decidedly",
+        "thoroughly",
+        "uncommonly"
+    ],
+
+    "ambitious_type":[
+        "ambitious",
+        "difficult",
+        "bold",
+        "grandiose",
+        "extravagant",
+        "formidable",
+        "challenging",
+        "demanding",
+        "hard",
+        "thorny",
+        "complicated",
+        "complex",
+        "intricate",
+        "uncooperative",
+        "exacting"
+    ],
+
+
+
+    "stardate":[
+        "#stardate_big_number##stardate_middle_number#.#stardate_decimal#"
+    ],
+
+    "stardate_big_number":[
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60"
+    ],
+
+    "stardate_middle_number":[
+        "#number_0_to_9##number_0_to_9##number_0_to_9#"
+    ],
+
+    "stardate_decimal":[
+        "#number_0_to_9#"
+    ],
+
+    "answer_type":[
+        "answer",
+        "solution",
+        "key"
+    ],
+
+    "requires_type":[
+        "requires",
+        "needs",
+        "demands",
+        "involves",
+        "costs"
+    ],
+
+    "currency_too_much":[
+        "#too_much_phrase_singular# gold-pressed latinum",
+        "#too_much_phrase_plural# #currency_latinum_plural",
+        "#too_much_phrase_plural# #currency_plural#",
+        "#too_much_phrase_singular# #materials#"
+    ],
+
+    "currency_plural":[
+        "darseks",
+        "diraks",
+        "doraks",
+        "frangs",
+        "globbers",
+        "leks",
+        "litas",
+        "quatloos",
+        "renns",
+        "replicator rations"
+
+    ],
+
+    "currency_latinum_plural":[
+        "bars of latinum",
+        "braces of latinum",
+        "bricks of latinum",
+        "slips of latinum",
+        "strips of latinum"
+    ],
+
+    "too_much_phrase_singular":[
+        "far too much",
+        "too much",
+        "an extraordinary amount of",
+        "an unexpected amount of"
+    ],
+
+    "too_much_phrase_plural":[
+        "far too many",
+        "too many"
+    ],
+
+    "modern":[
+        "#cutting_edge_type#"
+    ],
+
+    "cutting_edge_type":[
+        "cutting-edge",
+        "modern",
+        "contemporary",
+        "up to the stardate",
+        "fashionable",
+        "stylish",
+        "chic",
+        "forward-looking",
+        "voguish",
+        "progressive"
+    ],
+
+    "build_type":[
+        "build",
+        "construct",
+        "fab",
+        "fabricate",
+        "assemble",
+        "replicate"
+    ],
+
+    "build_type_ing":[
+        "building",
+        "constructing",
+        "fabbing",
+        "fabricating",
+        "assembling",
+        "replicating"
     ],
 
     "permanent_home_phrase":[
@@ -218,7 +369,7 @@
     ],
 
     "number_of_years":[
-        "#number#"
+        "#number# years"
     ],
 
     "problem_type":[
@@ -852,6 +1003,19 @@
         "#species# neural parasite"
     ],
 
+    "number_0_to_9":[
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+    ],
+
     "season_ints":[
         "1",
         "2",
@@ -1044,7 +1208,8 @@
 		"six",
 		"seven",
 		"eight",
-		"nine"
+		"nine",
+        "twelve"
 	],
 
 	"number_middle":[
@@ -1055,7 +1220,20 @@
 		"seventy",
 		"eighty",
 		"ninety"
-	]
+	],
+
+    "ordinals_small":[
+        "first",
+        "second",
+        "third",
+        "fourth",
+        "fifth",
+        "sixth",
+        "seventh",
+        "eighth",
+        "ninth",
+        "tenth"
+    ]
 
 }
 

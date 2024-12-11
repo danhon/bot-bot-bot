@@ -60,3 +60,10 @@ def get_rules(GRAMMARS_DIRECTORY, GRAMMAR_JSON):
         sys.exit()
 
     return rules
+
+
+def generate_normal_post(rules):
+    grammar = tracery.Grammar(rules)
+    grammar.add_modifiers(base_english)
+    post = grammar.flatten('#origin#')
+    return post

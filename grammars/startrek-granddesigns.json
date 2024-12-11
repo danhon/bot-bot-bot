@@ -1,18 +1,229 @@
 {
     "origin":[
 
-        "Kevin McCloud follows former #rank# #names# and their partner #names#, who are demolishing an old #structure# and constructing a cutting-edge #house_type# in its place. Taking inspiration from a nearby #structure#, they have designed a building of waves and curves fashioned from locally-sourced #materials#. #break#But problems began from the start, when an #protected_animal# moves onto the site, their #species# architect succumbs to #illness#, an ion storm disrupts their supply of refined #materials#, and to make matters worse, the neighbours aren't happy about the presence of a new #materials# reactor in their community. As they begin to compromise, Kevin wonders if their dreams will ever be realised."
+        "#episode_title#. #description#"
     ],
 
-
-    "other":[
-        "On #planet#, former #rank# #names# set out to replace their standard Federation colony residential unit with an ambitious home -- a #materials#-framed six-story dwelling using locally recycled #materials#, and imported #materials# from #planet#. But five years in, the construction Exocomps have revolted, and the integration of a novel #materials# power supply has cost far too much gold-pressed latinum."
+    "episode_title":[
+        "ST:GD s#season_ints#e#episode_ints#"
     ],
+
+    "prototype":[
+
+    ],
+
+    "compass":[
+        "northern",
+        "southern",
+        "eastern",
+        "western"
+    ],
+
+    "architecture_genre":[
+        "modernist",
+        "deconstructivist",
+        "Art Deco",
+        "brutalist",
+        "functuonalist",
+        "Bauhaus",
+        "trangressive",
+        "#species#ist"
+    ],
+    "derelict_kind":[
+        "derelict",
+        "dilapidated",
+        "ramshackle",
+        "run-down",
+        "rickety",
+        "disused",
+        "abandoned",
+        "decrepit",
+        "deteriorating",
+        "neglected"
+
+    ],
+
+    "description":[
+        "Kevin McCloud follows former #rank# #names# and their partner #names#, who are #demolishing_phrase# an old #structure# and constructing a cutting-edge #house_type# in its place. [cont]#break##inspiration_phrase.capitalize# a nearby #structure#, they have #design_phrase# a building of waves and curves fashioned from locally-sourced #materials#. [cont]#break##difficulties_start_phrase# when #problem_phrase#, #problem_phrase#, and #problem_phrase#. [cont]#break#To make matters worse, the neighbours aren't #happy_phrase# about the presence of #integration_thing.a# in their community. As they begin to compromise, Kevin wonders if their #dreams# will ever #be_realized#.",
+
+        "On #planet#, former #rank# #names# set out to replace their standard Federation colony residential unit with an ambitious home -- #materials.a#-framed #stories# #house_type# using locally recycled #materials#, and imported #materials# from #planet#. [cont]#break#...But #number_of_years# years in, #problem_phrase#, and the integration of #integration_thing.a# has cost far too much gold-pressed latinum. What will they do, and will #species# #materials# be the answer?",
+
+        "On #planet#, the polycule of #names#, #names#, and #names# #demolish_phrase# an old #derelict_kind# #structure#. In its place, they plan to build a modern #materials#-based #structure# worthy of the memory of their late friend and commander, #names#. [cont]#break#...But right from the start, an argument erupts over the relative merits of #materials# versus #materials# as an accent material for a new addition: a #sports# annex. Will working with a new #species# architect be the solution to their problems?",
+
+        "Kevin McCloud revisits a group of #species.s# living in a co-operative on #planet# who are building their own #house_type# and the homes of their neighbours.",
+
+        "#derelict_kind.a.capitalize# #structure# in a #compass# #species# village on #planet# may not say '#architecture_genre#' to everyone. [cont]#break#...But #names# and #names#, both former #rank.s# posted at #planet# saw it as the perfect opportunity to create a visionary home, powerfully evocative of #interesting_objects.a#.",
+
+        "#names# and #names# wanted to build a #house_type# that would be home to them, their holodeck #sports# arena and their #number# large #animals.s# adopted from #planet#. [cont]#break#...So when a nearby #structure# came up for sale, they decided to buy it, #demolish_phrase# it, and build a dazzling #materials#-inspired modernist house in its place.",
+        
+        "Retired #rank.s# #names# and #names# have never #permanent_home_phrase#. For decades they've camped on #derelict_kind# land donated by #species.s# on #planet# with no replicator energy budget to build in an area where they live. [cont]#break#...So they roll up their sleeves and decide to build a low-energy budget, zero-impact #structure#-inspired #materials#-based home -- if only they can figure out how to fix that #integration_thing#!",
+
+        "#names#, #names#, and #names# hoped to bring a bit of #species# style to the #species# colony in northern #planet# when building their first family home. [cont]#break#...a colourful, contemporary #stories# #house_type# with a striking #materials#-clad exterior. The throuple stumbled across the perfect plot overlooking a beautiful #structure#, claimed it, and began to plan their dream build."
+
+
+    ],
+
+    "permanent_home_phrase":[
+        "put down roots with a permanent home",
+        "lived in a forever home",
+        "had a stable place to live",
+        "stayed in one place",
+        "put down permanent roots"
+    ],
+
+    "happy_phrase":[
+        "happy",
+        "thrilled",
+        "excited",
+        "pleased"
+    ],
+
 
     "break":[
-        "\n\n"
+        "\n"
     ],
 
+    "difficulties_start_phrase":[
+        "But #problem_type# began from the start",
+        "From the start, #problem_type# beset them",
+        "#problem_type.capitalize# started from the beginning"
+    ],
+
+    "dreams":[
+        "dreams",
+        "wishes",
+        "fantasies",
+        "aspirations",
+        "goals"
+    ],
+
+    "be_realized":[
+        "be realized",
+        "come to fruition",
+        "accomplished",
+        "see the light",
+        "be carried through"
+    ],
+
+    "integration_thing":[
+        "#new# #materials# power supply",
+        "#particle# field-dampener",
+        "#new# #materials# reactor"
+    ],
+
+    "new":[
+        "novel",
+        "untested",
+        "prototype",
+        "new",
+        "innovative",
+        "unorthodox",
+        "Vulcan Science Academy-approved",
+        "unconventional"
+    ],
+
+    "particle":[
+        "#particle_type#",
+        "anti-#particle_type#"
+    ],
+
+    "particle_type":[
+        "baryon",
+        "hadron",
+        "chroniton",
+        "graviton",
+        "positron",
+        "proton",
+        "neutron",
+        "electron",
+        "tachyon",
+        "antiproton",
+        "magneton"
+    ],
+
+
+    "demolish_phrase":[
+        "demolish",
+        "phaser",
+        "disintegrate",
+        "dismantle",
+        "decommission"
+    ],
+
+    "demolishing_phrase":[
+        "demolishing",
+        "phasering",
+        "destroying by quantum torpedo",
+        "disintegrating",
+        "dismantling",
+        "decommissioning"
+    ],
+
+    "problem_phrase":[
+        "the construction #robot_labour# have #robot_labour_failure#",
+        "the #materials#-based foundation has #material_problem#",
+        "an argument erupts over the relative merits of #materials# versus #materials# as an accent material",
+        "an #protected_animal# moves onto the site",
+        "their #species# architect succumbs to #illness#",
+        "#interesting_objects.a# disrupts their supply of refined #materials#"
+    ],
+
+    "material_problem":[
+        "gone out of phase",
+        "spontaneously degraded",
+        "developed a tachyon echo"
+    ],
+
+    "robot_labour":[
+        "Exocomps",
+        "synths"
+    ],
+
+    "robot_labour_failure":[
+        "revolted",
+        "broken down",
+        "dissolved",
+        "been infected with a virus"
+    ],
+
+    "number":[
+        "two",
+        "three",
+        "four",
+        "six",
+        "five",
+        "seven"
+    ],
+
+    "number_of_years":[
+        "#number#"
+    ],
+
+    "problem_type":[
+        "problems",
+        "difficulties",
+        "troubles",
+        "complications",
+        "mix-ups",
+        "obstacles",
+        "hurdles",
+        "setbacks",
+        "an opened can of Targs"
+    ],
+
+    "inspiration_phrase":[
+        "taking inspiration from",
+        "inspired by",
+        "struck by inspiration from",
+        "moved to the heights of creativity by"
+    ],
+
+    "design_phrase":[
+        "sketched out",
+        "designed",
+        "planned",
+        "outlined"
+    ],
 
     "examples":[
         "Kate and Rob replace their 1940s past-it prefab with a bespoke, modern, factory-built home using volumetric modular construction. But will it feel like the characterful home they dream of?",
@@ -87,7 +298,63 @@
         "Bob",
         "Jennifer",
         "Niko",
-        "Peanut Hamper"
+        "Peanut Hamper",
+        "Les",
+        "Winger",
+        "Alonzo",
+        "Barnes",
+        "Steve",
+        "Castro",
+        "T'Lyn",
+        "Andy",
+        "Kayshon",
+        "Vassery",
+        "Gabers",
+        "Dayton",
+        "D'Erika",
+        "Sonya",
+        "Jack",
+        "Shaxs",
+        "T'Ana",
+        "Brad",
+        "Beckett",
+        "Carol",
+        "Benjamin",
+        "Odo",
+        "Julian",
+        "Jadzia",
+        "Jake",
+        "Miles",
+        "Kira",
+        "Worf",
+        "Brunt",
+        "Dukat",
+        "Michael",
+        "Vic",
+        "Elim",
+        "Gowron",
+        "Leeta",
+        "Nog",
+        "Keiko",
+        "Molly",
+        "William",
+        "Solbor",
+        "Kasidy",
+        "Enabran",
+        "Soji",
+        "Reginald",
+        "Bareil",
+        "Phillip",
+        "Gabrielle",
+        "Michael",
+        "Christine",
+        "Pavel",
+        "Hugh",
+        "Elizabeth",
+        "Dolim",
+        "Sonya",
+        "Amanda",
+        "Gwyndala"
     ],
 
     "rank":[
@@ -561,7 +828,212 @@
         "interphasic parasite",
         "temporal parasite",
         "#species# neural parasite"
-    ]
+    ],
 
+    "season_ints":[
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"    
+    ],
+        
+    "episode_ints":[
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24"
+    ],
+
+    "sports":[
+        "Anbo-jyutsu",
+        "B'aht Qul",
+        "Baccarat",
+        "Barokie",
+        "Baseball",
+        "Basketball",
+        "Bat'leth",
+        "Bear-baiting",
+        "Billiards",
+        "Bingo",
+        "Blackjack",
+        "Boxing",
+        "Caber Toss",
+        "Calisthenics",
+        "Cardassian Pinochle",
+        "Chess",
+        "Dabo",
+        "Darts",
+        "Dom-jot",
+        "Double-jack",
+        "Durotta",
+        "Fencing",
+        "Football (Earth American)",
+        "Football (Earth Soccer)",
+        "Gin Rummy",
+        "Go",
+        "Golf",
+        "Gymnastics",
+        "Hide and Seek",
+        "Hockey",
+        "Hopscotch",
+        "Horseback Riding",
+        "Hoverball",
+        "Hydrosailing",
+        "Ion Surfing",
+        "Jokarian Chess",
+        "Juro Counterpunch",
+        "Kadis-kot",
+        "Kal-toh",
+        "Kalevian Montar",
+        "Karo-net",
+        "Kayaking",
+        "Kotra",
+        "Ktarian Game",
+        "Laser Duel",
+        "Light Cube Table",
+        "Orbital Skydiving",
+        "Parrises Squares",
+        "Poker",
+        "Pool",
+        "Prayko",
+        "Qa'vak",
+        "Racquetball",
+        "Skydiving",
+        "Springball",
+        "Tennis",
+        "Terrace",
+        "Three-Dimensional Chess",
+        "Tongo",
+        "Velocity",
+        "Vulcan Chess",
+        "Water Polo",
+        "Yoga"      
+    ],
+
+    "interesting_objects":[
+        "Dyson sphere",
+        "Dyson ring",
+        "anomaly",
+        "accretion disc",
+        "binary star system",
+        "trinary star system",
+        "binary planet",
+        "trinary planet",
+        "black hole",
+        "blue giant",
+        "brown dwarf",
+        "brown hole",
+        "Class J gas giant",
+        "Class T gas giant",
+        "Class Y (demon) planet",
+        "dark matter anomaly",
+        "dark matter proto-comet",
+        "debris field",
+        "dichromic nebula",
+        "gaseous anomly",
+        "hypergiant",
+        "interstellar dust cloud",
+        "Kuiper belt",
+        "neutron star",
+        "particle fountain",
+        "plasma field",
+        "protostar",
+        "proto-nebula",
+        "rogue planet",
+        "rogue Dyson planet",
+        "septenary star system",
+        "naked singularity",
+        "cosmic string fragment",
+        "tachyon storm",
+        "ion storm"
+    ],
+
+    "stories":[
+      "#number_of_stories#-story"  
+    ],
+
+    "number_of_stories":[
+        "#number_small#",
+        "#number_middle#-#number_small#"
+
+    ],
+
+    "number_small":[
+		"two",
+		"three",
+		"four",
+		"five",
+		"six",
+		"seven",
+		"eight",
+		"nine"
+	],
+
+	"number_middle":[
+		"twenty",
+		"sixty",
+		"fifty",
+		"forty five",
+		"seventy",
+		"eighty",
+		"ninety"
+	]
 
 }
+

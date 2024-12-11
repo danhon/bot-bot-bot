@@ -1,16 +1,40 @@
 {
     "origin":[
 
-        "#episode_title#. #description#"
+        "#episode_title#. #variable_based_description#"
     ],
 
     "episode_title":[
         "ST:GD s#season_ints#e#episode_ints#"
     ],
 
-    "prototype":[
-
+    "variable_based_description":["#[person_1:#names#][person_2:#names#][person_3:#names#]description#"
+        
     ],
+
+    "prototype":[
+        "#[#set_person_1_species#][#set_person_2_species#][person_1:#names#][person_2:#names#]prototype_story#"
+    ],
+
+    "prototype_story":[
+        "#person_1# and #person_2# were both former #rank.s#, but #person_1_species# #person_1# was near a promotion and #person_2_species# #person_2# had only just been promoted, which was insulting to #person_1#, #person_1_species.a#. They were super annoyed with #person_2# because of this."
+    ],
+
+    "set_person_1_species":[
+        "[person_1_species:#species#]"
+    ],
+
+    "set_person_2_species":[
+        "[person_2_species:youngling #species#]",
+        "[person_2_species:elder #species#]",
+        "[person_2_species:teen #species#]",
+        "[person_2_species:tweeen #species#]"
+        
+    ],
+
+    
+
+
 
     "compass":[
         "northern",
@@ -44,23 +68,21 @@
     ],
 
     "description":[
-        "Kevin McCloud follows former #rank# #names# and their partner #names#, who are #demolishing_phrase# an old #structure# and constructing a cutting-edge #house_type# in its place. (cont.)#break##inspiration_phrase.capitalize# a nearby #structure#, they have #design_phrase# a building of waves and curves fashioned from locally-sourced #materials# (cont.)#break##difficulties_start_phrase# when #problem_phrase#, #problem_phrase#, and #problem_phrase#. (cont.)#break#To make matters worse, the neighbours aren't #happy_phrase# about the presence of #integration_thing.a# in their community. As they begin to compromise, Kevin wonders if their #dreams# will ever #be_realized#.",
+        "Kevin McCloud follows former #rank# #person_1# and their partner #person_2#, who are #demolishing_phrase# an old #structure# and constructing a cutting-edge #house_type# in its place. (cont.)#break##inspiration_phrase.capitalize# a nearby #structure#, they have #design_phrase# a building of waves and curves fashioned from locally-sourced #materials# (cont.)#break##difficulties_start_phrase# when #problem_phrase#, #problem_phrase#, and #problem_phrase#. (cont.)#break#To make matters worse, the neighbours aren't #happy_phrase# about the presence of #integration_thing.a# in their community. As they begin to compromise, Kevin wonders if their #dreams# will ever #be_realized#.",
 
         "On #planet#, former #rank# #names# set out to replace their standard Federation colony residential unit with an ambitious home -- #materials.a#-framed #stories# #house_type# using locally recycled #materials#, and imported #materials# from #planet#. (cont.)#break#...But #number_of_years# years in, #problem_phrase#, and the integration of #integration_thing.a# has cost far too much gold-pressed latinum. What will they do, and will #species# #materials# be the answer?",
 
-        "On #planet#, the polycule of #names#, #names#, and #names# #demolish_phrase# an old #derelict_kind# #structure#. In its place, they plan to build a modern #materials#-based #structure# worthy of the memory of their late friend and commander, #names#. (cont.)#break#...But right from the start, an argument erupts over the relative merits of #materials# versus #materials# as an accent material for a new addition: a #sports# annex. Will working with a new #species# architect be the solution to their problems?",
+        "On #planet#, the polycule of #person_1#, #person_2#, and #person_3# #demolish_phrase# an old #derelict_kind# #structure#. In its place, they plan to build a modern #materials#-based #structure# worthy of the memory of their late friend and commander, #names#. (cont.)#break#...But right from the start, an argument erupts over the relative merits of #materials# versus #materials# as an accent material for #person_3#'s #sports# annex. Will working with a new #species# architect be the solution to their problems?",
 
         "Kevin McCloud revisits a group of #species.s# living in a co-operative on #planet# who are building their own #house_type# and the homes of their neighbours.",
 
-        "#derelict_kind.a.capitalize# #structure# in a #compass# #species# village on #planet# may not say '#architecture_genre#' to everyone. (cont.)#break#...But #names# and #names#, both former #rank.s# posted at #planet# saw it as the perfect opportunity to create a visionary home, powerfully evocative of #interesting_objects.a#.",
+        "#derelict_kind.a.capitalize# #structure# in a #compass# #species# village on #planet# may not say '#architecture_genre#' to everyone. (cont.)#break#...But #person_1# and #person_2#, both former #rank.s# posted at #planet# saw it as the perfect opportunity to create a visionary home, powerfully evocative of #interesting_objects.a#.",
 
-        "#names# and #names# wanted to build a #house_type# that would be home to them, their holodeck #sports# arena and their #number# large #animals.s# adopted from #planet#. (cont.)#break#...So when a nearby #structure# came up for sale, they decided to buy it, #demolish_phrase# it, and build a dazzling #materials#-inspired modernist house in its place.",
+        "#person_1# and #person_2# wanted to build a #house_type# that would be home to them, their holodeck #sports# arena and their #number# large #animals.s# adopted from #planet#. (cont.)#break#...So when a nearby #structure# came up for sale, they decided to buy it, #demolish_phrase# it, and build a dazzling #materials#-inspired modernist house in its place.",
         
-        "Retired #rank.s# #names# and #names# have never #permanent_home_phrase#. For decades they've camped on #derelict_kind# land donated by #species.s# on #planet# with no replicator energy budget to build in an area where they live. (cont.)#break#...So they roll up their sleeves and decide to build a low-energy budget, zero-impact #structure#-inspired #materials#-based home -- if only they can figure out how to fix that #integration_thing#!",
+        "Retired #rank.s# #person_1# and #person_2# have never #permanent_home_phrase#. For decades they've camped on #derelict_kind# land donated by #species.s# on #planet# with no replicator energy budget to build in an area where they live. (cont.)#break#...So #person_1# and #person_2# roll up their sleeves and decide to build a low-energy budget, zero-impact #structure#-inspired #materials#-based home -- if only they can figure out how to fix that #integration_thing#!",
 
-        "#names#, #names#, and #names# hoped to bring a bit of #species# style to the #species# colony in northern #planet# when building their first family home. (cont.)#break#...a colourful, contemporary #stories# #house_type# with a striking #materials#-clad exterior. The throuple stumbled across the perfect plot overlooking a beautiful #structure#, claimed it, and began to plan their dream build."
-
-
+        "#person_1#, #person_2#, and #person_3# hoped to bring a bit of #species# style to the #species# colony in northern #planet# when building their first family home. (cont.)#break#...a colourful, contemporary #stories# #house_type# with a striking #materials#-clad exterior. The throuple stumbled across the perfect plot overlooking a beautiful #structure#, claimed it, and began to plan their dream build."
     ],
 
     "permanent_home_phrase":[

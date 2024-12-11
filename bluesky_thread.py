@@ -4,83 +4,72 @@ import json
 import pyjson5
 from dotenv import load_dotenv
 import argparse
+import pprint
 
 # Bot utilities
 from utils.bluesky import get_bluesky_instance, bluesky_faceted_post
-from utils.bluesky import bluesky_reply
+from utils.bluesky import bluesky_reply, Post_in_Thread
 from atproto import models
 
+from utils.tracery import get_rules, generate_posts, generate_normal_post
 
-BLUESKY_USERNAME = "me-im-asking.bsky.social"
-BLUESKY_PASSWORD = "imeg-xpep-ikc4-nqno"
+
+rules = get_rules('grammars/','startrek-granddesigns.json')
+post = generate_normal_post(rules)
+
+thread_text = post.splitlines()
+
+thread_posts = []
+
+for idx, item in enumerate(thread_text):
+    this_thread_post = Post_in_Thread(text=item)
+    thread_posts.append(this_thread_post)
+
+# BLUESKY_USERNAME = "me-im-asking.bsky.social"
+# BLUESKY_PASSWORD = "imeg-xpep-ikc4-nqno"
+# BLUESKY_CLIENT =  "https://bsky.social"
+
+BLUESKY_USERNAME = "st-grand-designs.bsky.social"
+BLUESKY_PASSWORD = "pmvr-flgv-lqyv-qvgx"
 BLUESKY_CLIENT =  "https://bsky.social"
+
 
 client = get_bluesky_instance(BLUESKY_USERNAME, BLUESKY_PASSWORD, BLUESKY_CLIENT)
 
-# here's our list of posts
-# text of original post
-# the model of the returned post
-# the model of a parent post, if any
-# the model of a root post, if any
 
-post1 = { 
-        'text': 'this is post 1',
-        'post_root': None,
-        'post': None,
-        'post_parent':  None
-}
+def post_thread(thread_of_posts):
 
-post2 = { 
-        'text': 'this is post 2',
-        'post_root': None,
-        'post': None,
-        'post_parent':  None
-}
-
-
-post3 = { 
-        'text': 'this is post 3',
-        'post_root': None,
-        'post': None,
-        'post_parent':  None
-}
-
-
-thread_of_posts = (
-    post1, post2, post3
-)
-
-for idx, post in enumerate(thread_of_posts):
-    
-    if idx == 0:
-        this_post = client.send_post(post['text'])
-        root_post = this_post
-
-        post['post_root'] = root_post
-        post['post'] = this_post
-
-        print(idx, post)
-    
-    else: 
-        previous_post = thread_of_posts[idx-1]
-
-        root_post = previous_post['post_root']
-        print(root_post)
-        parent_post = previous_post['post']
-
-        parent = models.create_strong_ref(parent_post)
-        root = models.create_strong_ref(root_post)
-                
-        this_post = client.send_post(
-            text = post['text'],
-            reply_to = models.AppBskyFeedPost.ReplyRef(parent = parent, root = root)
-        )
-
-        post['post_root'] = root_post
-        post['post_parent'] = parent_post
-        post['post'] = this_post
-        print (idx, post)
-
-
+    for idx, post in enumerate(thread_of_posts):
+        print(idx, len(post.text), post.text)
 
         
+        if idx == 0:
+            this_post = client.send_post(post.text)
+            root_post = this_post
+
+            post.root_post = root_post
+            post.post = this_post
+
+        
+        else: 
+            previous_post = thread_of_posts[idx-1]
+
+            root_post = previous_post.root_post
+            print(root_post)
+            parent_post = previous_post.post
+
+            parent = models.create_strong_ref(parent_post)
+            root = models.create_strong_ref(root_post)
+                    
+            this_post = client.send_post(
+                text = post.text,
+                reply_to = models.AppBskyFeedPost.ReplyRef(parent = parent, root = root)
+            )
+
+            post.root_post = root_post
+            post.parent_post = parent_post
+            post.post = this_post
+            print (idx, post)
+
+
+post_thread(thread_posts)

@@ -46,7 +46,10 @@ def post_to_bluesky(post):
     bluesky_post = bluesky_faceted_post(post["short"])
     bluesky_client.post(bluesky_post)
 
-
+service_handlers = {
+    'bluesky': post_to_bluesky,
+    'mastodon': post_to_mastodon,
+}
 
 CONST_BOTFILE_DEFAULT = 'bots.json'
 

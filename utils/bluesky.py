@@ -60,11 +60,15 @@ def bluesky_reply(parent_post, root_post, post, client):
     )   
     return this_post
 
-class BlueskyThreadPost:
+class Post_in_Thread:
     text = None
     post = None
-    post_root = None
-    post_parent = None
+    parent_post = None
+    root_post = None
 
-
-    def __init__(self):
+    def __init__(self, text, post=None, parent_post=None, root_post=None):
+        self.text = text
+        self.post = post
+        self.parent_post = parent_post
+        self.root_post = root_post
+        

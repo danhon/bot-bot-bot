@@ -1,49 +1,30 @@
 {
-    "origin":[
-
+    "origin": [
         "#episode_title#. #variable_based_description#"
     ],
-
-    "episode_title":[
+    "episode_title": [
         "ST:GD s#season_ints#e#episode_ints#"
     ],
-
-    "variable_based_description":["#[person_1:#names#][person_2:#names#][person_3:#names#][architect:#name#][build_house_type:#house_type#]description#"
-        
+    "variable_based_description": [
+        "#[person_1:#names#][person_2:#names#][person_3:#names#][architect:#name#][build_house_type:#house_type#]description#"
     ],
-
-    "prototype":[
+    "prototype": [
         "#[#set_person_1_species#][#set_person_2_species#][person_1:#names#][person_2:#names#]prototype_story#"
     ],
-
-    "prototype_story":[
+    "prototype_story": [
         "#person_1# and #person_2# were both former #rank.s#, but #person_1_species# #person_1# was near a promotion and #person_2_species# #person_2# had only just been promoted, which was insulting to #person_1#, #person_1_species.a#. They were super annoyed with #person_2# because of this."
     ],
-
-    "set_person_1_species":[
+    "set_person_1_species": [
         "[person_1_species:#species#]"
     ],
-
-    "set_person_2_species":[
+    "set_person_2_species": [
         "[person_2_species:youngling #species#]",
         "[person_2_species:elder #species#]",
         "[person_2_species:teen #species#]",
         "[person_2_species:tweeen #species#]"
-        
     ],
 
-    
-
-
-
-    "compass":[
-        "northern",
-        "southern",
-        "eastern",
-        "western"
-    ],
-
-    "architecture_genre":[
+    "architecture_genre": [
         "modernist",
         "deconstructivist",
         "Art Deco",
@@ -53,15 +34,13 @@
         "trangressive",
         "#species#ist"
     ],
-
-    "bad_place_phrase":[
+    "bad_place_phrase": [
         "#derelict_kind#",
         "#bad_place#",
         "#bad_place#, #derelict_kind#",
         "#derelict_kind#, #bad_place#"
     ],
-
-    "derelict_kind":[
+    "derelict_kind": [
         "derelict",
         "dilapidated",
         "ramshackle",
@@ -73,8 +52,7 @@
         "deteriorating",
         "neglected"
     ],
-
-    "bad_place":[
+    "bad_place": [
         "cramped",
         "awkward",
         "overcrowded",
@@ -88,52 +66,31 @@
         "dreary",
         "tame",
         "lackluster",
-        "tedious"      
+        "tedious"
     ],
-
-    "description":[
+    "description": [
         "Kevin McCloud follows former #rank# #person_1# and their partner #person_2#, who are #demolishing_phrase# an old #structure# and constructing a #cutting_edge_type# #house_type# in its place. (cont.)#break##inspiration_phrase.capitalize# a nearby #structure#, they have #design_phrase# a building #building_description# fashioned from locally-sourced #materials# (cont.)#break##difficulties_start_phrase# when #problem_phrase#, #problem_phrase#, and #problem_phrase#. (cont.)#break#To make matters worse, the neighbours aren't #happy_phrase# about the presence of #integration_thing.a# in their community. As they begin to compromise, Kevin wonders if their #dreams# will ever #be_realized#.",
-
         "On #planet#, former #rank# #names# #set_out_to# replace their standard Federation colony residential unit with #very_hard.a# #build_house_type# -- #materials.a#-framed #stories# #build_house_type# using locally recycled #materials#, and imported #materials# from #planet#. (cont.)#break#...But #number_of_years# in, #problem_phrase#, and the #integration_type# of #integration_thing.a# requires #currency_too_much#. What will they do, and will #species#-sourced #materials# be the #answer_type#?",
-
         "While renting on #planet#, the polycule of #person_1#, #person_2#, and #person_3# #demolish_phrase# an old, #bad_place_phrase# #structure#. In its place, they plan to #build_type# a #cutting_edge_type# #materials#-based #structure# worthy of the memory of their late friend and commander, #names#. (cont.)#break#...But right from the start, #problem_phrase#. Will working with a new #species# architect be the solution to their problems?",
-
         "Kevin McCloud revisits a group of #species.s# living in a co-operative on #planet# who are #build_type_ing# their own #house_type# and the homes of their neighbours.",
-
-        "#bad_place_phrase.a.capitalize# #structure# in a #compass# #species# village on #planet# may not say '#architecture_genre#' to everyone. (cont.)#break#...But #person_1# and #person_2#, both former #rank.s# posted at #planet#, saw it as the perfect opportunity to create a visionary home, powerfully evocative of #interesting_objects.a#.",
-
+        "#bad_place_phrase.a.capitalize# #structure# in a #compass_location# #species# village on #planet# may not say '#architecture_genre#' to everyone. (cont.)#break#...But #person_1# and #person_2#, both former #rank.s# posted at #planet#, saw it as the perfect opportunity to create a visionary home, powerfully evocative of #interesting_objects.a#.",
         "#person_1# and #person_2# wanted to #build_type# a #build_house_type# that would be home to them, their holodeck #sports# arena, and their #number# large #animals.s# adopted from #planet#. (cont.)#break#...So when a nearby #structure# came up for sale, they decided to buy it, #demolish_phrase# it, and #build_type# a dazzling #materials#-inspired #species# #architecture_genre# #build_house_type# in its place.",
-        
         "Retired #rank.s# #person_1# and #person_2# have never #permanent_home_phrase#. For decades they've camped on #bad_place_phrase# land donated by #species.s# on #planet# with no replicator energy budget to #build_type# in an area where they live. (cont.)#break#...So #person_1# and #person_2# roll up their sleeves and decide to #build_type# a low-energy budget, zero-impact #structure#-inspired #materials#-based home -- if only they can figure out how to fix that #integration_thing#!",
-
-        "#person_1#, #person_2#, and #person_3# hoped to bring a bit of #species# style to the #species# colony in #compass# #planet# when #build_type_ing# their #ordinals_small# family home. (cont.)#break#...a colourful, #cutting_edge_type# #stories# #house_type# with a striking #materials#-clad exterior. The throuple stumbled across the perfect plot overlooking a beautiful #structure#, claimed it, and began to plan their dream build.",
-
+        "#person_1#, #person_2#, and #person_3# hoped to bring a bit of #species# style to the #species# colony in #compass_location# #planet# when #build_type_ing# their #ordinals_small# family home. (cont.)#break#...a colourful, #cutting_edge_type# #stories# #house_type# with a striking #materials#-clad exterior. The throuple stumbled across the perfect plot overlooking a beautiful #structure#, claimed it, and began to plan their dream build.",
         "On stardate #stardate#, #person_1# and #person_2# set out to transform #bad_place_phrase.a# #structure# into a #modern# home on #planet#. #number_of_years.capitalize# on, how much has this #very_hard# project changed their lives?",
-
-        "Kevin McCloud meets widowed #rank# #person_1#, who's making a fresh start on #rural_or_urban# #compass# #planet# with close friend and architect #person_2#. Together, they've decided on a #species#-inspired burnt glass and #materials# home, lovingly designed by #person_2#. (cont)#break#... Despite their lack of experience, #person_1# will be acting as project manager. As #person_1# gets clearance to start, so does an unfortunate #illness# pandemic, testing #person_1# and #person_2#'s relationship.",
-
+        "Kevin McCloud meets widowed #rank# #person_1#, who's making a fresh start on #rural_or_urban# #compass_location# #planet# with close friend and architect #person_2#. Together, they've decided on a #species#-inspired burnt glass and #materials# home, lovingly designed by #person_2#. (cont)#break#... Despite their lack of experience, #person_1# will be acting as project manager. As #person_1# gets clearance to start, so does an unfortunate #illness# pandemic, testing #person_1# and #person_2#'s relationship.",
         "#planet#-based #illness_not_a# survivors #person_1# and #person_2# divide their converted #structure# in a #materials#-inspired layout for their family.",
-
         "In memory of dear friend #rank# #person_2#, #species.a# who suffered a fatal #suffered_a_fatal# on #stardate#, #person_1# decided to build a residential #structure# on #planet# for their new home. But will using a new #particle#-based #build_type_ing# method prove to be their undoing? Kevin McCloud checks in #number_of_years later.",
-
         "For #many_type# #species.s#, living in a #reclaimed_type# #structure# -- particularly where they are in high demand, such as  #planet# -- is pure fantasy. Not so for #person_1#, #person_2#, and #person_3#, who set out back on #stardate# to do such a thing. #kevin_sees_if_conclusion#.",
-
         "Will #person_1# overcome #shortage.a# of #species# builders? #kevin_sees_if_conclusion#.",
-
         "#facing_type# #shortage.a# of #materials# affecting construction on #planet#, Kevin McCloud visits #person_1# and #checks_in_conclusion#.",
-
-        "Throuple #person_1#, #person_2#, and #person_3# wanted more than just a #house_type# for themselves and their #number_small# #species# children. Atop a site of outstanding natural beauty on the #compass# continent of #planet#, they set out to build #very_hard.a# #house_type#... (cont)#break#... Dreaming of #symphony_type.a# of #structural_material#, and #materials#-infused glass fashioned into #shape_type.s#, #person_2# makes themselves site manager. But after a truamatic project management experience on #planet#, will they be up to the challenge?",
-
+        "Throuple #person_1#, #person_2#, and #person_3# wanted more than just a #house_type# for themselves and their #number_small# #species# children. Atop a site of outstanding natural beauty on the #compass_location# continent of #planet#, they set out to build #very_hard.a# #house_type#... (cont)#break#... Dreaming of #symphony_type.a# of #structural_material#, and #materials#-infused glass fashioned into #shape_type.s#, #person_2# makes themselves site manager. But after a truamatic project management experience on #planet#, will they be up to the challenge?",
         "Kevin meets #rank# #person_1# and #rank# #person_2#, a couple living on #planet#. They're building a #material_including_alloy# #house_type# -- designed by one of #planet#'s most eminent architects -- next to a #species#-built #structure#. (cont)#break#When they find out they have to excavate over #number_middle#-#number_small# hundred thousand tons of #materials# ore without transporters just to get started, how will #person_1# and #person_2# adapt? #kevin_sees_if_conclusion#.",
-
-        "Empty nester #person_1# didn't want a standard replicator-template #house_type# when moving to the #compass# continent of #planet#. Instead, they wanted to #build_type# a #architecture_genre# #house_type# as a monument to #species#-#species# relations, with #colourful_type# #shape_type# fashioned from #symphony_type.a# of #materials# and #materials#-alloy. With well-regarded #species# architect #person_2#, will they succeed?",
-
+        "Empty nester #person_1# didn't want a standard replicator-template #house_type# when moving to the #compass_location# continent of #planet#. Instead, they wanted to #build_type# a #architecture_genre# #house_type# as a monument to #species#-#species# relations, with #colourful_type# #shape_type# fashioned from #symphony_type.a# of #materials# and #materials#-alloy. With well-regarded #species# architect #person_2#, will they succeed?",
         "#person_1# and #person_2# had had enough of their #bad_place_phrase# #house_type# on #planet#. Seeking a fresh start, they commissioned #person_3#, an architect friend, to design a #rural_or_urban#, #cutting_edge_type# #architecture_genre# #house_type# evocative of a #structure#, with #colourful_type# #shape_type# of #materials#. (cont)#break#That was on #stardate#. Now, #number_of_years# later, #kevin_sees_if_conclusion#.",
-
         "As a gift to celebrate #person_1#'s promotion to the rank of #rank#, their partner #person_2# commissions #architect#, an architect, and a local exocomp family to #build_type# a #number_of_stories# #house_type# on the site of a former #structure#. (cont)#break#But after only #number_small# days, #problem_phrase#."
     ],
-
-    "set_out_to":[
+    "set_out_to": [
         "set out to",
         "plan to",
         "get started to",
@@ -141,8 +98,7 @@
         "aim to",
         "strive to"
     ],
-
-    "shape_type":[
+    "shape_type": [
         "curves",
         "angles",
         "rectangles",
@@ -152,19 +108,16 @@
         "spirals",
         "vortices"
     ],
-
-    "symphony_type":[
+    "symphony_type": [
         "symphony",
         "elaborate composition",
         "outstanding amalgam"
-        ],
-
-    "material_including_alloy":[
+    ],
+    "material_including_alloy": [
         "#materials#-alloy",
         "#materials#"
     ],
-
-    "wall_type_thing":[
+    "wall_type_thing": [
         "walls",
         "roofing",
         "columns",
@@ -172,18 +125,15 @@
         "struts",
         "foundations"
     ],
-
-    "structural_material":[
+    "structural_material": [
         "#material_including_alloy# #wall_type_thing#",
         "thick #material_including_alloy# #wall_type_thing#",
         "#number_0_to_9# meter thick #material_including_alloy# #wall_type_thing#"
-     ],
-
-    "building_description":[
+    ],
+    "building_description": [
         "that resembles #resemble_thing.a#"
     ],
-
-    "resemble_thing":[
+    "resemble_thing": [
         "stack of Borg cubes",
         "Crystaline entity",
         "giant stack of Borg cubes",
@@ -193,62 +143,53 @@
         "subspace tear",
         "subspace fold"
     ],
-
-    "facing_type":[
+    "facing_type": [
         "With",
         "Facing"
     ],
-
-    "shortage":[
+    "shortage": [
         "shortage",
         "#chronic_type# shortage"
     ],
-
-    "chronic_type":[
+    "chronic_type": [
         "chronic",
         "persistent",
         "long-term",
         "constant",
         "unabating"
     ],
-
-    "descriptor":[
+    "descriptor": [
         "#colourful_type#"
     ],
-
-    "colourful_type":[
+    "colourful_type": [
         "colourful",
         "vivid",
         "brilliant",
         "glowing",
         "radiant"
     ],
-
-    "integration_type":[
+    "integration_type": [
         "integration",
         "installation",
         "configuration",
         "fitting",
         "insertion"
     ],
-
-    "checks_in_conclusion":[
+    "checks_in_conclusion": [
         "sees if they made their dream a reality",
         "checks in on their progress",
         "chats with them for an update",
         "sees if their progress has improved",
         "explores their progress"
     ],
-
-    "kevin_sees_if_conclusion":[
+    "kevin_sees_if_conclusion": [
         "Kevin McCloud sees if they made their dream a reality",
         "Kevin McCloud checks in on their progress",
         "Kevin McCloud chats with them for an update",
         "Kevin McCloud sees if their progress has improved",
         "Kevin McCloud explores their progress"
     ],
-
-    "reclaimed_type":[
+    "reclaimed_type": [
         "reclaimed",
         "renovated",
         "modernized",
@@ -259,8 +200,7 @@
         "refitted",
         "refurnished"
     ],
-    
-    "many_type":[
+    "many_type": [
         "many",
         "most",
         "a great deal of",
@@ -268,8 +208,7 @@
         "nearly all",
         "the majority of"
     ],
-
-    "suffered_a_fatal":[
+    "suffered_a_fatal": [
         "temporal displacement",
         "spatial displacement",
         "dimensional displacement",
@@ -292,9 +231,7 @@
         "radiation leak",
         "biochemical contamination"
     ],
-
-
-    "ritual_permanent":[
+    "ritual_permanent": [
         "Ritual Suicide",
         "Ritual Disintegration",
         "Ritual Euthanasia",
@@ -306,10 +243,8 @@
         "Ritual Ushaan (successful)",
         "Ritual Ushaan (unsuccessful)",
         "Ritual Kal-if-fee (unsuccessful)"
-
     ],
-
-    "lifeform_types":[
+    "lifeform_types": [
         "bioplasmic",
         "carbon-based",
         "silicon-based",
@@ -324,8 +259,7 @@
         "photonic",
         "non-corporeal"
     ],
-
-    "poison_type":[
+    "poison_type": [
         "radiation",
         "muagto venom",
         "borgia plant alkaloid",
@@ -342,8 +276,7 @@
         "Nogatch hemlock",
         "Warp plasma toxic run-off"
     ],
-
-    "infection_type":[
+    "infection_type": [
         "Bacterial",
         "Chamberlin Virus",
         "Comtaxan Parasite",
@@ -380,25 +313,21 @@
         "Xindi Neural Parasite",
         "#species# Neural Parasite"
     ],
-
-    "divide_type":[
+    "divide_type": [
         "divide",
         "partition",
         "split",
         "section"
     ],
-
-    "rural_or_urban":[
+    "rural_or_urban": [
         "rural",
         "urban"
     ],
-
-    "very_hard":[
+    "very_hard": [
         "#ambitious_type#",
         "#very_type# #ambitious_type#"
     ],
-
-    "very_type":[
+    "very_type": [
         "extremely",
         "wildly",
         "excessively",
@@ -410,8 +339,7 @@
         "thoroughly",
         "uncommonly"
     ],
-
-    "ambitious_type":[
+    "ambitious_type": [
         "ambitious",
         "difficult",
         "bold",
@@ -428,100 +356,45 @@
         "uncooperative",
         "exacting"
     ],
-
-
-
-    "stardate":[
-        "#stardate_big_number##stardate_middle_number#.#stardate_decimal#"
-    ],
-
-    "stardate_big_number":[
-        "55",
-        "56",
-        "57",
-        "58",
-        "59",
-        "60"
-    ],
-
-    "stardate_middle_number":[
-        "#number_0_to_9##number_0_to_9##number_0_to_9#"
-    ],
-
-    "stardate_decimal":[
-        "#number_0_to_9#"
-    ],
-
-    "solution_question":[
+    "solution_question": [
         "will #species#-sourced #materials# be the #answer_type#?",
         "will working with a new #species# architect be the #answer_type#?",
         "will a #new# #integration_thing# be the #answer_type#?",
         "will lengthening their schedule be the #answer_type#?"
-        
     ],
-
-
-    "answer_type":[
+    "answer_type": [
         "answer",
         "solution",
         "key",
         "solution to their problems"
     ],
-
-    "requires_type":[
+    "requires_type": [
         "requires",
         "needs",
         "demands",
         "involves",
         "costs"
     ],
-
-    "currency_too_much":[
+    "currency_too_much": [
         "#too_much_phrase_singular# gold-pressed latinum",
         "#too_much_phrase_plural# #currency_latinum_plural#",
         "#too_much_phrase_plural# #currency_plural#",
         "#too_much_phrase_singular# #materials#"
     ],
-
-    "currency_plural":[
-        "darseks",
-        "diraks",
-        "doraks",
-        "frangs",
-        "globbers",
-        "leks",
-        "litas",
-        "quatloos",
-        "renns",
-        "replicator rations"
-
-    ],
-
-    "currency_latinum_plural":[
-        "bars of latinum",
-        "braces of latinum",
-        "bricks of latinum",
-        "slips of latinum",
-        "strips of latinum"
-    ],
-
-    "too_much_phrase_singular":[
+    "too_much_phrase_singular": [
         "far too much",
         "too much",
         "an extraordinary amount of",
         "an unexpected amount of"
     ],
-
-    "too_much_phrase_plural":[
+    "too_much_phrase_plural": [
         "far too many",
         "too many"
     ],
-
-    "modern":[
+    "modern": [
         "#cutting_edge_type#"
     ],
-
-    "cutting_edge_type":[
+    "cutting_edge_type": [
         "cutting-edge",
         "modern",
         "contemporary",
@@ -533,8 +406,7 @@
         "voguish",
         "progressive"
     ],
-
-    "build_type":[
+    "build_type": [
         "build",
         "construct",
         "fab",
@@ -542,8 +414,7 @@
         "assemble",
         "replicate"
     ],
-
-    "build_type_ing":[
+    "build_type_ing": [
         "building",
         "constructing",
         "fabbing",
@@ -551,58 +422,49 @@
         "assembling",
         "replicating"
     ],
-
-    "permanent_home_phrase":[
+    "permanent_home_phrase": [
         "put down roots with a permanent home",
         "lived in a forever home",
         "had a stable place to live",
         "stayed in one place",
         "put down permanent roots"
     ],
-
-    "happy_phrase":[
+    "happy_phrase": [
         "happy",
         "thrilled",
         "excited",
         "pleased"
     ],
-
-
-    "break":[
+    "break": [
         "\n"
     ],
-
-    "difficulties_start_phrase":[
+    "difficulties_start_phrase": [
         "But #problem_type# began from the start",
         "From the start, #problem_type# beset them",
         "#problem_type.capitalize# started from the beginning"
     ],
-
-    "dreams":[
+    "dreams": [
         "dreams",
         "wishes",
         "fantasies",
         "aspirations",
         "goals"
     ],
-
-    "be_realized":[
+    "be_realized": [
         "be realized",
         "come to fruition",
         "accomplished",
         "see the light",
         "be carried through"
     ],
-
-    "integration_thing":[
+    "integration_thing": [
         "#new# #materials# power supply",
         "#particle# field-dampener",
         "#new# #materials# reactor",
         "#particle# emitter",
         "#material_including_alloy#-infused deflector"
     ],
-
-    "new":[
+    "new": [
         "novel",
         "untested",
         "prototype",
@@ -613,42 +475,14 @@
         "unconventional"
     ],
 
-    "particle_pulse_or_wave":[
-        "#particle# pulse",
-        "#particle# wave",
-        "#particle# beam",
-        "#particle# emission"
-    ],
-
-    "particle":[
-        "#particle_type#",
-        "anti-#particle_type#"
-    ],
-
-    "particle_type":[
-        "baryon",
-        "hadron",
-        "chroniton",
-        "graviton",
-        "positron",
-        "proton",
-        "neutron",
-        "electron",
-        "tachyon",
-        "antiproton",
-        "magneton"
-    ],
-
-
-    "demolish_phrase":[
+    "demolish_phrase": [
         "demolish",
         "phaser",
         "disintegrate",
         "dismantle",
         "decommission"
     ],
-
-    "demolishing_phrase":[
+    "demolishing_phrase": [
         "demolishing",
         "phasering",
         "destroying by quantum torpedo",
@@ -656,8 +490,7 @@
         "dismantling",
         "decommissioning"
     ],
-
-    "problem_phrase":[
+    "problem_phrase": [
         "the construction #robot_labour# have #robot_labour_failure#",
         "the #materials#-based foundation has #material_problem#",
         "an argument erupts over the relative merits of #materials# versus #materials# as an accent material",
@@ -672,10 +505,8 @@
         "an ancient #species# #structure# is unearthed",
         "the #materials# they are using turn out to be carcinogenic",
         "there is evidence of changeling infiltration"
-
     ],
-
-    "thing_that_is_threatened":[
+    "thing_that_is_threatened": [
         "disruption",
         "travel",
         "communication",
@@ -685,18 +516,15 @@
         "warp travel",
         "subspace communications"
     ],
-
-    "space_area":[
+    "space_area": [
         "system",
         "sector",
         "region"
     ],
-
-    "subspace_rift_type_thing":[
+    "subspace_rift_type_thing": [
         "subspace #rift_type_thing#"
     ],
-
-    "rift_type_thing":[
+    "rift_type_thing": [
         "rift",
         "tear",
         "rupture",
@@ -704,26 +532,22 @@
         "wormhole",
         "explosion"
     ],
-
-    "material_problem":[
+    "material_problem": [
         "gone out of phase",
         "spontaneously degraded",
         "developed a tachyon echo"
     ],
-
-    "robot_labour":[
+    "robot_labour": [
         "Exocomps",
         "synths"
     ],
-
-    "robot_labour_failure":[
+    "robot_labour_failure": [
         "revolted",
         "broken down",
         "dissolved",
         "been infected with a virus"
     ],
-
-    "number":[
+    "number": [
         "two",
         "three",
         "four",
@@ -731,12 +555,10 @@
         "five",
         "seven"
     ],
-
-    "number_of_years":[
+    "number_of_years": [
         "#number# years"
     ],
-
-    "problem_type":[
+    "problem_type": [
         "problems",
         "difficulties",
         "troubles",
@@ -748,90 +570,32 @@
         "an opened can of Targs",
         "multiplicity of Dooplers"
     ],
-
-    "inspiration_phrase":[
+    "inspiration_phrase": [
         "taking inspiration from",
         "inspired by",
         "struck by inspiration from",
         "moved to the heights of creativity by"
     ],
-
-    "design_phrase":[
+    "design_phrase": [
         "sketched out",
         "designed",
         "planned",
         "outlined"
     ],
-
-    "examples":[
+    "examples": [
         "Kate and Rob replace their 1940s past-it prefab with a bespoke, modern, factory-built home using volumetric modular construction. But will it feel like the characterful home they dream of?",
         "Ship’s captain Dorran promised his family he’d build a super-modern underground lair on a hill outside Canterbury. But as the epic build hits choppy waters, will Dorran fulfil their dream?",
-        
         "Kevin McCloud follows the progress of ex-advertising man Geoff, who is selling his luxury villa in Spain and moving into a caravan while he project manages the construction of a dramatically cantilevered steel-framed house on the Essex coast, costing a total of £700,000. But after the anchoring steel has been drilled into the ground, he runs into the double trouble - Covid-19 and a collapse in the Spanish property market. Will he ever finish this complicated - and expensive - construction?",
-
-
         "In Dunstable, John and his wife Helen demolish an old, dilapidated house and in its place build a million-pound, high-tech, accessible glass pavilion, complete with wildlife garden."
-
-
     ],
-
-    "house_type":[
+    "house_type": [
         "house",
         "dwelling",
         "housing unit",
         "residence",
         "residential pod"
     ],
-
-    "materials":[
-        "baakonite",
-        "bioplast",
-        "beritium",
-        "boridium",
-        "concrete",
-        "thermal concrete",
-        "cortenide",
-        "dentarium",
-        "diamide",
-        "diburnium",
-        "dicosilium",
-        "ditanium",
-        "duranium",
-        "duridium",
-        "duritanium polyalloy",
-        "electroceramic",
-        "indurite",
-        "mercassium",
-        "monotanium",
-        "nanopolymer",
-        "neosorium",
-        "neutronium",
-        "noranium",
-        "osmium",
-        "paricium",
-        "plasticized tritanium mesh",
-        "polyalloy",
-        "polycomposite",
-        "polyduranide",
-        "polyduranium",
-        "rodinium",
-        "sonodamite",
-        "styrolite",
-        "talgonite",
-        "terminium",
-        "tetraburnium",
-        "thermal concrete",
-        "toranium",
-        "transparent aluminum",
-        "triadium",
-        "tripolymer composite",
-        "tritanium",
-        "verterium cortenide",
-        "victurium"
-        ],
-
-
-    "names":[
+    "names": [
         "Kathryn",
         "Bob",
         "Jennifer",
@@ -894,266 +658,15 @@
         "Amanda",
         "Gwyndala"
     ],
-
-    "rank":[
+    "rank": [
         "Ensign",
         "Lieutenant Junior Grade",
         "Lieutenant",
         "Lieutenant Commander",
         "Commander"
     ],
-
-
-    "planet":[
-        "'aucdet IX",
-        "40 Eridani A I",
-        "892-IV",
-        "Aaamazzara",
-        "Acamar III",
-        "Achrady VII",
-        "Adarak Prime",
-        "Adelphous IV",
-        "Adigeon Prime",
-        "Agaron",
-        "Ahmedeen",
-        "Aia",
-        "Ajilon Prime",
-        "Aklion VII",
-        "Akritiri",
-        "Alastria",
-        "Alcor IV",
-        "Aldea",
-        "Aldebaran III",
-        "Aldebaron III",
-        "Alderaan",
-        "Alfa 177",
-        "Algeron IV",
-        "Algol I",
-        "Alondra",
-        "Alpha Balder IV",
-        "Alpha Braga IV",
-        "Alpha Braga VII",
-        "Alpha Carinae II",
-        "Alpha Carinae V",
-        "Alpha Centauri (planet)",
-        "Alpha Cygnus IX",
-        "Alpha Delphi IX",
-        "Alpha Eridani II",
-        "Alpha I",
-        "Alpha III",
-        "Alpha Laputa IV",
-        "Alpha Majoris I",
-        "Alpha Omicron VII",
-        "Alpha Onias III",
-        "Alpha VII",
-        "Alshain IV",
-        "Altair III",
-        "Altair IV",
-        "Altair VI",
-        "Altamid",
-        "Alture VII",
-        "Amerind",
-        "Amleth Prime",
-        "Andevian II",
-        "Andoria Prime",
-        "Andreus V",
-        "Andros III",
-        "Angel I",
-        "Angosia III",
-        "Antede III",
-        "Antica",
-        "Antica IV",
-        "Antide Prime",
-        "Antos IV",
-        "Apergos",
-        "AR-558",
-        "Arakis Prime",
-        "Archanis IV",
-        "Archer IV",
-        "Archer's Planet",
-        "Ardana",
-        "Areolus",
-        "Argelius II",
-        "Argelius IV",
-        "Argeth",
-        "Argo (planet)",
-        "Argona II",
-        "Argratha",
-        "Argus X",
-        "Ariannus",
-        "Arkaria",
-        "Arlington IV",
-        "Arloff IX",
-        "Armus IX",
-        "Arnold's Planet",
-        "Arret",
-        "Arret (negative)",
-        "Arvada III",
-        "Aschelan V",
-        "Asp XXVII",
-        "Atalia VII",
-        "Atbar Prime",
-        "Athan Prime",
-        "Athos IV",
-        "Atifs IV",
-        "Atlec",
-        "Atrea IV",
-        "Avenal VII",
-        "Avery III",
-        "Axanar (planet)",
-        "Azati Prime",
-        "B'Saari II",
-        "Ba'ku (planet)",
-        "Babel",
-        "Bajor",
-        "Bajor I",
-        "Bajor II",
-        "Bajor III",
-        "Bajor IV",
-        "Bajor IX",
-        "Bajor V",
-        "Bajor VI",
-        "Bajor VII",
-        "Bajor VIII",
-        "Bajor X",
-        "Bajor XII",
-        "Bajor XIII",
-        "Bajor XIV",
-        "Balancar",
-        "Balkus 9",
-        "Balosnee VI",
-        "Banea (planet)",
-        "Barisa Prime",
-        "Barkon IV",
-        "Barradas III",
-        "Barson II",
-        "Barzan II",
-        "Bayard's Planet",
-        "Beltane IX",
-        "Benecia",
-        "Benev Selec",
-        "Benthos IV",
-        "Benzar",
-        "Berengaria VII",
-        "Bergman's Planet",
-        "Bernay Prime",
-        "Bersallis III",
-        "Beta Agni II",
-        "Beta Antares IV",
-        "Beta Aquilae II",
-        "Beta Berman I",
-        "Beta Canopus",
-        "Beta Eminiar VII",
-        "Beta III",
-        "Beta Penthe I",
-        "Beta Penthe II",
-        "Beta Penthe III",
-        "Beta Penthe IV",
-        "Beta Penthe V",
-        "Beta Penthe VII",
-        "Beta Tottoro IV",
-        "Beta Ursae Minor II",
-        "Beta V",
-        "Beta VI",
-        "Beta XII-A",
-        "Beta'Elan Minor",
-        "Betazed",
-        "Beth Delta I",
-        "Bezride",
-        "Bilana III",
-        "Binar III",
-        "Blue Horizon",
-        "Bokara VI",
-        "Bolarus IX",
-        "Bootes III",
-        "Bopak III",
-        "Boraal II",
-        "Boradis III",
-        "Boranis III",
-        "Boreal III",
-        "Boreth",
-        "Bozel Prime",
-        "Bracas V",
-        "Bragu's homeworld",
-        "Braslota I",
-        "Braslota II",
-        "Brax (planet)",
-        "Bre'el IV",
-        "Breen (planet)",
-        "Brekka",
-        "Brentalia",
-        "Breton's Planet",
-        "Bringloid V",
-        "Brookshire's Planet",
-        "Browder IV",
-        "Bryma",
-        "Buckley's Planet",
-        "Burala Prime",
-        "Bynaus",
-        "Caere",
-        "Cajitar IV",
-        "Cal Rae",
-        "Calder II",
-        "Caldik Prime",
-        "Caldonia",
-        "Caldos",
-        "Caleb IV",
-        "Callinon VII",
-        "Calondia IV",
-        "Camor V",
-        "Campor III",
-        "Camus II",
-        "Cancri IV",
-        "Canopus III",
-        "Canopus Major",
-        "Canopus Planet",
-        "Capella IV",
-        "Cardassia I",
-        "Cardassia III",
-        "Cardassia IV",
-        "Cardassia Prime",
-        "Cardassia V",
-        "Carema III",
-        "Carinae Delta V",
-        "Carpi",
-        "Carraya IV",
-        "Casperia Prime",
-        "Castal I",
-        "Category:Cardassia",
-        "Catulla",
-        "Celes II",
-        "Celtris III",
-        "Centauri IV",
-        "Centauri VII",
-        "Centre Minor",
-        "Cerberus",
-        "Cerberus II",
-        "Cestus III",
-        "Ceti Alpha IV",
-        "Ceti Alpha V",
-        "Ceti Alpha VI",
-        "Chalna",
-        "Chaltok IV",
-        "Chandra V",
-        "Chaya VII",
-        "Cheron",
-        "Cirrus IV",
-        "Coltar IV",
-        "Coopersworld",
-        "Coppelius",
-        "Cor Caroli V",
-        "Coridan",
-        "Corinth IV",
-        "Crivo",
-        "Cybulski's Planet",
-        "Cygnet XIV",
-        "Cygnia Minor",
-        "Cytrax",
-        "Planet 0042692",
-        "The Colony"
-    ],
-
-    "structure":[
+ 
+    "structure": [
         "Admonition",
         "Alvanian beehive",
         "Apollo's temple",
@@ -1206,131 +719,19 @@
         "Xanthan floating bazaar"
     ],
 
-    "protected_animal":[
-        "invasive #animals#",
-        "protected #animals#",
-        "endangered #animals#"
-    ],
-
-    "animals":[
-        "Bajoran bat",
-        "Bajoran shrimp",
-        "Bardakian pronghorn moose",
-        "Barrowbug",
-        "Bear",
-        "Belzoidian flea",
-        "Bloodworm",
-        "Bluehorn",
-        "Bore worm",
-        "Bregit lung",
-        "Brussel fly",
-        "Bug (invertebrate)",
-        "Bulgallian sludge rat",
-        "Bunnicorn",
-        "Caldorian eel",
-        "Calrissian chameleon",
-        "Canopus III dinosaur",
-        "Caracal",
-        "Cardassian vole",
-        "Carnivorous rastipod",
-        "Caterpillar",
-        "Cave bug",
-        "Cave-rat",
-        "Centaurian slug",
-        "Centipede",
-        "Ceti eel",
-        "Chattel",
-        "Corvan gilvo",
-        "Corvarian sludge worm",
-        "Crab",
-        "Cricket",
-        "Crustacean",
-        "Cytraxian cricket",
-        "Dalvin hissing beetle",
-        "Danaxian tapeworm",
-        "Deer",
-        "Degebian mountain goat",
-        "Delphoidia",
-        "Delphoidia cochrani",
-        "Delphoidia cochrani obliquidens",
-        "Delphoidia cochrani tempus",
-        "Delphoidia moroboshi",
-        "Delphoidia moroboshi lum",
-        "Denebian slime devil",
-        "Denebian whale",
-        "Denobulan blood worm",
-        "Denobulan lemur",
-        "Digger",
-        "Dinosaur",
-        "Dolphin",
-        "Dragon",
-        "Drakoulias",
-        "Drathan puppy lig",
-        "Draxxan cloud viper",
-        "Drayjin",
-        "Dust mite",
-        "Edosian slug",
-        "Edosian suckerfish",
-        "Eel",
-        "Embryonic lifeform"
-    ],
-
-    "species":[
-        "Andorian",
-        "Human",
-        "Tellarite",
-        "Vulcan",
-        "Arcadian",
-        "Ariolo",
-        "Bzzit Khaht",
-        "Caitian",
-        "Deltan",
-        "Grazerite",
-        "Kasheeta",
-        "Xelatian",
-        "Algolian",
-        "Arbazan",
-        "Ardanan",
-        "Barzan",
-        "Benzite",
-        "Betazoid",
-        "Bolian",
-        "Cordianite",
-        "Efrosian",
-        "Gelrakian",
-        "Haliian",
-        "Hekaran",
-        "Kelpien",
-        "Pelian",
-        "Rigellian",
-        "Risian",
-        "Trill",
-        "Evora",    
-        "Angosian",
-        "Antedian",
-        "Antican",
-        "Bajoran",
-        "Cairn",
-        "Catullan",
-        "Gideon",
-        "Kesprytt",
-        "Selay"
-    ],
 
 
-    "illness":[
+    "illness": [
         "#illness_virus.a#",
         "#illness_infection.a# infection",
         "#illness_parasite.a#"
     ],
-
-    "illness_not_a":[
+    "illness_not_a": [
         "#illness_virus#",
         "#illness_infection# infection",
         "#illness_parasite#"
     ],
-
-    "illness_virus":[
+    "illness_virus": [
         "Chamberlin virus",
         "endoplasmic virus",
         "Fostossa virus",
@@ -1347,8 +748,7 @@
         "rhinovirus",
         "Terothka virus"
     ],
-
-    "illness_infection":[
+    "illness_infection": [
         "bacterial",
         "Cyrillian microbe",
         "Dinobulan flesh-eating bacteria",
@@ -1365,8 +765,7 @@
         "synthetic pathogen",
         "Xindi neural parasite"
     ],
-
-    "illness_parasite":[
+    "illness_parasite": [
         "Comtaxan parasite",
         "interspatial parasite",
         "interphasic parasite",
@@ -1374,24 +773,10 @@
         "#species# neural parasite"
     ],
 
-    "number_0_to_9":[
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9"
+    "season_ints": [
+        "#number_0_to_9##number_0_to_9#"
     ],
-
-    "season_ints":[
-        "#number_0_to_9##number_0_to_9#"  
-    ],
-        
-    "episode_ints":[
+    "episode_ints": [
         "01",
         "02",
         "03",
@@ -1418,154 +803,13 @@
         "24"
     ],
 
-    "sports":[
-        "Anbo-jyutsu",
-        "B'aht Qul",
-        "Baccarat",
-        "Barokie",
-        "Baseball",
-        "Basketball",
-        "Bat'leth",
-        "Bear-baiting",
-        "Billiards",
-        "Bingo",
-        "Blackjack",
-        "Boxing",
-        "Caber Toss",
-        "Calisthenics",
-        "Cardassian Pinochle",
-        "Chess",
-        "Dabo",
-        "Darts",
-        "Dom-jot",
-        "Double-jack",
-        "Durotta",
-        "Fencing",
-        "Football (Earth American)",
-        "Football (Earth Soccer)",
-        "Gin Rummy",
-        "Go",
-        "Golf",
-        "Gymnastics",
-        "Hide and Seek",
-        "Hockey",
-        "Hopscotch",
-        "Horseback Riding",
-        "Hoverball",
-        "Hydrosailing",
-        "Ion Surfing",
-        "Jokarian Chess",
-        "Juro Counterpunch",
-        "Kadis-kot",
-        "Kal-toh",
-        "Kalevian Montar",
-        "Karo-net",
-        "Kayaking",
-        "Kotra",
-        "Ktarian Game",
-        "Laser Duel",
-        "Light Cube Table",
-        "Orbital Skydiving",
-        "Parrises Squares",
-        "Poker",
-        "Pool",
-        "Prayko",
-        "Qa'vak",
-        "Racquetball",
-        "Skydiving",
-        "Springball",
-        "Tennis",
-        "Terrace",
-        "Three-Dimensional Chess",
-        "Tongo",
-        "Velocity",
-        "Vulcan Chess",
-        "Water Polo",
-        "Yoga"      
-    ],
 
-    "interesting_objects":[
-        "Dyson sphere",
-        "Dyson ring",
-        "anomaly",
-        "accretion disc",
-        "binary star system",
-        "trinary star system",
-        "binary planet",
-        "trinary planet",
-        "black hole",
-        "blue giant",
-        "brown dwarf",
-        "brown hole",
-        "Class J gas giant",
-        "Class T gas giant",
-        "Class Y (demon) planet",
-        "dark matter anomaly",
-        "dark matter proto-comet",
-        "debris field",
-        "dichromic nebula",
-        "gaseous anomly",
-        "hypergiant",
-        "interstellar dust cloud",
-        "Kuiper belt",
-        "neutron star",
-        "particle fountain",
-        "plasma field",
-        "protostar",
-        "proto-nebula",
-        "rogue planet",
-        "rogue Dyson planet",
-        "septenary star system",
-        "naked singularity",
-        "cosmic string fragment",
-        "tachyon storm",
-        "ion storm"
+    "stories": [
+        "#number_of_stories#-story"
     ],
-
-    "stories":[
-      "#number_of_stories#-story"  
-    ],
-
-    "number_of_stories":[
+    "number_of_stories": [
         "#number_small#",
         "#number_middle#-#number_small#"
-
-    ],
-
-    "number_small":[
-		"two",
-		"three",
-		"four",
-		"five",
-		"six",
-		"seven",
-		"eight",
-		"nine",
-        "twelve"
-	],
-
-	"number_middle":[
-		"twenty",
-		"sixty",
-		"fifty",
-		"forty five",
-		"seventy",
-		"eighty",
-		"ninety"
-	],
-
-    "ordinals_small":[
-        "first",
-        "second",
-        "third",
-        "fourth",
-        "fifth",
-        "sixth",
-        "seventh",
-        "eighth",
-        "ninth",
-        "tenth"
     ]
 
 }
-

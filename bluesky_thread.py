@@ -15,6 +15,18 @@ from utils.tracery import get_rules, generate_posts, generate_normal_post
 
 
 rules = get_rules('grammars/','startrek-granddesigns.json')
+
+rules.update(get_rules('grammars/','corpora_numbers.json'))
+
+startrek_rules =  ["corpora_startrek.json", "corpora_startrek_medical.json", "corpora_startrek_names.json", "corpora_startrek_places.json", "corpora_startrek_ships.json"]
+
+for ruleset in startrek_rules:
+    print(ruleset)
+    rules.update(get_rules('grammars/',ruleset))
+
+
+
+
 post = generate_normal_post(rules)
 
 thread_text = post.splitlines()
@@ -72,4 +84,8 @@ def post_thread(thread_of_posts):
             print (idx, post)
 
 
-post_thread(thread_posts)
+# post_thread(thread_posts)
+print(len(thread_posts))
+
+for idx, post in enumerate(thread_posts):
+    print(idx, post.text)

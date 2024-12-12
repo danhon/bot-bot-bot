@@ -5,6 +5,7 @@ import pyjson5
 from dotenv import load_dotenv
 import argparse
 import pprint
+import sys
 
 # Bot utilities
 from utils.bluesky import get_bluesky_instance, bluesky_faceted_post
@@ -16,13 +17,13 @@ from utils.tracery import get_rules, generate_posts, generate_normal_post
 
 rules = get_rules('grammars/','startrek-granddesigns.json')
 
-rules.update(get_rules('grammars/','corpora_numbers.json'))
+rules.update(get_rules('grammars/corpora','corpora_numbers.json'))
 
 startrek_rules =  ["corpora_startrek.json", "corpora_startrek_medical.json", "corpora_startrek_names.json", "corpora_startrek_places.json", "corpora_startrek_ships.json"]
 
 for ruleset in startrek_rules:
-    print(ruleset)
-    rules.update(get_rules('grammars/',ruleset))
+    print("loaded:", ruleset)
+    rules.update(get_rules('grammars/corpora/startrek/',ruleset))
 
 
 
@@ -37,17 +38,19 @@ for idx, item in enumerate(thread_text):
     this_thread_post = Post_in_Thread(text=item)
     thread_posts.append(this_thread_post)
 
-# BLUESKY_USERNAME = "me-im-asking.bsky.social"
-# BLUESKY_PASSWORD = "imeg-xpep-ikc4-nqno"
-# BLUESKY_CLIENT =  "https://bsky.social"
-
-BLUESKY_USERNAME = "st-grand-designs.bsky.social"
-BLUESKY_PASSWORD = "pmvr-flgv-lqyv-qvgx"
+BLUESKY_USERNAME = "me-im-asking.bsky.social"
+BLUESKY_PASSWORD = "imeg-xpep-ikc4-nqno"
 BLUESKY_CLIENT =  "https://bsky.social"
+
+# BLUESKY_USERNAME = "st-grand-designs.bsky.social"
+# BLUESKY_PASSWORD = "pmvr-flgv-lqyv-qvgx"
+# BLUESKY_CLIENT =  "https://bsky.social"
 
 
 client = get_bluesky_instance(BLUESKY_USERNAME, BLUESKY_PASSWORD, BLUESKY_CLIENT)
 
+print(thread_posts)
+print("end of thread post totalling", (len(thread_posts)))
 
 def post_thread(thread_of_posts):
 
@@ -56,6 +59,9 @@ def post_thread(thread_of_posts):
 
         
         if idx == 0:
+            if len(post.text) > 260: 
+                print("TOO LONG", post.text)
+                sys.exit() 
             this_post = client.send_post(post.text)
             root_post = this_post
 
@@ -67,7 +73,7 @@ def post_thread(thread_of_posts):
             previous_post = thread_of_posts[idx-1]
 
             root_post = previous_post.root_post
-            print(root_post)
+            # print(root_post)
             parent_post = previous_post.post
 
             parent = models.create_strong_ref(parent_post)
@@ -81,11 +87,11 @@ def post_thread(thread_of_posts):
             post.root_post = root_post
             post.parent_post = parent_post
             post.post = this_post
-            print (idx, post)
+            print (idx, post.parent_post)
 
 
-# post_thread(thread_posts)
-print(len(thread_posts))
+# actually post them
+post_thread(thread_posts)
 
-for idx, post in enumerate(thread_posts):
-    print(idx, post.text)
+# for idx, post in enumerate(thread_posts):
+#     print(idx, post.text)

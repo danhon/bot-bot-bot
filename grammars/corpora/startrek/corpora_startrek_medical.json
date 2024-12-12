@@ -67,5 +67,56 @@
     "Terothka Virus",
     "Xindi Neural Parasite",
     "#species# Neural Parasite"
+],
+"illness": [
+    "#illness_virus.a#",
+    "#illness_infection.a# infection",
+    "#illness_parasite.a#"
+],
+"illness_not_a": [
+    "#illness_virus#",
+    "#illness_infection# infection",
+    "#illness_parasite#"
+],
+"illness_virus": [
+    "Chamberlin virus",
+    "endoplasmic virus",
+    "Fostossa virus",
+    "genetic virus",
+    "Klingon augment virus",
+    "#species# augment virus",
+    "light virus",
+    "macrovirus",
+    "mutagenic virus",
+    "morphogenic virus",
+    "nanovirus",
+    "Omega IV virus",
+    "retrovirus",
+    "rhinovirus",
+    "Terothka virus"
+],
+"illness_infection": [
+    "bacterial",
+    "Cyrillian microbe",
+    "Dinobulan flesh-eating bacteria",
+    "fungal",
+    "mycelial",
+    "genesis microbe",
+    "microscopic civilization (non-warp capable)",
+    "microscopic civilization (warp capable)",
+    "nanoprobe",
+    "#species# amoeba",
+    "paramecium",
+    "quasi-#lifeform_types# microbe",
+    "subatomic bacteria",
+    "synthetic pathogen",
+    "Xindi neural parasite"
+],
+"illness_parasite": [
+    "Comtaxan parasite",
+    "interspatial parasite",
+    "interphasic parasite",
+    "temporal parasite",
+    "#species# neural parasite"
 ]
 }

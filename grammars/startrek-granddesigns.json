@@ -1,94 +1,76 @@
 {
     "origin": [
-        "#episode_title#. #variable_based_description#"
+        "#episode_title#. #[#SET_VARS#]variable_based_description#"
     ],
-    "episode_title": [
-        "ST:GD s#season_ints#e#episode_ints#"
+        "episode_title": [
+            "ST:GD s#season_ints#e#episode_ints#"
+        ],
+
+        "variable_based_description": [
+            "#[#SET_VARS#]description#"
+        ],
+
+    "SET_VARS":[
+        "[#VARS_people_in_episode#][#VARS_other_roles#][#VARS_locations#][build_house_type:#house_type#][main_role:#role_kind#]"
     ],
-    "variable_based_description": [
-        "#[person_1:#names#][person_2:#names#][person_3:#names#][architect:#name#][build_house_type:#house_type#]description#"
-    ],
-    "prototype": [
-        "#[#set_person_1_species#][#set_person_2_species#][person_1:#names#][person_2:#names#]prototype_story#"
-    ],
+ 
+        "VARS_people_in_episode": [
+            "[person_1:#names#][person_1_rank:#rank][person_2:#names#][person_3:#names#][person_4:#names#][person_5:#names#]"
+        ],
+        "VARS_other_roles":[
+            "[architect:#names#][architect_species:#species#][brother:#names#][sister:#names#]"
+        ],
+        "VARS_locations":[
+            "[this_planet:#planet#]"
+        ],
+    
     "prototype_story": [
-        "#person_1# and #person_2# were both former #rank.s#, but #person_1_species# #person_1# was near a promotion and #person_2_species# #person_2# had only just been promoted, which was insulting to #person_1#, #person_1_species.a#. They were super annoyed with #person_2# because of this."
-    ],
-    "set_person_1_species": [
-        "[person_1_species:#species#]"
-    ],
-    "set_person_2_species": [
-        "[person_2_species:youngling #species#]",
-        "[person_2_species:elder #species#]",
-        "[person_2_species:teen #species#]",
-        "[person_2_species:tweeen #species#]"
+  
     ],
 
-    "architecture_genre": [
-        "modernist",
-        "deconstructivist",
-        "Art Deco",
-        "brutalist",
-        "functuonalist",
-        "Bauhaus",
-        "trangressive",
-        "#species#ist"
-    ],
-    "bad_place_phrase": [
-        "#derelict_kind#",
-        "#bad_place#",
-        "#bad_place#, #derelict_kind#",
-        "#derelict_kind#, #bad_place#"
-    ],
-    "derelict_kind": [
-        "derelict",
-        "dilapidated",
-        "ramshackle",
-        "run-down",
-        "rickety",
-        "disused",
-        "abandoned",
-        "decrepit",
-        "deteriorating",
-        "neglected"
-    ],
-    "bad_place": [
-        "cramped",
-        "awkward",
-        "overcrowded",
-        "dark",
-        "dingy",
-        "unwelcoming",
-        "inhospitable",
-        "uninspiring",
-        "boring",
-        "dull",
-        "dreary",
-        "tame",
-        "lackluster",
-        "tedious"
-    ],
+
+
     "description": [
-        "Kevin McCloud follows former #rank# #person_1# and their partner #person_2#, who are #demolishing_phrase# an old #structure# and constructing a #cutting_edge_type# #house_type# in its place. (cont.)#break##inspiration_phrase.capitalize# a nearby #structure#, they have #design_phrase# a building #building_description# fashioned from locally-sourced #materials# (cont.)#break##difficulties_start_phrase# when #problem_phrase#, #problem_phrase#, and #problem_phrase#. (cont.)#break#To make matters worse, the neighbours aren't #happy_phrase# about the presence of #integration_thing.a# in their community. As they begin to compromise, Kevin wonders if their #dreams# will ever #be_realized#.",
-        "On #planet#, former #rank# #names# #set_out_to# replace their standard Federation colony residential unit with #very_hard.a# #build_house_type# -- #materials.a#-framed #stories# #build_house_type# using locally recycled #materials#, and imported #materials# from #planet#. (cont.)#break#...But #number_of_years# in, #problem_phrase#, and the #integration_type# of #integration_thing.a# requires #currency_too_much#. What will they do, and will #species#-sourced #materials# be the #answer_type#?",
-        "While renting on #planet#, the polycule of #person_1#, #person_2#, and #person_3# #demolish_phrase# an old, #bad_place_phrase# #structure#. In its place, they plan to #build_type# a #cutting_edge_type# #materials#-based #structure# worthy of the memory of their late friend and commander, #names#. (cont.)#break#...But right from the start, #problem_phrase#. Will working with a new #species# architect be the solution to their problems?",
-        "Kevin McCloud revisits a group of #species.s# living in a co-operative on #planet# who are #build_type_ing# their own #house_type# and the homes of their neighbours.",
-        "#bad_place_phrase.a.capitalize# #structure# in a #compass_location# #species# village on #planet# may not say '#architecture_genre#' to everyone. (cont.)#break#...But #person_1# and #person_2#, both former #rank.s# posted at #planet#, saw it as the perfect opportunity to create a visionary home, powerfully evocative of #interesting_objects.a#.",
-        "#person_1# and #person_2# wanted to #build_type# a #build_house_type# that would be home to them, their holodeck #sports# arena, and their #number# large #animals.s# adopted from #planet#. (cont.)#break#...So when a nearby #structure# came up for sale, they decided to buy it, #demolish_phrase# it, and #build_type# a dazzling #materials#-inspired #species# #architecture_genre# #build_house_type# in its place.",
-        "Retired #rank.s# #person_1# and #person_2# have never #permanent_home_phrase#. For decades they've camped on #bad_place_phrase# land donated by #species.s# on #planet# with no replicator energy budget to #build_type# in an area where they live. (cont.)#break#...So #person_1# and #person_2# roll up their sleeves and decide to #build_type# a low-energy budget, zero-impact #structure#-inspired #materials#-based home -- if only they can figure out how to fix that #integration_thing#!",
-        "#person_1#, #person_2#, and #person_3# hoped to bring a bit of #species# style to the #species# colony in #compass_location# #planet# when #build_type_ing# their #ordinals_small# family home. (cont.)#break#...a colourful, #cutting_edge_type# #stories# #house_type# with a striking #materials#-clad exterior. The throuple stumbled across the perfect plot overlooking a beautiful #structure#, claimed it, and began to plan their dream build.",
-        "On stardate #stardate#, #person_1# and #person_2# set out to transform #bad_place_phrase.a# #structure# into a #modern# home on #planet#. #number_of_years.capitalize# on, how much has this #very_hard# project changed their lives?",
-        "Kevin McCloud meets widowed #rank# #person_1#, who's making a fresh start on #rural_or_urban# #compass_location# #planet# with close friend and architect #person_2#. Together, they've decided on a #species#-inspired burnt glass and #materials# home, lovingly designed by #person_2#. (cont)#break#... Despite their lack of experience, #person_1# will be acting as project manager. As #person_1# gets clearance to start, so does an unfortunate #illness# pandemic, testing #person_1# and #person_2#'s relationship.",
-        "#planet#-based #illness_not_a# survivors #person_1# and #person_2# divide their converted #structure# in a #materials#-inspired layout for their family.",
-        "In memory of dear friend #rank# #person_2#, #species.a# who suffered a fatal #suffered_a_fatal# on #stardate#, #person_1# decided to build a residential #structure# on #planet# for their new home. But will using a new #particle#-based #build_type_ing# method prove to be their undoing? Kevin McCloud checks in #number_of_years later.",
-        "For #many_type# #species.s#, living in a #reclaimed_type# #structure# -- particularly where they are in high demand, such as  #planet# -- is pure fantasy. Not so for #person_1#, #person_2#, and #person_3#, who set out back on #stardate# to do such a thing. #kevin_sees_if_conclusion#.",
-        "Will #person_1# overcome #shortage.a# of #species# builders? #kevin_sees_if_conclusion#.",
-        "#facing_type# #shortage.a# of #materials# affecting construction on #planet#, Kevin McCloud visits #person_1# and #checks_in_conclusion#.",
-        "Throuple #person_1#, #person_2#, and #person_3# wanted more than just a #house_type# for themselves and their #number_small# #species# children. Atop a site of outstanding natural beauty on the #compass_location# continent of #planet#, they set out to build #very_hard.a# #house_type#... (cont)#break#... Dreaming of #symphony_type.a# of #structural_material#, and #materials#-infused glass fashioned into #shape_type.s#, #person_2# makes themselves site manager. But after a truamatic project management experience on #planet#, will they be up to the challenge?",
-        "Kevin meets #rank# #person_1# and #rank# #person_2#, a couple living on #planet#. They're building a #material_including_alloy# #house_type# -- designed by one of #planet#'s most eminent architects -- next to a #species#-built #structure#. (cont)#break#When they find out they have to excavate over #number_middle#-#number_small# hundred thousand tons of #materials# ore without transporters just to get started, how will #person_1# and #person_2# adapt? #kevin_sees_if_conclusion#.",
-        "Empty nester #person_1# didn't want a standard replicator-template #house_type# when moving to the #compass_location# continent of #planet#. Instead, they wanted to #build_type# a #architecture_genre# #house_type# as a monument to #species#-#species# relations, with #colourful_type# #shape_type# fashioned from #symphony_type.a# of #materials# and #materials#-alloy. With well-regarded #species# architect #person_2#, will they succeed?",
-        "#person_1# and #person_2# had had enough of their #bad_place_phrase# #house_type# on #planet#. Seeking a fresh start, they commissioned #person_3#, an architect friend, to design a #rural_or_urban#, #cutting_edge_type# #architecture_genre# #house_type# evocative of a #structure#, with #colourful_type# #shape_type# of #materials#. (cont)#break#That was on #stardate#. Now, #number_of_years# later, #kevin_sees_if_conclusion#.",
-        "As a gift to celebrate #person_1#'s promotion to the rank of #rank#, their partner #person_2# commissions #architect#, an architect, and a local exocomp family to #build_type# a #number_of_stories# #house_type# on the site of a former #structure#. (cont)#break#But after only #number_small# days, #problem_phrase#."
+        "Kevin McCloud follows former #rank# #person_1# and their partner #person_2#, who are #demolishing_phrase# an old #structure# and constructing a #cutting_edge_type# #house_type# in its place. (cont.)#break#... #inspiration_phrase.capitalize# a nearby #structure#, they have #design_phrase# a building #building_description# fashioned from locally-sourced #materials# (cont.)#break##difficulties_start_phrase# when #problem_phrase#, #problem_phrase#, and #problem_phrase#. (cont.)#break#... To make matters worse, the neighbours aren't #happy_phrase# about the presence of #integration_thing.a# in their community. As they begin to compromise, #kevin_questions_wish#.",
+
+        "On #this_planet#, former #rank# #names# #set_out_to# replace their standard Federation colony residential unit with #very_hard.a# #build_house_type# -- #materials.a#-framed #stories# #build_house_type#... (cont.)#break#... using locally recycled #materials#, and imported #materials# from #this_planet#. (cont.)#break#... But #number_of_years# in, #problem_phrase#, and the #integration_type# of #integration_thing.a# requires #currency_too_much#. What will they do, and will #species#-sourced #materials# be the #answer_type#?",
+
+        "While renting on #this_planet#, the polycule of #person_1#, #person_2#, and #person_3# #demolish_phrase# an old, #bad_place_phrase# #structure#. In its place, they plan to #build_type# a #cutting_edge_type# #materials#-based #structure# worthy of the memory of their late friend and commander, #names#. (cont.)#break#... But right from the start, #problem_phrase#. #solution_question#",
+        "Kevin McCloud revisits a group of #species.s# living in a co-operative on #this_planet# who are #build_type_ing# their own #house_type# and the homes of their neighbours.",
+
+        "#bad_place_phrase.a.capitalize# #structure# in a #compass_location# #species# #settlement_type# on #this_planet# may not say '#architecture_genre#' to everyone. (cont.)#break#... But #person_1# and #person_2#, both former #rank.s# posted at #this_planet#, saw it as the perfect opportunity to create a visionary home, powerfully evocative of #interesting_objects.a#.",
+        
+        "#person_1# and #person_2# wanted to #build_type# a #build_house_type# that would be home to them, their holodeck #sports# arena, and their #number# large #animals.s# adopted from #planet#. (cont.)#break#... So when a nearby #structure# came up for sale, they decided to buy it, #demolish_phrase# it, and #build_type# a dazzling #materials#-inspired #species# #architecture_genre# #build_house_type# in its place.",
+        
+        "Retired #rank.s# #person_1# and #person_2# have never #permanent_home_phrase#. For decades they've camped on #bad_place_phrase# land donated by #species.s# on #this_planet# with no replicator energy budget to #build_type# in an area where they live. (cont.)#break#... So #person_1# and #person_2# roll up their sleeves and decide to #build_type# a low-energy budget, zero-impact #structure#-inspired #materials#-based home -- if only they can figure out how to fix that #integration_thing#!",
+        
+        "#person_1#, #person_2#, and #person_3# hoped to bring a bit of #species# style to the #species# colony in #location_based_on_compass# when #build_type_ing# their #ordinals_small# family home. (cont.)#break#... a colourful, #cutting_edge_type# #stories# #house_type# with a striking #materials#-clad exterior. The throuple stumbled across the perfect plot overlooking a beautiful #structure#, claimed it, and began to plan their dream build.",
+        
+        "On stardate #stardate#, #person_1# and #person_2# set out to transform #bad_place_phrase.a# #structure# into #modern.a# home on #this_planet#. #number_of_years.capitalize# on, how much has this #very_hard# project changed their lives?",
+        
+        "Kevin McCloud meets widowed #rank# #person_1#, who's making a fresh start on #rural_or_urban#  with close friend and architect #person_2#. Together, they've decided on a #species#-inspired burnt glass and #materials# home, lovingly designed by #person_2#. (cont)#break#... Despite their lack of experience, #person_1# will be acting as #main_role#. As #person_1# gets clearance to start, so does an unfortunate #illness# pandemic, testing #person_1# and #person_2#'s relationship.",
+        
+        "#this_planet#-based #illness_not_a# survivors #person_1# and #person_2# divide their converted #structure# in a #materials#-inspired layout for their family.",
+        
+        "In memory of dear friend #rank# #person_2#, #species.a# who suffered a fatal #suffered_a_fatal# on #stardate#, #person_1# decided to build a residential #structure# on #this_planet# for their new home. But will using a new #particle#-based #build_type_ing# method prove to be their undoing? Kevin McCloud checks in #number_of_years later.",
+        
+        "For #many_type# #species.s#, living in a #reclaimed_type# #structure# -- particularly where they are in high demand, such as  #this_planet# -- is pure fantasy. (cont)#break#... Not so for #person_1#, #person_2#, and #person_3#, who set out back on #stardate# to do such a thing. #kevin_sees_if_conclusion#.",
+        
+        "Will #person_1# overcome #shortage_type#? #kevin_sees_if_conclusion#.",
+        
+        "#facing_type# #shortage_type#, Kevin McCloud visits #person_1# and #checks_in_conclusion#.",
+        
+        "Throuple #person_1#, #person_2#, and #person_3# wanted more than just a #house_type# for themselves and their #number_small# #species# children. Atop a site of outstanding natural beauty on the #location_based_on_continent#, they set out to build #very_hard.a# #house_type#... (cont)#break#... Dreaming of #symphony_type.a# of #structural_material# and #materials#-infused glass fashioned into #shape_type.s#, #person_2# makes themselves #main_role#. But after a truamatic #main_role# experience on #planet#, will they be up to the challenge?",
+
+        "Kevin meets #rank# #person_1# and #rank# #person_2#, a couple living on #this_planet#. They're building a #material_including_alloy# #house_type# -- designed by one of #this_planet#'s most eminent architects -- next to a #species#-built #structure#. (cont)#break#... When they find out they have to excavate over #number_middle#-#number_small# hundred thousand tons of #materials# ore without transporters just to get started, how will #person_1# and #person_2# adapt? #kevin_sees_if_conclusion#.",
+
+        "Empty nester #person_1# didn't want a standard replicator-template #house_type# when moving to the #location_based_on_continent#. (cont)#break#... Instead, #person_1# wanted to #build_type# a #architecture_genre# #house_type# as a monument to #species#-#species# relations, with #colourful_type# #shape_type# fashioned from #symphony_type.a# of #materials# and #materials#-alloy. With well-regarded #species# architect #person_2#, will they succeed?",
+
+        "#person_1# and #person_2# had had enough of their #bad_place_phrase# #house_type# on #planet#. Seeking a fresh start on #this_planet#, they commissioned #person_3#, an architect friend, to design a #rural_or_urban#, #cutting_edge_type# #architecture_genre# #house_type#... (cont.)#break#... evocative of a #structure#, with #colourful_type# #shape_type# of #materials#.#break#That was on stardate #stardate#. Now, #number_of_years# later, #kevin_sees_if_conclusion#.",
+
+        "As a gift to celebrate #person_1#'s promotion to the rank of #rank#, their partner #person_2# commissions #architect#, an architect, and a local exocomp family to #build_type# a #number_of_stories# #house_type# on the site of a former #structure#. (cont)#break#... But after only #number_small# days, #problem_phrase#.",
+
+        "It's crunch time on #this_planet#, as #person_1# and #person_2#, along with their #architect_species# architect #architect#, race to get #person_3#'s new #build_house_type# ready in time for their #event_possessive# to #person_4# in just #number_small# months. (cont)#break#... On top of #person_3# changing their mind at the last minute and demanding #modern.a# #rooms# of #materials#, adorned with #material_including_alloy# #shape_type# be added, Kevin finds out whether #person_1# and #person_2# will overcome #shortage_type#, too."
     ],
     "set_out_to": [
         "set out to",
@@ -96,8 +78,32 @@
         "get started to",
         "embark on a plan to",
         "aim to",
-        "strive to"
+        "strives to"
     ],
+
+    "#### ROLES": [],
+        "role_kind":[
+            "project manager",
+            "site manager",
+            "logistics manager",
+            "permitting manager"
+        ],
+
+    "#### LOCATION DESCRIPTORS":[],
+
+        "location_based_on_continent":[
+            "#compass_location# continent of #this_planet#",
+        ],
+
+        "location_based_on_compass":[
+            "#compass_location# #this_planet#"
+        ],
+
+        "rural_or_urban":[
+            "rural",
+            "urban"
+        ],
+
     "shape_type": [
         "curves",
         "angles",
@@ -113,93 +119,291 @@
         "elaborate composition",
         "outstanding amalgam"
     ],
-    "material_including_alloy": [
-        "#materials#-alloy",
-        "#materials#"
-    ],
-    "wall_type_thing": [
-        "walls",
-        "roofing",
-        "columns",
-        "supports",
-        "struts",
-        "foundations"
-    ],
-    "structural_material": [
-        "#material_including_alloy# #wall_type_thing#",
-        "thick #material_including_alloy# #wall_type_thing#",
-        "#number_0_to_9# meter thick #material_including_alloy# #wall_type_thing#"
-    ],
-    "building_description": [
-        "that resembles #resemble_thing.a#"
-    ],
-    "resemble_thing": [
-        "stack of Borg cubes",
-        "Crystaline entity",
-        "giant stack of Borg cubes",
-        "Dyson sphere",
-        "wormhole",
-        "series of waves and curves",
-        "subspace tear",
-        "subspace fold"
-    ],
+
+
     "facing_type": [
         "With",
         "Facing"
     ],
-    "shortage": [
-        "shortage",
-        "#chronic_type# shortage"
-    ],
-    "chronic_type": [
-        "chronic",
-        "persistent",
-        "long-term",
-        "constant",
-        "unabating"
-    ],
-    "descriptor": [
-        "#colourful_type#"
-    ],
-    "colourful_type": [
-        "colourful",
-        "vivid",
-        "brilliant",
-        "glowing",
-        "radiant"
-    ],
-    "integration_type": [
-        "integration",
-        "installation",
-        "configuration",
-        "fitting",
-        "insertion"
-    ],
-    "checks_in_conclusion": [
-        "sees if they made their dream a reality",
-        "checks in on their progress",
-        "chats with them for an update",
-        "sees if their progress has improved",
-        "explores their progress"
-    ],
-    "kevin_sees_if_conclusion": [
-        "Kevin McCloud sees if they made their dream a reality",
-        "Kevin McCloud checks in on their progress",
-        "Kevin McCloud chats with them for an update",
-        "Kevin McCloud sees if their progress has improved",
-        "Kevin McCloud explores their progress"
-    ],
-    "reclaimed_type": [
-        "reclaimed",
-        "renovated",
-        "modernized",
-        "remodeled",
-        "overhauled",
-        "refurbished",
-        "revamped",
-        "refitted",
-        "refurnished"
-    ],
+
+    "#### CONSTRUCTION RELATED":[],
+
+        "material_including_alloy": [
+            "#materials#-alloy",
+            "#materials#"
+        ],
+
+        "structural_material": [
+            "#material_including_alloy# #wall_type_thing#",
+            "thick #material_including_alloy# #wall_type_thing#",
+            "#number_0_to_9# meter thick #material_including_alloy# #wall_type_thing#"
+        ],
+
+    "#### BUILDING DESCRIPTORS": [],
+
+        "building_description": [
+            "that resembles #resemble_thing.a#"
+        ],
+        "resemble_thing": [
+            "stack of Borg cubes",
+            "Crystaline entity",
+            "giant stack of Borg cubes",
+            "Dyson sphere",
+            "wormhole",
+            "series of waves and curves",
+            "subspace tear",
+            "subspace fold"
+        ],
+
+        "architecture_genre": [
+            "modernist",
+            "deconstructivist",
+            "Art Deco",
+            "brutalist",
+            "functuonalist",
+            "Bauhaus",
+            "trangressive",
+            "#species#ist"
+        ],
+        "bad_place_phrase": [
+            "#derelict_kind#",
+            "#bad_place#",
+            "#bad_place#, #derelict_kind#",
+            "#derelict_kind#, #bad_place#"
+        ],
+        "derelict_kind": [
+            "derelict",
+            "dilapidated",
+            "ramshackle",
+            "run-down",
+            "rickety",
+            "disused",
+            "abandoned",
+            "decrepit",
+            "deteriorating",
+            "neglected"
+        ],
+        "bad_place": [
+            "cramped",
+            "awkward",
+            "overcrowded",
+            "dark",
+            "dingy",
+            "unwelcoming",
+            "inhospitable",
+            "uninspiring",
+            "boring",
+            "dull",
+            "dreary",
+            "tame",
+            "lackluster",
+            "tedious"
+        ],
+
+        "reclaimed_type": [
+            "reclaimed",
+            "renovated",
+            "modernized",
+            "remodeled",
+            "overhauled",
+            "refurbished",
+            "revamped",
+            "refitted",
+            "refurnished"
+        ],
+
+        "modern": [
+            "#cutting_edge_type#"
+        ],
+        "cutting_edge_type": [
+            "cutting-edge",
+            "modern",
+            "contemporary",
+            "up to the stardate",
+            "fashionable",
+            "stylish",
+            "chic",
+            "forward-looking",
+            "voguish",
+            "progressive"
+        ],
+
+        "descriptor": [
+            "#colourful_type#"
+        ],
+        "colourful_type": [
+            "colourful",
+            "vivid",
+            "brilliant",
+            "glowing",
+            "radiant"
+        ],
+        "integration_type": [
+            "integration",
+            "installation",
+            "configuration",
+            "fitting",
+            "insertion"
+        ],
+
+    "#### BUILDING COMPONENTS":[],
+
+        "passages": [
+            "avenue",
+            "conveyor",
+            "corridor",
+            "door",
+            "dumbwaiter",
+            "entrance",
+            "entryway",
+            "exit",
+            "foyer",
+            "gate",
+            "hallway",
+            "hatch",
+            "ladder",
+            "opening",
+            "passage",
+            "passageway",
+            "path",
+            "pit",
+            "secret door",
+            "staircase",
+            "stairway",
+            "step",
+            "track",
+            "trail",
+            "trapdoor",
+            "tunnel",
+            "walkway",
+            "Jeffries tube"
+        ],
+
+        "rooms": [
+            "aerary",
+            "alcove",
+            "anatomical theatre",
+            "anechoic chamber",
+            "antechamber",
+            "anteroom",
+            "armory",
+            "assembly room",
+            "atelier",
+            "attic",
+            "auditorium",
+            "backroom",
+            "ballroom",
+            "basement",
+            "bathroom",
+            "bedroom",
+            "billiard room",
+            "boardroom",
+            "boudoir",
+            "breakfast nook",
+            "breezeway",
+            "cabin",
+            "cafeteria",
+            "caldarium",
+            "cellar",
+            "changing room",
+            "chapel",
+            "classroom",
+            "clean room",
+            "cloakroom",
+            "closet",
+            "cold room",
+            "common room",
+            "computer laboratory",
+            "conference room",
+            "conservatory",
+            "control room",
+            "conversation pit",
+            "corner office",
+            "courtroom",
+            "cry room",
+            "darkroom",
+            "den",
+            "dining room",
+            "dormitory",
+            "drawing room",
+            "dressing room",
+            "electrical room",
+            "emergency room",
+            "engine room",
+            "equipment room",
+            "family room",
+            "fitting room",
+            "foyer",
+            "game room",
+            "garage",
+            "guest room",
+            "gym",
+            "kitchen",
+            "laboratory",
+            "laundry room",
+            "library",
+            "living room",
+            "lobby",
+            "locker room",
+            "loft",
+            "lounge",
+            "map room",
+            "mud room",
+            "newsroom",
+            "nursery",
+            "office",
+            "pantry",
+            "parlor",
+            "playroom",
+            "pool room",
+            "rec room",
+            "salon",
+            "sauna",
+            "schoolroom",
+            "showroom",
+            "sitting room",
+            "staff room",
+            "stockroom",
+            "storm cellar",
+            "studio",
+            "study",
+            "sunroom",
+            "tearoom",
+            "throne room",
+            "transmission control room",
+            "utility room",
+            "waiting room",
+            "washroom",
+            "weight room",
+            "wine cellar",
+            "wiring closet",
+            "workshop"
+          ],
+
+          "wall_type_thing": [
+            "walls",
+            "roofing",
+            "columns",
+            "supports",
+            "struts",
+            "foundations"
+        ],
+
+
+    "#### CONCLUSIONS":[],
+
+        "kevin_sees_if_conclusion": [
+            "Kevin McCloud #checks_in_conclusion#",
+        ],
+
+        "checks_in_conclusion": [
+            "sees if they made their dream a reality",
+            "checks in on their progress",
+            "chats with them for an update",
+            "sees if their progress has improved",
+            "explores their progress"
+        ],
+
     "many_type": [
         "many",
         "most",
@@ -244,130 +448,61 @@
         "Ritual Ushaan (unsuccessful)",
         "Ritual Kal-if-fee (unsuccessful)"
     ],
-    "lifeform_types": [
-        "bioplasmic",
-        "carbon-based",
-        "silicon-based",
-        "cybernetic",
-        "electromagnetic",
-        "embodied energy",
-        "interphasic",
-        "multidimensional",
-        "fluidic space",
-        "telepathic",
-        "empathic",
-        "photonic",
-        "non-corporeal"
-    ],
-    "poison_type": [
-        "radiation",
-        "muagto venom",
-        "borgia plant alkaloid",
-        "Felodesine chip",
-        "Veridium Six",
-        "fruit",
-        "fruit, unknown",
-        "intestinal",
-        "voraxna",
-        "food",
-        "coffee",
-        "Talaxian wormroot",
-        "Nitrogen tetroxide",
-        "Nogatch hemlock",
-        "Warp plasma toxic run-off"
-    ],
-    "infection_type": [
-        "Bacterial",
-        "Chamberlin Virus",
-        "Comtaxan Parasite",
-        "Cyrillian Microbe",
-        "Dinobulan Flesh-Eating Bacteria",
-        "Endoplasmic Virus",
-        "Fostossa Virus",
-        "Fungal",
-        "Mycelial",
-        "Genesis Microbe",
-        "Genetic Virus",
-        "Interspatial Parasite",
-        "Interphasic Parasite",
-        "Temporal Parasite",
-        "Klingon Augment Virus",
-        "#species# Augment Virus",
-        "Light Virus",
-        "Macrovirus",
-        "Microscopic Civilization (Non-Warp Capable)",
-        "Microscopic Civilization (Warp Capable)",
-        "Mutagenic Virus",
-        "Morphogenic Virus",
-        "Nanoprobe",
-        "Nanovirus",
-        "Omega IV Virus",
-        "#species# Amoeba",
-        "Paramecium",
-        "Quasi-#lifeform_types# microbe",
-        "Retrovirus",
-        "Rhinovirus",
-        "Subatomic Bacteria",
-        "Synthetic Pathogen",
-        "Terothka Virus",
-        "Xindi Neural Parasite",
-        "#species# Neural Parasite"
-    ],
     "divide_type": [
         "divide",
         "partition",
         "split",
         "section"
     ],
-    "rural_or_urban": [
-        "rural",
-        "urban"
-    ],
+
     "very_hard": [
         "#ambitious_type#",
         "#very_type# #ambitious_type#"
     ],
-    "very_type": [
-        "extremely",
-        "wildly",
-        "excessively",
-        "immensely",
-        "vastly",
-        "significantly",
-        "singularly",
-        "decidedly",
-        "thoroughly",
-        "uncommonly"
-    ],
-    "ambitious_type": [
-        "ambitious",
-        "difficult",
-        "bold",
-        "grandiose",
-        "extravagant",
-        "formidable",
-        "challenging",
-        "demanding",
-        "hard",
-        "thorny",
-        "complicated",
-        "complex",
-        "intricate",
-        "uncooperative",
-        "exacting"
-    ],
-    "solution_question": [
-        "will #species#-sourced #materials# be the #answer_type#?",
-        "will working with a new #species# architect be the #answer_type#?",
-        "will a #new# #integration_thing# be the #answer_type#?",
-        "will lengthening their schedule be the #answer_type#?"
-    ],
-    "answer_type": [
-        "answer",
-        "solution",
-        "key",
-        "solution to their problems"
-    ],
+        "very_type": [
+            "extremely",
+            "wildly",
+            "excessively",
+            "immensely",
+            "vastly",
+            "significantly",
+            "singularly",
+            "decidedly",
+            "thoroughly",
+            "uncommonly"
+        ],
+        "ambitious_type": [
+            "ambitious",
+            "difficult",
+            "bold",
+            "grandiose",
+            "extravagant",
+            "formidable",
+            "challenging",
+            "demanding",
+            "hard",
+            "thorny",
+            "complicated",
+            "complex",
+            "intricate",
+            "uncooperative",
+            "exacting"
+        ],
+
+    "solutions":[],
+        "solution_question": [
+            "will #species#-sourced #materials# be the #answer_type#?",
+            "will working with a new #species# architect be the #answer_type#?",
+            "will a #new# #integration_thing# be the #answer_type#?",
+            "will lengthening their schedule be the #answer_type#?"
+        ],
+            "answer_type": [
+                "answer",
+                "solution",
+                "key",
+                "solution to their problems"
+            ],
+
     "requires_type": [
         "requires",
         "needs",
@@ -391,21 +526,7 @@
         "far too many",
         "too many"
     ],
-    "modern": [
-        "#cutting_edge_type#"
-    ],
-    "cutting_edge_type": [
-        "cutting-edge",
-        "modern",
-        "contemporary",
-        "up to the stardate",
-        "fashionable",
-        "stylish",
-        "chic",
-        "forward-looking",
-        "voguish",
-        "progressive"
-    ],
+
     "build_type": [
         "build",
         "construct",
@@ -438,32 +559,181 @@
     "break": [
         "\n"
     ],
-    "difficulties_start_phrase": [
-        "But #problem_type# began from the start",
-        "From the start, #problem_type# beset them",
-        "#problem_type.capitalize# started from the beginning"
-    ],
-    "dreams": [
-        "dreams",
-        "wishes",
-        "fantasies",
-        "aspirations",
-        "goals"
-    ],
-    "be_realized": [
-        "be realized",
-        "come to fruition",
-        "accomplished",
-        "see the light",
-        "be carried through"
-    ],
+
+    "#### DIFFICULTIES":[],
+
+        "difficulties_start_phrase": [
+            "But #problem_type# began from the start",
+            "From the start, #problem_type# beset them",
+            "#problem_type.capitalize# started from the beginning"
+        ],
+
+        "problem_type": [
+            "problems",
+            "difficulties",
+            "troubles",
+            "complications",
+            "mix-ups",
+            "obstacles",
+            "hurdles",
+            "setbacks",
+            "an opened can of Targs",
+            "multiplicity of Dooplers"
+        ],
+
+        "problem_phrase": [
+            "the construction #robot_labour# have #robot_labour_failure#",
+            "the #materials#-based foundation has #material_problem#",
+            "an argument erupts over the relative merits of #materials# versus #materials# as an accent material",
+            "#protected_animal.a# moves onto the site",
+            "their #species# architect succumbs to #illness#",
+            "#interesting_objects.a# disrupts their supply of refined #materials#",
+            "an argument erupts over the relative merits of #materials# versus #material_including_alloy# as an accent material for #person_1#'s #sports# annex",
+            "#interesting_objects.a# threatens to disrupt the project",
+            "their #house_type# encounters a catastrophic #particle_pulse_or_wave#",
+            "#number_middle# #structural_material# collapse, injuring #number_small# #species# volunteers",
+            "a #subspace_rift_type_thing# threatens #thing_that_is_threatened# in the entire #space_area#",
+            "an ancient #species# #structure# is unearthed",
+            "the #materials# they are using turn out to be carcinogenic",
+            "there is evidence of changeling infiltration"
+        ],
+
+
+            "shortage_type":[
+                "#shortage.a# of #shortage_kind#"
+            ],
+
+            "shortage_kind":[
+                "#species# builders",
+                "#materials# affecting construction on #this_planet#",
+                "#integration_thing.s#",
+                "self-sealing stem bolts"
+            ],
+
+                "shortage": [
+                    "shortage",
+                    "#chronic_type# shortage",
+                    "#onset_type# shortage"
+                ],
+
+                    "onset_type":[
+                        "sudden",
+                        "unexpected",
+                        "unforeseen",
+                        "abrupt",
+                        "out of the blue"
+                    ],
+                    "chronic_type": [
+                        "chronic",
+                        "persistent",
+                        "long-term",
+                        "constant",
+                        "unabating"
+                    ],
+
+            "thing_that_is_threatened": [
+                "disruption",
+                "travel",
+                "communication",
+                "trade",
+                "peace",
+                "spacetime",
+                "warp travel",
+                "subspace communications"
+            ],
+            "space_area": [
+                "system",
+                "sector",
+                "region"
+            ],
+            "subspace_rift_type_thing": [
+                "subspace #rift_type_thing#"
+            ],
+                "rift_type_thing": [
+                    "rift",
+                    "tear",
+                    "rupture",
+                    "fracture",
+                    "wormhole",
+                    "explosion"
+                ],
+    
+            "material_problem": [
+                "gone out of phase",
+                "spontaneously degraded",
+                "developed a tachyon echo"
+            ],
+    
+            "labor_problems":[],
+                "robot_labour": [
+                    "Exocomps",
+                    "synths"
+                ],
+                "robot_labour_failure": [
+                    "revolted",
+                    "broken down",
+                    "dissolved",
+                    "been infected with a virus"
+                ],
+
+    "#### KEVIN WISH PHRASE QUESTION":[],
+        "kevin_questions_wish":[
+            "Kevin #wonder_kind# whether #kevin_question#"
+        ],
+
+        "kevin_question":[
+            "their #dreams# will ever #be_realized#",
+        ],
+        "wonder_kind":[
+            "wonders",
+            "ponders",
+            "muses on",
+            "considers",
+            "contemplates",
+            "reflects on",
+        ],
+
+        "dreams": [
+            "dreams",
+            "wishes",
+            "fantasies",
+            "aspirations",
+            "goals"
+        ],
+        "be_realized": [
+            "be realized",
+            "come to fruition",
+            "accomplished",
+            "see the light",
+            "be carried through"
+        ],
+
+        
     "integration_thing": [
-        "#new# #materials# power supply",
-        "#particle# field-dampener",
-        "#new# #materials# reactor",
-        "#particle# emitter",
-        "#material_including_alloy#-infused deflector"
-    ],
+        "#new# #materials# #integration_thing_kind#",
+        "#particle# #integration_thing_kind#",
+        "#new# #materials# #integration_thing_kind#",
+        "#particle# #integration_thing_kind#",
+        "#material_including_alloy#-infused #integration_thing_kind#"],
+
+        "integration_thing_kind":[
+        "environmental control system",
+        "coolant conduit",
+        "plasma manifold",
+        "emergency lighting system",
+        "power supply",
+        "field-dampener",
+        "reactor",
+        "emitter",
+        "deflector",
+        "holo-emitter",
+        "inertial dampener",
+        "phase discriminator",
+        "micron junction link",
+        "isotropic restraint mechanism",
+        "transducer"
+        ],
+
     "new": [
         "novel",
         "untested",
@@ -490,63 +760,7 @@
         "dismantling",
         "decommissioning"
     ],
-    "problem_phrase": [
-        "the construction #robot_labour# have #robot_labour_failure#",
-        "the #materials#-based foundation has #material_problem#",
-        "an argument erupts over the relative merits of #materials# versus #materials# as an accent material",
-        "#protected_animal.a# moves onto the site",
-        "their #species# architect succumbs to #illness#",
-        "#interesting_objects.a# disrupts their supply of refined #materials#",
-        "an argument erupts over the relative merits of #materials# versus #material_including_alloy# as an accent material for #person_1#'s #sports# annex",
-        "#interesting_objects.a# threatens to disrupt the project",
-        "their #house_type# encounters a catastrophic #particle_pulse_or_wave#",
-        "#number_middle# #structural_material# collapse, injuring #number_small# #species# volunteers",
-        "a #subspace_rift_type_thing# threatens #thing_that_is_threatened# in the entire #space_area#",
-        "an ancient #species# #structure# is unearthed",
-        "the #materials# they are using turn out to be carcinogenic",
-        "there is evidence of changeling infiltration"
-    ],
-    "thing_that_is_threatened": [
-        "disruption",
-        "travel",
-        "communication",
-        "trade",
-        "peace",
-        "spacetime",
-        "warp travel",
-        "subspace communications"
-    ],
-    "space_area": [
-        "system",
-        "sector",
-        "region"
-    ],
-    "subspace_rift_type_thing": [
-        "subspace #rift_type_thing#"
-    ],
-    "rift_type_thing": [
-        "rift",
-        "tear",
-        "rupture",
-        "fracture",
-        "wormhole",
-        "explosion"
-    ],
-    "material_problem": [
-        "gone out of phase",
-        "spontaneously degraded",
-        "developed a tachyon echo"
-    ],
-    "robot_labour": [
-        "Exocomps",
-        "synths"
-    ],
-    "robot_labour_failure": [
-        "revolted",
-        "broken down",
-        "dissolved",
-        "been infected with a virus"
-    ],
+
     "number": [
         "two",
         "three",
@@ -558,18 +772,7 @@
     "number_of_years": [
         "#number# years"
     ],
-    "problem_type": [
-        "problems",
-        "difficulties",
-        "troubles",
-        "complications",
-        "mix-ups",
-        "obstacles",
-        "hurdles",
-        "setbacks",
-        "an opened can of Targs",
-        "multiplicity of Dooplers"
-    ],
+
     "inspiration_phrase": [
         "taking inspiration from",
         "inspired by",
@@ -582,12 +785,7 @@
         "planned",
         "outlined"
     ],
-    "examples": [
-        "Kate and Rob replace their 1940s past-it prefab with a bespoke, modern, factory-built home using volumetric modular construction. But will it feel like the characterful home they dream of?",
-        "Ship’s captain Dorran promised his family he’d build a super-modern underground lair on a hill outside Canterbury. But as the epic build hits choppy waters, will Dorran fulfil their dream?",
-        "Kevin McCloud follows the progress of ex-advertising man Geoff, who is selling his luxury villa in Spain and moving into a caravan while he project manages the construction of a dramatically cantilevered steel-framed house on the Essex coast, costing a total of £700,000. But after the anchoring steel has been drilled into the ground, he runs into the double trouble - Covid-19 and a collapse in the Spanish property market. Will he ever finish this complicated - and expensive - construction?",
-        "In Dunstable, John and his wife Helen demolish an old, dilapidated house and in its place build a million-pound, high-tech, accessible glass pavilion, complete with wildlife garden."
-    ],
+
     "house_type": [
         "house",
         "dwelling",
@@ -595,182 +793,12 @@
         "residence",
         "residential pod"
     ],
-    "names": [
-        "Kathryn",
-        "Bob",
-        "Jennifer",
-        "Niko",
-        "Peanut Hamper",
-        "Les",
-        "Winger",
-        "Alonzo",
-        "Barnes",
-        "Steve",
-        "Castro",
-        "T'Lyn",
-        "Andy",
-        "Kayshon",
-        "Vassery",
-        "Gabers",
-        "Dayton",
-        "D'Erika",
-        "Sonya",
-        "Jack",
-        "Shaxs",
-        "T'Ana",
-        "Brad",
-        "Beckett",
-        "Carol",
-        "Benjamin",
-        "Odo",
-        "Julian",
-        "Jadzia",
-        "Jake",
-        "Miles",
-        "Kira",
-        "Worf",
-        "Brunt",
-        "Dukat",
-        "Michael",
-        "Vic",
-        "Elim",
-        "Gowron",
-        "Leeta",
-        "Nog",
-        "Keiko",
-        "Molly",
-        "William",
-        "Solbor",
-        "Kasidy",
-        "Enabran",
-        "Soji",
-        "Reginald",
-        "Bareil",
-        "Phillip",
-        "Gabrielle",
-        "Michael",
-        "Christine",
-        "Pavel",
-        "Hugh",
-        "Elizabeth",
-        "Dolim",
-        "Sonya",
-        "Amanda",
-        "Gwyndala"
-    ],
     "rank": [
         "Ensign",
         "Lieutenant Junior Grade",
         "Lieutenant",
         "Lieutenant Commander",
         "Commander"
-    ],
- 
-    "structure": [
-        "Admonition",
-        "Alvanian beehive",
-        "Apollo's temple",
-        "Atheneum",
-        "Ba'ul pylon",
-        "Bajoran Foreign Affairs Building",
-        "Bantaca spire",
-        "Barrica encampment",
-        "Centerplace",
-        "Chamber of Opportunity",
-        "Chamber of the Ages",
-        "City Arena",
-        "Cloud City Council Chamber",
-        "Command Headquarters",
-        "Dominion War Memorial",
-        "Ekosian Chancellery",
-        "Event silo",
-        "Gazebo",
-        "Great Domes of Qo'noS",
-        "Great Hall",
-        "Great Marketplace",
-        "Hall of Ancient Thought",
-        "Hall of Audiences",
-        "Hall of Diplomacy",
-        "Hall of Heroes",
-        "Hall of Justice",
-        "Hall of State",
-        "Hall of Warriors",
-        "Hive",
-        "Imperial Hall",
-        "Imperial Plaza",
-        "Insect colony",
-        "Karemman Ministry of Trade",
-        "Kemocite processing facility",
-        "Mars Heritage Site",
-        "Mokra supply center",
-        "Monastery of the Kai",
-        "Nakan memorial",
-        "Obelisks of ancient Vulcan",
-        "Observation post",
-        "Obsidian Order's Headquarters",
-        "Sakethan burial mound",
-        "Tarakis memorial",
-        "Teepee",
-        "Three Turn Bridge",
-        "Tower of Commerce",
-        "Vault of Tomorrow",
-        "Wall of Heroes",
-        "Way station",
-        "Xanthan floating bazaar"
-    ],
-
-
-
-    "illness": [
-        "#illness_virus.a#",
-        "#illness_infection.a# infection",
-        "#illness_parasite.a#"
-    ],
-    "illness_not_a": [
-        "#illness_virus#",
-        "#illness_infection# infection",
-        "#illness_parasite#"
-    ],
-    "illness_virus": [
-        "Chamberlin virus",
-        "endoplasmic virus",
-        "Fostossa virus",
-        "genetic virus",
-        "Klingon augment virus",
-        "#species# augment virus",
-        "light virus",
-        "macrovirus",
-        "mutagenic virus",
-        "morphogenic virus",
-        "nanovirus",
-        "Omega IV virus",
-        "retrovirus",
-        "rhinovirus",
-        "Terothka virus"
-    ],
-    "illness_infection": [
-        "bacterial",
-        "Cyrillian microbe",
-        "Dinobulan flesh-eating bacteria",
-        "fungal",
-        "mycelial",
-        "genesis microbe",
-        "microscopic civilization (non-warp capable)",
-        "microscopic civilization (warp capable)",
-        "nanoprobe",
-        "#species# amoeba",
-        "paramecium",
-        "quasi-#lifeform_types# microbe",
-        "subatomic bacteria",
-        "synthetic pathogen",
-        "Xindi neural parasite"
-    ],
-    "illness_parasite": [
-        "Comtaxan parasite",
-        "interspatial parasite",
-        "interphasic parasite",
-        "temporal parasite",
-        "#species# neural parasite"
     ],
 
     "season_ints": [

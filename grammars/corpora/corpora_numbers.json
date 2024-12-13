@@ -19,9 +19,8 @@
         "six",
         "seven",
         "eight",
-        "nine",
-        "twelve"
-    ],
+        "nine"],
+
     "number_middle": [
         "twenty",
         "sixty",
@@ -31,6 +30,7 @@
         "eighty",
         "ninety"
     ],
+
     "ordinals_small": [
         "first",
         "second",

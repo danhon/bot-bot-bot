@@ -32,11 +32,46 @@
                 "grammar_json" : "breaking_govtech.json"
                 },
                 {
-                    "service_type": "bluesky",
-                    "username": "breaking-govtech.bsky.social",
-                    "password": "t7kf-aluu-ggea-qx3a",
-                    "client": "https://bsky.social"
-                }
-                ]
+                "service_type": "bluesky",
+                "username": "breaking-govtech.bsky.social",
+                "password": "t7kf-aluu-ggea-qx3a",
+                "client": "https://bsky.social"
+            }
+            ]
+    },
+
+    {
+        // The name of your bot
+        "name": "Star Trek: Grand Designs",
+        // Name of the Tracery grammar file
+        "grammar_json": "starfleetjobs.json",
+        "service": [
+            {
+                "service_type": "bluesky",
+                "username": "starfleetjobs.bsky.social",
+                "password": "7ic4-lho6-inut-lwrs",
+                "client": "https://bsky.social",
+                "threaded": "true"
+            }
+            ],
+        "corpora": [
+            {
+                    "name": "generic",
+                    "directory": "corpora/",
+                    "files": ["corpora_numbers.json"]
+            },
+            {
+                    "name": "Star Trek",
+                    "directory": "corpora/startrek",
+                    "files": [
+                        "corpora_startrek_medical.json",
+                        "corpora_startrek_names.json",
+                        "corpora_startrek_places.json",
+                        "corpora_startrek_ships.json",
+                        "corpora_startrek.json"
+
+                    ]
+            }
+        ]
     }
 ]

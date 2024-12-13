@@ -11,6 +11,8 @@ from utils.mastodon import get_mastodon_client
 from utils.bluesky import get_bluesky_instance, bluesky_faceted_post
 from utils.bluesky import bluesky_reply
 
+import pprint
+
 # set up the logger
 logger = logging.getLogger('bot-bot-bot')
 logger.setLevel(logging.DEBUG)
@@ -61,7 +63,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('filename', nargs='?', default='bots.json')
     parser.add_argument('-b', '--botfile')
-    parser.add_argument('-o', '--off')
+    parser.add_argument('-o', '--off', action="store_true")
     args = parser.parse_args()
 
     argument_botfile = args.botfile
@@ -74,6 +76,8 @@ def main():
     #     logger.info("No only argument")
 
     # Set a botfile if one was provided
+
+    logger.debug('args: %s', parser.parse_args())
     BOTFILE = ''
 
     if args.filename or args.botfile:
@@ -107,7 +111,7 @@ def main():
     logger.info("Found %s bots", len(bots))
 
     for idx, bot in enumerate(bots):
-        logger.info('Starting bot %s of %s: %s', idx+1, len(bots), bot['name'])
+        logger.info('##### Starting bot %s of %s: %s', idx+1, len(bots), bot['name'])
 
         # Get the grammars
         GRAMMAR_JSON = bot['grammar_json']
@@ -115,6 +119,19 @@ def main():
 
         logger.info('Getting rules for %s...', bot['name'])
         rules = get_rules(GRAMMARS_DIRECTORY, GRAMMAR_JSON)
+
+        # Now we're doing corpora stuff
+        if 'corpora' in bot:
+            
+            corpora_files = []
+            
+            for corpus in bot['corpora']:
+                logger.info('Found corpus %s in directory %s at filename %s', corpus['name'], corpus['directory'], corpus['files'])
+                logger.info("Corpus files is %s length", len(corpus['files']))
+
+
+
+            
 
         # Generate a post
         logger.info('Starting post generation for %s...', bot['name'])
@@ -137,10 +154,12 @@ def main():
                     logger.info("Set up mastodon service")
 
                     post = posts['long']
-
-                    mastodon_instance = get_mastodon_client(MASTODON_ACCESS_TOKEN, MASTODON_BASE_URL)
+                    
+                    if NO_POST:
+                        logger.info("NO_POST is %s so we're not posting for Mastodon",NO_POST)
 
                     if not NO_POST:
+                        mastodon_instance = get_mastodon_client(MASTODON_ACCESS_TOKEN, MASTODON_BASE_URL)
                         mastodon_instance.status_post(post)
                         logger.info('Posted to Mastodon: %s', post)
 
@@ -155,10 +174,13 @@ def main():
 
                     post = posts['short']
 
-                    bluesky_client = get_bluesky_instance(BLUESKY_USERNAME, BLUESKY_PASSWORD, BLUESKY_CLIENT)
-                    bluesky_post = bluesky_faceted_post(post)
-                    
+
+                    if NO_POST:
+                        logger.info("NO_POST is %s so we're not posting for Bluesky",NO_POST)
+
                     if not NO_POST:
+                        bluesky_client = get_bluesky_instance(BLUESKY_USERNAME, BLUESKY_PASSWORD, BLUESKY_CLIENT)
+                        bluesky_post = bluesky_faceted_post(post)
                         # do the post
                         bluesky_client.post(bluesky_post)
                         logger.info('Posted to Bluesky: %s', post)

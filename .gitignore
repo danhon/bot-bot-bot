@@ -163,3 +163,4 @@ cython_debug/
 # macOS lol
 .DS_Store
 ._
+grand-designs.txt

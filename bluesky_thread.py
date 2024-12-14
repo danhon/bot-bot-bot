@@ -16,7 +16,6 @@ from atproto import models
 
 from utils.tracery import get_rules, generate_posts, generate_normal_post, generate_bluesky_thread
 
-
 # Get base rules
 rules = get_rules('grammars/','startrek-granddesigns.json')
 
@@ -32,13 +31,13 @@ for ruleset in startrek_rules:
 
 thread_of_posts = generate_bluesky_thread(rules)
 
-BLUESKY_USERNAME = "me-im-asking.bsky.social"
-BLUESKY_PASSWORD = "imeg-xpep-ikc4-nqno"
-BLUESKY_CLIENT =  "https://bsky.social"
-
-# BLUESKY_USERNAME = "st-grand-designs.bsky.social"
-# BLUESKY_PASSWORD = "pmvr-flgv-lqyv-qvgx"
+# BLUESKY_USERNAME = "me-im-asking.bsky.social"
+# BLUESKY_PASSWORD = "imeg-xpep-ikc4-nqno"
 # BLUESKY_CLIENT =  "https://bsky.social"
+
+BLUESKY_USERNAME = "st-grand-designs.bsky.social"
+BLUESKY_PASSWORD = "pmvr-flgv-lqyv-qvgx"
+BLUESKY_CLIENT =  "https://bsky.social"
 
 client = get_bluesky_instance(BLUESKY_USERNAME, BLUESKY_PASSWORD, BLUESKY_CLIENT)
 

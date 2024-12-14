@@ -37,41 +37,39 @@
                 "password": "t7kf-aluu-ggea-qx3a",
                 "client": "https://bsky.social"
             }
-            ]
-    },
+        ]
 
+    },
     {
         // The name of your bot
         "name": "Star Trek: Grand Designs",
         // Name of the Tracery grammar file
-        "grammar_json": "starfleetjobs.json",
+        "grammar_json": "startrek-granddesigns.json",
+        "corpora":[
+            "corpora_numbers.json",
+            "corpora_startrek_medical.json",
+            "corpora_startrek_names.json",
+            "corpora_startrek_places.json",
+            "corpora_startrek_ships.json",
+            "corpora_startrek.json"         
+        ],
         "service": [
             {
                 "service_type": "bluesky",
-                "username": "starfleetjobs.bsky.social",
-                "password": "7ic4-lho6-inut-lwrs",
+                "username": "me-im-asking.bsky.social",
+                "password": "imeg-xpep-ikc4-nqno",
                 "client": "https://bsky.social",
-                "threaded": "true"
-            }
-            ],
-        "corpora": [
-            {
-                    "name": "generic",
-                    "directory": "corpora/",
-                    "files": ["corpora_numbers.json"]
-            },
-            {
-                    "name": "Star Trek",
-                    "directory": "corpora/startrek",
-                    "files": [
-                        "corpora_startrek_medical.json",
-                        "corpora_startrek_names.json",
-                        "corpora_startrek_places.json",
-                        "corpora_startrek_ships.json",
-                        "corpora_startrek.json"
-
-                    ]
+                "threaded": true
             }
         ]
+        // "service": [
+        //     {
+        //         "service_type": "bluesky",
+        //         "username": "st-grand-designs.bsky.social",
+        //         "password": "pmvr-flgv-lqyv-qvgx",
+        //         "client": "https://bsky.social",
+        //         "threaded": true
+        //     }
+        // ]
     }
 ]

@@ -6,7 +6,7 @@ import sys
 import tracery
 from tracery.modifiers import base_english
 
-from utils.bluesky import Post_in_Thread
+from utils.bluesky import Post_in_Thread, bluesky_faceted_post
 
 LIMIT_BLUESKY_CHARS = 260
 LIMIT_MASTODON_CHARS = 500
@@ -23,10 +23,10 @@ def generate_posts(rules):
     post['long'] = generate_post(rules)
     post["short"] = generate_post_short(rules)
 
-    module_logger.info('Done generating a post')
+    module_logger.debug('Long post: %s', post["long"])
+    module_logger.debug('Short post: %s', post["short"])
 
-    # pprint.pp(len(post["short"]))
-    # pprint.pp(len(post["long"]))
+    module_logger.info('Done generating a post')
     
     return post
 
@@ -73,32 +73,35 @@ def generate_bluesky_thread(rules):
 
     while any(len(post.text) > LIMIT_BLUESKY_CHARS for (post) in thread_posts):
         for idx, post in enumerate(thread_posts):
-            print(idx, len(post.text))
+            module_logger.debug('thread idx %s length %s',idx, len(post.text))
 
-        # print(any(len(post.text) > LIMIT_BLUESKY_CHARS for (post) in thread_posts))
-        generate_thread(rules)
+        module_logger.info((any(len(post.text) > LIMIT_BLUESKY_CHARS for (post) in thread_posts)))
+        generate_bluesky_thread(rules)
         if not any(len(post.text) > LIMIT_BLUESKY_CHARS for (post) in thread_posts):
             break
-    
     return thread_posts
 
 
 def generate_bluesky_thread_posts(rules):
+        module_logger.info("Generating thread posts")
         post = generate_normal_post(rules)
         thread_text = post.splitlines()
         thread_posts = []
 
         for idx, item in enumerate(thread_text):
-            this_thread_post = Post_in_Thread(text=item)
+            facetedpost = bluesky_faceted_post(item)
+            this_thread_post = Post_in_Thread(text=item, facetedpost=facetedpost)
             thread_posts.append(this_thread_post)
 
         # for idx, post in enumerate(thread_posts):
         #     print(idx, len(post.text))        
-        
+        module_logger.info("Finished generating thread posts")
         return thread_posts
 
 def generate_normal_post(rules):
+    module_logger.info("Generating a 'normal post' whatever that means...")
     grammar = tracery.Grammar(rules)
     grammar.add_modifiers(base_english)
     post = grammar.flatten('#origin#')
+    module_logger.info("Done doing that")
     return post

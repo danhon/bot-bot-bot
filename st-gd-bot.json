@@ -1,0 +1,35 @@
+
+[
+    {
+        // The name of your bot
+        "name": "Star Trek: Grand Designs",
+        // Name of the Tracery grammar file
+        "grammar_json": "startrek-granddesigns.json",
+        "corpora":[
+            "corpora_numbers.json",
+            "corpora_startrek_medical.json",
+            "corpora_startrek_names.json",
+            "corpora_startrek_places.json",
+            "corpora_startrek_ships.json",
+            "corpora_startrek.json"         
+        ],
+        "service": [
+            {
+                "service_type": "bluesky",
+                "username": "me-im-asking.bsky.social",
+                "password": "imeg-xpep-ikc4-nqno",
+                "client": "https://bsky.social",
+                "threaded": true
+            }
+        ]
+        // "service": [
+        //     {
+        //         "service_type": "bluesky",
+        //         "username": "st-grand-designs.bsky.social",
+        //         "password": "pmvr-flgv-lqyv-qvgx",
+        //         "client": "https://bsky.social",
+        //         "threaded": true
+        //     }
+        // ]
+    }
+]

@@ -63,6 +63,7 @@ def main():
     parser.add_argument('filename', nargs='?', default='bots.json')
     parser.add_argument('-b', '--botfile')
     parser.add_argument('-o', '--off', action="store_true")
+    parser.add_argument('-t', '--test', action="store_true")
     args = parser.parse_args()
 
     argument_botfile = args.botfile
@@ -93,9 +94,15 @@ def main():
 
 
     NO_POST = False
+    USE_TEST = False
 
     if args.off:
         NO_POST = True
+
+    if args.test:
+        USE_TEST = True
+    
+    logger.debug("Test flag %s", USE_TEST)
 
     # Set the grammars directory from os environment
     # GRAMMARS_DIRECTORY = os.getenv("GRAMMARS_DIRECTORY")
@@ -173,8 +180,15 @@ def main():
 
                 case 'bluesky':
                     logger.info("Found a bluesky service")
-                    BLUESKY_USERNAME = service['username']
-                    BLUESKY_PASSWORD = service['password']
+
+                    if USE_TEST:
+                        logger.info("Using the test account")
+                        BLUESKY_USERNAME=service['test_username']
+                        BLUESKY_PASSWORD=service['test_password']
+                    else:
+                        BLUESKY_USERNAME = service['username']
+                        BLUESKY_PASSWORD = service['password']
+
                     BLUESKY_CLIENT = service['client']
                     logger.debug("Bluesky username %s, password %s, client %s", BLUESKY_USERNAME, BLUESKY_PASSWORD, BLUESKY_CLIENT)
                     logger.info("Set up bluesky service")

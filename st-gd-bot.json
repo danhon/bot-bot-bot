@@ -16,8 +16,8 @@
         ],
         "service": [
             {
-                // "username": "me-im-asking.bsky.social",
-                // "password": "imeg-xpep-ikc4-nqno",
+                "test_username": "me-im-asking.bsky.social",
+                "test_password": "imeg-xpep-ikc4-nqno",
                 "service_type": "bluesky",
                 "username": "st-grand-designs.bsky.social",
                 "password": "pmvr-flgv-lqyv-qvgx",

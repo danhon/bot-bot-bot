@@ -6,10 +6,9 @@ from dotenv import load_dotenv
 import argparse
 
 # Bot utilities
-from utils.tracery import get_rules, generate_posts
+from utils.tracery import get_rules, generate_posts, generate_bluesky_thread
 from utils.mastodon import get_mastodon_client
-from utils.bluesky import get_bluesky_instance, bluesky_faceted_post
-from utils.bluesky import bluesky_reply
+from utils.bluesky import get_bluesky_instance, bluesky_faceted_post, post_thread
 
 import pprint
 
@@ -99,8 +98,8 @@ def main():
         NO_POST = True
 
     # Set the grammars directory from os environment
-    GRAMMARS_DIRECTORY = os.getenv("GRAMMARS_DIRECTORY")
-    logger.info('Using grammars directory from env: %s"', GRAMMARS_DIRECTORY)
+    # GRAMMARS_DIRECTORY = os.getenv("GRAMMARS_DIRECTORY")
+    # logger.info('Using grammars directory from env: %s"', GRAMMARS_DIRECTORY)
     
     # get the bots
     logger.info('Opening this json file %s', BOTFILE)
@@ -117,25 +116,33 @@ def main():
         GRAMMAR_JSON = bot['grammar_json']
         logger.debug("Bot '%s' using grammar %s", bot['name'], bot['grammar_json'])
 
+        # if there's an overriden grammars location:
+
+        GRAMMARS_DIRECTORY = os.getenv("GRAMMARS_DIRECTORY") if not bot.get('directory') else bot.get('directory')
+
+        logger.debug("env is %s, override is %s", os.getenv("GRAMMARS_DIRECTORY"), bot.get('directory') )
+
+        # logger.debug('what did we do? %s', SET_FROM_JSON_OTHERWISE_OS_ENV)
+
+        # logger.debug("bot grammar directory key is populated %s", )
+        # GRAMMARS_DIRECTORY = bot['grammar_directory'] if not bot['grammar_directory'] else GRAMMARS_DIRECTORY = os.getenv("GRAMMARS_DIRECTORY")
+
+
         logger.info('Getting rules for %s...', bot['name'])
         rules = get_rules(GRAMMARS_DIRECTORY, GRAMMAR_JSON)
 
         # Now we're doing corpora stuff
         if 'corpora' in bot:
-            
-            corpora_files = []
-            
-            for corpus in bot['corpora']:
-                logger.info('Found corpus %s in directory %s at filename %s', corpus['name'], corpus['directory'], corpus['files'])
-                logger.info("Corpus files is %s length", len(corpus['files']))
 
-
-
-            
-
+            corpora_files = bot['corpora']
+            logger.info('Found corpora %s', corpora_files)
+            for corpus in corpora_files:
+                rules.update(get_rules(GRAMMARS_DIRECTORY, corpus))
+    
         # Generate a post
         logger.info('Starting post generation for %s...', bot['name'])
         posts = generate_posts(rules)
+        logger.info('Generated a posts object %s', posts)
         logger.info('Finished post generation for %s.', bot['name'])
 
         # Getting services
@@ -153,12 +160,12 @@ def main():
                     logger.debug("Mastodon token %s, base URL %s", MASTODON_ACCESS_TOKEN, MASTODON_BASE_URL)
                     logger.info("Set up mastodon service")
 
-                    post = posts['long']
                     
                     if NO_POST:
                         logger.info("NO_POST is %s so we're not posting for Mastodon",NO_POST)
 
                     if not NO_POST:
+                        post = posts['long']
                         mastodon_instance = get_mastodon_client(MASTODON_ACCESS_TOKEN, MASTODON_BASE_URL)
                         mastodon_instance.status_post(post)
                         logger.info('Posted to Mastodon: %s', post)
@@ -172,27 +179,29 @@ def main():
                     logger.debug("Bluesky username %s, password %s, client %s", BLUESKY_USERNAME, BLUESKY_PASSWORD, BLUESKY_CLIENT)
                     logger.info("Set up bluesky service")
 
-                    post = posts['short']
 
+                    isThreaded = False
+
+                    if 'threaded' in service:
+                        isThreaded = service['threaded']
+
+                    logger.info("Threaded? %s", isThreaded)
 
                     if NO_POST:
                         logger.info("NO_POST is %s so we're not posting for Bluesky",NO_POST)
 
                     if not NO_POST:
                         bluesky_client = get_bluesky_instance(BLUESKY_USERNAME, BLUESKY_PASSWORD, BLUESKY_CLIENT)
-                        bluesky_post = bluesky_faceted_post(post)
-                        # do the post
-                        bluesky_client.post(bluesky_post)
+
+                        if isThreaded:
+                            thread_of_posts = generate_bluesky_thread(rules)
+                            post_thread(thread_of_posts, bluesky_client)
+
+                        else:
+                            post = posts['short']
+                            bluesky_post = bluesky_faceted_post(post)
+                            bluesky_client.post(bluesky_post)
                         logger.info('Posted to Bluesky: %s', post)
-
-                        # returned_from_bluesky = bluesky_client.post(bluesky_post)
-
-                        # logger.debug(returned_from_bluesky)
-
-                        # another_reply = bluesky_reply(returned_from_bluesky, returned_from_bluesky, 'lol reply', bluesky_client)
-
-                        # logger.debug(another_reply)
-                        
 
         logger.info('Done getting services for %s.', bot['name'])                                                           
 

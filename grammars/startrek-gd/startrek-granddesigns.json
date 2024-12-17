@@ -1,17 +1,19 @@
 {
     "origin": [
-        "#episode_title#. #[#SET_VARS#]variable_based_description#"
+        "#[#SET_VARS#]variable_based_description# #hashtags#"
     ],
-        "episode_title": [
-            "ST:GD s#season_ints#e#episode_ints#"
-        ],
 
         "variable_based_description": [
-            "#[#SET_VARS#]description#"
+            "#[#SET_VARS#]episode_title# #description#"
         ],
 
+        "episode_title": [
+            "ST:GD s#season_ints#e#episode_ints# - \"#this_planet#\"."
+        ],
+
+
     "SET_VARS":[
-        "[#VARS_people_in_episode#][#VARS_other_roles#][#VARS_locations#][build_house_type:#house_type#][main_role:#role_kind#]"
+        "[#VARS_people_in_episode#][#VARS_other_roles#][#VARS_locations#][build_house_type:#house_type#][main_role:#role_kind#][#VARS_dates#]"
     ],
  
         "VARS_people_in_episode": [
@@ -23,9 +25,16 @@
         "VARS_locations":[
             "[this_planet:#planet#]"
         ],
+        "VARS_dates":[
+            "[this_stardate:#stardate#]"
+        ],
     
     "prototype_story": [
         "Freshly arrived from #"
+    ],
+
+    "hashtags": [
+        "\\#StarTrek \\#GrandDesigns \\#StarTrekGrandDesigns"
     ],
 
 

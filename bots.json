@@ -6,6 +6,7 @@
         "name": "Starfleet Jobs",
         // Name of the Tracery grammar file
         "grammar_json": "starfleetjobs.json",
+        "directory": "grammars/",
         "service": [
             {
                 // Should specify "mastodon" or "bluesky"
@@ -25,6 +26,7 @@
     {
         "name" : "Breaking Govtech",
         "grammar_json" : "breaking_govtech.json",
+        "directory": "grammars/",
         "service" : [{
                 "service_type": "mastodon",
                 "access_token" : "WpsYVKjlneM9dCtqX69QnIshXIHd_HqWUFamPWFMk4c",
@@ -45,6 +47,7 @@
         "name": "Star Trek: Grand Designs",
         // Name of the Tracery grammar file
         "grammar_json": "startrek-granddesigns.json",
+        "directory": "grammars/startrek-gd/",
         "corpora":[
             "corpora_numbers.json",
             "corpora_startrek_medical.json",

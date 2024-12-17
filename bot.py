@@ -98,8 +98,8 @@ def main():
         NO_POST = True
 
     # Set the grammars directory from os environment
-    GRAMMARS_DIRECTORY = os.getenv("GRAMMARS_DIRECTORY")
-    logger.info('Using grammars directory from env: %s"', GRAMMARS_DIRECTORY)
+    # GRAMMARS_DIRECTORY = os.getenv("GRAMMARS_DIRECTORY")
+    # logger.info('Using grammars directory from env: %s"', GRAMMARS_DIRECTORY)
     
     # get the bots
     logger.info('Opening this json file %s', BOTFILE)
@@ -116,6 +116,18 @@ def main():
         GRAMMAR_JSON = bot['grammar_json']
         logger.debug("Bot '%s' using grammar %s", bot['name'], bot['grammar_json'])
 
+        # if there's an overriden grammars location:
+
+        GRAMMARS_DIRECTORY = os.getenv("GRAMMARS_DIRECTORY") if not bot.get('directory') else bot.get('directory')
+
+        logger.debug("env is %s, override is %s", os.getenv("GRAMMARS_DIRECTORY"), bot.get('directory') )
+
+        # logger.debug('what did we do? %s', SET_FROM_JSON_OTHERWISE_OS_ENV)
+
+        # logger.debug("bot grammar directory key is populated %s", )
+        # GRAMMARS_DIRECTORY = bot['grammar_directory'] if not bot['grammar_directory'] else GRAMMARS_DIRECTORY = os.getenv("GRAMMARS_DIRECTORY")
+
+
         logger.info('Getting rules for %s...', bot['name'])
         rules = get_rules(GRAMMARS_DIRECTORY, GRAMMAR_JSON)
 
@@ -125,7 +137,7 @@ def main():
             corpora_files = bot['corpora']
             logger.info('Found corpora %s', corpora_files)
             for corpus in corpora_files:
-                rules.update(get_rules('grammars/corpora',corpus))
+                rules.update(get_rules(GRAMMARS_DIRECTORY, corpus))
     
         # Generate a post
         logger.info('Starting post generation for %s...', bot['name'])

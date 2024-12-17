@@ -16,21 +16,14 @@
         ],
         "service": [
             {
+                // "username": "me-im-asking.bsky.social",
+                // "password": "imeg-xpep-ikc4-nqno",
                 "service_type": "bluesky",
-                "username": "me-im-asking.bsky.social",
-                "password": "imeg-xpep-ikc4-nqno",
+                "username": "st-grand-designs.bsky.social",
+                "password": "pmvr-flgv-lqyv-qvgx",
                 "client": "https://bsky.social",
                 "threaded": true
             }
         ]
-        // "service": [
-        //     {
-        //         "service_type": "bluesky",
-        //         "username": "st-grand-designs.bsky.social",
-        //         "password": "pmvr-flgv-lqyv-qvgx",
-        //         "client": "https://bsky.social",
-        //         "threaded": true
-        //     }
-        // ]
     }
 ]

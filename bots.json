@@ -8,13 +8,13 @@
         "grammar_json": "starfleetjobs.json",
         "directory": "grammars/",
         "service": [
-            {
-                // Should specify "mastodon" or "bluesky"
-                // Mastodon service types must include an access_token and base_url
-                "service_type": "mastodon",
-                "access_token": "mP_PoDHqE0buKi6yND9xh0qBzPkN8v0AeJZQY9Rv9uY",
-                "base_url": "https://botsin.space/"
-            },
+            // {
+            //     // Should specify "mastodon" or "bluesky"
+            //     // Mastodon service types must include an access_token and base_url
+            //     "service_type": "mastodon",
+            //     "access_token": "mP_PoDHqE0buKi6yND9xh0qBzPkN8v0AeJZQY9Rv9uY",
+            //     "base_url": "https://botsin.space/"
+            // },
             {
                 "service_type": "bluesky",
                 "username": "starfleetjobs.bsky.social",
@@ -28,12 +28,6 @@
         "grammar_json" : "breaking_govtech.json",
         "directory": "grammars/",
         "service" : [{
-                "service_type": "mastodon",
-                "access_token" : "WpsYVKjlneM9dCtqX69QnIshXIHd_HqWUFamPWFMk4c",
-                "base_url" : "https://botsin.space/",
-                "grammar_json" : "breaking_govtech.json"
-                },
-                {
                 "service_type": "bluesky",
                 "username": "breaking-govtech.bsky.social",
                 "password": "t7kf-aluu-ggea-qx3a",

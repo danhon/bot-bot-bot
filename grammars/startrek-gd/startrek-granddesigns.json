@@ -61,9 +61,9 @@
         
         "#this_planet#-based #illness_not_a# survivors #person_1# and #person_2# divide their converted #structure# in a #materials#-inspired layout for their family.",
         
-        "In memory of dear friend #rank# #person_2#, #species.a# who suffered a fatal #suffered_a_fatal# on #stardate#, #person_1# decided to #build_type# a residential #structure# on #this_planet# for their new home.#break# But will using a new #particle#-based #build_type_ing# method prove to be their undoing? Kevin McCloud checks in #number_of_years later.",
+        "In memory of dear friend #rank# #person_2#, #species.a# who suffered a fatal #suffered_a_fatal# on stardate #stardate#, #person_1# decided to #build_type# a residential #structure# on #this_planet# for their new home.#break# But will using a new #particle#-based #build_type_ing# method prove to be their undoing? Kevin McCloud checks in #number_of_years later.",
         
-        "For #many_type# #species.s#, living in a #reclaimed_type# #structure# -- particularly where they are in high demand, such as  #this_planet# -- is pure fantasy.#break# Not so for #person_1#, #person_2#, and #person_3#, who set out back on #stardate# to do such a thing. #kevin_sees_if_conclusion#.",
+        "For #many_type# #species.s#, living in a #reclaimed_type# #structure# -- particularly where they are in high demand, such as  #this_planet# -- is pure fantasy.#break# Not so for #person_1#, #person_2#, and #person_3#, who set out back on stardate #stardate# to do such a thing. #kevin_sees_if_conclusion#.",
         
         "Will #person_1# overcome #shortage_type#? #kevin_sees_if_conclusion#.",
         
@@ -867,8 +867,7 @@
         "#number_of_stories#-story"
     ],
     "number_of_stories": [
-        "#number_small#",
-        "#number_middle#-#number_small#"
+        "#number_1_to_9##number_1_to_9#"
     ]
 
 }

@@ -114,7 +114,7 @@ fh = logging.FileHandler('bot-bot-bot.log')
 fh.setLevel(logging.DEBUG)
 
 # Set the formatter for root
-ch_formatter = logging.Formatter('%(asctime)s: %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+ch_formatter = logging.Formatter('%(asctime)s: %(message)s', datefmt='%H:%M:%S')
 fh_formatter = logging.Formatter('%(asctime)s %(levelname)s [%(filename)s: %(funcName)s]: %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 ch.setFormatter(ch_formatter)
 fh.setFormatter(fh_formatter)
@@ -140,11 +140,11 @@ service_handlers = {
 }
 
 CONST_BOTFILE_DEFAULT = 'bots.json'
-
+BOTFILE = ''
 
 def main():
 
-    logger.info('***** Started ******')
+    logger.debug('***** Started ******')
 
     parser = argparse.ArgumentParser()
     parser.add_argument('filename', nargs='?', default='bots.json', help="Supply a json file defining your bots, otherwise bots.json")
@@ -156,7 +156,6 @@ def main():
     argument_botfile = args.botfile
 
     logger.debug('args: %s', parser.parse_args())
-    BOTFILE = ''
 
     if args.filename or args.botfile:
         if args.filename:
@@ -176,31 +175,33 @@ def main():
 
     if args.off:
         NO_POST = True
+        logger.info("Running with option --off, so will generate posts but not post.")
 
     if args.test:
         USE_TEST = True
+        logger.info("Running with option --test, so will use test credentials.")
     
     logger.debug("Test flag %s", USE_TEST)
 
-    # Set the grammars directory from os environment
-    # GRAMMARS_DIRECTORY = os.getenv("GRAMMARS_DIRECTORY")
-    # logger.info('Using grammars directory from env: %s"', GRAMMARS_DIRECTORY)
-    
-    # get the bots
+
+    # get the bots from the bot json
     
     try: 
 
         with open(BOTFILE) as bots_json:
-            logger.info('Opening this json file %s', BOTFILE)
+            logger.debug('Opening this json file %s', BOTFILE)
             bots = pyjson5.decode_io(bots_json)
             
     except IOError:
         logger.info("Couldn't open botfile %s, are you sure it exists?", BOTFILE)
         sys.exit()
-    
-    logger.info("Found %s bots", len(bots))
+
+    botnames = ", ".join(bot['name'] for bot in bots)
+
+    logger.info("Found %s bots: %s", len(bots), botnames)
 
     for idx, bot in enumerate(bots):
+        NO_POST = args.off
 
         # pulled the bot object out, so let's validate
         validate(instance=bot, schema=BOT_SCHEMA)
@@ -212,36 +213,30 @@ def main():
         logger.debug("Bot '%s' using grammar %s", bot['name'], bot['grammar_json'])
 
         # if there's an overriden grammars location:
-
         GRAMMARS_DIRECTORY = DEFAULT_GRAMMAR_DIR if not bot.get('directory') else bot.get('directory')
 
-        logger.debug("env is %s, override is %s", os.getenv("GRAMMARS_DIRECTORY"), bot.get('directory') )
-
-        # logger.debug('what did we do? %s', SET_FROM_JSON_OTHERWISE_OS_ENV)
-
-        # logger.debug("bot grammar directory key is populated %s", )
-        # GRAMMARS_DIRECTORY = bot['grammar_directory'] if not bot['grammar_directory'] else GRAMMARS_DIRECTORY = os.getenv("GRAMMARS_DIRECTORY")
-
-
-        logger.info('Getting rules for %s...', bot['name'])
+        logger.debug('Getting rules for %s...', bot['name'])
         rules = get_rules(GRAMMARS_DIRECTORY, GRAMMAR_JSON)
+        logger.info('%s: Loaded rules.', bot['name'])
 
         # Now we're doing corpora stuff
         if 'corpora' in bot:
-
             corpora_files = bot['corpora']
-            logger.info('Found corpora %s', corpora_files)
+            logger.debug('Found corpora %s for %s.', corpora_files, bot['name'])
             for corpus in corpora_files:
                 rules.update(get_rules(GRAMMARS_DIRECTORY, corpus))
+            logger.info("%s: Loaded %s additional corpora.", bot['name'], len(bot['corpora']), )
+
     
         # Generate a post
-        logger.info('Starting post generation for %s...', bot['name'])
         posts = generate_posts(rules)
         logger.info('Generated a posts object %s', posts)
-        logger.info('Finished post generation for %s.', bot['name'])
 
         # Getting services
-        logger.info('Getting services for %s.', bot['name'])
+
+        bot_services = ", ".join(service['service_type'] for service in bot['service'])
+
+        logger.debug('Getting services for %s, found:', bot['name'])
         for idx, service in enumerate(bot['service']):
 
             logger.debug("Service %s of %s for %s: %s", idx+1, len(bot['service']), bot['name'], service['service_type'])
@@ -249,15 +244,15 @@ def main():
             match service['service_type']:
                 
                 case 'mastodon':
-                    logger.info("Found a mastodon service")
+                    logger.debug("Found a mastodon service")
                     MASTODON_ACCESS_TOKEN = service['access_token']
                     MASTODON_BASE_URL = service['base_url']
                     logger.debug("Mastodon token %s, base URL %s", MASTODON_ACCESS_TOKEN, MASTODON_BASE_URL)
-                    logger.info("Set up mastodon service")
+                    logger.info("Set up mastodon service for %s", bot['name'])
 
                     
                     if NO_POST:
-                        logger.info("NO_POST is %s so we're not posting for Mastodon",NO_POST)
+                        logger.info("Not posting because -off is %s", NO_POST)
 
                     if not NO_POST:
                         post = posts['long']
@@ -267,23 +262,27 @@ def main():
 
 
                 case 'bluesky':
-                    logger.info("Found a bluesky service")
-
                     if USE_TEST:
                         try:
-                            logger.info("Using the test account")
                             BLUESKY_USERNAME=service['test_username']
                             BLUESKY_PASSWORD=service['test_password']
+                            logger.info("Using the test account %s", service['test_username'])
+
                         except Exception as error:
                             logger.debug("%s was raised",type(error).__name__)
-                            sys.exit()
+                            logger.info("Couldn't find test account, so will set NO_POST to True.")
+                            logger.info("NO_POST was: %s", NO_POST)
+                            NO_POST = True
+                            logger.info("NO_POST should be True now %s", NO_POST)
+                                        
+                            break
                     else:
                         BLUESKY_USERNAME = service['username']
                         BLUESKY_PASSWORD = service['password']
 
                     BLUESKY_CLIENT = service['client']
                     logger.debug("Bluesky username %s, password %s, client %s", BLUESKY_USERNAME, BLUESKY_PASSWORD, BLUESKY_CLIENT)
-                    logger.info("Set up bluesky service")
+                    logger.info("%s: Set up Bluesky service for %s", bot['name'], BLUESKY_USERNAME)
 
 
                     isThreaded = False
@@ -291,10 +290,10 @@ def main():
                     if 'threaded' in service:
                         isThreaded = service['threaded']
 
-                    logger.info("Threaded? %s", isThreaded)
+                    logger.debug("Threaded? %s", isThreaded)
 
                     if NO_POST:
-                        logger.info("NO_POST is %s so we're not posting for Bluesky",NO_POST)
+                        logger.info("NO_POST is %s so we're not posting for Bluesky", NO_POST)
 
                     if not NO_POST:
                         bluesky_client = get_bluesky_instance(BLUESKY_USERNAME, BLUESKY_PASSWORD, BLUESKY_CLIENT)
@@ -302,17 +301,18 @@ def main():
                         if isThreaded:
                             thread_of_posts = generate_bluesky_thread(rules)
                             post_thread(thread_of_posts, bluesky_client)
+                            logger.info('Posted to Bluesky: %s', post_thread)
+
 
                         else:
                             post = posts['short']
                             bluesky_post = bluesky_faceted_post(post)
                             bluesky_client.post(bluesky_post)
-                        logger.info('Posted to Bluesky: %s', post)
+                            logger.info('Posted to Bluesky: %s', post)
 
-        logger.info('Done getting services for %s.', bot['name'])                                                           
-
-
-    logger.info('Finished')
+        
+                
+    logger.debug('Finished')
 
 if __name__ == '__main__':
     main()

@@ -48,7 +48,7 @@ def bluesky_reply(parent_post, root_post, post, client):
 def post_thread(thread_of_posts, client):
 
     for idx, post in enumerate(thread_of_posts):
-        print(idx, len(post.text), post.text)
+        module_logger.debug((idx, len(post.text), post.text))
 
         
         if idx == 0:
@@ -77,7 +77,7 @@ def post_thread(thread_of_posts, client):
             post.root_post = root_post
             post.parent_post = parent_post
             post.post = this_post
-            print (idx, post.parent_post)
+            module_logger.debug((idx, post.parent_post))
 
 
 class Post_in_Thread:

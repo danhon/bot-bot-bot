@@ -175,7 +175,7 @@ def main():
 
     if args.off:
         NO_POST = True
-        logger.info("Running with option --off, so will generate posts but not post.")
+        logger.info("Running with option --off, so do everything apart from post.")
 
     if args.test:
         USE_TEST = True
@@ -228,7 +228,11 @@ def main():
             logger.info("%s: Loaded %s additional corpora.", bot['name'], len(bot['corpora']), )
 
     
-        # Generate a post
+        # Generate a post before we're in the service loop
+        # But this isn't right, because we override this if isThreaded is True in a Bluesky service
+        # What we think we want to do is generate a post once, so that if possible it's used across Mastodon *AND* Bluesky
+        # But we're not doing that right now, because we only go into the service loop later
+
         posts = generate_posts(rules)
         logger.info('Generated a posts object %s', posts)
 
@@ -248,20 +252,23 @@ def main():
                     MASTODON_ACCESS_TOKEN = service['access_token']
                     MASTODON_BASE_URL = service['base_url']
                     logger.debug("Mastodon token %s, base URL %s", MASTODON_ACCESS_TOKEN, MASTODON_BASE_URL)
-                    logger.info("Set up mastodon service for %s", bot['name'])
+                    mastodon_instance = get_mastodon_client(MASTODON_ACCESS_TOKEN, MASTODON_BASE_URL)
 
-                    
+                    logger.info("Set up mastodon service for %s", bot['name'])
+                    post = posts['long']
+
                     if NO_POST:
                         logger.info("Not posting because -off is %s", NO_POST)
 
                     if not NO_POST:
-                        post = posts['long']
-                        mastodon_instance = get_mastodon_client(MASTODON_ACCESS_TOKEN, MASTODON_BASE_URL)
                         mastodon_instance.status_post(post)
                         logger.info('Posted to Mastodon: %s', post)
 
 
                 case 'bluesky':
+
+                    # Set up the Bluesky accounts
+
                     if USE_TEST:
                         try:
                             BLUESKY_USERNAME=service['test_username']
@@ -292,20 +299,25 @@ def main():
 
                     logger.debug("Threaded? %s", isThreaded)
 
+                    if isThreaded:
+                        logger.debug("Overriding the existing generated post and creating a Bluesky threaded post.")
+                        thread_of_posts = generate_bluesky_thread(rules)
+  
+                    else:
+                        post = posts['short']
+
                     if NO_POST:
+                        # We are supposed to have done everything "normally" by now, i.e. generated a post
                         logger.info("NO_POST is %s so we're not posting for Bluesky", NO_POST)
 
                     if not NO_POST:
                         bluesky_client = get_bluesky_instance(BLUESKY_USERNAME, BLUESKY_PASSWORD, BLUESKY_CLIENT)
 
                         if isThreaded:
-                            thread_of_posts = generate_bluesky_thread(rules)
                             post_thread(thread_of_posts, bluesky_client)
-                            logger.info('Posted to Bluesky: %s', post_thread)
-
+                            logger.info('Posted thread to Bluesky: %s', post_thread)
 
                         else:
-                            post = posts['short']
                             bluesky_post = bluesky_faceted_post(post)
                             bluesky_client.post(bluesky_post)
                             logger.info('Posted to Bluesky: %s', post)

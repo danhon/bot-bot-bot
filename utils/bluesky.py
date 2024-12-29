@@ -18,7 +18,7 @@ def get_bluesky_instance(username, password, client_url):
     return client
 
 def bluesky_faceted_post(post):
-    """Returns a textbuilder object with tags"""
+    """Returns a textbuilder object with hashtags only"""
     text_builder = client_utils.TextBuilder()
     
     parts = re.split(r'(#\w+)', post)

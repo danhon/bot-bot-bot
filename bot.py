@@ -3,7 +3,6 @@ import sys
 import logging
 import json
 import pyjson5
-from dotenv import load_dotenv
 import argparse
 
 # Bot utilities

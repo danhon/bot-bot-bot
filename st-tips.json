@@ -1,0 +1,29 @@
+
+[
+    {
+        // The name of your bot
+        "name": "Star Trek: Engineering Tips",
+        // Name of the Tracery grammar file
+        "grammar_json": "startrek-granddesigns.json",
+        "directory": "grammars/startrek-/",
+        "corpora":[
+            "corpora_numbers.json",
+            "corpora_startrek_medical.json",
+            "corpora_startrek_names.json",
+            "corpora_startrek_places.json",
+            "corpora_startrek_ships.json",
+            "corpora_startrek.json"         
+        ],
+        "service": [
+            {
+                "test_username": "me-im-asking.bsky.social",
+                "test_password": "imeg-xpep-ikc4-nqno",
+                "service_type": "bluesky",
+                "username": "st-grand-designs.bsky.social",
+                "password": "pmvr-flgv-lqyv-qvgx",
+                "client": "https://bsky.social",
+                "threaded": true
+            }
+        ]
+    }
+]

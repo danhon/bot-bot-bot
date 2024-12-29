@@ -8,6 +8,7 @@
         "grammar_json": "starfleetjobs.json",
         "directory": "grammars/",
         "service": [
+            // RIP botsin.space
             // {
             //     // Should specify "mastodon" or "bluesky"
             //     // Mastodon service types must include an access_token and base_url
@@ -19,7 +20,8 @@
                 "service_type": "bluesky",
                 "username": "starfleetjobs.bsky.social",
                 "password": "7ic4-lho6-inut-lwrs",
-                "client": "https://bsky.social"
+                "client": "https://bsky.social",
+                "threaded": false
             }
             ]
     },
@@ -27,11 +29,22 @@
         "name" : "Breaking Govtech",
         "grammar_json" : "breaking_govtech.json",
         "directory": "grammars/",
-        "service" : [{
+        "service" : [
+                // RIP Botsin.space
+                // {
+                // "service_type": "mastodon",
+                // "access_token" : "WpsYVKjlneM9dCtqX69QnIshXIHd_HqWUFamPWFMk4c",
+                // "base_url" : "https://botsin.space/",
+                // "grammar_json" : "breaking_govtech.json",
+                // "threaded": false
+                // },
+                {
                 "service_type": "bluesky",
                 "username": "breaking-govtech.bsky.social",
                 "password": "t7kf-aluu-ggea-qx3a",
-                "client": "https://bsky.social"
+                "client": "https://bsky.social",
+                "threaded": false
+
             }
         ]
 
@@ -53,8 +66,8 @@
         "service": [
             {
                 "service_type": "bluesky",
-                // "username": "me-im-asking.bsky.social",
-                // "password": "imeg-xpep-ikc4-nqno",
+                "test_username": "me-im-asking.bsky.social",
+                "test_password": "imeg-xpep-ikc4-nqno",
                 "username": "st-grand-designs.bsky.social",
                 "password": "pmvr-flgv-lqyv-qvgx",
                 "client": "https://bsky.social",

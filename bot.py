@@ -1,4 +1,5 @@
 import os
+import sys
 import logging
 import json
 import pyjson5
@@ -10,6 +11,94 @@ from utils.tracery import get_rules, generate_posts, generate_bluesky_thread
 from utils.mastodon import get_mastodon_client
 from utils.bluesky import get_bluesky_instance, bluesky_faceted_post, post_thread
 
+# use this to valiate that bots.json has at least some stuff in it
+from jsonschema import validate
+
+# Define the schema for bots.json
+# I should move this somewhere else
+BOT_SCHEMA = {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "The name of your bot"
+        },
+        "grammar_json": {
+            "type": "string",
+            "description": "Name of the Tracery grammar file"
+        },
+        "directory": {
+            "type": "string",
+            "description": "Directory path to the grammar files"
+        },
+        "corpora": {
+            "type": "array",
+            "description": "List of corpora file names",
+            "items": {
+                "type": "string"
+            }
+        },
+        "service": {
+            "type": "array",
+            "description": "List of services the bot connects to",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "test_username": {
+                        "type": "string",
+                        "description": "Test user name"
+                    },
+                    "test_password": {
+                        "type": "string",
+                        "description": "Test user password"
+                    },
+                    "service_type": {
+                        "type": "string",
+                        "description": "Type of service (e.g., 'bluesky')"
+                    },
+                    "username": {
+                        "type": "string",
+                        "description": "Service username"
+                    },
+                    "password": {
+                        "type": "string",
+                        "description": "Service password"
+                    },
+                    "client": {
+                        "type": "string",
+                        "description": "Client URL for the service"
+                    },
+                    "threaded": {
+                        "type": "boolean",
+                        "description": "Whether threading is enabled"
+                    },
+                    "service_token": {
+                        "type": "string",
+                        "description": "Your Mastodon access token"
+                    },
+                    "base_url": {
+                        "type": "string",
+                        "description": "Your Mastodon instance base URL"
+                    }
+                },
+                "if": {
+                    "properties": {
+                        "service_type": {"const": "mastodon"}
+                    },
+                    "required": ["access_token", "base_url"]
+                },
+            "then": { "required": ["service_type", "threaded"] }
+
+            },
+        },
+    },
+    "required": ["name", "grammar_json", "directory", "service"]
+}
+
+DEFAULT_GRAMMAR_DIR = 'grammars/'
+
+
 import pprint
 
 # set up the logger
@@ -18,23 +107,21 @@ logger.setLevel(logging.DEBUG)
 
 # Console logging handler set to debug
 ch = logging.StreamHandler()
-ch.setLevel(logging.DEBUG)
+ch.setLevel(logging.INFO)
 
 # File logging handler set to info
 fh = logging.FileHandler('bot-bot-bot.log')
-fh.setLevel(logging.INFO)
+fh.setLevel(logging.DEBUG)
 
 # Set the formatter for root
-formatter = logging.Formatter('%(asctime)s %(levelname)s [%(filename)s: %(funcName)s]: %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
-ch.setFormatter(formatter)
-fh.setFormatter(formatter)
+ch_formatter = logging.Formatter('%(asctime)s: %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+fh_formatter = logging.Formatter('%(asctime)s %(levelname)s [%(filename)s: %(funcName)s]: %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+ch.setFormatter(ch_formatter)
+fh.setFormatter(fh_formatter)
 
 # add console and file handlers to the logger
 logger.addHandler(ch)
 logger.addHandler(fh)
-
-# Load and set environment variables
-load_dotenv()
 
 # make a mastodon client and then post
 def post_to_mastodon(post):
@@ -57,36 +144,27 @@ CONST_BOTFILE_DEFAULT = 'bots.json'
 
 def main():
 
-    logger.info('***** Started')
+    logger.info('***** Started ******')
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('filename', nargs='?', default='bots.json')
-    parser.add_argument('-b', '--botfile')
-    parser.add_argument('-o', '--off', action="store_true")
-    parser.add_argument('-t', '--test', action="store_true")
+    parser.add_argument('filename', nargs='?', default='bots.json', help="Supply a json file defining your bots, otherwise bots.json")
+    parser.add_argument('-b', '--botfile', help="Supply a json file defining your bots")
+    parser.add_argument('-o', '--off', action="store_true", help="Do not post to any networks")
+    parser.add_argument('-t', '--test', action="store_true", help="Use test credentials supplied in bot json")
     args = parser.parse_args()
 
     argument_botfile = args.botfile
-
-    # parser.add_argument("-o", "--only", choices=['bluesky','mastodon'])
-    # if args.only:
-    #     logger.info("Found an only argument, %s", args.only)
-
-    # else:
-    #     logger.info("No only argument")
-
-    # Set a botfile if one was provided
 
     logger.debug('args: %s', parser.parse_args())
     BOTFILE = ''
 
     if args.filename or args.botfile:
         if args.filename:
-            logger.info('Found a filename argument, %s', args.filename)
+            logger.debug('Found a filename argument, %s', args.filename)
             BOTFILE = args.filename
 
         if args.botfile:
-            logger.info('Found a botfile argument, %s', args.botfile)
+            logger.debug('Found a botfile argument, %s', args.botfile)
             BOTFILE = args.botfile 
         
     else:
@@ -109,14 +187,24 @@ def main():
     # logger.info('Using grammars directory from env: %s"', GRAMMARS_DIRECTORY)
     
     # get the bots
-    logger.info('Opening this json file %s', BOTFILE)
     
-    with open(BOTFILE) as bots_json:
-        bots = pyjson5.decode_io(bots_json)
+    try: 
+
+        with open(BOTFILE) as bots_json:
+            logger.info('Opening this json file %s', BOTFILE)
+            bots = pyjson5.decode_io(bots_json)
+            
+    except IOError:
+        logger.info("Couldn't open botfile %s, are you sure it exists?", BOTFILE)
+        sys.exit()
     
     logger.info("Found %s bots", len(bots))
 
     for idx, bot in enumerate(bots):
+
+        # pulled the bot object out, so let's validate
+        validate(instance=bot, schema=BOT_SCHEMA)
+
         logger.info('##### Starting bot %s of %s: %s', idx+1, len(bots), bot['name'])
 
         # Get the grammars
@@ -125,7 +213,7 @@ def main():
 
         # if there's an overriden grammars location:
 
-        GRAMMARS_DIRECTORY = os.getenv("GRAMMARS_DIRECTORY") if not bot.get('directory') else bot.get('directory')
+        GRAMMARS_DIRECTORY = DEFAULT_GRAMMAR_DIR if not bot.get('directory') else bot.get('directory')
 
         logger.debug("env is %s, override is %s", os.getenv("GRAMMARS_DIRECTORY"), bot.get('directory') )
 
@@ -182,9 +270,13 @@ def main():
                     logger.info("Found a bluesky service")
 
                     if USE_TEST:
-                        logger.info("Using the test account")
-                        BLUESKY_USERNAME=service['test_username']
-                        BLUESKY_PASSWORD=service['test_password']
+                        try:
+                            logger.info("Using the test account")
+                            BLUESKY_USERNAME=service['test_username']
+                            BLUESKY_PASSWORD=service['test_password']
+                        except Exception as error:
+                            logger.debug("%s was raised",type(error).__name__)
+                            sys.exit()
                     else:
                         BLUESKY_USERNAME = service['username']
                         BLUESKY_PASSWORD = service['password']

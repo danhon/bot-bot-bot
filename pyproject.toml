@@ -33,4 +33,5 @@ dependencies = [
     "mastodon-py>=1.8.1",
     "pyjson5>=1.6.7",
     "nltk>=3.9.1",
+    "jsonschema>=4.23.0",
 ]

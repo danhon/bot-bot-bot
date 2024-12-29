@@ -149,7 +149,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('filename', nargs='?', default='bots.json', help="Supply a json file defining your bots, otherwise bots.json")
     parser.add_argument('-b', '--botfile', help="Supply a json file defining your bots")
-    parser.add_argument('-o', '--off', action="store_true", help="Do not post to any networks")
+    parser.add_argument('-o', '--off', action="store_true", help="Generate a display a post, but do not post it.")
     parser.add_argument('-t', '--test', action="store_true", help="Use test credentials supplied in bot json")
     args = parser.parse_args()
 
@@ -234,7 +234,7 @@ def main():
         # But we're not doing that right now, because we only go into the service loop later
 
         posts = generate_posts(rules)
-        logger.info('Generated a posts object %s', posts)
+        logger.debug('Generated a posts object %s', posts)
 
         # Getting services
 
@@ -302,9 +302,14 @@ def main():
                     if isThreaded:
                         logger.debug("Overriding the existing generated post and creating a Bluesky threaded post.")
                         thread_of_posts = generate_bluesky_thread(rules)
+                        thread_text = " ".join(item.text for item in thread_of_posts)
+                        logger.info("Generated: %s", thread_text)
+
+                        logger.info("Generated this Thread: %s", thread_of_posts)
   
                     else:
                         post = posts['short']
+                        logger.info("Generated this to post: %s", post)
 
                     if NO_POST:
                         # We are supposed to have done everything "normally" by now, i.e. generated a post
@@ -321,6 +326,7 @@ def main():
                             bluesky_post = bluesky_faceted_post(post)
                             bluesky_client.post(bluesky_post)
                             logger.info('Posted to Bluesky: %s', post)
+                            break
 
         
                 

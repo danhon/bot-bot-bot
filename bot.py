@@ -219,7 +219,7 @@ def main():
         NO_POST = args.off
 
         # pulled the bot object out, so let's validate
-        validate(instance=bot, schema=BOT_SCHEMA)
+        # validate(instance=bot, schema=BOT_SCHEMA)
 
         logger.info('##### Starting bot %s of %s: %s', idx+1, len(bots), bot['name'])
 

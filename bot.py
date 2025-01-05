@@ -197,19 +197,19 @@ def main():
         sys.exit()
 
 
-    BotObjects = []
+    # BotObjects = []
 
-    for bot in bots:
+    # for bot in bots:
 
-        ThisBot = TraceryBot(
-            name = bot['name'],
-            grammar_json = bot['grammar_json'],
-            grammar_directory = bot['directory'],
-            corpora_directory = bot['corpora_directory']
-        )
+    #     ThisBot = TraceryBot(
+    #         name = bot['name'],
+    #         grammar_json = bot['grammar_json'],
+    #         grammar_directory = bot['directory'],
+    #         corpora_directory = bot['corpora']['corpora_directory']
+    #     )
 
 
-        BotObjects.append(ThisBot)
+    #     BotObjects.append(ThisBot)
 
     botnames = ", ".join(bot['name'] for bot in bots)
 
@@ -236,13 +236,15 @@ def main():
 
         # Now we're doing corpora stuff
         if 'corpora' in bot:
-            CORPORA_DIRECTORY = GRAMMARS_DIRECTORY if not bot.get('corpora_directory') else bot.get('corpora_directory')
 
-            corpora_files = bot['corpora']
+            CORPORA_DIRECTORY = GRAMMARS_DIRECTORY if not bot.get('corpora',{}).get('corpora_directory') else bot.get('corpora',{}).get('corpora_directory')
+                    
+            corpora_files = bot['corpora']['corpora_files']
+            
             logger.debug('Found corpora %s for %s.', corpora_files, bot['name'])
             for corpus in corpora_files:
                 rules.update(get_rules(CORPORA_DIRECTORY, corpus))
-            logger.info("%s: Loaded %s additional corpora.", bot['name'], len(bot['corpora']), )
+            logger.info("%s: Loaded %s additional corpora.", bot['name'], len(bot['corpora']['corpora_files']), )
 
     
         # Generate a post before we're in the service loop
@@ -351,9 +353,9 @@ def main():
                             logger.info('Posted to Bluesky: %s', post)
                             break
                     
-    for bot in BotObjects:
-        pprint.pprint(bot)
-        pprint.pprint(bot.name)
+    # for bot in BotObjects:
+    #     pprint.pprint(bot)
+    #     pprint.pprint(bot.name)
     
     logger.debug('Finished')
 

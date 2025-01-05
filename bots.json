@@ -55,15 +55,16 @@
         // Name of the Tracery grammar file
         "grammar_json": "startrek-granddesigns.json",
         "directory": "grammars/startrek-gd/",
-        "corpora_directory": "grammars/startrek-gd/",
-        "corpora":[
-            "corpora_numbers.json",
-            "corpora_startrek_medical.json",
-            "corpora_startrek_names.json",
-            "corpora_startrek_places.json",
-            "corpora_startrek_ships.json",
-            "corpora_startrek.json"         
-        ],
+        "corpora":{
+            "corpora_directory": "grammars/startrek-gd/",
+            "corpora_files":[
+                "corpora_numbers.json",
+                "corpora_startrek_medical.json",
+                "corpora_startrek_names.json",
+                "corpora_startrek_places.json",
+                "corpora_startrek_ships.json",
+                "corpora_startrek.json"]     
+            },
         "service": [
             {
                 "service_type": "bluesky",

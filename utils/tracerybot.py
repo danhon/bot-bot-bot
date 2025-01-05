@@ -1,14 +1,11 @@
 class TraceryBot:
     """A JSON-defined tracery bot"""
 
-    def __init__(self, name, grammar_json, grammar_directory, corpora_directory):
+    def __init__(self, name, grammar_json, grammar_directory, corpora):
         self.name = name
         self.grammar_json = grammar_json
         self.grammar_directory = grammar_directory
-        self.corpora_directory = corpora_directory
-        self.corpora = []
-        self.service = []
-        
+        self.corpora = corpora
 
 class BotService:
     """Defines a bot service"""

@@ -9,6 +9,7 @@ import argparse
 from utils.tracery import get_rules, generate_posts, generate_bluesky_thread
 from utils.mastodon import get_mastodon_client
 from utils.bluesky import get_bluesky_instance, bluesky_faceted_post, post_thread
+from utils.tracerybot import TraceryBot, BotService
 
 # use this to valiate that bots.json has at least some stuff in it
 from jsonschema import validate
@@ -195,6 +196,21 @@ def main():
         logger.info("Couldn't open botfile %s, are you sure it exists?", BOTFILE)
         sys.exit()
 
+
+    BotObjects = []
+
+    for bot in bots:
+
+        ThisBot = TraceryBot(
+            name = bot['name'],
+            grammar_json = bot['grammar_json'],
+            grammar_directory = bot['directory'],
+            corpora_directory = bot['corpora_directory']
+        )
+
+
+        BotObjects.append(ThisBot)
+
     botnames = ", ".join(bot['name'] for bot in bots)
 
     logger.info("Found %s bots: %s", len(bots), botnames)
@@ -334,10 +350,13 @@ def main():
                             bluesky_client.post(bluesky_post)
                             logger.info('Posted to Bluesky: %s', post)
                             break
-
-        
-                
+                    
+    for bot in BotObjects:
+        pprint.pprint(bot)
+        pprint.pprint(bot.name)
+    
     logger.debug('Finished')
 
 if __name__ == '__main__':
     main()
+

@@ -55,6 +55,7 @@
         // Name of the Tracery grammar file
         "grammar_json": "startrek-granddesigns.json",
         "directory": "grammars/startrek-gd/",
+        "corpora_directory": "grammars/startrek-gd/",
         "corpora":[
             "corpora_numbers.json",
             "corpora_startrek_medical.json",

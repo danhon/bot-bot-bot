@@ -67,23 +67,45 @@ def get_rules(GRAMMARS_DIRECTORY, GRAMMAR_JSON):
     return rules
 
 
+
+# generate a thread of posts
+# if all the posts in the thread are under 260 characters, carry on
+# if any of the posts in the thread are over 260 characters, try again
+
+
+# First we call generating a thread from the rules
+# That creates a Thread Posts object from generate_bluesky_thread_posts
+# Thread Posts is a list made up of Post_in_Thread objects
+
+
 def generate_bluesky_thread(rules):
-
+    module_logger.info("***** Starting to generate a Bluesky Thread")
     thread_posts = generate_bluesky_thread_posts(rules)
+    module_logger.info("Generated a thread of %s posts", len(thread_posts))
 
+    # Test to see if any of the individual posts in the thread are too long
     while any(len(post.text) > LIMIT_BLUESKY_CHARS for (post) in thread_posts):
         for idx, post in enumerate(thread_posts):
-            module_logger.debug('thread idx %s length %s',idx, len(post.text))
+            module_logger.debug('TOO LONG! thread idx %s length %s against max %s',idx, len(post.text), LIMIT_BLUESKY_CHARS)
+            module_logger.debug("was: %s", post.text)
 
         module_logger.debug((any(len(post.text) > LIMIT_BLUESKY_CHARS for (post) in thread_posts)))
-        generate_bluesky_thread(rules)
+        # generate_bluesky_thread(rules)
+
+        # make a new one
+        thread_posts = generate_bluesky_thread_posts(rules)
+
         if not any(len(post.text) > LIMIT_BLUESKY_CHARS for (post) in thread_posts):
             break
+
+    thread_text = "|| ".join(post.text for post in thread_posts)
+    module_logger.info("Thread of %s posts", len(thread_posts))
+    module_logger.info(thread_text)
     return thread_posts
 
 
 def generate_bluesky_thread_posts(rules):
-        module_logger.info("Generating thread posts")
+        module_logger.info("!!!!! thread posts")
         post = generate_normal_post(rules)
         thread_text = post.splitlines()
         thread_posts = []
@@ -93,16 +115,12 @@ def generate_bluesky_thread_posts(rules):
             this_thread_post = Post_in_Thread(text=item, facetedpost=facetedpost)
             thread_posts.append(this_thread_post)
 
-        # for idx, post in enumerate(thread_posts):
-        #     print(idx, len(post.text))        
-        module_logger.info("Finished generating thread posts")
+        module_logger.info("!!!!! Finished generating thread posts")
         return thread_posts
 
 def generate_normal_post(rules):
-    module_logger.info("Generating a 'normal post' whatever that means... (full?)")
     grammar = tracery.Grammar(rules)
     grammar.add_modifiers(base_english)
     post = grammar.flatten('#origin#')
-    module_logger.info("Post was %s long", len(post))
-    module_logger.info("Done doing that")
+    module_logger.info("Generated a Tracery story from grammar of %s characters", len(post))
     return post

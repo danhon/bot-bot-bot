@@ -220,10 +220,12 @@ def main():
 
         # Now we're doing corpora stuff
         if 'corpora' in bot:
+            CORPORA_DIRECTORY = GRAMMARS_DIRECTORY if not bot.get('corpora_directory') else bot.get('corpora_directory')
+
             corpora_files = bot['corpora']
             logger.debug('Found corpora %s for %s.', corpora_files, bot['name'])
             for corpus in corpora_files:
-                rules.update(get_rules(GRAMMARS_DIRECTORY, corpus))
+                rules.update(get_rules(CORPORA_DIRECTORY, corpus))
             logger.info("%s: Loaded %s additional corpora.", bot['name'], len(bot['corpora']), )
 
     
@@ -233,7 +235,7 @@ def main():
         # But we're not doing that right now, because we only go into the service loop later
 
         posts = generate_posts(rules)
-        logger.debug('Generated a posts object %s', posts)
+        # logger.debug('Received a posts object %s', posts)
 
         # Getting services
 
@@ -301,18 +303,23 @@ def main():
                     if isThreaded:
                         logger.debug("Overriding the existing generated post and creating a Bluesky threaded post.")
                         thread_of_posts = generate_bluesky_thread(rules)
-                        thread_text = " ".join(item.text for item in thread_of_posts)
-                        logger.info("Generated: %s", thread_text)
+                        # logger.info("Generated: %s", thread_of_posts)
 
-                        logger.info("Generated this Thread: %s", thread_of_posts)
+                        # logger.info("Generated this Thread: %s", thread_of_posts)
+
+                        if NO_POST:
+                            # We are supposed to have done everything "normally" by now, i.e. generated a post
+                            logger.info("NO_POST is %s so we're not posting for Bluesky", NO_POST)
+                            break
   
-                    else:
+                    if not isThreaded:
                         post = posts['short']
                         logger.info("Generated this to post: %s", post)
 
                     if NO_POST:
                         # We are supposed to have done everything "normally" by now, i.e. generated a post
                         logger.info("NO_POST is %s so we're not posting for Bluesky", NO_POST)
+                        break
 
                     if not NO_POST:
                         bluesky_client = get_bluesky_instance(BLUESKY_USERNAME, BLUESKY_PASSWORD, BLUESKY_CLIENT)
@@ -320,8 +327,9 @@ def main():
                         if isThreaded:
                             post_thread(thread_of_posts, bluesky_client)
                             logger.info('Posted thread to Bluesky: %s', post_thread)
+                            break
 
-                        else:
+                        if not isThreaded:
                             bluesky_post = bluesky_faceted_post(post)
                             bluesky_client.post(bluesky_post)
                             logger.info('Posted to Bluesky: %s', post)

@@ -33,11 +33,22 @@ BOT_SCHEMA = {
             "description": "Directory path to the grammar files"
         },
         "corpora": {
-            "type": "array",
-            "description": "List of corpora file names",
-            "items": {
-                "type": "string"
+            "type": "object",
+            "properties": {
+            "corpora_directory": {
+                "type": "string",
+                "description": "Directory containing the corpora files"
+            },
+            "corpora_files": {
+                    "type": "array",
+                    "items": {
+                    "type": "string",
+                    "description": "corpora file"
+                },
+                "description": "List of corpora files"
             }
+            },
+            "required": ["corpora_directory", "corpora_files"]
         },
         "service": {
             "type": "array",
@@ -219,7 +230,7 @@ def main():
         NO_POST = args.off
 
         # pulled the bot object out, so let's validate
-        # validate(instance=bot, schema=BOT_SCHEMA)
+        validate(instance=bot, schema=BOT_SCHEMA)
 
         logger.info('##### Starting bot %s of %s: %s', idx+1, len(bots), bot['name'])
 
